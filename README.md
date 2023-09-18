@@ -6,4 +6,4 @@ Aspect of problem:
 Aim:
 ---
 
-# BP
+# Metodika
