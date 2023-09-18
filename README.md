@@ -1,9 +1,9 @@
 ---
 Subject area: Task management [Řízení úkolů]
 Sub-area: TM pro skautské tábory
-Problem: Nízká míra systematické podpory procesů
-Aspect of problem: Vliv na kvalitu programu/vyžadované člověko-hodiny
-Aim: Navrhnout sadu nástrojů a postupů zaměřenou na zvýšení míry naplnění cílů stanovených organizací
+Problem: časová náročnost řídících procesů
+Aspect of problem: Kvalita výsledného produktu a základu pro nový
+Aim: Navrhnout sadu nástrojů a postupů zaměřenou na kvalita/čas
 ---
 
 # Metodika
