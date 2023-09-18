@@ -1,8 +1,8 @@
 ---
 Subject area: Task management [Řízení úkolů]
-Sub-area:
-Problem:
-Aspect of problem:
+Sub-area: TM pro skautské tábory
+Problem: Nízká míra systematické procesní podpory
+Aspect of problem: 
 Aim:
 ---
 
