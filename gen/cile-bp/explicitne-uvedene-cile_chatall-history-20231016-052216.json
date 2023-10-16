@@ -1,0 +1,238 @@
+{
+  "chats": [
+    {
+      "title": "Co všechno by mělo být zahrnut",
+      "messages": [
+        {
+          "prompt": "Co všechno by mělo být zahrnuto v explicitním stanovení cílů pro bakalářskou práci?",
+          "responses": [
+            {
+              "content": "Explicitní stanovení cílů pro bakalářskou práci je klíčové pro úspěšné dokončení projektu. Zahrnout byste měl následující body:\n\n1. **Formulace hlavního cíle:**\n   - Jasně a stručně vymeňte, co chcete v rámci práce dosáhnout. Hlavní cíl by měl být konkrétní, měřitelný, dosažitelný, relevantní a vázaný na čas (SMART cíl).\n\n2. **Stanovení podcílů:**\n   - Rozdělte hlavní cíl na menší kroky nebo úkoly, které je třeba splnit k dosažení hlavního cíle. Tyto podcíle by měly být také SMART.\n\n3. **Omezení a rozsah práce:**\n   - Definujte rozsah práce a určte, co bude zahrnuto a co nikoli. Uveďte, které metody a techniky budete používat, a také jaké budou omezení vaší studie.\n\n4. **Relevance práce:**\n   - Vysvětlete, proč je vaše práce důležitá a jaký přínos má pro danou oblast studia. Zaměřte se na to, jak může vaše práce přispět k existujícím znalostem.\n\n5. **Metodologie:**\n   - Popište metody, které budete používat pro sběr dat a analýzu. Vysvětlete, proč jste zvolili dané metody a jak budou vhodné pro dosažení vašeho cíle.\n\n6. **Očekávané výsledky:**\n   - Popište, jaké výsledky očekáváte z vaší práce. To může zahrnovat nové poznatky, praktické doporučení nebo teoretické pochopení daného problému.\n\n7. **Časový plán:**\n   - Vytvořte časový plán, který obsahuje důležité termíny a milníky. To vám pomůže udržet práci na správné cestě a dodržet dané termíny.\n\n8. **Zdroje:**\n   - Uveďte zdroje, které budete používat k podpoře svých argumentů a analýz. To zahrnuje knihy, články, online zdroje a další relevantní materiály.\n\n9. **Etické záležitosti:**\n   - Pokud vaše práce zahrnuje sběr dat od lidí nebo citlivé informace, uveďte, jak budete zacházet s etickými otázkami a soukromím respondentů.\n\n10. **Revize a aktualizace:**\n   - Uveďte, jak budete průběžně revidovat a aktualizovat své cíle v případě potřeby. Práce na bakalářské práci může přinést nové poznatky, které mohou vyžadovat úpravu cílů.\n\nDbejte na to, abyste měl jasno ve všech těchto bodech před tím, než začnete s práci na bakalářské práci. To vám pomůže udržet se na správné cestě a dosáhnout úspěšného výsledku.",
+              "botName": "GPT-3.5@ChatGPT",
+              "botClassname": "ChatGPT35Bot",
+              "botModel": "text-davinci-002-render-sha",
+              "highlight": false
+            },
+            {
+              "content": "Explicitní stanovení cílů pro bakalářskou práci by mělo zahrnovat následující:\n\n* **Jasně a jednoznačně definovaný cíl práce.** Cíl by měl být formulován tak, aby bylo jasné, co se má v práci dosáhnout. Vyvarujte se příliš obecných cílů, jako je například \"prozkoumat téma X\". Cílem by mělo být něco konkrétního, jako například \"vytvořit model pro predikci cen akcií\" nebo \"analyzovat účinnost nové léčby rakoviny\".\n* **Dílčí cíle.** Dílčí cíle pomáhají rozdělit hlavní cíl práce na menší a zvládnutelnější úkoly. Dílčí cíle by měly být logicky odvozeny z hlavního cíle a měly by být měřitelné.\n* **Výstupy práce.** Výstupy práce jsou výsledky práce, které jsou výsledkem dosažení cílů. Výstupy by měly být konkrétní a měřitelné.\n\nKromě toho by explicitní stanovení cílů mělo obsahovat následující:\n\n* **Odůvodnění cílů.** Je důležité vysvětlit, proč jsou cíle práce důležité a proč je chcete dosáhnout.\n* **Související literaturu.** Je vhodné uvést literaturu, která vás inspirovala k formulaci cílů práce.\n\nExplicitní stanovení cílů je důležité pro úspěšné dokončení bakalářské práce. Jasně definované cíle vám pomohou zůstat na správné cestě a dosáhnout požadovaného výsledku.\n\nZde je několik tipů, jak formulovat explicitní cíle pro bakalářskou práci:\n\n* **Použijte přítomný čas.** Cíl by měl být formulován tak, jako by se již dosáhl.\n* **Buďte konkrétní a měřitelní.** Vyvarujte se obecných a neurčitých cílů.\n* **Buďte reální.** Cíl by měl být dosažitelný v rámci stanoveného časového rámce a s dostupnými zdroji.\n\nPři formulaci cílů své bakalářské práce se poraďte se svým vedoucím práce. Vedoucí vám může pomoci zajistit, aby byly vaše cíle jasné, měřitelné a dosažitelné.",
+              "botName": "Bard",
+              "botClassname": "BardBot",
+              "botModel": "",
+              "highlight": false
+            },
+            {
+              "content": " Obecně by explicitní stanovení cílů bakalářské práce mělo zahrnovat:\n\n- Tematické zaměření práce - stručné vymezení tématu, problému nebo otázky, kterou se práce bude zabývat.\n\n- Věcný cíl - co konkrétně bude práce chtít dosáhnout, např. popsat, vyhodnotit, porovnat atd. týkající se vymezeného tématu. \n\n- Metodický cíl - jakým způsobem, pomocí jakých metod bude cíle práce dosaženo, např. prostřednictvím analýzy textů, dotazníkového šetření, experimentu atd. \n\n- Strukturální cíl - jak bude práce strukturována a členěna, např. úvod, teoretická část, praktická část, závěr.\n\n- Přínos práce - v čem bude spočívat přínos práce pro dané téma/obor, jak bude rozšiřovat stávající poznání. \n\nSoučástí by měly být i pomocné cíle, které budou jednotlivé hlavní cíle rozvíjet a blíže specifikovat. Dobré je také stanovit si cíle s ohledem na požadavky zadavatele práce.",
+              "botName": "Claude-instant@Poe",
+              "botClassname": "ClaudeInstantPoeBot",
+              "botModel": "a2",
+              "highlight": false
+            },
+            {
+              "content": " Explicitní stanovení cílů pro bakalářskou práci by mělo obsahovat jasně definované a specifické cíle, které chcete dosáhnout prostřednictvím své práce. Mělo by také zahrnovat popis metodologie, kterou budete používat k dosažení těchto cílů, jakož i časový rámec pro dokončení každé části projektu. Kromě toho byste měli uvést důležité zdroje, které budete potřebovat k provedení výzkumu, a jakýkoli předpokládaný přínos vaší práce pro danou oblast studia.",
+              "botName": "falcon-180b@HuggingChat",
+              "botClassname": "FalconHC180bBot",
+              "botModel": "tiiuae/falcon-180B-chat",
+              "highlight": false
+            },
+            {
+              "content": " Dobře, zopakuji klíčové body, které by mělo explicitní stanovení cílů bakalářské práce zahrnovat:\n\n- Tematické zaměření práce - stručné vymezení řešeného tématu, problému nebo otázky\n\n- Hlavní věcný cíl - co konkrétně bude práce chtít dosáhnout, např. popsat, vyhodnotit, porovnat apod. \n\n- Metodický cíl - jakým způsobem a pomocí jakých metod bude hlavní cíl naplněn\n\n- Strukturální cíl - jak bude práce členěna a strukturována (úvod, teoretická část atd.)\n\n- Očekávaný přínos práce - v čem bude spočívat přínos pro dané téma/obor\n\n- Pomocné cíle - které blíže rozvedou a specifikují hlavní cíl\n\n- Ohled na požadavky zadavatele práce\n\nDále by cíle měly být formulovány jasně, měřitelně a reálně naplnitelně v rámci zvolené metodiky a rozsahu práce. Je dobré se vyhnout obecným a nekonkrétním formulacím.",
+              "botName": "Claude-instant-100k@Poe",
+              "botClassname": "ClaudeInstant100kPoeBot",
+              "botModel": "a2_100k",
+              "highlight": false
+            },
+            {
+              "content": "A strong explicit statement of goals for a bachelor thesis should include:\n- Why the study was undertaken, or why the paper was written.\n- A detailed description of your research interests.\n- How the school you're applying to will help you achieve your research goals.\n- Any research projects you've conducted and your thesis.\n- A clear and compelling research agenda that fits well with the needs, facilities, and goals of the school you're applying to.\nDoes this give you a better idea of what to include in your statement of goals?",
+              "botName": "Pi",
+              "botClassname": "PiBot",
+              "botModel": "",
+              "highlight": false
+            },
+            {
+              "content": "Explicitní stanovení cílů pro bakalářskou práci by mělo zahrnovat následující prvky:\n\n1. **Definice cílů**: Cíle by měly být jasné, konkrétní a měřitelné (SMART). To znamená, že by měly být specifické, měřitelné, dosažitelné, relevantní a časově omezené. Například místo \"zlepšit dovednosti v oblasti digitálního marketingu\" by konkrétním cílem mohlo být \"dokončit kurz analýzy online marketingu se známkou90 % nebo vyšší do konce semestru\" [www.ranktracker.com](https://www.ranktracker.com/cs/blog/how-to-define-content-marketing-goals/).\n\n2. **Identifikace klíčových ukazatelů výkonnosti (KUKV)**: KUKV jsou konkrétní metriky, které pomáhají sledovat pokrok k dosažení cílů. Například, pokud je vaším cílem zvýšit návštěvnost webových stránek, mezi relevantní KUKV může patřit počet unikátních návštěvníků, zobrazení stránek nebo umístění v organickém vyhledávání [www.ranktracker.com](https://www.ranktracker.com/cs/blog/how-to-define-content-marketing-goals/).\n\n3. **Rozdělení velkých cílů na menší kroky**: Velké cíle je lepší rozdělit na menší, snadněji dosažitelné kroky. To pomáhá sledovat pokrok a udržet si motivaci [ligsuniversity.com](https://ligsuniversity.com/cs/blog/stanoveni-cilu-clanek-pro-uspesny-rok).\n\n4. **Vizualizace cílů**: Vizualizace je důležitá pro sledování pokroku a udržení motivace. Měli byste mít představu, že jste dosáhli svého cíle, a to pomocí milníků nebo gólových datumů [udnapps.com](https://udnapps.com/cs-czk/resource/10-examples-of-professional-goals-for-work).\n\n5. **Přizpůsobení a optimalizace cílů**: Na základě vyhodnocení upravte své cíle a strategie podle potřeby. Pokud nedosahujete požadovaných výsledků, přehodnoťte svůj přístup, experimentujte s různými taktikami nebo znovu definujte své cíle [www.ranktracker.com](https://www.ranktracker.com/cs/blog/how-to-define-content-marketing-goals/).\n\n6. **Dostupnost a přístupnost**: Cíle by měly být dostupné a přístupné pro všechny zainteresované strany. To zahrnuje jak studenty, tak akademický personál, který by měl být schopen sledovat a poskytnout zpětnou vazbu na pokrok k dosažení cílů [publi.cz](https://publi.cz/books/114/02.html).\n\n7. **Realizace cílů**: Nakonec, stanovení cílů je jen první krok. Pro dosažení cílů je důležité, aby byl vytvořen a implementován plán, který by měl být dosažitelný a podporovat dosažení cílů [www.zivotbezhranic.cz](https://www.zivotbezhranic.cz/jak-vytvorit-cil-ktery-se-splni-stanoveni-cile-nejen-na-novy-rok/).",
+              "botName": "Phind",
+              "botClassname": "PhindBot",
+              "botModel": "",
+              "highlight": false
+            },
+            {
+              "content": "> Searching the web for: `jak stanovit cíle bakalářské práce`\n\n[1]: https://www.odborne-prace.cz/blog/jak-na-formulaci-cile-bakalarske-ci-diplomove-prace \"\"\n[2]: https://tatulda.cz/jak-stanovit-cil-bakalarske-prace-diplomky/ \"\"\n[3]: https://bing.com/search?q=jak+stanovit+c%C3%ADle+bakal%C3%A1%C5%99sk%C3%A9+pr%C3%A1ce \"\"\n[4]: https://is.muni.cz/el/econ/jaro2020/MKF_DIS1/um/Metodicky_pokyn_k_psani_BP_a_DP1.pdf \"\"\n[5]: https://www.profipodklady.cz/jak-spravne-stanovit-cil-vedecke-prace/ \"\"\n\nV explicitním stanovení cílů pro bakalářskou práci by mělo být zahrnuto následující:\n\n- Cíl práce by měl být formulován jednoznačně a srozumitelně, optimálně jednou větou nebo souvětím. Cíl by měl vyjadřovat, co je záměrem a očekávaným výstupem práce.\n- Cíl práce by měl být měřitelný, dosažitelný, reálný a časově ohraničený. Pro stanovení cílů lze použít metodu SMART, která zahrnuje tyto vlastnosti.\n- Cíl práce by měl být v souladu s tématem a zadáním práce. Cíl by měl reflektovat aktuální stav poznání a problémy ve zkoumané oblasti. Cíl by měl být motivován a zdůvodněn.\n- Cíl práce by měl být nepodmíněný, tzn. neobsahovat nejistá slovní spojení jako „rád bych“, „chtěl bych“, „mělo by se“ apod. Cíl by měl používat přítomný čas a konkrétní slovesa jako „nalezení“, „porovnání“, „vytvoření“ apod.\n- Cíl práce by mohl být doplněn o dílčí cíle, které specifikují jednotlivé kroky nebo etapy k dosažení hlavního cíle. Dílčí cíle by měly být také formulovány podle výše uvedených kritérií.\n\nPro více informací a příkladů o stanovení cíle bakalářské práce se můžete podívat na následující zdroje:\n\n- [Jak na formulaci cíle bakalářské či diplomové práce](https://www.odborne-prace.cz/blog/jak-na-formulaci-cile-bakalarske-ci-diplomove-prace)\n- [Jak stanovit cíl bakalářské práce (diplomky)?](https://tatulda.cz/jak-stanovit-cil-bakalarske-prace-diplomky/)\n- [METODICKÝ POKYN PRO VEDOUCÍ A STUDENTY K ZADÁVÁNÍ A VYPRACOVÁNÍ BAKALÁŘSKÝCH A DIPLOMOVÝCH PRACÍ](https://is.muni.cz/el/econ/jaro2020/MKF_DIS1/um/Metodicky_pokyn_k_psani_BP_a_DP1.pdf)\n- [Jak správně stanovit cíl vědecké práce](https://www.profipodklady.cz/jak-spravne-stanovit-cil-vedecke-prace/)\n> Learn more: [1. www.odborne-prace.cz](https://www.odborne-prace.cz/blog/jak-na-formulaci-cile-bakalarske-ci-diplomove-prace) [2. tatulda.cz](https://tatulda.cz/jak-stanovit-cil-bakalarske-prace-diplomky/) [3. is.muni.cz](https://is.muni.cz/el/econ/jaro2020/MKF_DIS1/um/Metodicky_pokyn_k_psani_BP_a_DP1.pdf) [4. www.profipodklady.cz](https://www.profipodklady.cz/jak-spravne-stanovit-cil-vedecke-prace/) [5. bing.com](https://bing.com/search?q=jak+stanovit+c%C3%ADle+bakal%C3%A1%C5%99sk%C3%A9+pr%C3%A1ce)",
+              "botName": "Creative@Bing Chat",
+              "botClassname": "BingChatCreativeBot",
+              "botModel": "h3imaginative",
+              "highlight": false
+            },
+            {
+              "content": "> Searching the web for: `explicitní stanovení cílů pro bakalářskou práci`\n\n[1]: https://tatulda.cz/jak-stanovit-cil-bakalarske-prace-diplomky/ \"\"\n[2]: https://www.odborne-prace.cz/blog/jak-na-formulaci-cile-bakalarske-ci-diplomove-prace \"\"\n[3]: https://www.profipodklady.cz/jak-spravne-stanovit-cil-vedecke-prace/ \"\"\n[4]: https://kristynaneubergova.cz/na-co-si-dat-v-diplomove-praci-pozor-aneb-jak-potesit-oponenta/ \"\"\n[5]: https://prf.ujep.cz/wp-content/uploads/2019/03/2018-1-Smernice_Zadavani_psani_odevzdavani_kvalifikacnich_praci.pdf \"\"\n\nDobrý den! Pro explicitní stanovení cílů bakalářské práce by měly být zahrnuty následující prvky [^1^][1]:\n\n1. **Konkrétní formulace cíle**: Cíl by měl být jasně a srozumitelně formulován již v úvodu práce. Vyvarujte se nejistých slovních spojení jako \"ráda bych\", \"chtěl bych\", \"mělo by se\", \"kdyby\", \"coby\" apod. Místo toho použijte konkrétní slovesa jako \"udělám\", \"odhadnu\", \"porovnám\", \"stanovím\", \"formuluji\" apod.\n\n2. **Metoda SMART**: Pro stanovení cílů použijte metodu SMART, což je zkratka 5 slov, které definují vlastnosti cílů:\n    - **S**pecific (Konkrétní): Při stanovování cílů buďte konkrétní. Měli byste dobře definovat, co je přesně zkoumaný problém a jak bude (vy)řešen.\n    - **M**easurable (Měřitelný): Vaše cíle musí být měřitelné a musí být možné ověřit, zda došlo k jejich naplnění. Sestavte si harmonogram prací a cíle hodnoťte průběžně.\n    - **A**chievable (Dosažitelný): Cíl si stanovte tak, aby byl dosažitelný. Pokud bude příliš ambiciózní, může být jeho splnění nad vaše síly. Přiměřenost a dosažitelnost by měl posoudit vedoucí.\n    - **R**ealistic (Reálný): Cíl musí být reálný, aby ho bylo možné naplnit ve stanoveném čase. Ověřte si, zda máte pro jeho naplnění dostatek dat, informací i znalostí.\n    - **T**imed (Časově ohraničený): Cíl musí být časově ohraničený. Hlavní cíl si rozdělte na etapy (dílčí cíle) a stanovte si termíny, do kdy je splníte.\n\n3. **Vyjádření vztahu k tématu**: Cíle by měly vyjadřovat vztah k tématu bakalářské práce a mít s ním souvislost.\n\n4. **Vymezení rozsahu**: Cíle by měly být vymezeny tak, aby odpovídaly rozsahu bakalářské práce.\n\n5. **Použitelnost**: Cíle by měly být použitelné v praxi a přínosné pro řešení zkoumaného problému.\n\nDoufám, že Vám to pomohlo!\n\n> Learn more: [1. tatulda.cz](https://tatulda.cz/jak-stanovit-cil-bakalarske-prace-diplomky/) [2. www.odborne-prace.cz](https://www.odborne-prace.cz/blog/jak-na-formulaci-cile-bakalarske-ci-diplomove-prace) [3. www.profipodklady.cz](https://www.profipodklady.cz/jak-spravne-stanovit-cil-vedecke-prace/) [4. kristynaneubergova.cz](https://kristynaneubergova.cz/na-co-si-dat-v-diplomove-praci-pozor-aneb-jak-potesit-oponenta/) [5. prf.ujep.cz](https://prf.ujep.cz/wp-content/uploads/2019/03/2018-1-Smernice_Zadavani_psani_odevzdavani_kvalifikacnich_praci.pdf)",
+              "botName": "Balanced@Bing Chat",
+              "botClassname": "BingChatBalancedBot",
+              "botModel": "galileo",
+              "highlight": false
+            },
+            {
+              "content": "> Searching the web for: `Co by mělo být zahrnuto v cílech bakalářské práce`\n\n[1]: https://www.odborne-prace.cz/blog/jak-na-formulaci-cile-bakalarske-ci-diplomove-prace \"\"\n[2]: https://www.textykorekce.cz/jak-napsat-zaver-bakalarske-prace \"\"\n[3]: https://bing.com/search?q=Co+by+m%C4%9Blo+b%C3%BDt+zahrnuto+v+c%C3%ADlech+bakal%C3%A1%C5%99sk%C3%A9+pr%C3%A1ce \"\"\n[4]: https://www.seminarkybezprace.cz/blog/co-by-mel-obsahovat-uvod-diplomove-bakalarske-prace/ \"\"\n[5]: https://tatulda.cz/staci-2-cile-v-bakalarske-praci/ \"\"\n\nStanovení cílů pro bakalářskou práci je klíčovým krokem, který ovlivňuje konečný úspěch a obhajitelnost práce[^1^][1]. Zde jsou některé zásady, které byste měli dodržovat při formulaci cílů:\n\n1. **Jednoznačnost a srozumitelnost**: Cíl práce by měl být formulován jednoznačně a srozumitelně. Optimální je jednou větou nebo souvětím[^1^][1].\n2. **Vymezení cíle v úvodu**: Cíl práce se vymezuje v úvodu práce[^1^][1].\n3. **Prokázání naplnění cíle**: Prokázání naplnění cíle pak bývá předmětem závěrečného shrnutí či závěru samotné práce[^1^][1].\n4. **Klíčová otázka**: Při formulaci cíle vám může pomoci, když si položíte klíčovou otázku, na niž hledáte odpověď[^1^][1].\n5. **Počet cílů**: Počet cílů není rozhodující, důležitější je jejich (očekávaný) přínos a samozřejmě jejich naplnění[^2^][5].\n\nPamatujte, že správné stanovení cíle je zásadní pro úspěch vaší práce[^1^][1].\n> Learn more: [1. www.odborne-prace.cz](https://www.odborne-prace.cz/blog/jak-na-formulaci-cile-bakalarske-ci-diplomove-prace) [2. tatulda.cz](https://tatulda.cz/staci-2-cile-v-bakalarske-praci/) [3. www.textykorekce.cz](https://www.textykorekce.cz/jak-napsat-zaver-bakalarske-prace) [4. bing.com](https://bing.com/search?q=Co+by+m%C4%9Blo+b%C3%BDt+zahrnuto+v+c%C3%ADlech+bakal%C3%A1%C5%99sk%C3%A9+pr%C3%A1ce) [5. www.seminarkybezprace.cz](https://www.seminarkybezprace.cz/blog/co-by-mel-obsahovat-uvod-diplomove-bakalarske-prace/)",
+              "botName": "Precise@Bing Chat",
+              "botClassname": "BingChatPreciseBot",
+              "botModel": "h3precise",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "chatglm2-6b@LMSYS",
+              "botClassname": "ChatGLM6bBot",
+              "botModel": "chatglm2-6b",
+              "highlight": false
+            },
+            {
+              "content": "Při explicitním stanovení cílů pro bakalářskou práci by měly být zahrnuty následující aspekty:\n\n1. Definice problematiky: Zažehnutí problémové otázky by mělo být jasné a jednoznačné. Spis by měl obsahovat popis problematiky a důvody, proč tento problém stojí za řešení.\n2. Cíle: Účel studia by měl být jasně vyjádřen a cílbylo by mělo být určeno, co bude prací dosaženo. Cíle by se měly vztahovat jak k problematice, tak k výzkumnému zájmu, který bude v práci zpracován.\n3. Výzkum: Cíle by měly být také popsány ve vztahu k výzkumné metodologii, kterou bude prací využita. Měly by být jasné způsoby a prostředky, kterými budou cíle dosaženy a jaký bude výzkum vedoucí k dosažení těchto cílů.\n4. Analýza: Cíle by měly být také popsány ve vztahu k analýze, která bude prací provedena. Měly by být jasné a jednoznačné způsoby a prostředky, kterými bude analýza provedena a jaký bude výsledek analýzy.\n5. Závěry: Cíle by měly být také popsány ve vztahu k závěrům, které prací vzniknou. Měly by být jasné a jednoznačné způsoby a prostředky, které budou použity k dosažení závěrů a jaký bude výsledek analýzy.\n6. Odchylky: Cíle by měly být také popsány ve vztahu k odchylkám, kterými budou práce ovlivněny. Měly by být jasné a jednoznačné způsoby a prostředky, kterými budou odchylky zahrnuty a jaký bude jejich potenciální vliv na prací dosažené cíle.\n\nZahrnutím těchto aspektů v explicitním stanovení cílů pro bakalářskou práci může student dosá",
+              "botName": "Character.AI",
+              "botClassname": "CharacterAIBot",
+              "botModel": "",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "llama-2-7b@LMSYS",
+              "botClassname": "Llama27bBot",
+              "botModel": "llama-2-7b-chat",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "llama-2-13b@LMSYS",
+              "botClassname": "Llama213bBot",
+              "botModel": "llama-2-13b-chat",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "llama-2-70b@LMSYS",
+              "botClassname": "Llama270bBot",
+              "botModel": "llama-2-70b-chat",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "vicuna-7b@LMSYS",
+              "botClassname": "Vicuna7bBot",
+              "botModel": "vicuna-7b",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "vicuna-13b@LMSYS",
+              "botClassname": "Vicuna13bBot",
+              "botModel": "vicuna-13b",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "vicuna-33b@LMSYS",
+              "botClassname": "VicunaBot",
+              "botModel": "vicuna-33b",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "WizardLM-70B@LMSYS",
+              "botClassname": "Wizardlm70bBot",
+              "botModel": "wizardlm-70b",
+              "highlight": false
+            },
+            {
+              "content": "<details open>\n              <summary>Error</summary>\n              <pre class=\"error\">Error: THIS SESSION HAS BEEN INACTIVE FOR TOO LONG. PLEASE <a href=\"https://chat.lmsys.org\" target=\"innerWindow\">REFRESH THIS PAGE</a>.</pre>\n            </details>",
+              "botName": "WizardLM-13B@LMSYS",
+              "botClassname": "Wizardlm13bBot",
+              "botModel": "wizardlm-13b",
+              "highlight": false
+            },
+            {
+              "content": "#### Explicitní stanovení cílů pro bakalářskou práci\n\nPři explicitním stanovení cílů pro bakalářskou práci by mělo být zahrnuto několik klíčových prvků. Zde je seznam toho, co by mělo být zahrnuto:\n\n1. **Stručný popis práce**: Cíle by měly začínat stručným popisem práce, který vystihuje její hlavní téma a zaměření.\n\n2. **Formulace cílů**: Cíle by měly být formulovány jasně a přesně. Měly by být specifické, měřitelné, dosažitelné, relevantní a časově omezené (tzv. SMART kritéria).\n\n3. **Vymezení problému**: Cíle by měly vymezovat problém, který bude práce řešit. Je důležité jasně specifikovat, co je cílem práce a jaký problém se snažíte vyřešit.\n\n4. **Očekávané výstupy**: Cíle by měly obsahovat informace o očekávaných výstupech práce. To může zahrnovat například vytvoření konkrétního produktu, analýzu dat, vyhodnocení existujících postupů nebo navržení nového řešení.\n\n5. **Relevance a originalita**: Cíle by měly zdůraznit, proč je práce důležitá a jak přispěje k existujícímu vědomostnímu základu. Je také vhodné uvést, jaká je originalita práce a jak se liší od předchozích studií nebo výzkumu.\n\n6. **Metodologie**: Cíle by měly obsahovat informace o metodách a postupech, které budou použity k dosažení cílů. Je vhodné uvést, jaké metody výzkumu, sběru dat nebo analýzy budou použity.\n\n7. **Časový plán**: Cíle by měly být doplněny časovým plánem, který ukazuje, jakým způsobem budou cíle dosaženy a v jakém časovém horizontu.\n\n8. **Očekávaný přínos**: Cíle by měly zdůraznit očekávaný přínos práce a jakým způsobem by mohla přispět k danému oboru nebo problematice.\n\nJe důležité, aby explicitní stanovení cílů pro bakalářskou práci bylo přesné, strukturované a dobře formulované. To pomůže zajistit, že práce bude mít jasný směr a bude splňovat požadavky daného akademického prostředí.",
+              "botName": "YouChat",
+              "botClassname": "YouChatBot",
+              "botModel": "",
+              "highlight": false
+            },
+            {
+              "content": "Vyplývá to, že bylo bylo dělito do explicitích cílů pro bakalářskou práci.",
+              "botName": "chatglm2-6b@LMSYS",
+              "botClassname": "ChatGLM6bBot",
+              "botModel": "chatglm2-6b",
+              "highlight": false
+            },
+            {
+              "content": "Vyplývá to, že bylo bylo dělito do explicitích cílů pro bakalářskou práci.",
+              "botName": "chatglm2-6b@LMSYS",
+              "botClassname": "ChatGLM6bBot",
+              "botModel": "chatglm2-6b",
+              "highlight": false
+            },
+            {
+              "content": "V explicitním stanovení cílů pro bakalářskou práci je třeba zahrnout tyto údaje:\n\n1. Cíl: Umístění a analýza úlohy\n        * Popis úlohy a jejího kontextu\n        * Přesný popis úlohy a jejího účelu\n        * Expectations from the supervisor and the committee\n2. Cíl: Metody a techniky\n        * Description of the methods and techniques used in the research\n        * Explanation of why these methods and techniques were chosen\n        * How the methods and techniques were applied in the research\n3. Cíl: Data collection and analysis\n        * Description of the data collected\n        * Explanation of the methods used to analyze the data\n        * Results of the data analysis\n4. Cíl: Findings and conclusions\n        * Summary of the main findings\n        * Explanation of the implications of the findings\n        * Discussion of the limitations of the study and suggestions for future research\n5. Cíl: Impact of the research\n        * Explanation of the potential impact of the research on the field of study\n        * Description of how the research contributes to the field of study\n        * Discussion of any potential applications of the research\n6. Cíl: Contribution to the field of study\n        * Explanation of how the research advances the field of study\n        * Description of any new theories, models, or frameworks developed in the research\n        * Discussion of the significance of the research in the field of study\n7. Cíl: Conclusion\n        * Summary of the main findings and their implications\n        * Discussion of the limitations of the study and suggestions for future research\n        * Final conclusion and recommendation\n\nBy including these goals in the explicit statement of objectives, you will have a clear and well-structured plan for your bachelor's thesis, which will help you stay on track and achieve your research goals.",
+              "botName": "llama-2-7b@LMSYS",
+              "botClassname": "Llama27bBot",
+              "botModel": "llama-2-7b-chat",
+              "highlight": false
+            },
+            {
+              "content": "Explicitní stanovení cílů je důležité pro bakalářskou práci, protože pomáhá zajistit, že se pracoviště a výsledky orientují na významných a measurableach goalích. Here are some key elements that should be included in an explicit statement of goals for a bachelor's thesis:\n\n1. Problem statement: A clear and concise statement of the problem or issue that the thesis aims to address.\n2. Research questions: A list of specific research questions or hypotheses that the thesis will aim to answer.\n3. Objectives: A list of specific objectives or aims that the thesis will aim to achieve.\n4. Scope: A description of the scope of the thesis, including the specific context, population, or geographic area being studied.\n5. Methodology: A description of the research methods and techniques that will be used to collect and analyze data.\n6. Significance: A statement of the significance of the research, including the potential practical applications or contributions to existing knowledge.\n7. Timeframe: A timeline for completing the thesis, including milestones and deadlines.\n8. Deliverables: A list of the specific deliverables or outputs that the thesis will produce, such as a written report, a presentation, or a prototype.\n9. Evaluation criteria: A list of the criteria that will be used to evaluate the success of the thesis, such as originality, significance, methodology, and presentation.\n\nBy including these elements in an explicit statement of goals, students can ensure that their thesis is well-focused, well-planned, and aligned with the expectations of their instructors and peers.",
+              "botName": "llama-2-13b@LMSYS",
+              "botClassname": "Llama213bBot",
+              "botModel": "llama-2-13b-chat",
+              "highlight": false
+            },
+            {
+              "content": "Explicitní stanovení cílů pro bakalářskou práci by mělo zahrnovat následující informace:\n\n1. Účel práce: Krátký popis účelu práce, který vysvětluje, proč byla práce vybrána a co se z ní očekává.\n2. Cíle práce: Jasné a specifické cíle, které mají být dosaženy během práce. Cíle by měly být stanoveny včetně časového rámce a měření úspěchu.\n3. Předpoklady práce: Popis předpokladů, které byly použity k výběru tématu a metody práce.\n4. Metody práce: Popis metod, které byly použity k výzkumu a analýze dat.\n5. Data a zdroje: Seznam všech dat a zdrojů, které byly použity během práce.\n6. Očekávané výsledky: Popis očekávaných výsledků práce a jaký femmes they will contribute to the field.\n7. Timeline: Časovýharmonogram práce, který zahrnuje všechny fáze práce a deadlines.\n8. Budget: Rozpočet práce, který zahrnuje všechny náklady spojené s právními a materiály.\n9. Odpovědnost: Určení osob, které budou odpovědné za jednotlivé fáze práce a kontrolu úspěchu.\n10. Kritéria hodnocení: Stanovení kritérií, která budou použita k hodnocení úspěchu práce.\n\nZahrnutí těchto informací do explicitního stanovení cílů umožní studentovi a jeho instruktorovi having a clear understanding of the scope, objectives, and expectations of the bachelor's thesis, which will help",
+              "botName": "llama-2-70b@LMSYS",
+              "botClassname": "Llama270bBot",
+              "botModel": "llama-2-70b-chat",
+              "highlight": false
+            },
+            {
+              "content": "V bakalářské práci je důležité zahrnout všechny klíčové aspekty tématu, které jsou relevantní pro vaši práci. To včetně následujících aspektů:\n\n1. Úvod: Popis téma a jeho význam, motivace a důvody pro výzkum.\n\n2",
+              "botName": "vicuna-7b@LMSYS",
+              "botClassname": "Vicuna7bBot",
+              "botModel": "vicuna-7b",
+              "highlight": false
+            },
+            {
+              "content": "Explicitní stanovení cílů pro bakalářskou práci by mělo zahrnovat následující:\n\n1. Hlavní cíl: Obecně popisuje, co bude práce řešit nebo provádět. Je to hlavní úkol, který bude práce splňovat.\n2. Věděcí cíl: Popisuje konkrétní vědeckou otázku, kterou bude práce řešit. Může být zahrnut jako podčást hlavního cíle.\n3. Měřitelné cíle: Tyto cíle by měly být co nejvíce specifické, měřitelné a realistické. Měřitelnost umožňuje sledovat pokrok a hodnotit výsledky práce.\n4. Časové rámce: Uvádí, kdy by měla být práce dokončena a jaké jsou klíčové milní časy.\n5. Metodologie: Popisuje, jaký způsob získání dat a jaký postup bude použit k analýze a interpretaci výsledků.\n6. Vědecké postupy: Popisuje, jaký vědecký postup bude použit pro řešení otázky nebo problému.\n7. Etická zásada: Popisuje, jaké etické zásady budou dodržovány při provádění práce.\n8. Vědecké publikace: Popisuje, zda bude práce publikována a v jaké formě, např. v odborné publikaci nebo na konferenci.\n9. Budoucí využití: Popisuje, jaký účel bude práce sloužit a jakým způsobem bude mít vliv na svět.\n\nCíle by měly být co nejvíce specifické, měřitelné, realistické, relevantní a časově omezené. Je důležité, aby byly cíle dobře definovány",
+              "botName": "vicuna-13b@LMSYS",
+              "botClassname": "Vicuna13bBot",
+              "botModel": "vicuna-13b",
+              "highlight": false
+            },
+            {
+              "content": "V explicitním stanovení cílů pro bakalářskou práci by mělo být zahrnuto následující:\n\n1. Výzkumné otázky: Jsou to základní přírodovědné otázky, které práce zjišťuje nebo zodpovídá. Výzkumné otázky by měly být zpřístupněny a srozumitelné pro laiky.\n2. Hypotézy: Jsou to předpoklady o tom, jaký je výsledek výzkumu. Hypotézy by měly být specifické a zahrnovat predikce, které by měly být testovány.\n3. Obsahová část: Popisuje, co práce obsahuje, jaké jsou její hlavní kapitoly, sekundární zdroje a další relevantní informace.\n4. Metodologie: Popisuje, jakým způsobem bude proveden výzkum, jaké metody a techniky budou použity a jak budou data shromažďována, analyzována a zhodnocována.\n5. Vědomostní úroveň: Stanovuje, jaké znalosti a dovednosti by studenti měli mít na konci kurzu.\n6. Skills: Specifikuje konkrétní dovednosti, které studenti získají během výukového procesu.\n7. Kompetence: Popisuje, jaké kompetence by studenti měli mít na konci kurzu, tedy jaké druhy úkolů by měli být schopni provést.\n8. Evaluace: Vysvětluje, jak bude práce hodnocena a jaké kritéria budou použita k posouzení úspěšnosti práce.\n9. Vědecké nálezy: Popisuje, jaké byly výsledky výzkumu a jak se shodují s hypotézami.\n10. Výstup: Ukazuje, jak výsledky pr",
+              "botName": "vicuna-33b@LMSYS",
+              "botClassname": "VicunaBot",
+              "botModel": "vicuna-33b",
+              "highlight": false
+            },
+            {
+              "content": "Explicitní stanovení cílů pro bakalářskou práci je jedním z nejdůležitějších kroků při plánování a provádění výzkumu. Cíle mohou být v různém stupni většinou zahrnuti následující:\n\n1. Vyšší cíl: Pokud se jedná o bakalářskou práci, pak vyšší cíl může být například získání znalostí a dovedností potřebných pro budoucí kariéru profesionalisty v daném oboru.\n2. Meziresidentní cíle: Tyto cíle se týkají specifických oblastí, které jsou důležité pro úspěšné dokončení bakalářské práce. Meziresidentní cíle mohou zahrnovat například:\n* Analýza a interpretace dat: Cílem může být například získání zkušeností s analýzou a interpretací dat z různých zdrojů.\n* Metodologické cíle: Cílem může být například získání zkušeností s použitím specifického metodologického postupu nebo přístupu k výzkumu.\n* Zjištění důležitých vzorců: Cílem může být například získání zkušeností s identifikací důležitých vzorců a trendů v datové sadu.\n3. Místní cíle: Tyto cíle se týkají specifických úkolů, které musí být splněny pro úspěšné dokončení bakalářské práce. Místní cíle mohou zahrnovat například:\n* Zpracování analýzy: Cílem může být například zpracování analýzy a interpretace dat.\n* Instalace softwaru: C",
+              "botName": "WizardLM-70B@LMSYS",
+              "botClassname": "Wizardlm70bBot",
+              "botModel": "wizardlm-70b",
+              "highlight": false
+            },
+            {
+              "content": "Vytvoření efektivního explicitního stanovení cílů pro bakalářskou práci je důležitější než vytvoření cílů pro jiný typ projektu, protože bakalářská práce je klíčovým aspektem získání titulu a úspěšného dokončení vysokoškolského studia. Pokud chcete vytvořit efektivní cíle pro bakalářskou práci, měli by se zahrnovat tyto kroky:\n\n1. **Přesné definiování tématu**: Je důležité, aby se cíle vztahovaly k hlavnímu tématu vaší bakalářské práce. Tento krok zahrnuje identifikaci a úzkou specifikaci tématu vašeho článku, které by mělo být dostatečně úzce vázané na oblast, kterou se vaše bakalářská práce zabývá.\n\n2. **Přesné formulování cílů**: Cíle by měly být přesně a konkrétně formulovány, aby bylo snadné je zahrnout do počátečního plánu. Cíle by měly být specifické, měřitelné, achievable, relevantní a時間ově vymezené (SMART).\n\n3. **Klíčové úkoly**: Vytvořte seznam klíčových úkolů, které musí být splněny, abyste se dostali k cíli. Tyto úkoly by měly být v souladu se cíli a měly by zahrnovat všechny potřebné etapy, jako je analýza, výzkum, interpretace výsledků, psaní textu a revize.\n\n4. **Přesné časové rámce**: Určete přesné termíny pro každý krok, který je potřeba k dosažení cíle. Tyto termíny by měly",
+              "botName": "WizardLM-13B@LMSYS",
+              "botClassname": "Wizardlm13bBot",
+              "botModel": "wizardlm-13b",
+              "highlight": false
+            },
+            {
+              "content": "V bakalářské práci je důležité zahrnout všechny klíčové aspekty tématu, které jsou relevantní pro vaši práci. To včetně následujících aspektů:\n\n1. Úvod: Popis téma a jeho význam, motivace a důvody pro výzkum.\n2. Základní koncepty: Definice a výklady klíčových termínů a poj",
+              "botName": "vicuna-7b@LMSYS",
+              "botClassname": "Vicuna7bBot",
+              "botModel": "vicuna-7b",
+              "highlight": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
