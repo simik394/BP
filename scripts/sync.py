@@ -2,8 +2,7 @@ from pyzotero import zotero as pyzotero
 from pydash import _
 import os
 import subprocess
-from dotenv import load_dotenv
-load_dotenv()
+
 
 # import pprint
 # pp = pprint.PrettyPrinter(indent=4)
@@ -12,11 +11,11 @@ load_dotenv()
 LIBRARY_TYPE = 'user'
 
 # user config variables. set these in a .env
-API_KEY = os.getenv('API_KEY')
-LIBRARY_ID = os.getenv('LIBRARY_ID')
-COLLECTION_NAME = os.getenv('COLLECTION_NAME') #in Zotero
-FOLDER_NAME = os.getenv('FOLDER_NAME') #on the Remarkable device, this must exist!
-STORAGE_BASE_PATH = os.getenv('STORAGE_BASE_PATH') #on local computer
+API_KEY = "CjOS6gT7RqYanZXM8n4NrvXr"
+LIBRARY_ID = 6654687
+COLLECTION_NAME = "BP.reM" #in Zotero
+FOLDER_NAME = "🎯Projects/🎓BP" #on the Remarkable device, this must exist!
+STORAGE_BASE_PATH = "G:\Zotero" #on local computer
 
 RMAPI_LS = f"rmapi ls /{FOLDER_NAME}"
 
