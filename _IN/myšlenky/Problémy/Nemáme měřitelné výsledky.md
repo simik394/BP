@@ -1,0 +1,1 @@
+Nemáme ANI **měřené** výsledky!
