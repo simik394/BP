@@ -1,7 +1,7 @@
 nedostatečná komunikace mezi členy oddílu
 
 unclear communication
-## Zadání/delegování úkolu
+
 ![[problemy.zadani-ukolu]]
 Nedostatek konzistence nebo srozumitelnosti u vedoucích nebo členů oddílu
 

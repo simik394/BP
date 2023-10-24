@@ -1,11 +1,9 @@
 {
 	"nodes":[
-		{"id":"01c2fe182cfcbea7","type":"file","file":"problemy.Motivace.md","x":-1840,"y":520,"width":1220,"height":1160},
+		{"id":"01c2fe182cfcbea7","type":"file","file":"base/Cíle/Problémy/problemy.Motivace.md","x":-1840,"y":520,"width":1220,"height":1160},
 		{"id":"5887d1708aa808ce","type":"text","text":"# TM pro skautský oddíl","x":-620,"y":80,"width":200,"height":157},
-		{"id":"22db1f1b769c603c","type":"file","file":"problemy.Organizace.md","x":-420,"y":520,"width":1352,"height":1160},
+		{"id":"22db1f1b769c603c","type":"file","file":"base/Cíle/Problémy/problemy.Organizace.md","x":-420,"y":520,"width":1352,"height":1160},
 		{"id":"8443bf265da2e918","type":"text","text":"1. komunikace\n2. organizace\n3. zadávání","x":932,"y":960,"width":250,"height":175}
 	],
-	"edges":[
-		{"id":"80ee234603031e43","fromNode":"5887d1708aa808ce","fromSide":"left","toNode":"01c2fe182cfcbea7","toSide":"top"}
-	]
+	"edges":[]
 }
