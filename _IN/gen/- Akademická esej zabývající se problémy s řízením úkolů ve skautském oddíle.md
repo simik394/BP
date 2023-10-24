@@ -92,6 +92,7 @@ Furthermore, [[Organizace]]. Scout leaders can schedule tasks well in advance, c
 In conclusion, managing tasks in a scout troop can present various challenges including [Komunikace](Komunikace.md), lack of task tracking systems, varying levels of commitment, and external constraints. However, by prioritizing effective communication, implementing task management systems, fostering teamwork, and proactive planning, these challenges can be addressed. Ultimately, effective task management contributes to the overall success and growth of a scout troop, enabling its members to develop important skills and achieve their goals.
 
 [[texcortex.sum.TMveSkautu.problémy]]
+[[scholarcy.sum.TMveSkautu.problémy]]
 
 # sider compose (esej, formal, long):
 **Problémy s řízením úkolů ve skautském oddíle**

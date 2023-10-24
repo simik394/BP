@@ -195,4 +195,4 @@ Here are some specific tips for directing tasks in a scouting unit:
 9. Keep it simple: Keep the tasks simple and easy to understand, and avoid overwhelming scouts with too much information or too many tasks.
 10. Lead by example: Demonstrate the behaviors and work ethic you expect from the scouts, and be willing to roll up your sleeves and work alongside them.
 
-
+[[scholarcy.sum - jak ridit ukoly ve skautu]]
