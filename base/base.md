@@ -1,0 +1,6 @@
+[[Téma-zůžení - page 1.png]]
+[[Téma-zůžení - page 2.png]]
+![[Problémy]]
+![[Cíl]]
+![[Aims and Objectives]]
+[[Zadání.canvas|Zadání]]
