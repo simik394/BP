@@ -61,7 +61,7 @@ otázka: jak by bylo vhodné řídit úkoly ve skautském oddíle?
 ---
 V skautském oddíle je vhodné řídit úkoly ve skautském oddíle pomocí skautského metodu, který je založen na učení skautských principů, takzvaných "skautských krás". Skautská metoda je založena na učení skautských krás, které jsou:
 
-1. Respekt: Respekt je jedním z nejdůležitějších skautských krás. Skauti se učí respektovat sebe i ostatní skauty, rodiče, starší skauty a všechny ostatní lidé.
+1. <mark style="background: #BBFABBA6;">Respekt:</mark> Respekt je jedním z nejdůležitějších skautských krás. Skauti se učí respektovat sebe i ostatní skauty, rodiče, starší skauty a všechny ostatní lidé.
 2. Přátelství: Přátelství je také jedním z skautských krás. Skauti se učí přátelit se ostatními skauty a lidmi, až do toho, aby se mohli spolupracovat a pomáhat navzájem.
 3. Pochopení: Pochopení je také jedním z skautských krás. Skauti se učí pochopení, jak se chovat a jak se jednat s ostatními lidmi.
 4. Využití: Využití je také jedním z skautských krás. Skauti se učí využití, jak se využít své schopnosti a jak se využít svého času a síly.
