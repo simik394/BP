@@ -6,7 +6,7 @@
 Řízení úkolů je důležitou součástí efektivního fungování skautského oddílu. Skautští vedoucí musí být schopni plánovat, delegovat, monitorovat a hodnotit různé úkoly, které jsou součástí skautských aktivit. V této eseji se zaměřím na některé z hlavních problémů, které mohou vzniknout při řízení úkolů ve skautském oddílu, a navrhnu možná řešení.
 
 ## Key concepts
-#v_této; #k_tomu; #je_nedostatek; #možným_řešením_je; #možná_řešení; #skautští_vedoucí_musí; #skautském_oddílu; #které_jsou_součástí_skautských_aktivit; #které_mohou_vzniknout_při_řízení_úkolů; #z_hlavních_problémů
+
 
 ## Quote
 > Without a clear mechanism in place, it becomes difficult to keep track of assigned tasks, their progress, and deadlines. This can lead to tasks slipping through the cracks and important deadlines being missed
