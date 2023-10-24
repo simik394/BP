@@ -1,5 +1,3 @@
-[[_JakoAiJazykovýModelNemám_n.d.]]
-
 # [Jako AI jazykový model nemám osobní zkušenosti, ale podle obecných principů je třeba delegovat úkoly na jednotlivé členy oddílu tak, aby byly rozděleny spravedlivě a podle jejich schopností. Vhodné je také stanovit termíny pro dokončení úkolů a následně kontrolovat jejich plnění. Je důležité komunikovat očekávání a poskytovat zpětnou vazbu k vykonané práci. Kromě toho by se měla vytvořit příjemná a motivující atmosféra, která podporuje týmovou práci a pomáhá dosahovat společných cílů.](https://raw.githubusercontent.com/simik394/BP/zadani_v2/_IN/gen/-%20jak%20ridit%20ukoly%20ve%20skautu.md)
 
 ## [[]]

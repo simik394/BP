@@ -11,4 +11,4 @@ Nedostatek komunikace mezi vedoucími a členy oddílu. Někdy není jasně sdě
 
 Možným řešením je zapojit skautské členy do volby a tvorby úkolů, které odpovídají jejich zájmům, schopnostem a hodnotám, a také jim poskytovat podporu, vedení a ocenění za jejich úsilí.
 
-![[problemy.solovani]]
+![[Solovani]]

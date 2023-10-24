@@ -1,5 +1,3 @@
-[[_LongAkademickáEsejZabývající_n.d.]]
-
 # [## long: Akademická esej zabývající se problémy s řízením úkolů ve skautském oddíle](https://raw.githubusercontent.com/simik394/BP/zadani_v2/_IN/gen/-%20Akademick%C3%A1%20esej%20zab%C3%BDvaj%C3%ADc%C3%AD%20se%20probl%C3%A9my%20s%20%C5%99%C3%ADzen%C3%ADm%20%C3%BAkol%C5%AF%20ve%20skautsk%C3%A9m%20odd%C3%ADle.md)
 
 ## Abstract
