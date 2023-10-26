@@ -4,7 +4,7 @@ I am working on the topic
 
 **QUESTION:** 
 because I want to find out 
--jak vhodně, z dlouhodobého hlediska, zaznamenávat a ukládat informace vyžadované v průběhu životního cyklu úkolů, 
+-jak vhodně, z dlouhodobého hlediska, zaznamenávat a ukládat informace vyžadované v průběhu životního cyklu úkolů,  ^363f42
 
 **SIGNIFICANCE:** 
 so that I can help others understand 
