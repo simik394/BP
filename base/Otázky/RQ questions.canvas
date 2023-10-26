@@ -29,7 +29,8 @@
 		{"id":"5a3309a17a0345ff","type":"file","file":"_IN/gen/nějaké další lvl.2 otázky.md","x":-2880,"y":-1053,"width":928,"height":767,"color":"#000000"},
 		{"id":"77ebfc47d3e1ba7f","x":350,"y":-1165,"width":307,"height":160,"type":"text","text":"Neefektivní práce. I kdyby to už někdo jednou udělal, stejně to má max někde u sebe, pokud ne jen u sebe v hlavě."},
 		{"id":"b7fd06092028c804","x":-34,"y":-1165,"width":344,"height":125,"type":"text","text":"Bez zaznamenaných dat o průběhu plnění úkolů se **celkem těžko cokoliv vyhodnocuje.**"},
-		{"id":"0ef8796096a92ac8","x":-404,"y":-1205,"width":307,"height":240,"type":"text","text":"Spíše **freestyle** než řízení. \nCož je v pořádku.\n\nNicméně kdyby jsme se mohli **kontrolovaně/řízeně zlepšovat**, na základě společně nasbíraných údajů.. to by bylo."}
+		{"id":"0ef8796096a92ac8","x":-404,"y":-1205,"width":307,"height":240,"type":"text","text":"Spíše **freestyle** než řízení. \nCož je v pořádku.\n\nNicméně kdyby jsme se mohli **kontrolovaně/řízeně zlepšovat**, na základě společně nasbíraných údajů.. to by bylo."},
+		{"id":"f96197dd6beeebe0","x":44,"y":-1332,"width":250,"height":92,"type":"text","text":"Žádný sjednocený přístup ani postup!"}
 	],
 	"edges":[
 		{"id":"8af309034441ed58","fromNode":"12b00bb1e592920d","fromSide":"bottom","toNode":"9e557ded26cd3d89","toSide":"top","color":"2"},
