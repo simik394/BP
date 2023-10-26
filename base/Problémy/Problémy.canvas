@@ -1,15 +1,15 @@
 {
 	"nodes":[
 		{"id":"b346e632dd1617e5","type":"group","x":-2020,"y":-720,"width":1100,"height":680,"color":"5","label":"reM"},
+		{"id":"ac62603fceb3aea1","type":"file","file":"_IN/reM/Zadání/Téma-zůžení/Téma-zůžení - page 2.png","x":-1987,"y":-669,"width":255,"height":380},
+		{"id":"bf8c8e762d658605","type":"file","file":"_IN/reM/Zadání/Aims and Objectives/Aims and Objectives - page 1.png","x":-1979,"y":-260,"width":179,"height":116},
+		{"id":"0db03328448e8173","type":"file","file":"_IN/reM/Zadání/Problems/Problems - page 2.png","x":-1719,"y":-678,"width":348,"height":398},
+		{"id":"2d22dbe840eaeed6","type":"file","file":"_IN/reM/Zadání/Problems/Problems - page 3.png","x":-1360,"y":-678,"width":380,"height":380},
 		{"id":"22db1f1b769c603c","type":"file","file":"base/Problémy/Organizace.md","x":-360,"y":520,"width":940,"height":1480,"color":"6"},
 		{"id":"01c2fe182cfcbea7","type":"file","file":"base/Problémy/Motivace.md","x":-1440,"y":520,"width":940,"height":800,"color":"6"},
 		{"id":"5887d1708aa808ce","type":"text","text":"# TM pro skautský oddíl","x":-600,"y":240,"width":320,"height":120,"color":"4"},
-		{"id":"ac62603fceb3aea1","type":"file","file":"_IN/reM/Zadání/Téma-zůžení/Téma-zůžení - page 2.png","x":-1987,"y":-669,"width":255,"height":380},
-		{"id":"bf8c8e762d658605","type":"file","file":"_IN/reM/Zadání/Aims and Objectives/Aims and Objectives - page 1.png","x":-1979,"y":-260,"width":179,"height":116},
-		{"id":"96419b2789d8f6b3","type":"file","file":"_IN/reM/Zadání/Aims and Objectives/Aims and Objectives - page 2.png","x":-1779,"y":-260,"width":300,"height":166},
-		{"id":"0db03328448e8173","type":"file","file":"_IN/reM/Zadání/Problems/Problems - page 2.png","x":-1719,"y":-678,"width":348,"height":398},
-		{"id":"2d22dbe840eaeed6","type":"file","file":"_IN/reM/Zadání/Problems/Problems - page 3.png","x":-1360,"y":-678,"width":380,"height":380},
-		{"id":"8443bf265da2e918","type":"text","text":"1. komunikace\n2. organizace\n3. zadávání","x":-600,"y":1825,"width":250,"height":175}
+		{"id":"8443bf265da2e918","type":"text","text":"1. komunikace\n2. organizace\n3. zadávání","x":-600,"y":1825,"width":250,"height":175},
+		{"id":"96419b2789d8f6b3","type":"file","file":"_IN/reM/Zadání/Aims and Objectives/Aims and Objectives - page 2.png","x":-1779,"y":-260,"width":300,"height":166}
 	],
 	"edges":[
 		{"id":"93de7b878fcd32b0","fromNode":"5887d1708aa808ce","fromSide":"left","toNode":"01c2fe182cfcbea7","toSide":"top","label":"z hlediska člena"},

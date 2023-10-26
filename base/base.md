@@ -3,4 +3,4 @@
 ![[Problémy]]
 ![[Cíl]]
 ![[Aim and Objectives]]
-[[Zadání.canvas|Zadání]]
+[[Problémy.canvas|Zadání]]
