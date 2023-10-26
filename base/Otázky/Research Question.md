@@ -8,7 +8,7 @@ because I want to find out
 
 **SIGNIFICANCE:** 
 so that I can help others understand 
--jak si připravit materiály efektivně využitelné jako reference při rozhodování o budoucích aktivitách.
+-jak si připravit materiály efektivně využitelné jako reference při rozhodování o budoucích aktivitách. ^88u86q
 
 ## AImproved
 Vaše výzkumná otázka je již dobře formulovaná, ale zde je několik možných vylepšení pro větší jasnost a konkrétnost:
