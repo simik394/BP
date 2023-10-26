@@ -18,7 +18,8 @@
 		{"id":"42011410af009396","type":"text","text":"Kdo, kdy a proč k nim bude přistupovat?\nrespektive, co v nich bude hledat?","x":340,"y":-122,"width":250,"height":136},
 		{"id":"b4be98355b7f4bf7","type":"text","text":"Jak měříš efektivitu?","x":325,"y":-252,"width":140,"height":92},
 		{"id":"5a3309a17a0345ff","type":"file","file":"_IN/gen/nějaké další lvl.2 otázky.md","x":-1840,"y":-560,"width":928,"height":767},
-		{"id":"373439b90681b651","type":"text","text":"Jaké konkrétní rozhodování by mělo být zohledněno při návrhu?","x":735,"y":-129,"width":225,"height":157}
+		{"id":"373439b90681b651","type":"text","text":"Jaké konkrétní rozhodování by mělo být zohledněno při návrhu?","x":735,"y":-129,"width":225,"height":157},
+		{"id":"1fcf7d3ec3f191b7","x":662,"y":80,"width":240,"height":193,"type":"text","text":"Jaké konkrétní **nefunkční** požadavky jsou na sys? jakože npř. při jaké \"snadnosti\" používání ho budou lidi opravdu využívat?"}
 	],
 	"edges":[
 		{"id":"8af309034441ed58","fromNode":"12b00bb1e592920d","fromSide":"bottom","toNode":"9e557ded26cd3d89","toSide":"top"},
@@ -28,6 +29,7 @@
 		{"id":"d60e8afe24261f68","fromNode":"a515a7477b9b583d","fromSide":"bottom","toNode":"6fd2021dba74987d","toSide":"right"},
 		{"id":"19a097a19ead933e","fromNode":"cce978422c6615c4","fromSide":"bottom","toNode":"42011410af009396","toSide":"top"},
 		{"id":"1323d06512b9d066","fromNode":"42011410af009396","fromSide":"right","toNode":"c72be0cd3ad15d11","toSide":"top"},
-		{"id":"b693edd5d8e96087","fromNode":"12b00bb1e592920d","fromSide":"bottom","toNode":"cdd15aa737ae27aa","toSide":"top"}
+		{"id":"b693edd5d8e96087","fromNode":"12b00bb1e592920d","fromSide":"bottom","toNode":"cdd15aa737ae27aa","toSide":"top"},
+		{"id":"4a99cd2bdc826eb5","fromNode":"c72be0cd3ad15d11","fromSide":"bottom","toNode":"1fcf7d3ec3f191b7","toSide":"top"}
 	]
 }

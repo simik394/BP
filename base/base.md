@@ -2,5 +2,5 @@
 [[Téma-zůžení - page 2.png]]
 ![[Problémy]]
 ![[Cíl]]
-![[Aim and Objectives]]
+![[Objectives]]
 [[Problémy.canvas|Zadání]]
