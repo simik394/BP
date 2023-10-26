@@ -4,7 +4,7 @@ I am working on the topic
 
 **QUESTION:** 
 because I want to find out 
--jak zaznamenávat a sdílet informace vyžadované v průběhu životního cyklu úkolů, 
+-jak vhodně zaznamenávat a sdílet informace vyžadované v průběhu životního cyklu úkolů, 
 
 **SIGNIFICANCE:** 
 so that I can help others understand 
