@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"c8fe178aabf3b1a0","x":-680,"y":-580,"width":1680,"height":760,"type":"group","label":"Otázky lvl.2"},
+		{"id":"a1d2eea402a05a50","x":-660,"y":-520,"width":1620,"height":240,"type":"group","label":"separated"},
+		{"id":"2cdc51e694b8a992","x":-1360,"y":-1200,"width":560,"height":520,"type":"group","label":"Untitled group"},
+		{"id":"867e2c6d3fba7d64","x":-1234,"y":-1140,"width":322,"height":60,"type":"text","text":"řízení úkolů ve skautskám oddíle"},
+		{"id":"3ec25517cd68ec39","x":-1280,"y":-1080,"width":400,"height":153,"type":"text","text":"jak z dlouhodobého hlediska vhodně zaznamenávat a ukládat informace vyžadované v průběhu životního cyklu úkolů"},
+		{"id":"cda7101485abc991","x":-1213,"y":-927,"width":266,"height":180,"type":"text","text":"jak si připravit materiály efektivně využitelné jako reference při rozhodování o budoucích aktivitách"},
+		{"id":"e5445d1fc41df544","x":-601,"y":-442,"width":271,"height":90,"type":"text","text":"z dlouhodobého hlediska vhodně"},
+		{"id":"a515a7477b9b583d","x":-330,"y":-457,"width":250,"height":60,"type":"text","text":"zaznamenávat"},
+		{"id":"12b00bb1e592920d","x":-170,"y":-397,"width":250,"height":60,"type":"text","text":"ukládat"},
+		{"id":"4813335227e23374","x":80,"y":-442,"width":330,"height":90,"type":"text","text":"informace vyžadované v průběhu životního cyklu úkolů"},
+		{"id":"cce978422c6615c4","x":410,"y":-427,"width":325,"height":57,"type":"text","text":"aby umožnovaly efektivní přístup "},
+		{"id":"c72be0cd3ad15d11","x":735,"y":-476,"width":167,"height":158,"type":"text","text":"v případě budoucího využití jako reference pro rozhodování"},
+		{"id":"373439b90681b651","x":735,"y":-177,"width":250,"height":157,"type":"text","text":"Jaké konkrétní rozhodování by mělo být zohledněno při návrhu?"},
+		{"id":"6fd2021dba74987d","x":-660,"y":-255,"width":276,"height":201,"type":"text","text":"Podle čeho posoudím zaznamenávací prostory, abych mohl nějaký vybrat?\nPodle příhodnosti? Podle export možností?\nPodle příjemnosti?"},
+		{"id":"02b381b18cd1d9b3","x":40,"y":-210,"width":260,"height":224,"type":"text","text":"Jak konkrétně se u nás aktuálně řídí úkoly? respektive, jak vypadá jejich životní cyklus?\nKteré fáze? \nJaké informace zahrnují?"},
+		{"id":"42011410af009396","x":340,"y":-122,"width":250,"height":136,"type":"text","text":"Kdo, kdy a proč k nim bude přistupovat?\nrespektive, co v nich bude hledat?"},
+		{"id":"b4be98355b7f4bf7","x":325,"y":-252,"width":140,"height":92,"type":"text","text":"Jak měříš efektivitu?"},
+		{"id":"cdd15aa737ae27aa","x":-205,"y":-129,"width":148,"height":75,"type":"text","text":"A formát?\nA uložiště?\n"},
+		{"id":"9e557ded26cd3d89","x":-220,"y":-246,"width":235,"height":86,"type":"text","text":"Jak získám vhodnou složkovou strukturu?"}
+	],
+	"edges":[
+		{"id":"6b8e4a4712990a4d","fromNode":"e5445d1fc41df544","fromSide":"bottom","toNode":"cce978422c6615c4","toSide":"top"},
+		{"id":"8af309034441ed58","fromNode":"12b00bb1e592920d","fromSide":"bottom","toNode":"9e557ded26cd3d89","toSide":"top"},
+		{"id":"ef588a7fafbba3c8","fromNode":"4813335227e23374","fromSide":"bottom","toNode":"02b381b18cd1d9b3","toSide":"top"},
+		{"id":"40b6df2f7e21cc53","fromNode":"cce978422c6615c4","fromSide":"bottom","toNode":"b4be98355b7f4bf7","toSide":"top"},
+		{"id":"1c7f6524a395f9e5","fromNode":"c72be0cd3ad15d11","fromSide":"bottom","toNode":"373439b90681b651","toSide":"top"},
+		{"id":"d60e8afe24261f68","fromNode":"a515a7477b9b583d","fromSide":"bottom","toNode":"6fd2021dba74987d","toSide":"right"},
+		{"id":"19a097a19ead933e","fromNode":"cce978422c6615c4","fromSide":"bottom","toNode":"42011410af009396","toSide":"top"},
+		{"id":"1323d06512b9d066","fromNode":"42011410af009396","fromSide":"right","toNode":"c72be0cd3ad15d11","toSide":"top"},
+		{"id":"b693edd5d8e96087","fromNode":"12b00bb1e592920d","fromSide":"bottom","toNode":"cdd15aa737ae27aa","toSide":"top"}
+	]
+}
