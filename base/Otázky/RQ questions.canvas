@@ -1,8 +1,9 @@
 {
 	"nodes":[
 		{"id":"63877c1281d35178","type":"group","x":-3440,"y":-1183,"width":1600,"height":1774,"color":"#000000","label":"USED|EXTRACTED"},
-		{"id":"c8fe178aabf3b1a0","type":"group","x":-680,"y":-580,"width":1740,"height":1211,"label":"Otázky lvl.2 = objectives?"},
-		{"id":"a1d2eea402a05a50","type":"group","x":-609,"y":-500,"width":1609,"height":182,"color":"1","label":"splited Research Question"},
+		{"id":"c8fe178aabf3b1a0","type":"group","x":-680,"y":-580,"width":1740,"height":1211,"label":"Otázky lvl.2 --> objectives?"},
+		{"id":"3477217e1e559d0f","x":-488,"y":-1360,"width":1251,"height":520,"color":"#d6d6d6","type":"group","label":"Argumenty Pro: Důležitost/význam práce"},
+		{"id":"a1d2eea402a05a50","type":"group","x":-609,"y":-500,"width":1609,"height":182,"color":"1","label":"splited Research Question --> Aim"},
 		{"id":"2cdc51e694b8a992","type":"group","x":-3320,"y":-1013,"width":400,"height":433,"color":"#000000","label":"topic,question,significance"},
 		{"id":"6fd2021dba74987d","type":"text","text":"Podle čeho posoudím zaznamenávací prostory, abych mohl nějaký vybrat?\n- Podle příhodnosti?\n- Podle export možností?\n- Podle příjemnosti?\n---\n- Nebo radši čím víc cest dovnitř tím líp?","x":-660,"y":-255,"width":260,"height":408,"color":"6"},
 		{"id":"a515a7477b9b583d","type":"text","text":"zaznamenávat","x":-420,"y":-430,"width":250,"height":60},
@@ -25,7 +26,10 @@
 		{"id":"cda7101485abc991","type":"text","text":"jak si připravit materiály efektivně využitelné jako reference při rozhodování o budoucích aktivitách","x":-3253,"y":-760,"width":266,"height":180},
 		{"id":"867e2c6d3fba7d64","type":"text","text":"řízení úkolů ve skautskám oddíle","x":-3274,"y":-973,"width":322,"height":60},
 		{"id":"3ec25517cd68ec39","type":"text","text":"jak z dlouhodobého hlediska vhodně zaznamenávat a ukládat informace vyžadované v průběhu životního cyklu úkolů","x":-3320,"y":-913,"width":400,"height":153},
-		{"id":"5a3309a17a0345ff","type":"file","file":"_IN/gen/nějaké další lvl.2 otázky.md","x":-2880,"y":-1053,"width":928,"height":767,"color":"#000000"}
+		{"id":"5a3309a17a0345ff","type":"file","file":"_IN/gen/nějaké další lvl.2 otázky.md","x":-2880,"y":-1053,"width":928,"height":767,"color":"#000000"},
+		{"id":"77ebfc47d3e1ba7f","x":350,"y":-1165,"width":307,"height":160,"type":"text","text":"Neefektivní práce. I kdyby to už někdo jednou udělal, stejně to má max někde u sebe, pokud ne jen u sebe v hlavě."},
+		{"id":"b7fd06092028c804","x":-34,"y":-1165,"width":344,"height":125,"type":"text","text":"Bez zaznamenaných dat o průběhu plnění úkolů se **celkem těžko cokoliv vyhodnocuje.**"},
+		{"id":"0ef8796096a92ac8","x":-404,"y":-1205,"width":307,"height":240,"type":"text","text":"Spíše **freestyle** než řízení. \nCož je v pořádku.\n\nNicméně kdyby jsme se mohli **kontrolovaně/řízeně zlepšovat**, na základě společně nasbíraných údajů.. to by bylo."}
 	],
 	"edges":[
 		{"id":"8af309034441ed58","fromNode":"12b00bb1e592920d","fromSide":"bottom","toNode":"9e557ded26cd3d89","toSide":"top","color":"2"},
@@ -44,6 +48,7 @@
 		{"id":"49a7022a9fadc78e","fromNode":"9e557ded26cd3d89","fromSide":"right","toNode":"02b381b18cd1d9b3","toSide":"left","color":"4"},
 		{"id":"779d25d620e1942d","fromNode":"a515a7477b9b583d","fromSide":"bottom","toNode":"cdd15aa737ae27aa","toSide":"left","color":"5"},
 		{"id":"b21acd34b84bd025","fromNode":"a9a7f3e1b0fd69fd","fromSide":"bottom","toNode":"1e79f0939f60599a","toSide":"top","color":"4"},
-		{"id":"fbe4bb42a0abe4ef","fromNode":"cdd15aa737ae27aa","fromSide":"bottom","toNode":"8464a4b26d2212ac","toSide":"left","color":"5"}
+		{"id":"fbe4bb42a0abe4ef","fromNode":"cdd15aa737ae27aa","fromSide":"bottom","toNode":"8464a4b26d2212ac","toSide":"left","color":"5"},
+		{"id":"ba572f7a82e6e166","fromNode":"3477217e1e559d0f","fromSide":"bottom","toNode":"a1d2eea402a05a50","toSide":"top","color":"1"}
 	]
 }
