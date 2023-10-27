@@ -1,1 +1,1 @@
-gg
+Vybrat a zdokumentovat vhodné postupy pro ukládání informací o vytvořených produktech, aby jsme získali k dispozici údaje efektivně použitelné na podporu plánování dalších činností.
