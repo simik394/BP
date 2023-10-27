@@ -1,0 +1,3 @@
+- A formát?
+- A uložiště?
+- A struktura?

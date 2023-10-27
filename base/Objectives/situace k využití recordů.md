@@ -1,0 +1,1 @@
+- Jaké konkrétní rozhodování by mělo být zohledněno při návrhu?

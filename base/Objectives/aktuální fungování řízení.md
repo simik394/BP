@@ -1,0 +1,3 @@
+- Jak konkrétně se u nás aktuálně řídí úkoly? respektive, jak vypadá jejich životní cyklus?
+- Které fáze? 
+- Jaké informace zahrnují?

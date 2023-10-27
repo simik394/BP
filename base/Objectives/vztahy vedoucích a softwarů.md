@@ -1,0 +1,1 @@
+Které cesty naše lidské zdroje používají | znají?

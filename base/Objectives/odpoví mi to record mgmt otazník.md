@@ -1,0 +1,1 @@
+Jak získám vhodnou složkovou strukturu?

@@ -1,0 +1,1 @@
+-  Jaká je aktuální infrastruktura společnosti?
