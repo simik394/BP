@@ -30,7 +30,8 @@ url: 'https://typeset.io/resources/thesis-statement/'
 - Establish back-up for your Answer with Evidence — [Updated on 2023-10-25 03:13:15](https://hyp.is/rHYDxnLTEe6jeRvXcPptCQ/typeset.io/resources/thesis-statement/) — Group: #bakalarka
 
 - How to determine if my thesis statement is strong? — [Updated on 2023-10-25 03:16:05](https://hyp.is/00ykFHLTEe6x7VMdcOQGag/typeset.io/resources/thesis-statement/) — Group: #bakalarka
-    - Annotation: Does it go beyond the “How” and “Why” assessments?
+    > Annotation: 
+Does it go beyond the “How” and “Why” assessments?
 
 Does it clear the “So What” test?
 
