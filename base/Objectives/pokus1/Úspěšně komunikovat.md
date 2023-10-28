@@ -1,11 +1,6 @@
----
-
----
-
-# Komunikace 
 [typ::"Objective"] [pořadí::5] [stav::2%]
+# Komunikace 
 >  .
-
 # Metoda
 - imp
 # Produkty

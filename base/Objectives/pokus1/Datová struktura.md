@@ -1,11 +1,6 @@
----
-
----
-
-# Vytvořit systém na ukládání 
 [typ::"Objective"] [pořadí::3] [stav::2%]
+# *systém na ukládání 
 >  .
-
 # Metoda
 - lit
 # Produkty

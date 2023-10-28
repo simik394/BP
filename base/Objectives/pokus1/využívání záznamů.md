@@ -1,11 +1,6 @@
----
-
----
-
-# Plánování
 [typ::"Objective"] [pořadí::4] [stav::2%]
+# Plánování
 > jaké využití záznamů .
-
 # Metoda
 - lit
 # Produkty

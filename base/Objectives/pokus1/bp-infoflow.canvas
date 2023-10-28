@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"cf0ebb8e865f1666","x":300,"y":280,"width":400,"height":400,"type":"file","file":"base/Objectives/pokus1/Datová struktura.md"},
-		{"id":"55e4327c9fdcd840","x":500,"y":400,"width":400,"height":400,"type":"file","file":"base/Objectives/pokus1/Plánované Parametry produktů.md"},
+		{"id":"55e4327c9fdcd840","x":500,"y":400,"width":400,"height":400,"type":"file","file":"base/Objectives/pokus1/Plánované pp.md"},
 		{"id":"5791eecc885e91c4","x":300,"y":920,"width":250,"height":60,"type":"text","text":"které parametry z plánování zaznamenávat"},
 		{"id":"8b772e8becf63343","x":640,"y":520,"width":400,"height":400,"type":"file","file":"base/Objectives/pokus1/využívání záznamů.md"},
 		{"id":"d76f4be89b2cc54d","x":-280,"y":-200,"width":400,"height":400,"type":"file","file":"base/Objectives/pokus1/Hodnocení úspěšnosti.md"}
