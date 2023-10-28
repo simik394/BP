@@ -2,17 +2,21 @@
 
 ---
 
-# Dílčí cíl
-=>  .
-## Záměr
-- struktura složek
-- struktura dokumentů
-- Jak by měly být údaje uloženy, aby jejich získávání z uložiště bylo co nejsnažší (nejpříjemnější)?
+# Dílčí cíl [pořadí::4]
+>  .
+
 # Metoda
-- 
+- lit
 # Produkty
 - 
 # Přínosy
 - 
 # "Ohraničení"
 - 
+
+
+---
+### *Záměr*
+- struktura složek
+- struktura dokumentů
+- Jak by měly být údaje uloženy, aby jejich získávání z uložiště bylo co nejsnažší (nejpříjemnější)?
