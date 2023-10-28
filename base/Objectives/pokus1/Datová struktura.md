@@ -2,7 +2,8 @@
 
 ---
 
-# Dílčí cíl [pořadí::4] [stav::5%]
+# Vytvořit systém na ukládání 
+[typ::"Objective"] [pořadí::3] [stav::2%]
 >  .
 
 # Metoda

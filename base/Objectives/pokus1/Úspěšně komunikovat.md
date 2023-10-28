@@ -2,7 +2,8 @@
 
 ---
 
-# Dílčí cíl [pořadí::5] [stav::5%]
+# Komunikace 
+[typ::"Objective"] [pořadí::5] [stav::2%]
 >  .
 
 # Metoda

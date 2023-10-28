@@ -2,7 +2,8 @@
 
 ---
 
-# Dílčí cíl [pořadí::3] [stav::5%]
+# Plánování
+[typ::"Objective"] [pořadí::4] [stav::2%]
 > jaké využití záznamů .
 
 # Metoda
