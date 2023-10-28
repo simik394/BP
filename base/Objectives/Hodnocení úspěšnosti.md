@@ -3,7 +3,7 @@
 ---
 
 # Dílčí cíl [pořadí::1]
-> Identifikovat způsoby hodnocení schůzek a výprav, které budou  produkovat co nejvíce, [[k plánování využitelné údaje]] a zároveň budou z více než 90% v souladu se [[skautské prostředí]].
+> Určit způsoby hodnocení schůzek a výprav, které budou  produkovat co nejvíce, [[k plánování využitelné údaje]], nebudou ani z 20% v rozporu se [[skautské prostředí]], a zároveň dohromady nebudou trvat déle než [[vymezený čas - hodnocení]] .
 
 # Metoda
 - lit
