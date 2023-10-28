@@ -52,7 +52,7 @@
 		{"id":"4608f46d9688515d","type":"file","file":"base/Objectives/pokus1/využívání záznamů.md","x":300,"y":1080,"width":472,"height":1360},
 		{"id":"4dfba84cfe4cb689","type":"file","file":"base/Objectives/pokus1/Datová struktura.md","x":-168,"y":1080,"width":468,"height":1360},
 		{"id":"c5f9c4523809ab15","x":840,"y":1020,"width":250,"height":60,"type":"text","text":"Implementace"},
-		{"id":"d3c548a8783c7951","x":-2400,"y":946,"width":860,"height":1560,"type":"link","url":"https://lex.page/d/4585c3ea-a238-4898-b85b-559fff0125df"}
+		{"id":"51d5d8b47ee675bf","x":-1970,"y":760,"width":560,"height":57,"type":"text","text":"https://lex.page/d/4585c3ea-a238-4898-b85b-559fff0125df"}
 	],
 	"edges":[
 		{"id":"175a95259fe9e856","fromNode":"8c9453545d0ac8be","fromSide":"bottom","toNode":"19f6c11ce3112398","toSide":"top"},
