@@ -2,7 +2,7 @@
 
 ---
 
-# Dílčí cíl [pořadí::5]
+# Dílčí cíl [pořadí::5] [stav::5%]
 >  .
 
 # Metoda

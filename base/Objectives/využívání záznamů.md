@@ -2,7 +2,7 @@
 
 ---
 
-# Dílčí cíl [pořadí::3]
+# Dílčí cíl [pořadí::3] [stav::5%]
 > jaké využití záznamů .
 
 # Metoda

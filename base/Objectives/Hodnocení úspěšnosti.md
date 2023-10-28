@@ -2,7 +2,7 @@
 
 ---
 
-# Dílčí cíl [pořadí::1]
+# Dílčí cíl [pořadí::1] [stav::15%]
 > Určit způsoby hodnocení schůzek a výprav, které budou  produkovat co nejvíce, [[k plánování využitelné údaje]], nebudou ani z 20% v rozporu se [[skautské prostředí]], a zároveň dohromady nebudou trvat déle než [[vymezený čas - hodnocení]] .
 
 # Metoda
