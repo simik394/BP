@@ -1,0 +1,1 @@
+vymezený čas
