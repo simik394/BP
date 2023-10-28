@@ -1,3 +1,4 @@
+[typ::"Objective"] [pořadí::4] [stav::2%]
 # Dílčí cíl
 >  .
 
