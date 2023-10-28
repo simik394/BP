@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"68ca508d92848cb9","type":"group","x":-1240,"y":1000,"width":2600,"height":1560,"label":"Objectives"},
+		{"id":"68ca508d92848cb9","type":"group","x":-1240,"y":1000,"width":2600,"height":1560,"color":"5","label":"Objectives"},
+		{"id":"add7d42c31197cd3","type":"group","x":-702,"y":1060,"width":1494,"height":1400,"color":"3","label":"Literature analysis"},
 		{"id":"109645a9a69a8168","type":"group","x":-723,"y":-400,"width":1713,"height":840,"label":"aktuálně ve skautu..."},
-		{"id":"e7cfb9ab083f5995","x":-1220,"y":1060,"width":1018,"height":1400,"type":"group","label":"Interview/Survey"},
-		{"id":"add7d42c31197cd3","x":-188,"y":1060,"width":980,"height":1400,"type":"group","label":"Literature analysis"},
+		{"id":"e7cfb9ab083f5995","type":"group","x":-1220,"y":1060,"width":1018,"height":1400,"color":"2","label":"Interview/Survey"},
 		{"id":"25f076cfa67cf3e9","type":"group","x":-2960,"y":-1360,"width":790,"height":1120,"label":"src"},
 		{"id":"19f6c11ce3112398","type":"group","x":-720,"y":-920,"width":1710,"height":320,"label":"problémy Task mgmt ve skautu"},
 		{"id":"d190784facf33aed","type":"group","x":1760,"y":2100,"width":810,"height":600,"label":"Přínosy"},
@@ -46,11 +46,13 @@
 		{"id":"832737f5c852473d","type":"text","text":"dokumentové šablony","x":2580,"y":1254,"width":250,"height":60},
 		{"id":"22f89fd9f86e51e2","type":"text","text":"šablony a postupy pro hodnocení","x":3200,"y":1245,"width":250,"height":60},
 		{"id":"0d3e13492a7ebfb2","type":"text","text":"modely procesů při plánování, které využívají získaná data","x":3500,"y":1223,"width":250,"height":104},
-		{"id":"23b6cb03ab27308f","type":"file","file":"base/Objectives/pokus1/Plánované Parametry produktů.md","x":-1200,"y":1080,"width":498,"height":1360},
+		{"id":"23b6cb03ab27308f","type":"file","file":"base/Objectives/pokus1/Plánované pp.md","x":-1200,"y":1080,"width":498,"height":1360},
 		{"id":"150e5c2a3babed05","type":"file","file":"base/Objectives/pokus1/Hodnocení úspěšnosti.md","x":-702,"y":1080,"width":480,"height":1360},
 		{"id":"c888edc42484f7b7","type":"file","file":"base/Objectives/pokus1/Úspěšně komunikovat.md","x":840,"y":1080,"width":488,"height":1240},
-		{"id":"4608f46d9688515d","type":"file","file":"base/Objectives/pokus1/využívání záznamů.md","x":300,"y":1080,"width":472,"height":1280},
-		{"id":"4dfba84cfe4cb689","type":"file","file":"base/Objectives/pokus1/Datová struktura.md","x":-168,"y":1080,"width":468,"height":1360}
+		{"id":"4608f46d9688515d","type":"file","file":"base/Objectives/pokus1/využívání záznamů.md","x":300,"y":1080,"width":472,"height":1360},
+		{"id":"4dfba84cfe4cb689","type":"file","file":"base/Objectives/pokus1/Datová struktura.md","x":-168,"y":1080,"width":468,"height":1360},
+		{"id":"c5f9c4523809ab15","x":840,"y":1020,"width":250,"height":60,"type":"text","text":"Implementace"},
+		{"id":"d3c548a8783c7951","x":-2400,"y":946,"width":860,"height":1560,"type":"link","url":"https://lex.page/d/4585c3ea-a238-4898-b85b-559fff0125df"}
 	],
 	"edges":[
 		{"id":"175a95259fe9e856","fromNode":"8c9453545d0ac8be","fromSide":"bottom","toNode":"19f6c11ce3112398","toSide":"top"},
