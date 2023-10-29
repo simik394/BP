@@ -57,8 +57,10 @@
 		{"id":"dab593bb7059365e","type":"text","text":"Literaturní analýza-hodnocení schůzek a výprav\n> - hodnocení z hlediska skautského\n> - hodnocení z hlediska efektivity","x":-985,"y":2960,"width":283,"height":319},
 		{"id":"f7e5dfaa67ddb939","type":"file","file":"base/Cíl/Aim1.md","x":-3720,"y":220,"width":250,"height":151},
 		{"id":"0622351b78ea304b","type":"text","text":"Literaturní analýza-datová architektura,\n> Jak ukládat data aby byla přehledná a použitelná pro zápis i čtení","x":-120,"y":2922,"width":234,"height":396},
-		{"id":"f95dcba4b63372c0","x":360,"y":2979,"width":244,"height":221,"type":"text","text":"Literaturní analýza-nástroje a používání\n> Jak používat systém sdílených zkušeností?"},
-		{"id":"b6a3bd125a30a35d","x":835,"y":2979,"width":245,"height":161,"type":"text","text":"Implementace\n> určení úspěšnosti práce?"}
+		{"id":"b6a3bd125a30a35d","type":"text","text":"Implementace\n> určení úspěšnosti práce?","x":835,"y":2979,"width":245,"height":161},
+		{"id":"f95dcba4b63372c0","type":"text","text":"nástroje a používání\n> Jak používat systém sdílených zkušeností?","x":114,"y":3181,"width":244,"height":221},
+		{"id":"263d9d0276a7a957","x":320,"y":3328,"width":250,"height":60,"type":"text","text":"Nástrojeové možnosti"},
+		{"id":"a1aa47a319c3fd1c","x":280,"y":3388,"width":250,"height":60,"type":"text","text":"Uživatelské preference"}
 	],
 	"edges":[
 		{"id":"175a95259fe9e856","fromNode":"8c9453545d0ac8be","fromSide":"bottom","toNode":"19f6c11ce3112398","toSide":"top"},
