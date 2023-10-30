@@ -1,7 +1,8 @@
 {
 	"nodes":[
+		{"id":"a8624b0dd59ad15c","x":-744,"y":-1320,"width":1753,"height":2060,"type":"group","label":"Úvod-vlastní text práce 1"},
 		{"id":"68ca508d92848cb9","type":"group","x":-4286,"y":2020,"width":2037,"height":1360,"color":"5","label":"Objectives"},
-		{"id":"6f872daa1aa4b6f8","type":"group","x":-680,"y":960,"width":1520,"height":1080,"label":"BP-vlastní text práce [ ]"},
+		{"id":"6f872daa1aa4b6f8","type":"group","x":-680,"y":960,"width":1520,"height":1080,"label":"BP-vlastní text práce2 [ ]"},
 		{"id":"add7d42c31197cd3","type":"group","x":-3864,"y":2072,"width":1170,"height":1221,"color":"3","label":"Literature analysis"},
 		{"id":"e7cfb9ab083f5995","type":"group","x":-4270,"y":2072,"width":798,"height":1221,"color":"2","label":"Interview/Survey"},
 		{"id":"109645a9a69a8168","type":"group","x":-724,"y":-540,"width":1713,"height":540,"label":"aktuálně ve skautu..."},
@@ -68,11 +69,11 @@
 		{"id":"bb3e8e463a36ba16","type":"text","text":"2","x":-1966,"y":1084,"width":173,"height":76},
 		{"id":"27e55856c01e337a","type":"text","text":"3","x":-1792,"y":1100,"width":124,"height":60},
 		{"id":"172c5cda8ac151f4","type":"text","text":"6","x":-1692,"y":1232,"width":211,"height":80},
-		{"id":"f7e5dfaa67ddb939","type":"file","file":"base/Cíl/Aim.md","x":-369,"y":160,"width":938,"height":720},
 		{"id":"0622351b78ea304b","type":"text","text":"Literaturní rev\n-datová architektura,\n> Jak ukládat data aby byla přehledná a použitelná pro zápis i čtení","x":285,"y":1020,"width":400,"height":192},
 		{"id":"dab593bb7059365e","type":"text","text":"Literaturní rev\n-hodnocení schůzek a výprav\n> - hodnocení z hlediska skautského\n> - hodnocení z hlediska efektivity","x":-130,"y":1020,"width":399,"height":192},
 		{"id":"26d98077fe793d62","type":"text","text":"Návrh\n","x":-12,"y":1718,"width":250,"height":50},
-		{"id":"fa0ff77bed7b9f00","x":-560,"y":1039,"width":320,"height":140,"type":"text","text":"Literaturní rev\n> - skaut plánování programů"}
+		{"id":"fa0ff77bed7b9f00","x":-560,"y":1039,"width":320,"height":140,"type":"text","text":"Literaturní rev\n> - skaut plánování programů"},
+		{"id":"f7e5dfaa67ddb939","type":"file","file":"base/Cíl/Aim.md","x":-599,"y":60,"width":938,"height":660,"subpath":"#03"}
 	],
 	"edges":[
 		{"id":"175a95259fe9e856","fromNode":"8c9453545d0ac8be","fromSide":"bottom","toNode":"19f6c11ce3112398","toSide":"top"},
@@ -104,6 +105,7 @@
 		{"id":"e2c362f2b7a3c5fd","fromNode":"26d98077fe793d62","fromSide":"bottom","toNode":"b6a3bd125a30a35d","toSide":"top"},
 		{"id":"d323164a6fc73f89","fromNode":"f95dcba4b63372c0","fromSide":"bottom","toNode":"0a10f873b0512055","toSide":"top"},
 		{"id":"7163e22e28da0c64","fromNode":"d48a880415e56328","fromSide":"bottom","toNode":"0a10f873b0512055","toSide":"top"},
-		{"id":"d6df7b43a0a60233","fromNode":"fa0ff77bed7b9f00","fromSide":"bottom","toNode":"b9f157cf05f1871f","toSide":"top"}
+		{"id":"d6df7b43a0a60233","fromNode":"fa0ff77bed7b9f00","fromSide":"bottom","toNode":"b9f157cf05f1871f","toSide":"top"},
+		{"id":"c25a43f2b8f6f3c9","fromNode":"109645a9a69a8168","fromSide":"bottom","toNode":"f7e5dfaa67ddb939","toSide":"top"}
 	]
 }

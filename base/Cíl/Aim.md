@@ -19,4 +19,4 @@ zaznamenávání plánovaných programů (schůzek a výprav),
 hodnocení výsledků a 
 využívání získaných záznamů při dalším plánování
 v našem skautském oddíle, 
-které budou přijatelným kompromisem mezi nejlepšími známými postupy a momentálně zavedenou volnou formou řízení.
+které budou přijatelným kompromisem mezi nejlepšími dostupnými postupy a momentálně zavedeným volným stylem řízení.
