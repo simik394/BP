@@ -4,9 +4,9 @@ v: 03
 
 # BP
 ## Subject area: 
-- Task management [[Řízení úkolů]]
+- Task management ![[Řízení úkolů]]
 ## Sub-area:
-- Ve skautskám oddíle
+- !![[Ve skautskám oddíle]]
 ## Problem:
 - 
 ## Aspect of problem:
