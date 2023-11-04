@@ -4,9 +4,9 @@ v: 03
 
 # BP
 ## Subject area: 
-- Task management ![[Řízení úkolů]]
+- Task management [[Řízení úkolů]]
 ## Sub-area:
-- !![[Ve skautskám oddíle]]
+- [[Ve skautskám oddíle]]
 ## Problem:
 - 
 ## Aspect of problem:
@@ -14,7 +14,7 @@ v: 03
 ## Arguments:
 - 
 ## Aim:
-- 
+- Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
 ## Objectives:
 1. 
 ### Methods:
