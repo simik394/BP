@@ -4,26 +4,74 @@ v: 03
 
 # BP
 ## Subject area: 
+---
 - Task management [[Řízení úkolů]]
 ## Sub-area:
+---
 - [[Ve skautskám oddíle]]
+### argumenty:
+- 
+
+
 ## Problem:
+---
+### možné:
 - 
+### vybraný:
+- 
+### argumenty:
+- 
+
+
 ## Aspect of problem:
+---
+### možné:
 - 
-## Arguments:
-- 
+### vybraný:
+-
+### argumenty:
+-  
+
+
 ## Aim:
+---
 - Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
+### args:
+- 
+
+
 ## Objectives:
+---
 1. 
-### Methods:
+### args:
+-  
+
+## Methods:
+---
 1. 
-### Contributions:
+### args:
+- 
+
+
+## Deliverables
+---
+
+
+## Contributions:
+---
 1. 
-### Limitations:
+
+
+## Limitations:
+---
 1. 
+### args:
+- 
+
 
 ## Structure:
+---
+
 
 ## Time-plan:
+---
