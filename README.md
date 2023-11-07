@@ -11,4 +11,4 @@ produkty:
 - 
 ---
 
-[[Úvod]]
+[[Úvod-podklady]]
