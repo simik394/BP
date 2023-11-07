@@ -1,0 +1,1 @@
+// Pro situace, ve kterých je zdroj více cizí než můj. (u AI generování závisí na váženém poměru délky vstupu ku výstupu)

@@ -1,0 +1,1 @@
+// Pro situace, ve kterých vystupuje menší objem dat než vstupoval.
