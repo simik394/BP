@@ -1,1 +1,2 @@
 // Pro situace, ve kterých vystupuje menší objem dat než vstupoval.
+// Zotero(extrahuje z dlouhých textů žádané informace (shora))+Obsidian(spíš filtruje - z většího množství drobných střepů(ze spodu))
