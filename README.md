@@ -7,5 +7,11 @@ dílčí cíle:
 metody: 
 produkty: 
 ---
-
+# Folders
+---
+1. resources - 
+2. out - 
+3. target - 
+# Sections
+---
 [[Úvod-podklady]]
