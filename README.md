@@ -14,4 +14,4 @@ produkty:
 3. target - 
 # Sections
 ---
-[[Úvod-podklady]]
+[[BP.Úvod.Podklady]] 

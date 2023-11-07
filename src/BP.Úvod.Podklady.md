@@ -1,4 +1,3 @@
-# BP
 ## Subject area: 
 ---
 - Task management [[Řízení úkolů]]
@@ -24,7 +23,7 @@
 ### možné:
 - 
 ### vybraný:
--
+- 
 ### argumenty:
 -  
 
