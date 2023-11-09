@@ -12,7 +12,7 @@ produkty:
 1. 
 # Sources
 ---
-1. [[BP.Úvod.Podklady]] 
+1. [[BPPodklady]] 
 
 # Sections
 ---
