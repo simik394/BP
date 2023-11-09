@@ -15,10 +15,12 @@ Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 ## Problem:
 ---
 ### možné:
+![[ZotRepBPProblems]]
 
 ### vybraný:
 
 ### argumenty:
+- 
 
 ## Aspect of problem:
 ---
@@ -28,14 +30,18 @@ Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 
 ### argumenty:
 
+
 ## Aim:
 ---
 - Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
 
 ### args:
+- 
 
 ## Objectives:
 ---
+1. j
+2. 
 ### args:
 
 ## Methods:
