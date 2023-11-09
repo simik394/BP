@@ -1,19 +1,18 @@
-# BP.Podklady.Úvod.v3
-
-## Subject area:
-
+---
+v: 3
 ---
 
-- Task management [[Řízení úkolů]]
+# Podklady.Úvod
+
+## Subject area:
+---
+
+Task management:!![[Řízení úkolů]]
 
 ## Sub-area:
 
 ---
-
-- [[Ve skautskám oddíle]]
-
-### argumenty:
-
+Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 ## Problem:
 
 ---
