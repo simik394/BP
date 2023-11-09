@@ -7,11 +7,12 @@ dílčí cíle:
 metody: 
 produkty: 
 ---
-# Folders
+# Branches
 ---
-1. resources - 
-2. out - 
-3. target - 
+1. 
+# Sources
+---
+1. [[BP.Úvod.Podklady]] 
+
 # Sections
 ---
-[[BP.Úvod.Podklady]] 
