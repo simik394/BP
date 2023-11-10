@@ -6,77 +6,146 @@ modified: true
 
 ## 1
 
-[Go to annotation](zotero://open-pdf/library/items/HJQEIRD9?page=12&annotation=9HQRUXA7) “Cíle práceCílem práce je navrhnout desktopovou aplikaci v jazyku C#, MySQL databází a jednoduchý testovací e-shop, která umožní administrátorům/povolaným lidem zobrazit data prodejů e-shopu ve vizuální přehledné formě. Vizuální forma dat často vede k zlepšení odhadu budoucí situace, tudíž i větší šanci pro maximalizaci zisků firmy.Dílčí kroky pro naplnění cíle práce jsou:- Vymezení požadavků, které má aplikace vizualizující data splňovat- Promyšlení návrhu schématu databáze tak, aby obsahovala vše potřebné pro uložení dat obchodu, ale zároveň neobsahovala zbytečné tabulky- Logický návrh databáze a její následná implementace a naplnění vzorovými daty- Implementace internetového obchodu, který využívá schéma databáze vytvořené v této práci- Implementace aplikace, komunikující se serverem na kterém je databáze uložena- Testování chyb- Sběr zpětné vazby v podobě dotazníku a komunikací s osobami” ([Šubrt, p. 12](zotero://select/library/items/U4V9H8RW))
+[Go to annotation](zotero://open-pdf/library/items/HJQEIRD9?page=12&annotation=9HQRUXA7)
+> **“Cíle práceCílem práce je navrhnout desktopovou aplikaci v jazyku C#, MySQL databází a jednoduchý testovací e-shop, která umožní administrátorům/povolaným lidem zobrazit data prodejů e-shopu ve vizuální přehledné formě. **^buwqco
 
-[Go to annotation](zotero://open-pdf/library/items/HJQEIRD9?page=53&annotation=TK5ZCBKY) “Shrnutí zpětné vazby pro web” ([Šubrt, p. 53](zotero://select/library/items/U4V9H8RW)) výsledky získány:  
-návrh DB  
-implementace+ get feedback
+Vizuální forma dat často vede k zlepšení odhadu budoucí situace, tudíž i větší šanci pro maximalizaci zisků firmy.
+**Dílčí kroky** pro naplnění cíle práce jsou:
+- Vymezení požadavků, které má aplikace vizualizující data splňovat- Promyšlení návrhu schématu databáze tak, aby obsahovala vše potřebné pro uložení dat obchodu, ale zároveň neobsahovala zbytečné tabulky
+- Logický návrh databáze a její následná implementace a naplnění vzorovými daty
+- Implementace internetového obchodu, který využívá schéma databáze vytvořené v této práci
+- Implementace aplikace, komunikující se serverem na kterém je databáze uložena
+- Testování chyb- Sběr zpětné vazby v podobě dotazníku a komunikací s osobami” ([Šubrt, p. 12](zotero://select/library/items/U4V9H8RW))
+
+[Go to annotation](zotero://open-pdf/library/items/HJQEIRD9?page=53&annotation=TK5ZCBKY) “Shrnutí zpětné vazby pro web” ([Šubrt, p. 53](zotero://select/library/items/U4V9H8RW)) 
+výsledky získány:  
+> návrh DB  
+> implementace+ get feedback
+
+^qz5g5b
 
 ---
 
 ## 2
 
-[Go to annotation](zotero://open-pdf/library/items/D42BJKK2?page=14&annotation=C42JAHGJ) “Hlavním cílem předložené práce je porovnat vybrané cloudové databáze (database-as-aservice) z hlediska nabízených možností ochrany dat. Ve výsledku by čtenář měl být schopen samostatně rozhodovat o výhodách či nevýhodách určité platformy, tudíž cílem není doporučit konkrétní službu, ale zmapovat základní bezpečnostní rizika a doporučení z oblasti datové bezpečnosti (best practices) a na základě těchto poznatků provést hodnocení vybraných DBaaS. Práce by měla být přínosná zejména pro studenty zajímající se o problematiku bezpečnosti dat, pro manažery rozhodující o zapojení určitého nástroje do projektu či pro správce databáze.” ([“Bezpečnost SQL databázových služeb v cloudu.pdf”, p. 14](zotero://select/library/items/P6R5U2SM))
+[Go to annotation](zotero://open-pdf/library/items/D42BJKK2?page=14&annotation=C42JAHGJ) 
+> **“Hlavním cílem předložené práce je porovnat vybrané cloudové databáze (database-as-aservice) z hlediska nabízených možností ochrany dat.** ^7hsjqk
+
+Ve **výsledku by čtenář měl být schopen samostatně rozhodovat o výhodách či nevýhodách určité platformy,** tudíž cílem není doporučit konkrétní službu, ale zmapovat základní bezpečnostní rizika a doporučení z oblasti datové bezpečnosti (best practices) a na základě těchto poznatků provést hodnocení vybraných DBaaS. 
+Práce by měla být **přínosná** zejména pro studenty zajímající se o problematiku bezpečnosti dat, pro manažery rozhodující o zapojení určitého nástroje do projektu či pro správce databáze.” ([“Bezpečnost SQL databázových služeb v cloudu.pdf”, p. 14](zotero://select/library/items/P6R5U2SM))
 
 [Go to annotation](zotero://open-pdf/library/items/D42BJKK2?page=42&annotation=HF9F2HK8) “Hodnocení vybraných služeb” ([“Bezpečnost SQL databázových služeb v cloudu.pdf”, p. 42](zotero://select/library/items/P6R5U2SM)) výsledky získány:  
-porovnáním služeb podle dohledatelných parametrů
+> porovnáním služeb podle dohledatelných parametrů
+
+^5u9l9b
 
 ---
 
 ## 3
 
-[Go to annotation](zotero://open-pdf/library/items/P69LC79M?page=6&annotation=JYQ6JIWA) “Hlavním cílem bakalářské práce je analyzovat kontrolní hlášení na daňové úniky v oblasti daně z přidané hodnoty. Ke splnění hlavního cíle jsou využita data z Výročních zpráv a statistik Finanční správy za dané časové období. Další fází je pak posouzení administrativních nákladů z hlediska nákladovosti a efektivnosti správy daní” ([“Daňové úniky v oblasti DPH.pdf”, p. 6](zotero://select/library/items/9LCM3WJW))
+[Go to annotation](zotero://open-pdf/library/items/P69LC79M?page=6&annotation=JYQ6JIWA) 
+> **“Hlavním cílem bakalářské práce je analyzovat kontrolní hlášení na daňové úniky v oblasti daně z přidané hodnoty.** ^mxp1pw
 
-[Go to annotation](zotero://open-pdf/library/items/P69LC79M?page=43&annotation=UECGLZ5Y) “Efektivnost” ([“Daňové úniky v oblasti DPH.pdf”, p. 43](zotero://select/library/items/9LCM3WJW)) výsledky získány:  
-vyhodnocením čícel z výročních zpráv
+Ke splnění hlavního cíle jsou využita data z Výročních zpráv a statistik Finanční správy za dané časové období. 
+Další fází je pak posouzení administrativních nákladů z hlediska nákladovosti a efektivnosti správy daní” ([“Daňové úniky v oblasti DPH.pdf”, p. 6](zotero://select/library/items/9LCM3WJW))
+
+[Go to annotation](zotero://open-pdf/library/items/P69LC79M?page=43&annotation=UECGLZ5Y) “Efektivnost” ([“Daňové úniky v oblasti DPH.pdf”, p. 43](zotero://select/library/items/9LCM3WJW)) 
+výsledky získány:  
+> vyhodnocením čícel z výročních zpráv
+
+^zo4trg
 
 ---
 
 ## 4
 
-[Go to annotation](zotero://open-pdf/library/items/4EDC9SU2?page=1&annotation=F5ZIJWF7) “Proto se tato práce zabývá právě interní komunikací konkrétního rodinného podniku, kde interní komunikace funguje především na neformální rovině. A to vzhledem k velikosti podniku, ale také vedení, které se snaží své zaměstnance brát spíše jako rodinu. Nicméně, stále se jedná o pracovní prostředí, kde se informacím ohledně náplně práce nevyhnete a asi jako všude jinde, komunikace občas není dostačující a dochází k neshodám. Touto prací autorka identifikuje oblasti, ve kterých podle zaměstnanců komunikace vázne nejvíce, a to pomocí standardizovaného dotazníku ICSQ, na které navazují rozhovory se zaměstnanci a poté i se zaměstnavatelem. Tomu byl sdělen výsledek dotazníku, tzn. které oblasti interní komunikace vyšly u zaměstnanců jako ty nejproblematičtější. Autorka zjišťovala jeho názor a možná řešení pro zlepšení komunikace v těchto oblastech” ([“Identifikace a popis slabin interní komunikace v malém podniku.pdf”, p. 1](zotero://select/library/items/94IQMYW6))
+[Go to annotation](zotero://open-pdf/library/items/4EDC9SU2?page=1&annotation=F5ZIJWF7) 
+> **“Proto se tato práce zabývá právě interní komunikací konkrétního rodinného podniku, kde interní komunikace funguje především na neformální rovině.**^4am1or
 
-[Go to annotation](zotero://open-pdf/library/items/4EDC9SU2?page=41&annotation=K2M7EZFB) “Shrnutí navržených řešení” ([“Identifikace a popis slabin interní komunikace v malém podniku.pdf”, p. 41](zotero://select/library/items/94IQMYW6)) výsledky získány:  
-dotazníky+vyhodnocení (interní komunikace)  
-+jedna stránka doporučení
+A to vzhledem k velikosti podniku, ale také vedení, které se snaží své zaměstnance brát spíše jako rodinu. Nicméně, stále se jedná o pracovní prostředí, kde se informacím ohledně náplně práce nevyhnete a asi jako všude jinde, komunikace občas není dostačující a dochází k neshodám. 
+Touto prací autorka identifikuje oblasti, ve kterých podle zaměstnanců komunikace vázne nejvíce, a to pomocí standardizovaného dotazníku ICSQ, na které navazují rozhovory se zaměstnanci a poté i se zaměstnavatelem. Tomu byl sdělen výsledek dotazníku, tzn. které ^7wohpm oblasti interní komunikace vyšly u zaměstnanců jako ty nejproblematičtější. Autorka zjišťovala jeho názor a možná řešení pro zlepšení komunikace v těchto oblastech” ([“Identifikace a popis slabin interní komunikace v malém podniku.pdf”, p. 1](zotero://select/library/items/94IQMYW6))
+
+[Go to annotation](zotero://open-pdf/library/items/4EDC9SU2?page=41&annotation=K2M7EZFB) “Shrnutí navržených řešení” ([“Identifikace a popis slabin interní komunikace v malém podniku.pdf”, p. 41](zotero://select/library/items/94IQMYW6)) 
+výsledky získány:  
+> dotazníky+vyhodnocení (interní komunikace)  
+> +jedna stránka doporučení
+
+^yix63n
 
 ---
 
 ## 5
 
-[Go to annotation](zotero://open-pdf/library/items/232EWF2F?page=2&annotation=2F5RN8NJ) “Cílem práce je porovnat obchodní modely společností ze streamovacího odvětví využívající příjmový model předplatného, vyhodnotit možná specifika těchto modelů a identifikovat jejich rozdíly.” ([“Komparace obchodních modelů streamovacích společností využívající příjmový model předplatného.pdf”, p. 2](zotero://select/library/items/X8VPBM6L))
+[Go to annotation](zotero://open-pdf/library/items/232EWF2F?page=2&annotation=2F5RN8NJ) 
+> **“Cílem práce je porovnat obchodní modely společností ze streamovacího odvětví využívající příjmový model předplatného, vyhodnotit možná specifika těchto modelů a identifikovat jejich rozdíly.”** ^tygfxn
 
-[Go to annotation](zotero://open-pdf/library/items/232EWF2F?page=2&annotation=HUYYSU3C) “Cíle práce bude v praktické části dosaženo nejprve sestavením Business Model Canvasů pro každou z vybraných společností. Business Model Canvasy budou sestaveny obsahovou analýzou s využitím účetních závěrek daných společností a vybraných poměrových ukazatelů finanční analýzy. Následně bude pro identifikaci rozdílů a různých forem obchodních modelů využita metoda komparace. Všechna data, která budou v práci využívána nebudou získávána přímo autorem práce, nýbrž systematickou analýzou již zpracovaných analýz obchodních modelů, informacemi z webových stránek, účetních závěrek porovnávaných společností či z nejrůznějších rozhovorů a článků z respektovaných zahraničních médií. V práci budou blíže specifikovány koncepty Business Model Canvasu, příjmového modelu a také příjmového modelu předplatného, včetně jeho modifikací, výhod a nevýhod. V práci bude zmíněná ekonomika předplatného, proč se její popularita zvedá a čím je to způsobeno. V praktické části práce bude sestaveno 7 Businesss Model Canvasů pro vybrané streamovací společnosti na jejichž základě budou následně společnosti komparovány.” ([“Komparace obchodních modelů streamovacích společností využívající příjmový model předplatného.pdf”, p. 2](zotero://select/library/items/X8VPBM6L))
+([“Komparace obchodních modelů streamovacích společností využívající příjmový model předplatného.pdf”, p. 2](zotero://select/library/items/X8VPBM6L))
 
-[Go to annotation](zotero://open-pdf/library/items/232EWF2F?page=62&annotation=C4YYWDLR) “Shrnutí poznatků ze sestanování BMC” ([“Komparace obchodních modelů streamovacích společností využívající příjmový model předplatného.pdf”, p. 62](zotero://select/library/items/X8VPBM6L)) výsledky získány:  
-další standartizovaná analýza vykazovaných čísel
+[Go to annotation](zotero://open-pdf/library/items/232EWF2F?page=2&annotation=HUYYSU3C) 
+> **“Cíle práce bude v praktické části dosaženo nejprve sestavením Business Model Canvasů pro každou z vybraných společností.** 
+
+Business Model Canvasy budou sestaveny obsahovou analýzou s využitím účetních závěrek daných společností a vybraných poměrových ukazatelů finanční analýzy. 
+Následně bude pro identifikaci rozdílů a různých forem obchodních modelů využita metoda komparace. 
+Všechna data, která budou v práci využívána nebudou získávána přímo autorem práce, nýbrž systematickou analýzou již zpracovaných analýz obchodních modelů, informacemi z webových stránek, účetních závěrek porovnávaných společností či z nejrůznějších rozhovorů a článků z respektovaných zahraničních médií. 
+V práci budou blíže specifikovány koncepty Business Model Canvasu, příjmového modelu a také příjmového modelu předplatného, včetně jeho modifikací, výhod a nevýhod. 
+V práci bude zmíněná ekonomika předplatného, proč se její popularita zvedá a čím je to způsobeno. 
+V praktické části práce bude sestaveno 7 Businesss Model Canvasů pro vybrané streamovací společnosti na jejichž základě budou následně společnosti komparovány.” ([“Komparace obchodních modelů streamovacích společností využívající příjmový model předplatného.pdf”, p. 2](zotero://select/library/items/X8VPBM6L))
+
+[Go to annotation](zotero://open-pdf/library/items/232EWF2F?page=62&annotation=C4YYWDLR) “Shrnutí poznatků ze sestanování BMC” ([“Komparace obchodních modelů streamovacích společností využívající příjmový model předplatného.pdf”, p. 62](zotero://select/library/items/X8VPBM6L)) 
+výsledky získány:  
+> další standartizovaná analýza vykazovaných čísel
+
+^yr8gqt
 
 ---
 
 ## 6
 
-[Go to annotation](zotero://open-pdf/library/items/2A427FY7?page=5&annotation=W3UA4TG3) “Cílem bakalářské práce je zjistit, jak funguje zaměstnanecký benefit neomezené dovolené ve firmách v České republice, jakým způsobem je aplikovatelný, užívaný zaměstnanci a co přináší jeho užívání firmám. Cílem empirického šetření je porovnat fungování, přínosy a spokojenost s neomezenou dovolenou ve zkoumaných firmách. Bakalářská práce je určena firmám, které zvažují zavedení neomezené dovolené v rámci zaměstnaneckých benefitů.” ([“Neomezená dovolená ve firmách v České republice.pdf”, p. 5](zotero://select/library/items/BEE4PRSK))
+[Go to annotation](zotero://open-pdf/library/items/2A427FY7?page=5&annotation=W3UA4TG3) 
+> **“Cílem bakalářské práce je zjistit, jak funguje zaměstnanecký benefit neomezené dovolené ve firmách v České republice, jakým způsobem je aplikovatelný, užívaný zaměstnanci a co přináší jeho užívání firmám.** ^38r0z8
 
-[Go to annotation](zotero://open-pdf/library/items/2A427FY7?page=23&annotation=G2IM9ARP) “Tvorba a sběr dat” ([“Neomezená dovolená ve firmách v České republice.pdf”, p. 23](zotero://select/library/items/BEE4PRSK)) výsledky získány:  
-jak funguje? takže sběr dat+vyhodnocení
+Cílem empirického šetření je porovnat fungování, přínosy a spokojenost s neomezenou dovolenou ve zkoumaných firmách. 
+Bakalářská práce je určena firmám, které zvažují zavedení neomezené dovolené v rámci zaměstnaneckých benefitů.” ([“Neomezená dovolená ve firmách v České republice.pdf”, p. 5](zotero://select/library/items/BEE4PRSK))
+
+[Go to annotation](zotero://open-pdf/library/items/2A427FY7?page=23&annotation=G2IM9ARP) “Tvorba a sběr dat” ([“Neomezená dovolená ve firmách v České republice.pdf”, p. 23](zotero://select/library/items/BEE4PRSK)) 
+výsledky získány:  
+> jak funguje? takže sběr dat+vyhodnocení
+
+^b6udut
 
 ---
 
-[Go to annotation](zotero://open-pdf/library/items/WAJJ4PXD?page=8&annotation=EX6KY7HR) “Cílem této práce je ukázat, jak se poker odlišuje od ostatních karetních her, a najít optimální strategii, která přinese hráči největší výnos.” ([“Populární karetní hry z pohledu teorie her.pdf”, p. 8](zotero://select/library/items/8C75IEEV))
+[Go to annotation](zotero://open-pdf/library/items/WAJJ4PXD?page=8&annotation=EX6KY7HR) 
+> **“Cílem této práce je ukázat, jak se poker odlišuje od ostatních karetních her, a najít optimální strategii, která přinese hráči největší výnos.”** 
+
+([“Populární karetní hry z pohledu teorie her.pdf”, p. 8](zotero://select/library/items/8C75IEEV))
 
 ---
 
 ## 7
 
-[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=8&annotation=BWBTQR66) “Hlavním cílem je analýza stávající situace a návrh optimálního modelu řízení úkolů, pomocí kterého bude společnost efektivně řídit jak na úrovni zaměstnanců, tak projektů. Sekundárním cílem je vytvoření stabilního a předatelného dokumentu, který bude představovat základní know-how. Následně bude nutné soustavnou snahou pracovat na tom, aby se modelu celé Cleevio přiblížilo v největší možné míře. Přínosy plynou ze samotného tématu a důvodů, pro které jsem si zadání vybral. V dlouhodobém měřítku může firma uspořit velkou sumu na nákladech - svých vlastních i nákladech klientů, kteří s Cleeviem spolupracují. 9 Dále mohou zlepšit pracovní morálku. Obecným přínosem bude větší organizovanost, přehlednost a stabilita při zadání, plnění a kontrole úkolů.” ([“tm4cleevio.pdf”, p. 8](zotero://select/library/items/SZ6BUKFB))
+[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=8&annotation=BWBTQR66) 
+> **“Hlavním cílem je analýza stávající situace a návrh optimálního modelu řízení úkolů, pomocí kterého bude společnost efektivně řídit jak na úrovni zaměstnanců, tak projektů.**  ^51xp69
 
-[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=9&annotation=ZMIAATUI) “Základním předpokladem úspěchu bude nasazení konkrétního nástroje a modelu do společnosti, následné seznámení personálu společnosti s modelem a kontrola jeho plnění. Změna se dotkne každého a je nezbytné, aby byl model dodržován každým jednotlivcem, jedině tak můžeme dosáhnout výsledného efektu a změnit tak dlouhodobé a zatvrzelé postupy, které jsou v současnosti nastaveny. S výše zmíněným jsou spojeny náklady za nástroj jako takový, čas strávený na implementaci a představení. Základní omezení provozu se nepředpokládají, neboť Cleevio není natolik velkou a rozmanitou firmou, aby se veškeré úkony nedaly zvládnout přímo za chodu.” ([“tm4cleevio.pdf”, p. 9](zotero://select/library/items/SZ6BUKFB))
+> Sekundárním cílem je vytvoření stabilního a předatelného dokumentu, který bude představovat základní know-how. Následně bude nutné soustavnou snahou pracovat na tom, aby se modelu celé Cleevio přiblížilo v největší možné míře. 
 
-[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=52&annotation=QBU9ER5Q) “Pokud bych měl shrnout mé úsilí a zhodnotit naplnění cílů, myslím si, že práce je, a ještě bude, úspěšná” ([“tm4cleevio.pdf”, p. 52](zotero://select/library/items/SZ6BUKFB))
+Přínosy plynou ze samotného tématu a důvodů, pro které jsem si zadání vybral. V dlouhodobém měřítku může firma uspořit velkou sumu na nákladech - svých vlastních i nákladech klientů, kteří s Cleeviem spolupracují. 9 Dále mohou zlepšit pracovní morálku. 
+Obecným přínosem bude větší organizovanost, přehlednost a stabilita při zadání, plnění a kontrole úkolů.” ([“tm4cleevio.pdf”, p. 8](zotero://select/library/items/SZ6BUKFB)) ^ndclz9
 
-[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=52&annotation=JNG98CIG) “. Již v tuto chvíli je znatelná pohodlnější organizace z role projektových manažerů a zvýšení produktivity ze strany developerů a testerů.” ([“tm4cleevio.pdf”, p. 52](zotero://select/library/items/SZ6BUKFB))
+[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=9&annotation=ZMIAATUI) 
+“Základním předpokladem úspěchu bude nasazení konkrétního nástroje a modelu do společnosti, následné seznámení personálu společnosti s modelem a kontrola jeho plnění. 
+Změna se dotkne každého a je nezbytné, aby byl model dodržován každým jednotlivcem, jedině tak můžeme dosáhnout výsledného efektu a změnit tak dlouhodobé a zatvrzelé postupy, které jsou v současnosti nastaveny. 
+S výše zmíněným jsou spojeny náklady za nástroj jako takový, čas strávený na implementaci a představení. Základní omezení provozu se nepředpokládají, neboť Cleevio není natolik velkou a rozmanitou firmou, aby se veškeré úkony nedaly zvládnout přímo za chodu.” ([“tm4cleevio.pdf”, p. 9](zotero://select/library/items/SZ6BUKFB))
 
-[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=52&annotation=3YTICQYZ) “Myslím si, že struktura i náplň druhé primárně praktické části je naprosto dostačujícím dokumentem. N” ([“tm4cleevio.pdf”, p. 52](zotero://select/library/items/SZ6BUKFB))
+[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=52&annotation=QBU9ER5Q) 
+> “Pokud bych měl shrnout mé úsilí a zhodnotit naplnění cílů, myslím si, že práce je, a ještě bude, úspěšná”
+([“tm4cleevio.pdf”, p. 52](zotero://select/library/items/SZ6BUKFB))
+[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=52&annotation=JNG98CIG) 
+“. Již v tuto chvíli je znatelná pohodlnější organizace z role projektových manažerů a zvýšení produktivity ze strany developerů a testerů.”
+([“tm4cleevio.pdf”, p. 52](zotero://select/library/items/SZ6BUKFB))
+[Go to annotation](zotero://open-pdf/library/items/DVCDTQDB?page=52&annotation=3YTICQYZ) 
+"Myslím si, že struktura i náplň druhé primárně praktické části je naprosto dostačujícím dokumentem. N”
+([“tm4cleevio.pdf”, p. 52](zotero://select/library/items/SZ6BUKFB))
 
 ---
 
