@@ -10,7 +10,6 @@ produkty:
 ---
 # Branches
 ---
-1. 
 # Sources
 ---
 !![[BPPodklady]] 
