@@ -114,7 +114,7 @@ Při formulaci cílů své bakalářské práce se poraďte se svým vedoucím p
 
 [Go to annotation](zotero://open-pdf/library/items/KEDJRN34?page=&annotation=VP5SEXQA) “V explicitním stanovení cílů pro bakalářskou práci by mělo být zahrnuto následující:” ([“Explicitní cíle - chatall”](zotero://select/library/items/8GGMBJNA))
 
-- [ ]Výzkumné otázky: Jsou to základní přírodovědné otázky, které práce zjišťuje nebo zodpovídá. Výzkumné otázky by měly být zpřístupněny a srozumitelné pro laiky.  
+- [ ] Výzkumné otázky: Jsou to základní přírodovědné otázky, které práce zjišťuje nebo zodpovídá. Výzkumné otázky by měly být zpřístupněny a srozumitelné pro laiky.  
 - [ ] Hypotézy: Jsou to předpoklady o tom, jaký je výsledek výzkumu. Hypotézy by měly být specifické a zahrnovat predikce, které by měly být testovány.  
 - [ ] Obsahová část: Popisuje, co práce obsahuje, jaké jsou její hlavní kapitoly, sekundární zdroje a další relevantní informace.  
 - [ ] Metodologie: Popisuje, jakým způsobem bude proveden výzkum, jaké metody a techniky budou použity a jak budou data shromažďována, analyzována a zhodnocována.  
@@ -151,7 +151,7 @@ Ohled na požadavky zadavatele práce
 
 ---
 
-# Llama2
+## Llama2
 
 [Go to annotation](zotero://open-pdf/library/items/KEDJRN34?page=&annotation=W2L6AWLR) “Explicitní stanovení cílů je důležité pro bakalářskou práci, protože pomáhá zajistit, že se pracoviště a výsledky orientují na významných a measurableach goalích.” ([“Explicitní cíle - chatall”](zotero://select/library/items/8GGMBJNA))
 
