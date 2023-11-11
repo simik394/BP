@@ -13,13 +13,11 @@ Task management:!![[Řízení úkolů]]
 ---
 Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 ## Problem:
----
 - [ ] prob
 ### možné:
-[[ZotRepBPProblems]]
-
+- 
 ### vybraný:
-
+> kkk
 ### argumenty:
 - 
 
