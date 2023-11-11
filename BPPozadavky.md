@@ -7,7 +7,7 @@ modified: true
 
 - [ ] Zvolené téma rozvádí, stručně ho zasazuje do souvislostí (může zde být i popis motivace k sepsání práce) a odpovídá na otázku, proč bylo téma zvoleno. Zasazuje téma do souvislostí a zdůvodňuje jeho nutnost a aktuálnost řešení.  
   
-- [ ] Obsahuje [[ExplicitniCileChatall]]. Text cíle práce je shodný s textem, který je uveden v zadání bakalářské práce, tj. s textem, který je uveden v systému InSIS a který je také uveden v části Abstrakt.  
+- [ ] Obsahuje [[ExplicitniCilePrace]]. Text cíle práce je shodný s textem, který je uveden v zadání bakalářské práce, tj. s textem, který je uveden v systému InSIS a který je také uveden v části Abstrakt.  
 
 - [ ] Součástí úvodu je také stručné představení postupu zpracování práce (detailně je metodě zpracování věnována samostatná část vlastního textu práce).  
   
@@ -23,4 +23,4 @@ modified: true
   
 - [ ] Uvádí, že na problém, či jeho řešení lze nahlížet různě (Aspect of problem). Stručně argumentuje volbu problému a aspektu  
   
-- [ ] a následně [[ExplicitniCileChatall]].
+- [ ] a následně [[ExplicitniCilePrace]].

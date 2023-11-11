@@ -1,6 +1,3 @@
----
-modified: true
----
 # Explicitní cíle
 
 ---
@@ -10,7 +7,7 @@ modified: true
 [Go to annotation](zotero://open-pdf/library/items/KEDJRN34?page=&annotation=8UNZ66HR) “Explicitní stanovení cílů pro bakalářskou práci je klíčové pro úspěšné dokončení projektu. Zahrnout byste měl následující body:” ([“Explicitní cíle - chatall”](zotero://select/library/items/8GGMBJNA))
 
 - [ ] **Formulace hlavního cíle:** Jasně a stručně vymeňte, co chcete v rámci práce dosáhnout. Hlavní cíl by měl být konkrétní, měřitelný, dosažitelný, relevantní a vázaný na čas (SMART cíl).  
-   ^eaaapw
+  
 - [ ] **Stanovení podcílů**: Rozdělte hlavní cíl na menší kroky nebo úkoly, které je třeba splnit k dosažení hlavního cíle. Tyto podcíle by měly být také SMART.  
   
 - [ ] **Omezení a rozsah práce**: Definujte rozsah práce a určte, co bude zahrnuto a co nikoli. Uveďte, které metody a techniky budete používat, a také jaké budou omezení vaší studie.  
@@ -34,7 +31,7 @@ Bard
 
 [Go to annotation](zotero://open-pdf/library/items/KEDJRN34?page=&annotation=YCBMBSL7) “Explicitní stanovení cílů pro bakalářskou práci by mělo zahrnovat následující:” ([“Explicitní cíle - chatall”](zotero://select/library/items/8GGMBJNA))
 
-- [ ] Jasně a jednoznačně definovaný cíl práce. Cíl by měl být formulován tak, aby bylo jasné, co se má v práci dosáhnout. Vyvarujte se příliš obecných cílů, jako je například “prozkoumat téma X”. Cílem by mělo být něco konkrétního, jako například “vytvořit model pro predikci cen akcií” nebo “analyzovat účinnost nové léčby rakoviny”.   ^cec9b1
+- [ ] Jasně a jednoznačně definovaný cíl práce. Cíl by měl být formulován tak, aby bylo jasné, co se má v práci dosáhnout. Vyvarujte se příliš obecných cílů, jako je například “prozkoumat téma X”. Cílem by mělo být něco konkrétního, jako například “vytvořit model pro predikci cen akcií” nebo “analyzovat účinnost nové léčby rakoviny”.  
 - [ ] Dílčí cíle. Dílčí cíle pomáhají rozdělit hlavní cíl práce na menší a zvládnutelnější úkoly. Dílčí cíle by měly být logicky odvozeny z hlavního cíle a měly by být měřitelné.  
 - [ ] Výstupy práce. Výstupy práce jsou výsledky práce, které jsou výsledkem dosažení cílů. Výstupy by měly být konkrétní a měřitelné.  
   
@@ -151,7 +148,7 @@ Ohled na požadavky zadavatele práce
 
 ---
 
-## Llama2
+# Llama2
 
 [Go to annotation](zotero://open-pdf/library/items/KEDJRN34?page=&annotation=W2L6AWLR) “Explicitní stanovení cílů je důležité pro bakalářskou práci, protože pomáhá zajistit, že se pracoviště a výsledky orientují na významných a measurableach goalích.” ([“Explicitní cíle - chatall”](zotero://select/library/items/8GGMBJNA))
 
