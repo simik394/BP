@@ -1,1 +1,0 @@
-mapování problematiky
