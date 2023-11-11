@@ -14,8 +14,9 @@ Task management:!![[Řízení úkolů]]
 Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 ## Problem:
 ---
+- [ ] prob
 ### možné:
-![[ZotRepBPProblems]]
+[[ZotRepBPProblems]]
 
 ### vybraný:
 
@@ -24,6 +25,7 @@ Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 
 ## Aspect of problem:
 ---
+- [ ] asspekt
 ### možné:
 
 ### vybraný:
@@ -33,6 +35,7 @@ Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 
 ## Aim:
 ---
+- [ ] aim
 - Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
 
 ### args:
@@ -40,26 +43,30 @@ Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 
 ## Objectives:
 ---
+- [ ] o
 1. j
 2. 
 ### args:
 
 ## Methods:
 ---
+- [ ] m
 ### args:
 
 ## Deliverables
 ---
-
+- [ ] d
 ## Contributions:
 ---
-
+- [ ] c
 ## Limitations:
 ---
+- [ ] l
 ### args:
 
 ## Structure:
 ---
-
+- [ ] s
 ## Time-plan:
 ---
+- [ ] p
