@@ -15,6 +15,8 @@ Ve skautskám oddíle:!![[Ve skautskám oddíle]]
 ## Problem:
 - [ ] prob
 ### možné:
+- komunikace
+- delegování
 - 
 ### vybraný:
 > kkk
