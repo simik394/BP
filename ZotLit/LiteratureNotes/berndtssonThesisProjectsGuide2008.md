@@ -9,9 +9,13 @@ citekey: berndtssonThesisProjectsGuide2008
 
 [Zotero](zotero://select/library/items/6YF7HRFU) 
 
+  <u>Extra:</u> 
+  agrE
+
+
 > [!yellow] [](zotero://open-pdf/library/items/NT5KVCQV?page=53&annotation=3ELSRM45) Page 44
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > gg
@@ -20,8 +24,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!#fff066] [Developing your Aim](zotero://open-pdf/library/items/NT5KVCQV?page=54&annotation=ZWV9QHIK) Page 45
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > Dobrý den, toto je Edge Copilot. Rád vám pomohu. 😊
@@ -55,8 +59,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!#fff066] [Objectives](zotero://open-pdf/library/items/NT5KVCQV?page=63&annotation=EKCR9ALW) Page 54
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > Dobrý den, toto je Edge Copilot. Pomohu vám s vaším dotazem. 😊
@@ -72,8 +76,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!#fff066] [Literature Analysis](zotero://open-pdf/library/items/NT5KVCQV?page=67&annotation=K5IQYFHV) Page 67
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > By literature analysis we mean a systematic examination of a problem, by means 
@@ -86,20 +90,22 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!#fff066] [For example, if you have developed a program for analysing genome data, then you will need to contrast your program with similar programs that have been reported in the literature. If you have, instead, performed a comprehensive literature analysis on work](zotero://open-pdf/library/items/NT5KVCQV?page=67&annotation=QW8YFJ6G) Page 67
+> 
 > tags: []
 > ^QW8YFJ6GaNT5KVCQVp67
 
 ---
 
 > [!#eb4949] [If you have, instead, performed a comprehensive literature analysis on work done for benchmarking database transactions, most of your work will be centred on analysing the existing literature (e.g. making categorisations and detecting patterns). Hence, we dedicate a special section to validity and reliability issues that](zotero://open-pdf/library/items/NT5KVCQV?page=67&annotation=ELPGUPLW) Page 67
+> 
 > tags: []
 > ^ELPGUPLWaNT5KVCQVp67
 
 ---
 
 > [!green] [Implementation](zotero://open-pdf/library/items/NT5KVCQV?page=73&annotation=M2HW2P5C) Page 73
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > - Many projects in computer science and information systems consist of developing new solutions.
@@ -113,8 +119,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!blue] [A Four-Step Process](zotero://open-pdf/library/items/NT5KVCQV?page=77&annotation=C4EJHK6I) Page 77
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > 1. Develop Objectives
@@ -126,38 +132,43 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!purple] [Following the Objectives](zotero://open-pdf/library/items/NT5KVCQV?page=80&annotation=V3BVY5WL) Page 80
+> 
 > tags: []
 > ^V3BVY5WLaNT5KVCQVp80
 
 ---
 
 > [!magenta] [Presenting and Analysing your Data](zotero://open-pdf/library/items/NT5KVCQV?page=82&annotation=8T69P34P) Page 82
+> 
 > tags: []
 > ^8T69P34PaNT5KVCQVp82
 
 ---
 
 > [!magenta] [Presenting Non-Numerical Data](zotero://open-pdf/library/items/NT5KVCQV?page=82&annotation=RZGLTKKV) Page 82
+> 
 > tags: []
 > ^RZGLTKKVaNT5KVCQVp82
 
 ---
 
 > [!magenta] [Presenting Data from a Literature Analysis](zotero://open-pdf/library/items/NT5KVCQV?page=82&annotation=Z555K7UV) Page 82
-> tags: [>annotate!]
+> 
+> tags: [   #2annotate   ]
 > ^Z555K7UVaNT5KVCQVp82
 
 ---
 
 > [!magenta] [Presenting Data from Interviews and Questionnaires](zotero://open-pdf/library/items/NT5KVCQV?page=84&annotation=Z88YGLIH) Page 84
+> 
 > tags: []
 > ^Z88YGLIHaNT5KVCQVp84
 
 ---
 
 > [!magenta] [# Presenting Data from Implementations](zotero://open-pdf/library/items/NT5KVCQV?page=85&annotation=Q95HS84U) Page 85
-> tags: [>annotated>]
 > 
+> tags: [   #annotated   ]  
 > 
 > ---
 > > [!example]- UseCases
@@ -188,26 +199,29 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!magenta] [Presenting Numerical Data](zotero://open-pdf/library/items/NT5KVCQV?page=88&annotation=II97VZJP) Page 88
+> 
 > tags: []
 > ^II97VZJPaNT5KVCQVp88
 
 ---
 
 > [!orange] [10.3 Analyse Your Data](zotero://open-pdf/library/items/NT5KVCQV?page=92&annotation=4ZIT3IQJ) Page 92
+> 
 > tags: []
 > ^4ZIT3IQJaNT5KVCQVp92
 
 ---
 
 > [!orange] [Descriptive Projects](zotero://open-pdf/library/items/NT5KVCQV?page=92&annotation=63A5SXGB) Page 92
+> 
 > tags: []
 > ^63A5SXGBaNT5KVCQVp92
 
 ---
 
 > [!orange] [Theory Oriented Projects](zotero://open-pdf/library/items/NT5KVCQV?page=93&annotation=BC9XE83D) Page 93
-> tags: [>annotated>]
 > 
+> tags: [   #annotated   ]  
 > 
 > ---
 > In a project with a strong theoretical emphasis, you may have extended or compared existing theoretical models, without testing them in practice. Let us consider the aim and objectives of the first example project in Sect. 5.2.2.
@@ -227,20 +241,22 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!orange] [Applied Projects](zotero://open-pdf/library/items/NT5KVCQV?page=93&annotation=FUYSBNJ2) Page 93
+> 
 > tags: []
 > ^FUYSBNJ2aNT5KVCQVp93
 
 ---
 
 > [!orange] [A Comparison of Theory and Practice](zotero://open-pdf/library/items/NT5KVCQV?page=94&annotation=LW3LP6KA) Page 94
+> 
 > tags: []
 > ^LW3LP6KAaNT5KVCQVp94
 
 ---
 
 > [!orange] [What is a Good Result?](zotero://open-pdf/library/items/NT5KVCQV?page=95&annotation=XXMA79W3) Page 95
-> tags: [>annotate!]
 > 
+> tags: [   #2annotate   ]  
 > 
 > ---
 > A good result is one where a clear conclusion can be drawn with strong confidence.
@@ -249,32 +265,36 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!yellow] [Drawing your Conclusions and Identifying Future Work](zotero://open-pdf/library/items/NT5KVCQV?page=96&annotation=433WCZUU) Page 96
-> tags: [>annotate!]
+> 
+> tags: [   #2annotate   ]
 > ^433WCZUUaNT5KVCQVp96
 
 ---
 
 > [!red] [Presenting and Defending your Work Orally](zotero://open-pdf/library/items/NT5KVCQV?page=101&annotation=PX96SCVF) Page 101
-> tags: [>annotate!]
+> 
+> tags: [   #2annotate   ]
 > ^PX96SCVFaNT5KVCQVp101
 
 ---
 
 > [!green] [Information-Seeking and Use](zotero://open-pdf/library/items/NT5KVCQV?page=116&annotation=PLXWQ4BG) Page 116
-> tags: [>annotated>]
+> 
+> tags: [   #annotated   ]
 > ^PLXWQ4BGaNT5KVCQVp116
 
 ---
 
 > [!green] [13.1 Information Literacy for Computer Science](zotero://open-pdf/library/items/NT5KVCQV?page=116&annotation=S59CTB4K) Page 116
+> 
 > tags: []
 > ^S59CTB4KaNT5KVCQVp116
 
 ---
 
 > [!green] [13.2 Information Searching, Seeking, and Behaviour](zotero://open-pdf/library/items/NT5KVCQV?page=117&annotation=FG9CLU22) Page 117
-> tags: [>annotated>]
 > 
+> tags: [   #annotated   ]  
 > 
 > ---
 > > [!task]- 1.Information searching
@@ -292,8 +312,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!yellow] [the activity of actual information searching,](zotero://open-pdf/library/items/NT5KVCQV?page=117&annotation=MVMPI6BI) Page 117
-> tags: [>annotated>]
 > 
+> tags: [   #annotated   ]  
 > 
 > ---
 > > [!flow]- hence the information seeking process consists of several activities:
@@ -307,9 +327,9 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!yellow] [](zotero://open-pdf/library/items/NT5KVCQV?page=117&annotation=DVWRUSZN) Page 117
-> tags: []
-> ![[src/BP/ZotLit/Images/DVWRUSZN.png]]
 > 
+> tags: []  
+> ![[src/BP/ZotLit/Images/DVWRUSZN.png]]
 > ---
 > To help us understand contextual aspects of information-related practices it might be helpful to visualize the processes of searching for and using information
 > ^DVWRUSZNaNT5KVCQVp117
@@ -317,8 +337,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!yellow] [The information seeking process](zotero://open-pdf/library/items/NT5KVCQV?page=118&annotation=55AJTIMI) Page 118
-> tags: [>annotate!,>annotated>]
 > 
+> tags: [   #annotated      #2annotate   ]  
 > 
 > ---
 > ## The Concept Map
@@ -329,8 +349,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!green] [13.2.1 Search Techniques](zotero://open-pdf/library/items/NT5KVCQV?page=118&annotation=UIMP7P93) Page 118
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > exisují databáze s referencemi a odkazijí na sebe navzájem podle relevance
@@ -339,8 +359,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!green] [13.3.3 Information Structure](zotero://open-pdf/library/items/NT5KVCQV?page=121&annotation=DYBITASP) Page 121
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > zotero item params (references(without document))
@@ -349,8 +369,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!green] [13.4 The Information Seeking-Process](zotero://open-pdf/library/items/NT5KVCQV?page=125&annotation=HZCMND6G) Page 125
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > Stages:
@@ -373,15 +393,16 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!yellow] [](zotero://open-pdf/library/items/NT5KVCQV?page=125&annotation=ZID9BGGX) Page 125
-> tags: []
+> 
+> tags: []  
 > ![[src/BP/ZotLit/Images/ZID9BGGX.png]]
 > ^ZID9BGGXaNT5KVCQVp125
 
 ---
 
 > [!green] [13.5 Two Basic Strategies for Information Seeking](zotero://open-pdf/library/items/NT5KVCQV?page=126&annotation=B4JHPBYK) Page 126
-> tags: []
 > 
+> tags: []  
 > 
 > ---
 > 1. The Concept Map
@@ -392,7 +413,8 @@ citekey: berndtssonThesisProjectsGuide2008
 ---
 
 > [!purple] [The Report](zotero://open-pdf/library/items/NT5KVCQV?page=129&annotation=TG6S6684) Page 129
-> tags: [>možná_někdy]
+> 
+> tags: [   #možná_někdy   ]
 > ^TG6S6684aNT5KVCQVp129
 
 ---
