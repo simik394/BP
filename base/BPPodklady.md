@@ -7,14 +7,15 @@ v: 3
 ## Subject area:
 ---
 
-Task management:!![[Řízení úkolů]]
+Task management:
 
 ## Sub-area:
 ---
-Ve skautskám oddíle:!![[Ve skautskám oddíle]]
+
 ## Problem:
 - [ ] prob
 ### možné:
+
 - komunikace
 - delegování
 - 
