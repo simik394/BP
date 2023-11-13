@@ -168,7 +168,33 @@ citekey: berndtssonThesisProjectsGuide2008
 
 > [!magenta] Page 85
 > 
-> Presenting Data from Implementations
+> # Presenting Data from Implementations
+> 
+> ---
+> > [!example]- UseCases
+> > for example, if you rely on simulation data and need to implement the simulation model or the simulation tool yourself. In other cases you may implement a system in order to demonstrate that something can be done, or as part of testing a method for systems development.
+> 
+> 
+> > [!important]- Requirement
+> > it is necessary to use good software development practice, part of which is to document the implementation well. Since the implementation is part of your method for the project, you also have to show as much of the documentation as is needed in order to convince the reader that the implementation is correct.
+> 
+> > [!example]- Requirement
+> > For example, you might have implemented an algorithm and performed some simulations where you compared it to another algorithm. Maybe you have already described the algorithm very clearly in your report, but in order to convince the reader that your simulation data are meaningful, you must also demonstrate that the simulations were done with a correct implementation of the algorithm.
+> 
+> In other words, you must convince the reader that the differences observed between the algorithms are not caused by errors in the code.
+> ## So, how do you present the implementation in a way which convinces the reader that it is correct?
+> 
+> An example is to first show the algorithm in pseudo-code and explain relevant parts of the pseudo-code in writing.
+> 
+> You can then show a graphical representation of the code, using, for example, flowcharts or some other graph format, which is appropriate for the particular algorithm at hand. This graphical representation should also be discussed in the text so that the reader has a very clear understanding of it (and is convinced that you do too).
+> 
+> Finally, you can present relevant parts of the code, i.e. those parts that contain the key features of the implementation. This technique is particularly useful if you are using the implementation for the purpose of, for example, showing that a programming language or a model lacks (or contains) certain features. In that case, these code examples may be the main part of your data.
+> 
+> 
+> ## Additional tips:
+> Where to put code.
+> Commenting
+> Other information. Depending on the purpose of the implementation, you may have to provide the reader with other information about the software. Examples include hardware and software requirements, user instructions etc.
 > ^Q95HS84UaNT5KVCQVp85
 
 ---
