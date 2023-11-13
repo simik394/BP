@@ -1,2 +1,0 @@
-glhf 😇
-### argumenty:
