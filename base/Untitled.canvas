@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"2e1cc7bbaad33669","x":-676,"y":-390,"width":576,"height":350,"type":"file","file":"BP/base/Skaut-specifika/téměř plochá organizační struktura ~.md"},
+		{"id":"9d795f75c45c2dcd","x":280,"y":-413,"width":600,"height":373,"type":"file","file":"BP/base/Skaut-specifika/dobrovolnost činnosti ~ motivace.md"},
+		{"id":"b2baad9acb1263bb","x":-276,"y":-1360,"width":400,"height":400,"type":"file","file":"BP/base/TM-oblasti/plánování úkolů.md"},
+		{"id":"3ce2081a45893629","x":124,"y":-1360,"width":400,"height":400,"type":"file","file":"BP/base/TM-oblasti/delegování úkolů.md"},
+		{"id":"4f7cdef5c7a29f90","x":524,"y":-1360,"width":400,"height":400,"type":"file","file":"BP/base/TM-oblasti/plnění úkolů.md"},
+		{"id":"81891eed95d14140","x":924,"y":-1360,"width":400,"height":400,"type":"file","file":"BP/base/TM-oblasti/kontrola plnění.md"},
+		{"id":"508344d953242140","x":-676,"y":-1360,"width":400,"height":400,"type":"file","file":"BP/base/TM-oblasti/organizování úkolů.md"},
+		{"id":"db27b58b31f8cec4","x":-1080,"y":-1360,"width":404,"height":400,"type":"file","file":"BP/base/TM-oblasti/vytváření úkolů.md"}
+	],
+	"edges":[]
+}
