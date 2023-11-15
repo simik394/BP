@@ -1,7 +1,6 @@
 ---
 modified: true
 ---
-# BP.Požadavky.Úvod
 
 ### [Go to annotation](zotero://open-pdf/library/items/5QHDSEV6?page=8&annotation=GXGIULYJ) “Úvod” ([Gála](zotero://select/library/items/4MXCCWJN))
 
