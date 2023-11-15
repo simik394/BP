@@ -5,12 +5,12 @@ v: 3
 # Podklady.Úvod
 
 ## Subject area:
----
+
 
 Task management:
 
 ## Sub-area:
----
+
 
 ## Problem:
 - [ ] prob
