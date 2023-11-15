@@ -1,7 +1,7 @@
 ---
 v: 3
 ---
-down:: [[BP/base/parametry/Metody/Untitled|Untitled]]
+
 # Podklady.Úvod
 
 ## Subject area:

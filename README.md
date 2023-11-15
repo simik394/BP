@@ -21,6 +21,7 @@ forma: šablonové <mark class="hltr-orange">stránky referencovaných annotací
 ---
 vznikají kombinací ze <mark style="background: #FF5582A6;">Zotero annotací</mark> a <mark style="background: #BBFABBA6;">mých propojení</mark>
 forma: střepy a odkazy na ty importované poskládané v logickém pořadí
+obsah: parametry | draft
 down:: [[BPPodklady]]
  
 
@@ -28,4 +29,4 @@ down:: [[BPPodklady]]
 ---
 vznikají spojením vybraných a seřazených info-střepů 
 forma: <mark class="hltr-blue">souvislé bloky textu</mark>
-down:: [[BP.Úvod]]
+down:: [[BP.Úvod.0]]
