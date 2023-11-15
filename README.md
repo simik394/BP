@@ -13,10 +13,6 @@ produkty:
 
 # <u>> Folders</u>
 
-## ZotLit
----
-Jsou importovány ze Zotera
-forma: šablonové <mark class="hltr-orange">stránky referencovaných annotací</mark> z daném pdf/html
 ## base
 ---
 vznikají kombinací ze <mark style="background: #FF5582A6;">Zotero annotací</mark> a <mark style="background: #BBFABBA6;">mých propojení</mark>
