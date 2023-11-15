@@ -29,4 +29,6 @@ down:: [[BPPodklady]]
 ---
 vznikají spojením vybraných a seřazených info-střepů 
 forma: <mark class="hltr-blue">souvislé bloky textu</mark>
-down:: [[BP.Úvod.0]]
+```query
+path:"BP/Sections"
+```
