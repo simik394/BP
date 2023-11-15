@@ -6,13 +6,37 @@ word-goal: 500
 > 
 > zmínit:
 > - TM je všude, ale podnikové prostředí jsou nejprozkoumanějš a nejvyvinutější
-> - Skaut a podniky mají několik z hlediska TM klíčových rozdílů a z nich vyplývá...
+> - Skaut a podniky mají pśr z hlediska TM klíčových rozdílů. A z nich vyplývá...
 
-> [!question1] - [ ] Co zásadního z toho vyplývá pro TM?
+> [!question1] - [ ] Co zásadního z toho vyplývá pro TM? [definovat_s_referencemi:: TM]
+> 
+> v_rámci:: [[vytváření úkolů]] -
+> v_rámci:: [[plánování úkolů]] -
+> v_rámci:: [[organizování úkolů]] -
+> v_rámci:: [[delegování úkolů]] -
+> v_rámci:: [[plnění úkolů]] -
+> v_rámci:: [[kontrola plnění]] -
 
-> [!question] - [ ] C
+> [!question] - [ ] Do kterých z těchto problematik se nechci pouštět?
+> 
+> [[organizování úkolů]]. Protože.. 
+> [[delegování úkolů]]. Protože..
+> [[kontrola plnění]]. Protože..
+
+> [!question1] - [ ] Jaký by byl nejvýznamnější společný nedostatek v těchto podoblastech, který mohu/chci zkusit vyřešit?
+> 
+> | n.| [[vytváření úkolů]] | [[plnění úkolů]] | [[plánování úkolů]] |
+> |----|----|----|----|
+> |1||||
+> |2||||
+> |3||||
+> 
+
+> [!question] - [ ] Kterou z příčin nejzásadnějšího problému se pokusím vyřešit?
+
+> [!question1] - [ ] Čeho chci v rámci řešení zvoleného problému dosáhnout?
+
+> [!question] - [ ] J
 
 > [!question1] - [ ] C
-
-
 
