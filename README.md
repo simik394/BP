@@ -8,13 +8,24 @@ dílčí cíle:
 metody: 
 produkty: 
 ---
-# Branches
+# <u>> Branches</u>
+
+
+# <u>> Folders</u>
+
+## ZotLit
 ---
-# Sources
+Jsou importovány ze Zotera
+forma: šablonové <mark class="hltr-orange">stránky referencovaných annotací</mark> z daném pdf/html
+## base
 ---
+vznikají kombinací ze <mark style="background: #FF5582A6;">Zotero annotací</mark> a <mark style="background: #BBFABBA6;">mých propojení</mark>
+forma: střepy a odkazy na ty importované poskládané v logickém pořadí
 down:: [[BPPodklady]]
  
 
-# Sections
+## Sections
 ---
-[[BP.Úvod]]
+vznikají spojením vybraných a seřazených info-střepů 
+forma: <mark class="hltr-blue">souvislé bloky textu</mark>
+down:: [[BP.Úvod]]
