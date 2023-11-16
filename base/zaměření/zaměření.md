@@ -5,8 +5,8 @@ word-goal: 500
 > [!question] - [ ] Jakými větami začít? Uvést téma?
 > 
 > zmínit:
-> - TM je všude, ale podnikové prostředí jsou nejprozkoumanějš a nejvyvinutější
-> - Skaut a podniky mají pśr z hlediska TM klíčových rozdílů. A z nich vyplývá...
+> - [[TaskManagement|TM]] je všude, v podnikovém prostředí je na [[TaskManagement|TM]] pohlíženo jako na komponentou [[ProjectManagement|TM]]. 
+> - Skaut a podniky mají [[skaut-podniky-rozdily-pro-TM|pár z hlediska TM klíčových rozdílů]]. A z nich vyplývá...
 
 > [!question1] - [ ] Co zásadního z toho vyplývá pro TM? [definovat_s_referencemi:: TM]
 > 
@@ -16,12 +16,20 @@ word-goal: 500
 > v_rámci:: [[delegování úkolů]] -
 > v_rámci:: [[plnění úkolů]] -
 > v_rámci:: [[kontrola plnění]] -
+> ---
+> 
+> 
+
+
 
 > [!question] - [ ] Do kterých z těchto problematik se nechci pouštět?
 > 
 > [[organizování úkolů]]. Protože.. 
 > [[delegování úkolů]]. Protože..
 > [[kontrola plnění]]. Protože..
+> ---
+> 
+> 
 
 > [!question1] - [ ] Jaký by byl nejvýznamnější společný nedostatek v těchto podoblastech, který mohu/chci zkusit vyřešit?
 > 
