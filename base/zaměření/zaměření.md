@@ -5,7 +5,7 @@ word-goal: 500
 > [!question] - [ ] Jakými větami začít? Uvést téma?
 > 
 > zmínit:
-> - [[TaskManagement|TM]] je všude, v podnikovém prostředí je na [[TaskManagement|TM]] pohlíženo jako na komponentou [[ProjectManagement|TM]]. 
+> - [[TaskManagement|TM]] je všude, v podnikovém prostředí je na [[TaskManagement|TM]] pohlíženo jako na komponentou [[ProjectManagement|PM]]. 
 > - Skaut a podniky mají [[skaut-podniky-rozdily-pro-TM|pár z hlediska TM klíčových rozdílů]]. A z nich vyplývá...
 
 > [!question1] - [ ] Co zásadního z toho vyplývá pro TM? [definovat_s_referencemi:: TM]
