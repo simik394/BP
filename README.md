@@ -1,7 +1,7 @@
 # BP.Issues
 ---
 > [!todo]
-> Content <iframe src="https://github.com/users/simik394/projects/7/views/5)" frameBorder="0" width="650" height="600"></iframe>
+><iframe src="https://github.com/users/simik394/projects/7/views/5)" frameBorder="0" width="650" height="600"></iframe>
 
 # BP.out.Folders
 ---
