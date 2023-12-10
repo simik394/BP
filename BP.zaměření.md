@@ -1,5 +1,28 @@
-test
+# >schema<
+---
+## Subject area:
+- Task management
+## Sub-area:
+- ve skautském oddíle
+## Problem:
+- možné:
+	- komunikace
+	- delegování
+- vybraný:
+	- argumenty:
+## Aspect of problem:
+- možné: 
+- vybraný: 
+	- argumenty: 
+## Aim:
+- Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
+	- args:
+## Objectives:
+1. 
 
+
+# >obsah<
+---
 > [!question] Jakými větami začít? Uvést téma?
 - [[TaskManagement|TM]] je všude, 
 
@@ -43,8 +66,4 @@ test
 > [!question] Kterou z příčin nejzásadnějšího problému se pokusím vyřešit?
 
 > [!question1] Čeho chci v rámci řešení zvoleného problému dosáhnout?
-
-> [!question] LG 😄
-
-> [!question1] C
 
