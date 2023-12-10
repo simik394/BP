@@ -42,7 +42,7 @@ test
 
 > [!question1] Čeho chci v rámci řešení zvoleného problému dosáhnout?
 
-> [!question] J
+> [!question] LG 😄
 
 > [!question1] C
 
