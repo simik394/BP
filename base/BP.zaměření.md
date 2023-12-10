@@ -3,10 +3,12 @@ test
 > [!question] Jakými větami začít? Uvést téma?
 - [[TaskManagement|TM]] je všude, 
 
-- v podnikovém prostředí je na [[TaskManagement|TM]] pohlíženo jako na komponentou [[ProjectManagement|PM]]. 
-
 > [!question1] Co je TM? 
 > 
+- životní cyklus úkolu
+
+- v podnikovém prostředí je na [[TaskManagement|TM]] pohlíženo jako na komponentou [[ProjectManagement|PM]]. 
+
 - Skaut a podniky mají [[skaut-podniky-rozdily-pro-TM|pár z hlediska TM klíčových rozdílů]]. 
 
 > [!question1] Co zásadního z toho vyplývá pro TM? 
