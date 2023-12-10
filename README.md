@@ -13,5 +13,5 @@ obsah: zaměŕení | dosažení
 vznikají spojením vybraných a seřazených info-střepů 
 forma: <mark class="hltr-blue">souvislé bloky textu</mark>
 ```query
-path:"BP/Sections"
+path:"Sections"
 ```
