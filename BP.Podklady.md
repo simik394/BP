@@ -3,7 +3,7 @@ v: 3
 ---
 
 # Podklady.Úvod
-- down [[BPzaměření]]
+- down [[BP.zaměření]]
 ## Subject area:
 
 
