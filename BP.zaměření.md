@@ -23,7 +23,7 @@
 - [[vytváření úkolů]] 
 Jj. Protože vyřešit systematické zaznamenávání, šikovně využitelných údajů o naší práci by každopádně byl dobrý začátek.
 - [[organizování úkolů]]  
-Nvm
+Nvm, myslím že dokumentace, dělení úkolů na drobnější, by samo o sobě nebylo zase tak přínosné vzhledem k ostatním možnostem.
 - [[prioritizace úkolů]] 
 Nn
 
@@ -39,7 +39,9 @@ Nn
 
 ![[jorymackayWhatTaskManagement#^KWJS52C3aUC6U85H2p3]]
 - [[plnění úkolů]]
-Jj
+Jj. Tedy částečný překryv s plánováním úkolů.
+Plnění dlouhodobých cílů jako "Vést družinu" bych nejspíše mohl vcelku jednoduše podpořit zefektivněním plánování krátkodobého, které si praktick každý vedoucí dělá sám pro sebe.
+
 - [[kontrola plnění]] 
 Nn
 
@@ -59,7 +61,7 @@ Nn. Protože nechci ostatním zadávat práci. Navíc schůzky a výpravy jsou, 
 
 
 - [[kontrola plnění]] 
-Nn. Protože se nechci věnovat problematice vyhodnocování kvality.
+Nvm. Sice se nechci věnovat problematice vyhodnocování kvality. Nicméně záznamenávání alespoň průběhu naplánovaných programů nebo využitelné zpětné vazby by bylo 
 
 ## Problem:
 ### A
