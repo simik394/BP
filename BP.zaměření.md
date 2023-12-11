@@ -39,7 +39,7 @@ Nn
 
 ![[jorymackayWhatTaskManagement#^KWJS52C3aUC6U85H2p3]]
 - [[plnění úkolů]]
-Jj. Tedy částečný překryv s plánováním úkolů.
+Jj. Tady částečný překryv s plánováním úkolů.
 Plnění dlouhodobých cílů jako "Vést družinu" bych nejspíše mohl vcelku jednoduše podpořit zefektivněním plánování krátkodobého, které si praktick každý vedoucí dělá sám pro sebe.
 
 - [[kontrola plnění]] 
