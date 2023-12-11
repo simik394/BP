@@ -1,5 +1,4 @@
-# >schema<
----
+
 ## Subject area:
 - Task management
 
