@@ -78,8 +78,8 @@ možné:
 
 | n.| [[vytváření úkolů]] | [[organizování úkolů]] | [[plnění úkolů]] | [[plánování úkolů]] |
 |----|----|----|----|----|
-|+|definované postupy pro zápis a využití záznamů o plněných úkolech|časová náročnost řídících procesů, převažuje mezi vedoucími k tomu dostupnou motivaci.   |podporující systém-maximalizace produktivity jednotlivců (automatizace? funkcionalita? náročnost provozu a implementace? |vhodně strukturované záznamy o dříve vykonaných úkolech umožňující data-based rozhodování|
-|-|nesjednocené postupy > freestyle|krátkodobé plánování je typicky prováděno jednotlivci s minimální systematickou podporou |plnění krátkodobých úkolů je typicky prováděno jednotlivci s minimální systematickou podporou|nesjednocené postupy > freestyle|
+|Co by (pravděpodobně) pomohlo?|definované postupy pro zápis a využití záznamů o plněných úkolech|časová náročnost řídících procesů, převažuje mezi vedoucími k tomu dostupnou motivaci.   |podporující systém-maximalizace produktivity jednotlivců (automatizace? funkcionalita? náročnost provozu a implementace? |vhodně strukturované záznamy o dříve vykonaných úkolech umožňující data-based rozhodování|
+|Co je (pravděpodobně) překážkou?|nesjednocené postupy > freestyle|krátkodobé plánování je typicky prováděno jednotlivci s minimální systematickou podporou |plnění krátkodobých úkolů je typicky prováděno jednotlivci s minimální systematickou podporou|nesjednocené postupy > freestyle|
 
 > [!question] Kterou z příčin nejzásadnějšího problému se pokusím vyřešit?
 - [ ] vybraný: 
@@ -90,13 +90,25 @@ možné:
 ### 3.0
 >[!aim] Vybrat a zdokumentovat doporučené postupy pro sdílení a využívání zaznamenaných údajů o připravených programech.
 
+Komentář:
+
+Předpokládám že nedostatečně informatické přinejmenším.
+
 ### v3.1
 >[!aim]  Vytvořit systém pro sdílení zkušeností z připravených programů.
 
+Komentář:
+
+Připadá mi jako nejzajímavější/nejpříjemnější varianta, ale nepřekvapilo by mě kdyby byla příliš obecná.
 ### v3.2
 >[!aim] Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
 
 >[!aim] Automatizovat zpracování údajů zaznamenaných o připravených programech na sdílené zkušenosti efektivně využitelné při dalším plánování.
+
+Komentář:
+
+Nekonkrétněji stanovený cíl, nicméně si nejsem jistý, zda si chci stanovovat automatizaci stěží existujícího systému jako primární cíl.
+
 - [ ] vybraný: 
 	- argumenty: 
 
