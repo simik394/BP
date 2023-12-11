@@ -117,9 +117,6 @@ Nekonkrétněji stanovený cíl, nicméně si nejsem jistý, zda si chci stanovo
 > 2. l
 > 3. j'  ^c201ob
 
-# >obsah<
----
-
 
 
 
