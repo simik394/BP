@@ -20,41 +20,46 @@
 
 
 ![[jorymackayWhatTaskManagement#^K77X3YANaUC6U85H2p3]]
-- down [[vytváření úkolů]]
-[chci::jj]
-- down [[organizování úkolů]]  
-[chci::nvm]
-- down [[prioritizace úkolů]] 
-[chci::nn]
+- [[vytváření úkolů]] 
+Jj. Protože vyřešit systematické zaznamenávání, šikovně využitelných údajů o naší práci by každopádně byl dobrý začátek.
+- [[organizování úkolů]]  
+Nvm
+- [[prioritizace úkolů]] 
+Nn
 
 
 ![[jorymackayWhatTaskManagement#^ZU7IFMPEaUC6U85H2p3]]
-- down [[plánování úkolů]]
-[chci::jj]
-- down [[kolaborace na plnění úkolů]]
-[chci::nn]
 
+- [[plánování úkolů]]
+Jj. Protože každý si program pro svoji družinu připravuje sám. Maximálně ve dvojici, ikdyž je tato možnost k dispozici, obvykle zůstává nevyužita. Podpora činnosti systémem by proto byla jen na místě.
+
+- [[kolaborace na plnění úkolů]]
+Nn
 
 
 ![[jorymackayWhatTaskManagement#^KWJS52C3aUC6U85H2p3]]
-- down [[plnění úkolů]]
-[chci::jj]
-- down [[kontrola plnění]] 
-[chci::nn]
+- [[plnění úkolů]]
+Jj
+- [[kontrola plnění]] 
+Nn
 
 ![[jorymackayWhatTaskManagement#^SWWUYA8QaUC6U85H2p3]]
-- down [[optimalizace hodnototvorných procesů]]
-[chci::jj]
+-  [[optimalizace hodnototvorných procesů]]
+Jj. Protože umožněním efektivnějšího zlepšování, bych pomohl zároveň i se všemi ostatními próblémy.
 
 
 > [!question] Do kterých z těchto problematik se nechci pouštět?
-- down [[prioritizace úkolů]] Protože.. 
+- [[prioritizace úkolů]] 
+Nn. Protože se nechci v rámci svého zaměření dostat k nutnosti zodpovídat otázky týkající se měření přínosnosti konkrétních úkolů vzhledem k nějakým jednotně stanoveným hodnotám.
+Podobně jako u kontroly, bych se raději vyhnul potřebě řešit kvalitu výstupů.
 
 
-- down [[kolaborace na plnění úkolů]] Protože..
+- [[kolaborace na plnění úkolů]] 
+Nn. Protože nechci ostatním zadávat práci. Navíc schůzky a výpravy jsou, například v porovnání s táborem relativně nenáročné na přípravu. Proto mi dává větší smysl, věnovat se raději podpoře činnosti jednotlivců, než se snažit prosadit zapojení více vedoucích do přípravy i jednodušších akcí.
 
 
-- down [[kontrola plnění]] Protože..
+- [[kontrola plnění]] 
+Nn. Protože se nechci věnovat problematice vyhodnocování kvality.
 
 ## Problem:
 ### A
@@ -68,12 +73,13 @@
 
 ### D
 > [!error] jakékoliv řízení je práce "navíc" odlišná od vedení, které představuje primární motivaci pro byť jen přítomnost dobrovolných vedoucích
+> = Nedostatečná motivace pro řídící činnosti
 
 - [ ] vybraný:
 	- argumenty:
 
 ## Aspect of problem:
-možné: 
+
 > [!question1] Jaký by byl nejvýznamnější společný nedostatek v těchto podoblastech, který mohu/chci zkusit vyřešit?
 
 | n.| [[vytváření úkolů]] | [[organizování úkolů]] | [[plnění úkolů]] | [[plánování úkolů]] |
