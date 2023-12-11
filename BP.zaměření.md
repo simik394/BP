@@ -17,9 +17,11 @@
 ## Aim:
 - Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
 	- args:
-## Objectives:
-1. 
 
+> [!gray] ## Objectives:
+> 1. k
+> 2. l
+> 3. j'  ^c201ob
 
 # >obsah<
 ---

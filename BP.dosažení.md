@@ -1,5 +1,7 @@
 # >schema<
 ---
+## Objectives
+![[BP.zaměření#^c201ob]]
 ## Methods:
 1. 
 ## Deliverables
