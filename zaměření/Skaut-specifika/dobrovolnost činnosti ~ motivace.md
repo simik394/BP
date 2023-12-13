@@ -1,0 +1,3 @@
+---
+aliases: dobrovolnost činnosti ~ motivace
+---

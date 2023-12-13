@@ -1,0 +1,1 @@
+odhadování doby dokončení úkolů a potřebných zdrojů
