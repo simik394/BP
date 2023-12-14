@@ -1,11 +1,13 @@
 
 # Funkcionalita
+---
 ```dataview
 table
 from "Products/BP/zaměření/funkcionality systému"
 ```
 
 # Obsah
+---
 ## Subject area:
 - Task management
 
@@ -137,3 +139,4 @@ Nekonkrétněji stanovený cíl, nicméně si nejsem jistý, zda si chci stanovo
 
 
 
+ 
