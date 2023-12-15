@@ -1,1 +1,1 @@
-![[Inventář/Koncepts/Research/BP#Úvod]]
+![[Products/Inventář/Koncepts/Research/BP#Úvod]]
