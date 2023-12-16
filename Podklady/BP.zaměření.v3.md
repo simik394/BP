@@ -3,7 +3,7 @@
 ---
 ```dataview
 table
-from "Products/BP/zaměření/funkcionality systému"
+from "Products/BP/Podklady/zaměření/funkcionality systému"
 ```
 
 # Obsah
