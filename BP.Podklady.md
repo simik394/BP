@@ -1,14 +1,14 @@
 ---
-v: 4
+BC-link-note: down
 ---
 
 # Podklady
 ## Úvod
 
-### zaměření
-![[BP.zaměření.v4]]
+[[BP.zaměření.v4]]
+
 
 ### dosažení
-![[BP.dosažení]]
+[[BP.dosažení]]
 
 

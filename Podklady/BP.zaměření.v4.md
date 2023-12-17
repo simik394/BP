@@ -1,4 +1,5 @@
-## téma BP: 
+
+## téma BP
 semi-automatický systém řízení práce vyžadované skautským táborem
 v prostředí Google Workspace 05:26:57
 
