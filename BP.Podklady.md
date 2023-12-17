@@ -1,10 +1,14 @@
 ---
-v: 3
+v: 4
 ---
 
 # Podklady
 ## Úvod
-- down [[BP.zaměření.v3]]
-- down [[BP.dosažení]]
+
+### zaměření
+![[BP.zaměření.v4]]
+
+### dosažení
+![[BP.dosažení]]
 
 
