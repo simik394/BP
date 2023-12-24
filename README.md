@@ -2,7 +2,7 @@
 # BP.Issues
 ---
 > [!todo]
-><iframe src="https://github.com/users/simik394/projects/7/views/6)" frameBorder="0" width="650" height="600"></iframe>
+><iframe src="https://github.com/users/simik394/projects/2/views/6" frameBorder="0" width="650" height="600"></iframe>
 
 # BP.Zadání
 ![[BP.Zadání]]
