@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"ec57efeb17c5e1de","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 43.png","x":-36,"y":-760,"width":340,"height":255},
+		{"id":"7fccfdf91ea3cb3b","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 41.png","x":-36,"y":-480,"width":400,"height":300},
+		{"id":"6eb81c26b9c7da3e","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 42.png","x":-36,"y":-120,"width":400,"height":300},
+		{"id":"4cc4e45488f6bea7","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 44.png","x":520,"y":-780,"width":400,"height":300},
+		{"id":"6f0d756c26679523","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 45.png","x":520,"y":-440,"width":400,"height":300},
+		{"id":"23bea5e016e4df38","x":520,"y":-100,"width":400,"height":300,"type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 46.png"},
+		{"id":"2cf89dbb0c335ae4","x":520,"y":220,"width":400,"height":300,"type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 47.png"}
+	],
+	"edges":[]
+}
