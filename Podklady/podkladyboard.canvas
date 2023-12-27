@@ -1,12 +1,17 @@
 {
 	"nodes":[
-		{"id":"ec57efeb17c5e1de","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 43.png","x":-36,"y":-760,"width":340,"height":255},
-		{"id":"7fccfdf91ea3cb3b","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 41.png","x":-36,"y":-480,"width":400,"height":300},
-		{"id":"6eb81c26b9c7da3e","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 42.png","x":-36,"y":-120,"width":400,"height":300},
-		{"id":"4cc4e45488f6bea7","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 44.png","x":520,"y":-780,"width":400,"height":300},
-		{"id":"6f0d756c26679523","type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 45.png","x":520,"y":-440,"width":400,"height":300},
-		{"id":"23bea5e016e4df38","x":520,"y":-100,"width":400,"height":300,"type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 46.png"},
-		{"id":"2cf89dbb0c335ae4","x":520,"y":220,"width":400,"height":300,"type":"file","file":"myDM/Intel/reM/Quick sheets/Quick sheets - page 47.png"}
+		{"id":"ec57efeb17c5e1de","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 43.png","x":-36,"y":-760,"width":340,"height":255},
+		{"id":"7fccfdf91ea3cb3b","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 41.png","x":-36,"y":-480,"width":400,"height":300},
+		{"id":"6eb81c26b9c7da3e","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 42.png","x":-36,"y":-120,"width":400,"height":300},
+		{"id":"4cc4e45488f6bea7","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 44.png","x":520,"y":-780,"width":400,"height":300},
+		{"id":"6f0d756c26679523","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 45.png","x":520,"y":-580,"width":400,"height":300},
+		{"id":"23bea5e016e4df38","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 46.png","x":520,"y":-280,"width":400,"height":300},
+		{"id":"2cf89dbb0c335ae4","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 47.png","x":520,"y":-80,"width":400,"height":300}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"0f051b6783fcaf03","fromNode":"7fccfdf91ea3cb3b","fromSide":"right","toNode":"4cc4e45488f6bea7","toSide":"left"},
+		{"id":"4d3c59a791d701a4","fromNode":"7fccfdf91ea3cb3b","fromSide":"right","toNode":"6f0d756c26679523","toSide":"left"},
+		{"id":"6ee29c06b987b586","fromNode":"7fccfdf91ea3cb3b","fromSide":"right","toNode":"23bea5e016e4df38","toSide":"left"},
+		{"id":"e26eccf559e230be","fromNode":"7fccfdf91ea3cb3b","fromSide":"right","toNode":"2cf89dbb0c335ae4","toSide":"left"}
+	]
 }
