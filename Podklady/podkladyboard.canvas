@@ -7,8 +7,8 @@
 		{"id":"6f0d756c26679523","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 45.png","x":520,"y":-580,"width":400,"height":300},
 		{"id":"23bea5e016e4df38","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 46.png","x":520,"y":-280,"width":400,"height":300},
 		{"id":"2cf89dbb0c335ae4","type":"file","file":"myDM/Intel/reM/BP.Quick sheets/Quick sheets - page 47.png","x":520,"y":-80,"width":400,"height":300},
-		{"id":"b6ff308dd63c7e14","type":"file","file":"BP/Komunikace/Validace návrhu-Vojíř.md","x":1000,"y":-978,"width":632,"height":797},
-		{"id":"d35931583fab1bba","type":"file","file":"BP/Komunikace/Dotaz vedení -Hamousek.md","subpath":"#latest","x":1000,"y":-130,"width":760,"height":619}
+		{"id":"b6ff308dd63c7e14","type":"file","file":"BP/Komunikace/Validace návrhu-Vojíř.md","x":1000,"y":-780,"width":632,"height":548},
+		{"id":"d35931583fab1bba","type":"file","file":"BP/Komunikace/Dotaz vedení -Hamousek.md","subpath":"#latest","x":1000,"y":-185,"width":632,"height":410}
 	],
 	"edges":[
 		{"id":"0f051b6783fcaf03","fromNode":"7fccfdf91ea3cb3b","fromSide":"right","toNode":"4cc4e45488f6bea7","toSide":"left"},
