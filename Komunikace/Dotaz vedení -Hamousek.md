@@ -3,8 +3,7 @@
 ---
 
 Ahoj Jakube,
-
-
+trochu jsem si vyjasnil 
 
 ---
 Ahoj Šimone,
