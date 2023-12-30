@@ -3,8 +3,17 @@
 ---
 
 # latest
-Ahoj Jakube,
-trochu jsem si vyjasnil 
+Ahoj Jakube, 
+trochu jsem si vyjasnil co bych chtěl ve své BP vytvořit.
+
+Systém, který bych chtěl navrhnout by měl kromě možnosti manuálně zaznamenávat úkoly, závislosti mezi nimy, jejich průběžný stav a výstupy.
+Také automaticky navrhovat časový plán a doporučovat vedoucí, kterým dané úkoly delegovat na základě jejich preferencí a vytíženosti.
+Právě v teto časti mám za to, že bych velmi využil jistý vhled do možných optimalizací.
+
+Co si prosím Tě myslíš o této variantě? Dávalo by Ti její vedení smysl?
+
+Děkuji za Tvůj čas a přeji podařený nový rok.
+Šimon Trousil 
 
 # previous
 ---
