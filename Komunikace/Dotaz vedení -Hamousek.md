@@ -2,9 +2,11 @@
 
 ---
 
+# latest
 Ahoj Jakube,
 trochu jsem si vyjasnil 
 
+# previous
 ---
 Ahoj Šimone,
 
