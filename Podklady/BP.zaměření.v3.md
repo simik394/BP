@@ -1,14 +1,16 @@
+# v3
 
-# Funkcionalita
+## Funkcionalita
 ---
 ```dataview
 table
 from "BP/Podklady/zaměření/funkcionality systému"
 ```
 
-# Obsah
+## Obsah
 ---
-## Subject area:
+
+### Subject area:
 - Task management
 
 > [!question] Jakými větami začít? Uvést téma?
@@ -20,7 +22,7 @@ from "BP/Podklady/zaměření/funkcionality systému"
 > [!question] Co si pod tím představit?
 - v podnikovém prostředí je na [[TaskManagement|TM]] pohlíženo jako na komponentou [[ProjectManagement|PM]]. 
 
-## Sub-area:
+### Sub-area:
 - Skaut a podniky mají [[skaut-podniky-rozdily-pro-TM|pár z hlediska TM klíčových rozdílů]]. 
 
 > [!question1] Co zásadního z toho vyplývá pro [[TaskManagement]]? 
@@ -71,24 +73,24 @@ Nn. Protože nechci ostatním zadávat práci. Navíc schůzky a výpravy jsou, 
 - [[kontrola plnění]] 
 Nvm. Sice se nechci věnovat problematice vyhodnocování kvality. Nicméně záznamenávání alespoň průběhu naplánovaných programů nebo využitelné zpětné vazby by bylo 
 
-## Problem:
-### A
+### Problem:
+#### A
 > [!error] nedostatečně efektvní/účelné využití dostupných dobrovolných lidských zdrojů
 
-### B
+#### B
 > [!error] nedostatečně efektvní/účelné využití dostupných sw nástrojů
 
-### C
+#### C
 > [!error] nedostatečné sdílení zkušeností z připravených programů
 
-### D
+#### D
 > [!error] jakékoliv řízení je práce "navíc" odlišná od vedení, které představuje primární motivaci pro byť jen přítomnost dobrovolných vedoucích
 > = Nedostatečná motivace pro řídící činnosti
 
 - [ ] vybraný:
 	- argumenty:
 
-## Aspect of problem:
+### Aspect of problem:
 
 > [!question1] Jaký by byl nejvýznamnější společný nedostatek v těchto podoblastech, který mohu/chci zkusit vyřešit?
 
@@ -101,22 +103,22 @@ Nvm. Sice se nechci věnovat problematice vyhodnocování kvality. Nicméně zá
 - [ ] vybraný: 
 	- argumenty: 
 
-## Aim:
+### Aim:
 > [!question1] Čeho chci v rámci řešení zvoleného problému dosáhnout?
-### 3.0
+#### 3.0
 >[!aim] Vybrat a zdokumentovat doporučené postupy pro sdílení a využívání zaznamenaných údajů o připravených programech.
 
 Komentář:
 
 Předpokládám že nedostatečně informatické přinejmenším.
 
-### v3.1
+#### v3.1
 >[!aim]  Vytvořit systém pro sdílení zkušeností z připravených programů.
 
 Komentář:
 
 Připadá mi jako nejzajímavější/nejpříjemnější varianta, ale nepřekvapilo by mě kdyby byla příliš obecná.
-### v3.2
+#### v3.2
 >[!aim] Automatizovat přeměnu záznamů o připravovaných programech na sdílené zkušenosti snadno využitelné při přípravách dalších programů.
 
 >[!aim] Automatizovat zpracování údajů zaznamenaných o připravených programech na sdílené zkušenosti efektivně využitelné při dalším plánování.
@@ -140,3 +142,21 @@ Nekonkrétněji stanovený cíl, nicméně si nejsem jistý, zda si chci stanovo
 
 
  
+
+# v4
+## téma BP
+semi-automatický systém řízení práce vyžadované skautským táborem
+v prostředí Google Workspace 05:26:57
+
+___
+from: 2023-12-16 04-57-30 on: 2023-12-16 05:12:51
+
+# v4.1
+## téma BP
+
+## cíle BP
+> Sestavit systém pro řízení přípravy skautských táborů, který...
+- 
+
+___
+from: BP.zaměření.v4 on: 2024-01-12 00:01:84
