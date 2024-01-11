@@ -17,6 +17,8 @@ vyvození požadavků na systém na základě současného stavu a procesů
 
 # 2. kapitola
 dosažení
+- výběr případů užití k implementaci
 
 # 3. kapitola
 výsledky
+- testování na modelových datech vycházejících z předchozích let
