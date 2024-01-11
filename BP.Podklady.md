@@ -11,3 +11,12 @@ BC-link-note: down
 [[BP.dosažení]]
 
 [[podkladyboard.canvas|podkladyboard]]
+
+# 1. kapitola
+vyvození požadavků na systém na základě současného stavu a procesů
+
+# 2. kapitola
+dosažení
+
+# 3. kapitola
+výsledky
