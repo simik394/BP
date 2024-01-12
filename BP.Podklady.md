@@ -3,14 +3,10 @@ BC-link-note: down
 ---
 
 # Podklady
-## Úvod
-[[BP.zaměření.v3]]
-[[BP.zaměření.v3]]
-[[BP.zaměření.v3]]
-### dosažení
-[[BP.dosažení]]
-
 [[podkladyboard.canvas|podkladyboard]]
+## Úvod
+[[BP.zaměření]]
+[[BP.dosažení]]
 
 # 1. kapitola
 vyvození požadavků na systém na základě současného stavu a procesů
