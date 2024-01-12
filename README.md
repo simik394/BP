@@ -4,17 +4,18 @@
 > [!todo]
 ><iframe src="https://github.com/users/simik394/projects/2/views/6" frameBorder="0" width="650" height="600"></iframe>
 
-# BP.Zadání
-![[BP.Zadání]]
 
-# BP.out.FS
+
+# BP/FS
 ___
 ## [[BP.Podklady]]
 > [!def] kořenová stránka pro /base
 
 ---
-/Inspirace
-/Komunikace
+## /Inspirace
+
+
+## /Komunikace
 
 
 ## <u>/Podklady</u>

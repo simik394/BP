@@ -2,6 +2,9 @@
 BC-link-note: down
 ---
 
+# zadání
+![[BP.Zadání]]
+
 # Podklady
 [[podkladyboard.canvas|podkladyboard]]
 ## Úvod
