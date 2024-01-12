@@ -2,7 +2,7 @@
 BC-link-note: down
 ---
 
-# zadání
+# Zadání
 ![[BP.Zadání]]
 
 # Podklady
@@ -11,13 +11,13 @@ BC-link-note: down
 [[BP.zaměření]]
 [[BP.dosažení]]
 
-# 1. kapitola
+## 1. kapitola
 vyvození požadavků na systém na základě současného stavu a procesů
 
-# 2. kapitola
+## 2. kapitola
 dosažení
 - výběr případů užití k implementaci
 
-# 3. kapitola
+## 3. kapitola
 výsledky
 - testování na modelových datech vycházejících z předchozích let
