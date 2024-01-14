@@ -100,7 +100,7 @@ Nvm. Sice se nechci věnovat problematice vyhodnocování kvality. Nicméně zá
 |Co je (pravděpodobně) překážkou?|nesjednocené postupy > freestyle|krátkodobé plánování je typicky prováděno jednotlivci s minimální systematickou podporou |plnění krátkodobých úkolů je typicky prováděno jednotlivci s minimální systematickou podporou|nesjednocené postupy > freestyle|
 
 > [!question] Kterou z příčin nejzásadnějšího problému se pokusím vyřešit?
-- [ ] vybraný: 
+- [ ] vybraný aspekt: 
 	- argumenty: 
 
 ### Aim:
@@ -127,7 +127,7 @@ Komentář:
 
 Nekonkrétněji stanovený cíl, nicméně si nejsem jistý, zda si chci stanovovat automatizaci stěží existujícího systému jako primární cíl.
 
-- [ ] vybraný: 
+- [ ] vybraný aim: 
 	- argumenty: 
 
 > [!gray] ## Objectives:
