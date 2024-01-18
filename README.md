@@ -34,7 +34,7 @@ forma: <mark class="hltr-blue">souvislé bloky textu</mark>
 
 > [!query]
 > ```query
-> path:"obsah"
+> path:"chapters"
 
 ---
 
