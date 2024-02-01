@@ -1,41 +1,62 @@
 
-# BP.Issues
----
-> [!todo]+ Github
-><iframe src="https://github.com/users/simik394/projects/2/views/6" frameBorder="0" width="650" height="600"></iframe>
-
+# ToDo
 ```dataview
 TASK
-FROM #BPrelevant 
+FROM "BP" or [[BP/README]]
 WHERE !fullyCompleted
 ```
 
-
-
-
-# BP.Files_structure
+# bp.Files-and-Folders
 ___
 ## BP.Podklady
-[[BP.Podklady |link]]
-> [!def] kořenová stránka pro /base
+[[BP.Podklady|link]]
+> [!def]- kořenová stránka pro /base
 
-## /Inspirace
+## <u>./chapters</u>
+>[!def]- vznikají spojením vybraných a seřazených info-střepů 
+forma: <mark class="hltr-blue">souvislé bloky textu</mark>
 
-## /Komunikace
+> [!view]-
+> ```dataview
+> list
+> from "BP/chapters"
 
-## <u>/Podklady</u>
->[!def] **vznikají kombinací ze <mark style="background: #FF5582A6;">Zotero annotací</mark> a <mark style="background: #BBFABBA6;">mých propojení</mark>**
+---
+## ./assets
+> [!def]- diagramy a dalši vizualizace
+
+> [!view]-
+> ```dataview
+> list
+> from "BP/assets"
+
+## <u>./Podklady</u>
+>[!def]- **vznikají kombinací ze <mark style="background: #FF5582A6;">Zotero annotací</mark> a <mark style="background: #BBFABBA6;">mých propojení</mark>**
 **forma:** střepy a odkazy na ty importované poskládané v logickém pořadí
 **obsah:** Podklady = zaměření | dosažení
 
-## <u>/Vypracování</u>
->[!def] vznikají spojením vybraných a seřazených info-střepů 
-forma: <mark class="hltr-blue">souvislé bloky textu</mark>
+> [!view]-
+> ```dataview
+> list
+> from "BP/Podklady" AND !"BP/Podklady/Komunikace" AND !"BP/Podklady/Inspirace"
+> ```
 
-> [!query]
-> ```query
-> path:"chapters"
+### ./Podklady/Inspirace
+> [!def]- ukázky příkladů a oficiální zadání
+
+### ./Podklady/Komunikace 
+> [!def]- příprava komunikace s vyučujícími
+
+
+
+
+
 
 ---
+# BP.Issues
+> [!todo]- Github
+><iframe src="https://github.com/users/simik394/projects/2/views/6" frameBorder="0" width="650" height="600"></iframe>
 
 
+# zadani
+[[BP.Zadání]]

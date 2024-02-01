@@ -2,10 +2,8 @@
 
 ## Funkcionalita
 ---
-```dataview
-table
-from "BP/Podklady/zaměření/funkcionality systému"
-```
+[[bp.katalog-požadavků]]
+
 
 ## Obsah
 ---
@@ -87,7 +85,7 @@ Nvm. Sice se nechci věnovat problematice vyhodnocování kvality. Nicméně zá
 > [!error] jakékoliv řízení je práce "navíc" odlišná od vedení, které představuje primární motivaci pro byť jen přítomnost dobrovolných vedoucích
 > = Nedostatečná motivace pro řídící činnosti
 
-- [ ] vybraný:
+-  vybraný:
 	- argumenty:
 
 ### Aspect of problem:
@@ -100,7 +98,7 @@ Nvm. Sice se nechci věnovat problematice vyhodnocování kvality. Nicméně zá
 |Co je (pravděpodobně) překážkou?|nesjednocené postupy > freestyle|krátkodobé plánování je typicky prováděno jednotlivci s minimální systematickou podporou |plnění krátkodobých úkolů je typicky prováděno jednotlivci s minimální systematickou podporou|nesjednocené postupy > freestyle|
 
 > [!question] Kterou z příčin nejzásadnějšího problému se pokusím vyřešit?
-- [ ] vybraný aspekt: 
+-  vybraný aspekt: 
 	- argumenty: 
 
 ### Aim:
@@ -127,7 +125,7 @@ Komentář:
 
 Nekonkrétněji stanovený cíl, nicméně si nejsem jistý, zda si chci stanovovat automatizaci stěží existujícího systému jako primární cíl.
 
-- [ ] vybraný aim: 
+-  vybraný aim: 
 	- argumenty: 
 
 > [!gray] ## Objectives:

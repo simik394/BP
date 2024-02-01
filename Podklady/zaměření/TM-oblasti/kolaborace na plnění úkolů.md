@@ -1,1 +1,0 @@
-plánování časového uspořádání a zajištění výměny nutných informací a koordinaci
