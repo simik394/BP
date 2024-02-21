@@ -1,9 +1,5 @@
 [Přehled vypsaných témat (vse.cz)](https://insis.vse.cz/auth/pracoviste/prehled_temat.pl)
-
-## Legenda
-![[legenda-zkratek-pracovnich-poměrů.png]]
-
-❓ - zeptat se, - - možná, ✅ - zeptáno, ⭕ - --- ❌ - nope
+Dotaz - vedení BP
 ## kontakty / oslovení
 ### inženýre
 Ing. Vladimír Falada - vladimir.falada@vse.cz
@@ -20,10 +16,10 @@ doc. Ing. Vilém Sklenák, CSc. - sklenak@vse.cz
 1. Ing. Libor Gála, Ph.D. - gala@vse.cz ❌
 2. Ing. Richard Antonín Novák, Ph.D. richar.novak@vse.cz
 3. Ing. Tomáš Bruckner, Ph.D. - bruckner@vse.cz
-4. Ing. Dušan Chlapek, Ph.D. - chlapek@vse.cz
+4. Ing. Dušan Chlapek, Ph.D. - chlapek@vse.cz -
 5. Ing. Jan Kučera, Ph.D. - 
 6. Ing. Pavel Sládek, Ph.D. - ⭕
-7. Ing. Filip Vencovský, Ph.D. - 
+7. Ing. Filip Vencovský, Ph.D. - ❌
 8. Ing. Martin Potančok, Ph.D. - xpotm03@vse.cz ⭕
 
 9. Ing. et Ing. Michal Doležel, Ph.D. - 
@@ -31,14 +27,14 @@ doc. Ing. Vilém Sklenák, CSc. - sklenak@vse.cz
 11. Ing. PhDr. Antonín Pavlíček, Ph.D. - 
 
 12. Mgr. et Mgr. Ing. František Sudzina, Ph.D. - ❌
-13. doc. Jiří Feuerlicht, Ph.D. - 
+13. doc. Jiří Feuerlicht, Ph.D. - ⭕
 14. doc. Ing. Ota Novotný, Ph.D. - 
 15. doc. Ing. Miloš Maryška, Ph.D. - 
 16. PhDr. Jan Černý, Ph.D. - jan.cerny1@vse.cz 
 
 ### profesore
-prof. Ing. Zdeněk Molnár, CSc. - molz01@vse.cz
-prof. Ing. Václav Řepa, CSc. - repa@vse.cz
+prof. Ing. Zdeněk Molnár, CSc. - molz01@vse.cz❌
+prof. Ing. Václav Řepa, CSc. - repa@vse.cz⭕
 
 ---
 ### inženýrko
@@ -54,6 +50,10 @@ PhDr. Věra Radváková, Ph.D. - ❌
 
 ### profesorko
 prof. Ing. Alena Buchalcevová, Ph.D. - 
+## Legenda
+![[legenda-zkratek-pracovnich-poměrů.png]]
+
+❓ - zeptat se, - - možná, ✅ - zeptáno, ⭕ - --- ❌ - nope
 # KSA
 [Seznam zaměstnanců (vse.cz)](https://insis.vse.cz/auth/pracoviste/zamestnanci.pl?zpet=https://insis.vse.cz/auth/pracoviste/pracoviste.pl?id=40;id=66;lang=cz)
 
