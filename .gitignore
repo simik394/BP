@@ -1,2 +1,6 @@
 .obsidian/*
 Context/*
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store
