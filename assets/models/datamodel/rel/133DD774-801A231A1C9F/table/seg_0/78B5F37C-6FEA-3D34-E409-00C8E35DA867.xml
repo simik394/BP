@@ -22,6 +22,20 @@
 <colAssociation fkAssociation="E60B6B4E-6B82-C565-626E-B8F3BFA39BD1" referredColumn="9B406516-445F-EB7F-C455-05553D1E6279"/>
 </associations>
 </Column>
+<Column name="Sdílené_uložiště_Sdílené_uložiště_ID" id="31FA03B7-6152-DC10-4F4D-F69D4740F3CF">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D86563F8-0BE8-91A0-5F86-FA3A0B250243" referredColumn="6F860120-79E7-14DE-BE2F-CDB2173DA1ED"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="26F95BD6-3893-B8F6-0A1A-9DC826E7D26E" name="Záznamy_PK">
@@ -43,6 +57,17 @@
 <colUsage columnID="E9AA2B2E-A5EC-36A9-3DBF-4F30986BDE34"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="1189F3F8-E410-5833-3A35-52B0493DF15E" name="Zkušenosti__IDX">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>36FA97E2-6893-76EA-BD7E-53044B78E874</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="31FA03B7-6152-DC10-4F4D-F69D4740F3CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="A81425FC-A815-2654-12F3-058A9EFD23CE" name="Záznamy_Produkty_FK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 02:29:29 UTC</createdTime>
@@ -52,6 +77,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E9AA2B2E-A5EC-36A9-3DBF-4F30986BDE34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB131D74-3896-2568-9C57-14CA4E078B58" name="Zkušenosti_Sdílené_uložiště_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<generatorID>36FA97E2-6893-76EA-BD7E-53044B78E874</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31FA03B7-6152-DC10-4F4D-F69D4740F3CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

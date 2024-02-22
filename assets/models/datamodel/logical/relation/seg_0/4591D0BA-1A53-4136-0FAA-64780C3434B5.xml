@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Přiřazení výchozí lokace" directorySegmentName="seg_0" id="4591D0BA-1A53-4136-0FAA-64780C3434B5">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 22:32:12 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3110F18D-39BB-2FC2-1A41-E16D72308DDC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7F15215A-7ABC-0C16-2D93-E40910B129E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

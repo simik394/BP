@@ -7,4 +7,31 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Družina_ID" id="5CE8C3C7-BD3D-A17E-72F4-0D2577A7DFCF">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3835D019-5F08-4EE0-0B65-FEA659194FC3" name="Družina_PK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5CE8C3C7-BD3D-A17E-72F4-0D2577A7DFCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

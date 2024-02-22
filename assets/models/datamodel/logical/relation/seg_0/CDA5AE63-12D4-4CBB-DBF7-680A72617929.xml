@@ -1,18 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_12" directorySegmentName="seg_0" id="F0AFF96B-29FE-69A6-3DD3-4C5A478A5363">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hodnocenív1" directorySegmentName="seg_0" id="CDA5AE63-12D4-4CBB-DBF7-680A72617929">
 <createdBy>simon</createdBy>
-<createdTime>2024-02-22 17:02:51 UTC</createdTime>
+<createdTime>2024-02-22 21:41:22 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <engineerTo>
 <item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
+<nameOnSource>Určeno</nameOnSource>
+<nameOnTarget>Hodnotil</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>351A5DA9-172D-92F6-4576-91CD515D2DFB</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>4C9F8E78-2364-4432-F198-A939A44B2296</targetEntity>
+<targetEntity>62E20DFB-9DCF-D804-3D22-99671F71E4DA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

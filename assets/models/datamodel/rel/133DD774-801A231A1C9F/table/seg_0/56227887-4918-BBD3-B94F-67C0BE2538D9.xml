@@ -7,4 +7,57 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Úkol_ID" id="DF30D4C5-08AB-9FE5-64F2-D849819C8CCC">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Člen_Člen_ID" id="050B3F56-63F0-BAF7-2C1D-EFBCC724D1AB">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEBEACCE-80E4-8AB1-2AE8-8F0DC9DE7A41" referredColumn="C3F2AE78-E498-C704-B4BE-9B72D3195439"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="699D819A-4A5B-4F87-A846-2AB2AA71CCDF" name="Úkol_PK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DF30D4C5-08AB-9FE5-64F2-D849819C8CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCA31127-6CF1-BE07-CF6A-A4654D206D8C" name="Úkol_Člen_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<generatorID>F0AFF96B-29FE-69A6-3DD3-4C5A478A5363</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="050B3F56-63F0-BAF7-2C1D-EFBCC724D1AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

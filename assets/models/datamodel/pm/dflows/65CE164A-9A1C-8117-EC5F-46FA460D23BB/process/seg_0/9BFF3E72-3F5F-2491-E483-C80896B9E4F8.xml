@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="Process_1" directorySegmentName="seg_0" id="9BFF3E72-3F5F-2491-E483-C80896B9E4F8">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 22:05:14 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

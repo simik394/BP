@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1625130-421A-9DE7-69F6-B2EA3FDEB2CC" name="Sdílené_uložiště">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C403E57F-1C0A-B570-4333-A1D09CD9C7DC" name="Typ_úkolu">
 <createdBy>simon</createdBy>
-<createdTime>2024-02-22 02:28:31 UTC</createdTime>
-<generatorID>7F15215A-7ABC-0C16-2D93-E40910B129E6</generatorID>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<generatorID>5483795B-497B-C324-0603-B3509A8E49C8</generatorID>
 <ownerDesignName>datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Sdílené_uložiště_ID" id="6F860120-79E7-14DE-BE2F-CDB2173DA1ED">
+<Column name="Typ_úkolu_ID" id="036FB4A4-B8AF-DC01-2FE5-D451EA174945">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
@@ -23,14 +23,14 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="45926413-B7B5-EC80-3352-D834176AC507" name="Sdílené_uložiště_PK">
+<ind_PK_UK id="87159228-B189-4960-7C3C-110687BBE55A" name="Typ_úkolu_PK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
-<colUsage columnID="6F860120-79E7-14DE-BE2F-CDB2173DA1ED"/>
+<colUsage columnID="036FB4A4-B8AF-DC01-2FE5-D451EA174945"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

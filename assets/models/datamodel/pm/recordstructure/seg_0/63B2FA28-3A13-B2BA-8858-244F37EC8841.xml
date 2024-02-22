@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RecordStructure class="oracle.dbtools.crest.model.design.process.RecordStructure" name="RecordStructure_1" directorySegmentName="seg_0" id="63B2FA28-3A13-B2BA-8858-244F37EC8841">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 22:08:54 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+</RecordStructure>

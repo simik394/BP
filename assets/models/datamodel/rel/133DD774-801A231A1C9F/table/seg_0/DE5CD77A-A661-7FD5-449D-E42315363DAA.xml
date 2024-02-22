@@ -1,27 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66D868C8-49CC-9DBC-BDAC-C38C336E10F3" name="Člen">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE5CD77A-A661-7FD5-449D-E42315363DAA" name="Hodnocenív1">
 <createdBy>simon</createdBy>
-<createdTime>2024-02-22 02:28:31 UTC</createdTime>
-<generatorID>351A5DA9-172D-92F6-4576-91CD515D2DFB</generatorID>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Člen_ID" id="C3F2AE78-E498-C704-B4BE-9B72D3195439">
-<createdBy>simon</createdBy>
-<createdTime>2024-02-22 21:23:09 UTC</createdTime>
-<ownerDesignName>datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
-<Column name="Družina_Družina_ID" id="CF278058-E9C1-92D2-17EA-65878786815B">
+<Column name="Hodnocení_Zkušenosti_Produkty_Produkty_ID" id="80C31B59-C01C-2345-755D-7D3AD115D008">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
@@ -32,30 +18,57 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EF7AB4E3-E3ED-6B41-C269-FBACE352F0A7" referredColumn="5CE8C3C7-BD3D-A17E-72F4-0D2577A7DFCF"/>
+<colAssociation fkAssociation="1A891FDF-CE1C-B253-AACE-D1105AB2F702" referredColumn="711F93BB-65CE-0809-2D98-BB9FC7841753"/>
+</associations>
+</Column>
+<Column name="Produkty_Produkty_ID" id="FF071535-F134-3E9C-923B-ABBE295C8F0F">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5893653-56E2-93F2-3028-945F0881349A" referredColumn="9B406516-445F-EB7F-C455-05553D1E6279"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="679A0A2A-E5ED-4BDD-3C9E-A6155990883B" name="Člen_PK">
+<ind_PK_UK id="D811375A-18B6-8C39-6864-F6A59B9371C5" name="Hodnocenív1_PK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C3F2AE78-E498-C704-B4BE-9B72D3195439"/>
+<colUsage columnID="80C31B59-C01C-2345-755D-7D3AD115D008"/>
+<colUsage columnID="FF071535-F134-3E9C-923B-ABBE295C8F0F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F578A1CA-A5B5-19FF-8E0C-355D7F967823" name="Člen_Družina_FK">
+<ind_PK_UK id="47487B8E-DD13-4865-C6DC-6A1A61E4F8B5" name="Hodnocenív1_Hodnocení_FK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
-<generatorID>B7B7BD72-73D9-4966-DF34-2C2693C0937B</generatorID>
+<generatorID>BF0C7620-97EE-2C85-CE22-D8D570813635</generatorID>
 <ownerDesignName>datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CF278058-E9C1-92D2-17EA-65878786815B"/>
+<colUsage columnID="80C31B59-C01C-2345-755D-7D3AD115D008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A64E81C3-D1A6-B383-AC85-46E13886F52B" name="Hodnocenív1_Produkty_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<generatorID>BF0C7620-97EE-2C85-CE22-D8D570813635</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF071535-F134-3E9C-923B-ABBE295C8F0F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

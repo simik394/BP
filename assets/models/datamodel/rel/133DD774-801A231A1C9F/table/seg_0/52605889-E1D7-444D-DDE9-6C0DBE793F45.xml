@@ -1,27 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66D868C8-49CC-9DBC-BDAC-C38C336E10F3" name="Člen">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52605889-E1D7-444D-DDE9-6C0DBE793F45" name="Relation_14">
 <createdBy>simon</createdBy>
-<createdTime>2024-02-22 02:28:31 UTC</createdTime>
-<generatorID>351A5DA9-172D-92F6-4576-91CD515D2DFB</generatorID>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Člen_ID" id="C3F2AE78-E498-C704-B4BE-9B72D3195439">
-<createdBy>simon</createdBy>
-<createdTime>2024-02-22 21:23:09 UTC</createdTime>
-<ownerDesignName>datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
-<Column name="Družina_Družina_ID" id="CF278058-E9C1-92D2-17EA-65878786815B">
+<Column name="Úkol_Úkol_ID" id="CD475B58-31C0-1447-ADE8-08BFCBDB0AFD">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
@@ -32,30 +18,57 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EF7AB4E3-E3ED-6B41-C269-FBACE352F0A7" referredColumn="5CE8C3C7-BD3D-A17E-72F4-0D2577A7DFCF"/>
+<colAssociation fkAssociation="FC0B02BD-BF0B-8FB2-537E-872E25AB8C4A" referredColumn="DF30D4C5-08AB-9FE5-64F2-D849819C8CCC"/>
+</associations>
+</Column>
+<Column name="Produkty_Produkty_ID" id="640EC601-CA9D-C6C2-2353-490D186FF8F8">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63E02842-40F7-8CF3-DC5A-359BED730506" referredColumn="9B406516-445F-EB7F-C455-05553D1E6279"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="679A0A2A-E5ED-4BDD-3C9E-A6155990883B" name="Člen_PK">
+<ind_PK_UK id="A587E566-F411-E8E2-EA9A-2C1EB1BA5B23" name="Relation_14_PK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C3F2AE78-E498-C704-B4BE-9B72D3195439"/>
+<colUsage columnID="CD475B58-31C0-1447-ADE8-08BFCBDB0AFD"/>
+<colUsage columnID="640EC601-CA9D-C6C2-2353-490D186FF8F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F578A1CA-A5B5-19FF-8E0C-355D7F967823" name="Člen_Družina_FK">
+<ind_PK_UK id="2EE9A718-8DE7-5FE0-FD6A-5E1C6D37FF37" name="Relation_14_Úkol_FK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
-<generatorID>B7B7BD72-73D9-4966-DF34-2C2693C0937B</generatorID>
+<generatorID>29E7047B-E239-D82D-929D-9DE0FCAB3A64</generatorID>
 <ownerDesignName>datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CF278058-E9C1-92D2-17EA-65878786815B"/>
+<colUsage columnID="CD475B58-31C0-1447-ADE8-08BFCBDB0AFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AD153D1-374D-F011-EFA3-96FF4C609F60" name="Relation_14_Produkty_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<generatorID>29E7047B-E239-D82D-929D-9DE0FCAB3A64</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="640EC601-CA9D-C6C2-2353-490D186FF8F8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

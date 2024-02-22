@@ -1,27 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66D868C8-49CC-9DBC-BDAC-C38C336E10F3" name="Člen">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE53D93A-C005-3C3E-3C4B-1491C9371467" name="Relation_4">
 <createdBy>simon</createdBy>
-<createdTime>2024-02-22 02:28:31 UTC</createdTime>
-<generatorID>351A5DA9-172D-92F6-4576-91CD515D2DFB</generatorID>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Člen_ID" id="C3F2AE78-E498-C704-B4BE-9B72D3195439">
-<createdBy>simon</createdBy>
-<createdTime>2024-02-22 21:23:09 UTC</createdTime>
-<ownerDesignName>datamodel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
-<Column name="Družina_Družina_ID" id="CF278058-E9C1-92D2-17EA-65878786815B">
+<Column name="Strategie_Cíle_Cíle_ID" id="3E5A8AD0-5DA9-1E79-0E13-3F152D6CED9F">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
@@ -32,30 +18,57 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="EF7AB4E3-E3ED-6B41-C269-FBACE352F0A7" referredColumn="5CE8C3C7-BD3D-A17E-72F4-0D2577A7DFCF"/>
+<colAssociation fkAssociation="45567762-7661-3734-4DDA-E434DDADC7CA" referredColumn="15DB4E47-49E0-0A5A-AA42-8512DFF0957C"/>
+</associations>
+</Column>
+<Column name="Naše_Cíle_Cíle_ID" id="34317D47-1348-BE72-9988-ED5D71E933DC">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BF82914-5FCA-4EB7-C4F6-7A64C0EE1CD1" referredColumn="8BF5B6E6-BFE8-3F1E-AD4E-1EA6FAEF71C8"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="679A0A2A-E5ED-4BDD-3C9E-A6155990883B" name="Člen_PK">
+<ind_PK_UK id="1FDC47F2-CFB9-28E7-B299-3C0E8AFC1DE9" name="Relation_4_PK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C3F2AE78-E498-C704-B4BE-9B72D3195439"/>
+<colUsage columnID="3E5A8AD0-5DA9-1E79-0E13-3F152D6CED9F"/>
+<colUsage columnID="34317D47-1348-BE72-9988-ED5D71E933DC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F578A1CA-A5B5-19FF-8E0C-355D7F967823" name="Člen_Družina_FK">
+<ind_PK_UK id="F417E766-FDD9-26E0-BFE0-FDCD39C041B6" name="Relation_4_Strategie_FK">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 21:23:09 UTC</createdTime>
-<generatorID>B7B7BD72-73D9-4966-DF34-2C2693C0937B</generatorID>
+<generatorID>5BDA6A9F-9B42-CFEF-1B35-0D34F090C877</generatorID>
 <ownerDesignName>datamodel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CF278058-E9C1-92D2-17EA-65878786815B"/>
+<colUsage columnID="3E5A8AD0-5DA9-1E79-0E13-3F152D6CED9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0A43F49-DE19-250D-B254-0261484DF449" name="Relation_4_Naše_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 21:23:09 UTC</createdTime>
+<generatorID>5BDA6A9F-9B42-CFEF-1B35-0D34F090C877</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34317D47-1348-BE72-9988-ED5D71E933DC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
