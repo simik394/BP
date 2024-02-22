@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52B76F4F-5EFB-C31B-12BB-004EEABEF817" name="Strategie">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>E9680A57-7885-6B9C-436A-CC38EC5C01FB</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cíle_Cíle_ID" id="15DB4E47-49E0-0A5A-AA42-8512DFF0957C">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F41E402E-586A-41DB-0E80-91B76F56BD32" referredColumn="05FEFA7A-B36B-32EC-7D58-B3F5C4356647"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6B6E0C2-CB22-FE62-B07E-B2D3D8E31498" name="Strategie_PK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="15DB4E47-49E0-0A5A-AA42-8512DFF0957C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2BDC4A3-52F6-A75A-DFDE-6ECEE0F39AAE" name="Strategie_Cíle_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>EBE089E0-B561-9590-254F-EF8E536B9FFB</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15DB4E47-49E0-0A5A-AA42-8512DFF0957C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

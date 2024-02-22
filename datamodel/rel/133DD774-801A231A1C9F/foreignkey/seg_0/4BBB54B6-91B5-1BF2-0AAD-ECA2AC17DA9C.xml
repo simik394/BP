@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4BBB54B6-91B5-1BF2-0AAD-ECA2AC17DA9C" containerWithKeyObject="7D091727-58B3-BB62-B78C-6320F1A4A65D" localFKIndex="2F15F555-9D12-4F7C-014A-78E513B4CF99" name="Z5v_účastníků_Hodnocení_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>5C09F555-054A-DB42-D00B-67287195F895</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<referredTableLongName>Hodnocení</referredTableLongName>
+<arc>545E9A95-3FD8-0277-D6BA-ECCDD8FFBD95</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>805EC364-22DD-64D2-D7C0-65B3976D60DD</referredTableID>
+<keyObject>CEA82BDC-D3D6-D4F1-FEE4-2ED85BE8867D</keyObject>
+<referredKeyID>CEA82BDC-D3D6-D4F1-FEE4-2ED85BE8867D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Zkušenosti_Produkty_Produkty_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

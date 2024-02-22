@@ -96,7 +96,7 @@ Komentáře k provedení
 ~~Prostředí~~
 
 # favs 
-[[bp.notes]]
+[[tmp.bp]]
 
 [[tábor23.bp]]
 [[bp.vedení]]

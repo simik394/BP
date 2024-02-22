@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DAB5D58-0D5E-3472-5AD7-1385241C5CC4" containerWithKeyObject="34978D1F-2C60-EB99-EF17-21DA712B11DE" localFKIndex="F922E9B1-4385-D015-B7F4-CEA5E3ED8B74" name="Blok_programu_Zkušenosti_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 01:31:59 UTC</createdTime>
+<generatorID>A095B68C-2CEF-D159-117A-9A6051AA74E4</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<referredTableLongName>Zkušenosti</referredTableLongName>
+<arc>11C3C7A9-B88E-FE71-F5CD-DB979173C8FD</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>78B5F37C-6FEA-3D34-E409-00C8E35DA867</referredTableID>
+<keyObject>3931418E-4396-E7E0-7334-BDC703344421</keyObject>
+<referredKeyID>3931418E-4396-E7E0-7334-BDC703344421</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Produkty_Produkty_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

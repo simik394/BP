@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B35F24A8-A27E-24A0-0F5A-E0321A97C937" containerWithKeyObject="77C7E466-EE86-2890-591E-8BFFD12668E1" localFKIndex="8127E9C7-80E8-313F-4CE4-698E16D39C55" name="Metodika_Naučné_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>ADEB58DE-C6F0-C9D5-C51F-E392F1FCE46E</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<referredTableLongName>Naučné</referredTableLongName>
+<arc>E68C1AEA-74AE-0754-2B21-9673958C7512</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70E4CB2E-15A1-708E-30EE-60B90CAB7B95</referredTableID>
+<keyObject>D5F041B1-FC49-C2B5-59E8-465FB12A3858</keyObject>
+<referredKeyID>D5F041B1-FC49-C2B5-59E8-465FB12A3858</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Aktivita_Zkušenosti_Produkty_Produkty_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

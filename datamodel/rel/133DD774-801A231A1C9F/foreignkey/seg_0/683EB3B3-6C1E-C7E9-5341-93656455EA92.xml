@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="683EB3B3-6C1E-C7E9-5341-93656455EA92" containerWithKeyObject="AD48E746-A522-3F4F-E3A7-A38D41FA2611" localFKIndex="A3F1D60D-CFCD-20F0-8200-D1044754A942" name="Odborky_Body_ke_splnění_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>B97C33C6-68EB-8C8D-79D4-42837B2C93B0</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<referredTableLongName>Body_ke_splnění</referredTableLongName>
+<arc>340324C8-2B4E-CC8A-1971-320054966645</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19B10681-47BB-3935-4F47-7EB14CF19F7D</referredTableID>
+<keyObject>F7919B1A-DFFF-EBE7-443B-80F268D770A7</keyObject>
+<referredKeyID>F7919B1A-DFFF-EBE7-443B-80F268D770A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cíle_Cíle_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

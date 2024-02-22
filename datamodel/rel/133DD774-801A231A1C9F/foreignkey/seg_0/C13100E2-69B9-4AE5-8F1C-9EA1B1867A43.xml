@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C13100E2-69B9-4AE5-8F1C-9EA1B1867A43" containerWithKeyObject="12257746-1325-6DAD-7706-CC60710BC4D6" localFKIndex="04F6FD99-1609-4D1F-81BA-8DF29CC475AB" name="Zábavné_Aktivita_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>12DF2988-E093-0201-FA52-4452BCE2958F</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<referredTableLongName>Aktivita</referredTableLongName>
+<arc>F6E2DCF3-5A3E-2688-302E-DA0F9B9E8C5A</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7E167B9-AB99-E718-6785-5789D94FDF49</referredTableID>
+<keyObject>116DD671-55A9-3C7E-8AA5-A3EB42E60561</keyObject>
+<referredKeyID>116DD671-55A9-3C7E-8AA5-A3EB42E60561</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Zkušenosti_Produkty_Produkty_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

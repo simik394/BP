@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Začlenění" directorySegmentName="seg_0" id="B7B7BD72-73D9-4966-DF34-2C2693C0937B">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 17:05:25 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7B9B9B9B-B903-59C5-8655-E764AD801ECE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>351A5DA9-172D-92F6-4576-91CD515D2DFB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

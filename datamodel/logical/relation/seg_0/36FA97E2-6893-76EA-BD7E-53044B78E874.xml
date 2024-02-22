@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uložení na disku" directorySegmentName="seg_0" id="36FA97E2-6893-76EA-BD7E-53044B78E874">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 16:48:08 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EBA8798B-A577-77B6-B1B9-FBE6767E57B5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7F15215A-7ABC-0C16-2D93-E40910B129E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

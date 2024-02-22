@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Hodnocení" directorySegmentName="seg_0" id="BF0C7620-97EE-2C85-CE22-D8D570813635">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 16:37:17 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>62E20DFB-9DCF-D804-3D22-99671F71E4DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F3EBDD57-5516-C9AB-2449-B18642E9D843</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

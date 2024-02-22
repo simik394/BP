@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD48E746-A522-3F4F-E3A7-A38D41FA2611" name="Odborky">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>BE74466B-FB43-BDF0-0B47-30C975C4E3F4</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Body_ke_splnění_Cíle_Cíle_ID" id="6A9FF8A9-073D-740B-9630-B8BFA7EEBC25">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="683EB3B3-6C1E-C7E9-5341-93656455EA92" referredColumn="A92D1CAE-17F9-739C-6F76-7C915B771959"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBEAE5A5-7CAF-B436-9652-60B7920F9607" name="Odborky_PK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6A9FF8A9-073D-740B-9630-B8BFA7EEBC25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3F1D60D-CFCD-20F0-8200-D1044754A942" name="Odborky_Body_ke_splnění_FK">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 02:28:31 UTC</createdTime>
+<generatorID>B97C33C6-68EB-8C8D-79D4-42837B2C93B0</generatorID>
+<ownerDesignName>datamodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A9FF8A9-073D-740B-9630-B8BFA7EEBC25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
