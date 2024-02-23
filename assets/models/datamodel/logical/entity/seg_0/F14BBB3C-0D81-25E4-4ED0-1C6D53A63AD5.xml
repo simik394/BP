@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F14BBB3C-0D81-25E4-4ED0-1C6D53A63AD5" name="Metodika">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F14BBB3C-0D81-25E4-4ED0-1C6D53A63AD5" name="Postup">
 <createdBy>simon</createdBy>
 <createdTime>2024-02-22 02:20:49 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
@@ -11,7 +11,7 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>CB9BC843-795C-3A56-B492-3947AAC8B3B3</hierarchicalParent>
+<hierarchicalParent>BD639E1C-0376-04C4-7C2D-BE0A870D3AF2</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>

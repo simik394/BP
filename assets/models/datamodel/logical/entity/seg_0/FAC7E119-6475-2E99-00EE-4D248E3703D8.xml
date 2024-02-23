@@ -11,8 +11,87 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>EBA8798B-A577-77B6-B1B9-FBE6767E57B5</hierarchicalParent>
+<hierarchicalParent>EB751EE4-2375-6A98-6391-624A7334CAB8</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="doba trvání" id="AA7D2D0C-1DB7-4184-2AE5-EDC8FAD13EEC">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 05:29:36 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doba přípravy" id="1AC7AA34-547F-038C-C6FB-3C2F12A9A73A">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 05:29:36 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="doba úklidu" id="6B288FB4-B047-9045-EB4C-44909BD6D62A">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 05:29:36 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zamýšlený počet účastníků" id="69C80163-FE78-F576-ED9D-AB2503AABD66">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 05:29:36 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maximální počet účastníků" id="EBDC43ED-761B-A1F0-939D-55C66E896DBC">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 05:29:36 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vedoucích potřeba" id="F9381126-A304-D2B2-FF80-CB154102E0EE">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 05:29:36 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro věkovou kategorii" id="F2921D79-2851-8248-F0C9-72EEBC744A6E">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 05:29:36 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

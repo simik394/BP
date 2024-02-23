@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A16791C7-B139-BDC5-5D0D-654F1B9033E3" name="Teoretické podklady">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D0CBC60-572D-609F-F411-C1208F10897B" name="Pravidla">
 <createdBy>simon</createdBy>
-<createdTime>2024-02-22 02:20:33 UTC</createdTime>
+<createdTime>2024-02-23 05:20:16 UTC</createdTime>
 <ownerDesignName>datamodel</ownerDesignName>
 <engineerTo>
 <item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
