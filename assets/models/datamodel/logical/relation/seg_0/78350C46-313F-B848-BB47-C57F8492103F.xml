@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Složení z5v" directorySegmentName="seg_0" id="78350C46-313F-B848-BB47-C57F8492103F">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-22 23:39:42 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Obsažen v</nameOnSource>
+<nameOnTarget>Získán z</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>62E20DFB-9DCF-D804-3D22-99671F71E4DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>975C35A4-CDC5-2830-ECE7-2238F9DDB437</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

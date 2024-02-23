@@ -15,4 +15,17 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pro věkovou kategorii" id="C4B74FF1-D35B-BED0-04EC-F91DC896698B">
+<createdBy>simon</createdBy>
+<createdTime>2024-02-23 01:24:00 UTC</createdTime>
+<ownerDesignName>datamodel</ownerDesignName>
+<engineerTo>
+<item key="133DD774-E957-522E-F780-801A231A1C9F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>
