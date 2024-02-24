@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"1c0867befbca87a8","type":"file","file":"BP/Podklady/Komunikace/plošný dotaz hledám vedoucího bp.md","x":619,"y":786,"width":581,"height":394},
+		{"id":"1c0867befbca87a8","type":"file","file":"BP/Podklady/Hledání vedení/plošný dotaz hledám vedoucího bp.md","x":619,"y":786,"width":581,"height":394},
 		{"id":"ec57efeb17c5e1de","type":"file","file":"myDM/reM/BP.Quick sheets/Quick sheets - page 43.png","x":-36,"y":-760,"width":340,"height":255},
 		{"id":"7fccfdf91ea3cb3b","type":"file","file":"myDM/reM/BP.Quick sheets/Quick sheets - page 41.png","x":-36,"y":-480,"width":400,"height":300},
 		{"id":"6eb81c26b9c7da3e","type":"file","file":"myDM/reM/BP.Quick sheets/Quick sheets - page 42.png","x":-36,"y":-120,"width":400,"height":300},
@@ -9,9 +9,9 @@
 		{"id":"23bea5e016e4df38","type":"file","file":"myDM/reM/BP.Quick sheets/Quick sheets - page 46.png","x":520,"y":-280,"width":400,"height":300},
 		{"id":"2cf89dbb0c335ae4","type":"file","file":"myDM/reM/BP.Quick sheets/Quick sheets - page 47.png","x":520,"y":-80,"width":400,"height":300},
 		{"id":"b6ff308dd63c7e14","type":"file","file":"BP/Podklady/Komunikace/Validace návrhu-Vojíř.md","x":1000,"y":-880,"width":740,"height":648},
-		{"id":"d35931583fab1bba","type":"file","file":"BP/Podklady/Komunikace/Dotaz vedení -Hamousek.md","subpath":"#latest","x":1000,"y":-185,"width":720,"height":465},
+		{"id":"d35931583fab1bba","type":"file","file":"BP/Podklady/Hledání vedení/Dotaz vedení -Hamousek.md","subpath":"#latest","x":1000,"y":-185,"width":720,"height":465},
 		{"id":"a6d19c91512f70f2","type":"file","file":"BP/Podklady/bp.limitace.md","x":1120,"y":-1360,"width":416,"height":319},
-		{"id":"a76740120ad97050","type":"file","file":"BP/Podklady/Komunikace/bp.vedení.md","subpath":"#kontakty / oslovení","x":-126,"y":520,"width":580,"height":1392}
+		{"id":"a76740120ad97050","type":"file","file":"BP/Podklady/Hledání vedení/bp.vedení.md","subpath":"#kontakty / oslovení","x":-126,"y":520,"width":580,"height":1392}
 	],
 	"edges":[
 		{"id":"0f051b6783fcaf03","fromNode":"7fccfdf91ea3cb3b","fromSide":"right","toNode":"4cc4e45488f6bea7","toSide":"left"},
