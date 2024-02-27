@@ -1,6 +1,6 @@
  
 # v5   
-## motivace 
+## motivace %% fold %%
 Co se tématu týče, původně mě zaujal task management jakožto klíčová podoblast projektového managementu, na které ve značné míře závisí jak efektivně (snadno/kvalitně) je možné dokončit produkt.
 Nemám však vyloženě zájem v hledání nějaké optimální metody řízení. Jelikož produkt který mě zajímá, jsou skautské tábory, které každý rok pořádáme. 
 
@@ -21,7 +21,7 @@ automaticky:
 
 Výsledek by tak měl odstranit potřebu manuálně prohledávat jednotlivé dokumenty, nebo alespoň zásadně usnadnit správu záznamů a poskytovat aktualizované přehledy. Tím způsobem by jsme měli výhody vyplývající ze zaznamenaných údajů, a navíc by jsme zůstali ušetřeni většiny práce vyplývající z organizování řečených údajů.
 
-## >> 
+## >> %% fold %%
 manuálně zaznamenávat:
 - úkoly k dokončení
 - závislosti mezi úkoly
@@ -41,7 +41,7 @@ automaticky:
 	- prostředí
 - 
 - čas na úklid
-## V systému  
+## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů
 ### Jazyková varianta:
@@ -64,10 +64,8 @@ přiměřený obsahu
 Datum zadání:	únor 2024 	 
 Datum odevzdání:	květen 2024
 
-
-
 ## pokus o cíle na začátku práce 
-### Hlavní cíl:
+### Hlavní cíl varianty: %% fold %%
 #### a
 - Navrhnout zdarma provozovatelný cloud systém pro automatické indexování záznamů o připravovaných skautských programech v dokumentech google, umožňující *efektivnější* prohledávání jejich obsahu všem členům oddílu. 
  
@@ -82,7 +80,7 @@ Datum odevzdání:	květen 2024
 usnadnit hledání inspirace, řízení přípravy i kvality výstupu.
 
 usnadnit hledání inspirace při přípravě a zároveň kontroly kvality připraveného obsahu
-### Dílčí cíle:
+### Dílčí cíle varianty: %% fold %%
 - jak zapisovat údaje do dokumentů google
 - návrh datové struktury
 - výběr parametrů k zaznamenávání
@@ -92,7 +90,50 @@ usnadnit hledání inspirace při přípravě a zároveň kontroly kvality přip
 - dokumentovat vyžadované způsoby zápisu údajů
 - umožnit prohledávání pro inspiraci pří přípravě
 - umožnit prohledávání pro kontrolu pokroku při přípravě
-# v4.1 
+
+### Dotaz: %% fold %%
+Dobrý den pane profesore,
+mám za to, že bych pro začátek svojí práce, než začnu modelovat, měl stanovit hlavní cíl a odpovídající dílčí cíle.
+
+Podle doporučení, které jsem obdržel od pana doktora Sládka, hlavní cíl "v sobě shrnuje důvod, proč je práce vytvářená. Měl by být formulovaný tak, aby z něj bylo jednoduše pochopitelné, co je výstupem práce. Hlavní cíl práce by měl být orientovaný na řešení konkrétního problému."
+
+Hádám proto, že ho potřebuji definovat konkrétněji než například "návrh systému pro vývoj báze znalostí skautských programů".
+Myslím, že požadavkům by více odpovídala tato formulace:
+"Navrhnout zdarma provozovatelný cloud systém pro automatické indexování záznamů o připravovaných skautských programech v dokumentech google na základě parametrů relevantních pro usnadnění hledání inspirace při přípravě a zároveň kontroly kvality připraveného obsahu, umožňující *efektivnější* prohledávání jejich obsahu všem členům oddílu."
+
+Co se dílčích cílů týče, doporučení je "definovat je jako dílčí problémy, jejichž vyřešení je nutné pro naplnění hlavního cíle práce. Každý vedlejší cíl práce by měl mít jasnou vazbu na hlavní cíl práce. Z formulace vedlejšího cíle by měl být pochopitelný způsob, jak splnění tohoto vedlejšího přispívá k naplnění hlavního cíle práce".
+
+Podle toho bych možná zvolil takovéto dílčí cíle:
+určit obsah k zaznamenávání
+automatizovat indexování
+umožnit prohledávání
+popsat využití systému
+
+Nicméně mám značné pochybnosti ohledně svých formulací. U hlavního cíle primárně kvůli jeho délce a jisté krkolomnosti. Navíc přemýšlím, zda bych neměl blíže definovat efektivitu prohledávání.
+
+Mohl byste mi prosím Vás poskytnout komentář ke vhodnosti mých formulací? 
+
+Děkuji za Váš čas.
+Šimon Trousil
+### Komentář: %% fold %%
+Dobrý den,
+znamená to, že se chete přesunout k dr.Sládkovi? To bych musel udělat já. Dejte vědět.
+
+Každopádně:
+
+- Ta jeho definice cíle je poměrně přesná, jen bych ji tak nevázal na výstup práce. To jsou různé věci a měly by se rozlišovat. Výstup by měl být definován samostatně, nehledě na to, že jich může být víc (a asi i bude).
+
+- Vaše formulace je celkem dobrá, ale až moc a zbytečně konkrétní. Proč například ausgerechnet gůgl? To můžete uvést uvnitř jako výsledek implementačního zamyšlení, což by bylo užitečné, neb Vás to přiměje k zamyšlení nad důvody (pokud to tam totiž uvedete, budete to muset důvodnit) a to je vždy ku prospěchu věci, soudím, že jste nic takového doposud neudělal, rozhodl jste se čistě intuitivně. Ale co je nejzávažnější - zdá se, že jste minul důvod, dle mého nejdůležitější - a to je ta báze znalostí (využít zkušenosti z programů k obohacení celé komunity). Tohle pořád vypadá jen na nějakou lokální evidenci a to mi připadne málo. Pravda, neminul jste to úplně, ale spíš to jen tak lehce naznačujete - mělo by to zaznít naplno a jasně.
+
+- Ty dílčí cíle ještě poformulujeme. Nemusí to ale být hned. Je důležité, abyste pracoval systematicky a ty cíle si rámcově uvědomoval. Jejich přesná formulace je už spíš pro čtenáře, než pro operativní použití.
+
+Pokud nechcete přejít k p.Sládkovi, pak první, co po Vás budu chtít, je začít pracovat na tom konceptuálním modelu (což předpokládá proniknutí do metody, resp. oživení této znalosti z předmětu Databáze). To je klíč k dalším akcím. A uvidíte na tom, že sdílení znalostí vyžaduje víc, než jen prostou evidenci. Udělejte prosím první návrh a přijďte si to po mejlové domluvě probrat.
+
+Dejte prosím vědět, zda u mne zůstáváte a pokud ano, těším se a Vaši další návštěvu.
+
+S pozdravy
+V.Řepa
+# v4.1  %% fold %%
 ## téma BP
 
 ## cíle BP
@@ -103,7 +144,7 @@ ___
 from: BP.zaměření.v4 on: 2024-01-12 00:01:84
 
 
-# v4 
+# v4 %% fold %%
 ## téma BP 
 semi-automatický systém řízení práce vyžadované skautským táborem
 v prostředí Google Workspace 05:26:57
@@ -111,7 +152,7 @@ v prostředí Google Workspace 05:26:57
 ___
 from: 2023-12-16 04-57-30 on: 2023-12-16 05:12:51
 
-# v3 
+# v3 %% fold %%
 
 ## Funkcionalita
 ---

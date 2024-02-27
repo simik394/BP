@@ -1,6 +1,70 @@
+[[BP/README|README]]
+
+
+# procesní model %% fold %%
+## v1
+1. plánování událostí (které a kdy budou)\[1-2 / rok]
+2. příprava konkrétních událostí
+	1. schůzka
+	2. výprava
+	3. tábor
+3. pořádání události
+4. archivace, rafinování získaných informací (aktuálně neexistuje D)
+
+klíčový proces:
+  1+3
+
+podpůrné proc:
+  2+4
+
 
 
 # konceptuální model
+## v2.2
+![[concept-schema-ke-konzultaci2.2.png]]
+## v2.1
+![[concept-schema-ke-konzultaci2.1.png]]
+## v2
+### schema:
+
+> [!NOTE]
+> - [x] Událost má symbolicky rámec a z toho vyplývá scénka
+
+- [ ] Událost může mít přihlášené lidi 
+
+- [ ] Aktivita může mít různé verze (starší/novější), a je důležité zachytit, ke které verzi byla poskytnuta z5v.
+
+- [ ] Aktivity mohou mít několik lehce odlišných verzí. 
+Verze by se měly drobně lišit, ne však příliš. pak nová aktivita. 
+Každá verze má nějaké vlastní parametry (doba nabíjení, počet stanovišť, počet týmů, běhaná vzdálenost, symbolický rámec, ...)
+- [ ] V rámci programového bloku by mělo být zaznamenáno konkrétní nastavení parametrů zvoleného programu. 
+- [ ] Nicméně i v rámci aktivity může být specifikováno výchozí/doporučené nastavení těchto parametrů.
+
+- [x] U hry přidat parametr cíl/cíle hráčů?
+Nebo vedle mechanik jako entitu obsaženou v pravidlech?
+- [ ] Aktivity by měly být reusable (očištěné od prvků specifických pro konkrétní události).
+
+- [ ] Události jsou primární produkt. Jaké jsou procesy jejich přípravy a provedení?
+
+Mechanika je npř cíl hráče, hraní po týmech, či po jednotlivcích.
+Mechanika = hráč musí/může/nemůže
+#= hráč chce
+
+---
+- [ ] Členové mohou mít splněné některé body ke splnění
+
+- [ ] Programový blok vychází z konkrétní události, mohl by tedy mít parametr "věk účastníků"
+
+Indpiruj se u návrhu db pro DnD
+
+---
+Aktivita překreslování obrázku podle slovního popisu je hra, nebo naučná? A co překreslováné obrázky, co pro aktivitu představují?
+Chci vážně dělit aktivity na zábavné, naučné a potřebné? > ANO
+
+---
+Program =vybrané aktivity s konkrétními parametry. By měly mít ještě připravené otázky jejichž zodpovězení proběhne ve z5v.
+
+![[concept-schema-ke-konzultaci2.png]]
 ## v1
 ### schema:
 ![[concept-schema-ke-konzultaci1.png]]
@@ -72,55 +136,7 @@ Komentáře k provedení
 
 
 # v0 %% fold %%
-## old %% fold %%
-### BP.Issues
-> [!todo]- Github
-><iframe src="https://github.com/users/simik394/projects/2/views/6" frameBorder="0" width="650" height="600"></iframe>
-
-
-
-### bp.Metodika.pre-konzultace
- - [ ] aktuální stav
-	- [x] identifikovat artefakty vytvořené v rámci loňského tábora
-	- [ ] modely fungování minulých let
-	- [ ] sestavit testovací data
-
-- [ ] vybrat dlouhodobé cíle junáka k zaměření se na
-	- [ ] strategie junáka
-		- [x] stáhnout
-		- [ ] vytěžit
-		- [ ] napojit
-	- [ ] skautská křižovatka
-
-- [ ] vyvodit featury pro systém ze zdrojů:
-	- [ ] FAQ + issues řešené ve skupinových konverzacích
-		- [ ] které chaty
-		- [ ] vypsat
-		- [ ] vybrat relevantní pro BP 
-	- [ ] čekatelky plánování
-		- [ ] archivovat
-		- [ ] vytěžit
-		- [ ] napojit
-	- [ ] skautská křižovatka
-	- [ ] tm SaaS features
-		- [ ] list
-		- [ ] vytěžit
-		- [ ] sjednotit
-	- [ ] develop.games
-	- [ ] TLOU document
-
-- [ ] top
-	- [ ] přidat parametry k featurám umožňující vybrat nejvhodnější
-	- [ ] připravit testovatelné user stories
-
-- [ ] navrhnout implementaci
-	- [ ] Které části GWorkspace využít pro jednotlivé funkce?
-	- [ ] implementovat
-	- [ ] otestovat
-
-- [ ] diskutovat
-
-- [ ] TLOU document - crunching, system support allows bigger creation, not to avoid crunch
+[[bp.Příprava]]
 ## Methods:
 1. 
 ## Deliverables

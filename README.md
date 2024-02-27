@@ -1,3 +1,18 @@
+Porovnat možné implementace znalostní báze. Gsheet tabulky / Relační DB / graph DB
+
+- [ ] test onOpen() with mobile gSheets
+
+Návrh selfhosted finetunable agenta spouštěného v kagglu, který by extrahoval metodily, mechaniky a názory.
+Akorát bude ještě vytvářet úkoly(svoje výstupy ke kontrole).
+# ToDo 
+```dataview
+TASK
+FROM [[BP/README]] and !"BP/README"
+WHERE !fullyCompleted 
+```
+
+
+
 
 # Files-and-Folders 
 
@@ -46,14 +61,4 @@ forma: <mark class="hltr-blue">souvislé bloky textu</mark>
 [[tábor23.bp]]
 [[bp.vedení]]
 [[BP.Zadání
-
-
-# ToDo 
-```dataview
-TASK
-FROM [[BP/README]] and !"BP/README"
-WHERE !fullyCompleted 
-```
-
-
 
