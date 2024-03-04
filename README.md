@@ -4,6 +4,10 @@ Porovnat možné implementace znalostní báze. Gsheet tabulky / Relační DB / 
 
 Návrh selfhosted finetunable agenta spouštěného v kagglu, který by extrahoval metodily, mechaniky a názory.
 Akorát bude ještě vytvářet úkoly(svoje výstupy ke kontrole).
+
+- [ ] model procesy >> porovnání náročnosti pro vedoucí před a po
+- [ ] pomocí základního llm agenta v kagglu extrahovat z dokumentů návrhy/kandidáty na znouvupoužitelné prvky, či separovat od sebe názory
+- [ ] graphDB = backend
 # ToDo 
 ```dataview
 TASK

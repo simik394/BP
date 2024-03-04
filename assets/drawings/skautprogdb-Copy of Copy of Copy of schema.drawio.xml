@@ -1,15 +1,15 @@
-<mxfile host="Electron" modified="2024-02-27T04:33:23.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="f0YfGi6PNfm8d62Xub36" version="23.1.5" type="device" pages="3">
+<mxfile host="Electron" modified="2024-02-28T01:46:44.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="kfAkF6KD5nVDbIFozsyk" version="23.1.5" type="device">
   <diagram name="Copy 3 of schema" id="wiUIqHbuh2LMvNcBcWT4">
-    <mxGraphModel dx="2621" dy="2377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3733" dy="3047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KQjPsCqGYwfnt0WS0wV--0" />
         <mxCell id="KQjPsCqGYwfnt0WS0wV--1" parent="KQjPsCqGYwfnt0WS0wV--0" />
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Cíl&lt;/font&gt;" tags="Vstup" id="KQjPsCqGYwfnt0WS0wV--10">
+        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Cíl činnosti&lt;/font&gt;" tags="Vstup" id="KQjPsCqGYwfnt0WS0wV--10">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
             <mxGeometry x="-638.5099999999999" y="-735" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endSize=18;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--13" target="KQjPsCqGYwfnt0WS0wV--36">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-13" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--13" target="KQjPsCqGYwfnt0WS0wV--36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="382.75" y="-490" as="targetPoint" />
           </mxGeometry>
@@ -75,23 +75,21 @@
             <mxGeometry x="560" y="25.440000000000012" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="KQjPsCqGYwfnt0WS0wV--38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--49" target="KQjPsCqGYwfnt0WS0wV--41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KQjPsCqGYwfnt0WS0wV--38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endSize=18;endArrow=block;endFill=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--49" target="KQjPsCqGYwfnt0WS0wV--10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750.4556233421754" y="-750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="KQjPsCqGYwfnt0WS0wV--39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--29" target="KQjPsCqGYwfnt0WS0wV--41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KQjPsCqGYwfnt0WS0wV--39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=block;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--29" target="KQjPsCqGYwfnt0WS0wV--10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-801.4471174329633" y="-722.2666129837307" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="KQjPsCqGYwfnt0WS0wV--40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--27" target="KQjPsCqGYwfnt0WS0wV--41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KQjPsCqGYwfnt0WS0wV--40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=block;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--27" target="KQjPsCqGYwfnt0WS0wV--10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750.4178323881542" y="-702.9999999999995" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=18;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--41" target="KQjPsCqGYwfnt0WS0wV--10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Původ cíle" tags="Vstup" id="KQjPsCqGYwfnt0WS0wV--41">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
-            <mxGeometry x="-805.0500000000001" y="-750.0000000000001" width="120" height="47" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="KQjPsCqGYwfnt0WS0wV--42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.4;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERzeroToMany;endFill=0;endSize=18;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--45" target="KQjPsCqGYwfnt0WS0wV--64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -192,12 +190,12 @@
             <mxPoint x="-370" y="-100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--70" target="KQjPsCqGYwfnt0WS0wV--76">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--70" target="KQjPsCqGYwfnt0WS0wV--76" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--70" target="KQjPsCqGYwfnt0WS0wV--10">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--70" target="KQjPsCqGYwfnt0WS0wV--10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KQjPsCqGYwfnt0WS0wV--70" value="může být zaměřen(a) na cíle" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
@@ -268,7 +266,7 @@
             <mxGeometry x="-14" y="71.75" width="160" height="88.25" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endSize=18;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--101" target="MWFOhzePIDfXy2IX9M6U-22">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endSize=18;startArrow=none;startFill=0;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--101" target="MWFOhzePIDfXy2IX9M6U-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;span style=&quot;font-size: 22px;&quot;&gt;díly symbolického rámce&lt;/span&gt;" tags="Vstup Výstup" id="KQjPsCqGYwfnt0WS0wV--101">
@@ -276,7 +274,7 @@
             <mxGeometry x="-260" y="-830" width="140" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--104" target="KQjPsCqGYwfnt0WS0wV--101">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--104" target="KQjPsCqGYwfnt0WS0wV--101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="obsah dílu" tags="Vstup" id="KQjPsCqGYwfnt0WS0wV--104">
@@ -284,20 +282,20 @@
             <mxGeometry x="-250" y="-968" width="120" height="59" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="2DR6t3YPt8ASqyoErkOZ-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--105" target="KQjPsCqGYwfnt0WS0wV--116">
+        <mxCell id="2DR6t3YPt8ASqyoErkOZ-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--105" target="KQjPsCqGYwfnt0WS0wV--116" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2DR6t3YPt8ASqyoErkOZ-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--105" target="KQjPsCqGYwfnt0WS0wV--76">
+        <mxCell id="2DR6t3YPt8ASqyoErkOZ-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--105" target="KQjPsCqGYwfnt0WS0wV--76" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-180" y="-340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--105" target="KQjPsCqGYwfnt0WS0wV--15">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--105" target="KQjPsCqGYwfnt0WS0wV--15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="-620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToOne;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" target="sJa3tZXU-M-RJ-QS2FHF-3">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToOne;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" target="sJa3tZXU-M-RJ-QS2FHF-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-242" y="-442" as="sourcePoint" />
           </mxGeometry>
@@ -430,7 +428,7 @@
             <mxGeometry x="-844.3625842696631" y="384" width="115.95505617977528" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--131" target="MWFOhzePIDfXy2IX9M6U-6">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--131" target="MWFOhzePIDfXy2IX9M6U-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Různé záznamy&lt;/font&gt;" tags="Výstup" id="KQjPsCqGYwfnt0WS0wV--131">
@@ -504,7 +502,7 @@
             <mxPoint x="432.5300000000002" y="-11.989999999999782" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;endSize=18;startSize=6;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--45" target="4XYDWNzgz0Vugo1PfUjX-0">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;endSize=18;startSize=6;" parent="KQjPsCqGYwfnt0WS0wV--1" source="KQjPsCqGYwfnt0WS0wV--45" target="4XYDWNzgz0Vugo1PfUjX-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KQjPsCqGYwfnt0WS0wV--45" value="Hodnocení výstupů oddílové činnosti" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
@@ -583,12 +581,12 @@
         <mxCell id="MWFOhzePIDfXy2IX9M6U-61" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Typ hry&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-689.9999999999999" y="-58.000000000000014" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2DR6t3YPt8ASqyoErkOZ-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="MWFOhzePIDfXy2IX9M6U-64" target="KQjPsCqGYwfnt0WS0wV--111">
+        <mxCell id="2DR6t3YPt8ASqyoErkOZ-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="MWFOhzePIDfXy2IX9M6U-64" target="KQjPsCqGYwfnt0WS0wV--111" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-914.2538202247192" y="249.8199999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="MWFOhzePIDfXy2IX9M6U-64" target="KQjPsCqGYwfnt0WS0wV--107">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="MWFOhzePIDfXy2IX9M6U-64" target="KQjPsCqGYwfnt0WS0wV--107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MWFOhzePIDfXy2IX9M6U-64" value="Obsažení mechanik v pravidlech" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
@@ -602,10 +600,10 @@
             <mxGeometry x="-700.0025842696631" y="384" width="115.95505617977528" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=ERzeroToMany;endFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="EfB8z90ndw1n30iXWe5U-13" target="EfB8z90ndw1n30iXWe5U-2">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=18;endArrow=ERzeroToMany;endFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="EfB8z90ndw1n30iXWe5U-13" target="EfB8z90ndw1n30iXWe5U-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;endSize=18;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="EfB8z90ndw1n30iXWe5U-13" target="KQjPsCqGYwfnt0WS0wV--113">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;endSize=18;" parent="KQjPsCqGYwfnt0WS0wV--1" source="EfB8z90ndw1n30iXWe5U-13" target="KQjPsCqGYwfnt0WS0wV--113" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EfB8z90ndw1n30iXWe5U-13" value="Složení postupu" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
@@ -623,18 +621,18 @@
         <mxCell id="sJa3tZXU-M-RJ-QS2FHF-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Případy užití:&lt;br&gt;&lt;br&gt;- hledání inspirace pří přípravě (tvorba nového i využití již zaznamenaného)&lt;br&gt;- hledání při improvizaci (když NÁHODOU bude potřeba)&lt;br&gt;- obohacení výstupů o zjištění ze Z5V (podpora NEopakovaní chyb a kontinuálního zvyšování kvality)&lt;br&gt;- automatické tvorba úkolů na základě událostí a ostatních nekompletních záznamů&lt;br&gt;- automatická tvorba přehledů o napojení vykonaných programu na cíle&lt;br&gt;(usnandní vyhodnocování kvality vykonaných programů + implicitně usnadní plánování dalšího směru a obsahu aktivit)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-239.75" y="290" width="1070" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endSize=18;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="2DR6t3YPt8ASqyoErkOZ-1" target="KQjPsCqGYwfnt0WS0wV--104">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="2DR6t3YPt8ASqyoErkOZ-1" target="KQjPsCqGYwfnt0WS0wV--104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Tématický Motiv&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="2DR6t3YPt8ASqyoErkOZ-1">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
             <mxGeometry x="-473.9112359550563" y="-880" width="115.95505617977528" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="2DR6t3YPt8ASqyoErkOZ-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;postavy&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=30;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="2DR6t3YPt8ASqyoErkOZ-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;postavy&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=30;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-529.9999999999998" y="-970" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2DR6t3YPt8ASqyoErkOZ-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endSize=18;startArrow=none;startFill=0;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="sJa3tZXU-M-RJ-QS2FHF-3" target="MWFOhzePIDfXy2IX9M6U-22">
+        <mxCell id="2DR6t3YPt8ASqyoErkOZ-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endSize=18;startArrow=none;startFill=0;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="sJa3tZXU-M-RJ-QS2FHF-3" target="MWFOhzePIDfXy2IX9M6U-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Symbolický rámec&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="sJa3tZXU-M-RJ-QS2FHF-3">
@@ -642,94 +640,94 @@
             <mxGeometry x="-325.9512359550563" y="-580.9999999999999" width="115.95505617977528" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-24" value="Inspirovala" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;endSize=18;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-25" target="KQjPsCqGYwfnt0WS0wV--76">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-24" value="Inspirovala" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;endSize=18;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-25" target="KQjPsCqGYwfnt0WS0wV--76" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-81" y="-28.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-25" target="KQjPsCqGYwfnt0WS0wV--76">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-25" target="KQjPsCqGYwfnt0WS0wV--76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-25" value="Inspirace Programů" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-25" value="Inspirace Programů" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-260" y="-142.49999999999994" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-32" target="sJa3tZXU-M-RJ-QS2FHF-3">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-32" target="sJa3tZXU-M-RJ-QS2FHF-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-32" target="KQjPsCqGYwfnt0WS0wV--101">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-32" target="KQjPsCqGYwfnt0WS0wV--101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-32" value="díly použité rámci" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-32" value="díly použité rámci" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-209.99999999999994" y="-687" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-37" target="KQjPsCqGYwfnt0WS0wV--15">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-37" target="KQjPsCqGYwfnt0WS0wV--15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-37" target="KQjPsCqGYwfnt0WS0wV--15">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endSize=18;endArrow=ERzeroToMany;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-37" target="KQjPsCqGYwfnt0WS0wV--15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-37" value="Inspirace událostí" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-37" value="Inspirace událostí" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="370.00000000000006" y="-776.47" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-40" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;do&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-40" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;do&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="311.75" y="-706.4699999999999" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;od&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;od&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="275.25" y="-706.4699999999999" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-43" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Pravidla&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-43" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Pravidla&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-669.9999999999999" y="-58.000000000000014" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-44" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Postup&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-44" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Postup&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-648.96" y="57" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Popis Potřebnosti&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-10;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-46" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Popis Potřebnosti&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-10;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-648.96" y="173" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-47" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;člen ještě M:N vztah s &quot;bodem ke splnění&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-47" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;člen ještě M:N vztah s &quot;bodem ke splnění&quot;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="590" y="71.75" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-48" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Odhadované trvání&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-48" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Odhadované trvání&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-62.2505080756888" y="-330.0022863405995" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-49" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Výsledné trvání&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-49" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Výsledné trvání&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-62.2505080756888" y="-300.0022863405995" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=18;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-51" target="KQjPsCqGYwfnt0WS0wV--104">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=18;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-51" target="KQjPsCqGYwfnt0WS0wV--104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Scénka / (úvodní) vyprávění&amp;nbsp;&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="nBxO9EpHsmJiQJicI-LN-51">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
             <mxGeometry x="-450" y="-980" width="115.96" height="83" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endSize=18;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-52" target="KQjPsCqGYwfnt0WS0wV--104">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endSize=18;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=block;endFill=0;" parent="KQjPsCqGYwfnt0WS0wV--1" source="nBxO9EpHsmJiQJicI-LN-52" target="KQjPsCqGYwfnt0WS0wV--104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Popis Realizace&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="nBxO9EpHsmJiQJicI-LN-52">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
             <mxGeometry x="-397.9812359550564" y="-1060" width="115.95505617977528" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-58" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;záznamy výstupů skautské činnosti&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-58" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;záznamy výstupů skautské činnosti&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-65" y="-937" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-59" value="věci k tisku" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-59" value="věci k tisku" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-365.00000000000006" y="440" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-60" value="e.g." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-60" value="e.g." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-365.00000000000006" y="370" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-61" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;obsažen v kolekci&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
-          <mxGeometry x="-829.9999999999999" y="-675" width="170" height="40" as="geometry" />
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-61" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;obsažen v kolekci&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-30;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
+          <mxGeometry x="-849.9999999999999" y="-681" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Metrika plnění&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Metrika plnění&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-15;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-984.3599999999998" y="-855" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-72" value="" style="group" vertex="1" connectable="0" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-72" value="" style="group" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1" connectable="0">
           <mxGeometry x="-1070" y="-340.0049923891091" width="380" height="250.0072229741173" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-69" value="Základní parametry" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=14;" vertex="1" parent="nBxO9EpHsmJiQJicI-LN-72">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-69" value="Základní parametry" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=14;" parent="nBxO9EpHsmJiQJicI-LN-72" vertex="1">
           <mxGeometry y="2.9649923891090566" width="380" height="243" as="geometry" />
         </mxCell>
         <mxCell id="KQjPsCqGYwfnt0WS0wV--17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;maximalní počet účastníku&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;" parent="nBxO9EpHsmJiQJicI-LN-72" vertex="1">
@@ -753,676 +751,8 @@
         <mxCell id="EfB8z90ndw1n30iXWe5U-26" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Speciální parametr&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;" parent="nBxO9EpHsmJiQJicI-LN-72" vertex="1">
           <mxGeometry x="50" y="187.39499238910906" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBxO9EpHsmJiQJicI-LN-73" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Cíl hráče&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" vertex="1" parent="KQjPsCqGYwfnt0WS0wV--1">
+        <mxCell id="nBxO9EpHsmJiQJicI-LN-73" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Cíl hráče&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-60;" parent="KQjPsCqGYwfnt0WS0wV--1" vertex="1">
           <mxGeometry x="-648.9599999999998" y="-64.00000000000001" width="100" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="bfkQmp3fOPX2zxNSth2I" name="er-uml">
-    <mxGraphModel dx="1396" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="B_40MIEWWgi-D23A4Gce-1" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="140" width="160" height="120" as="geometry">
-            <mxRectangle x="330" y="140" width="80" height="50" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B_40MIEWWgi-D23A4Gce-2" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="B_40MIEWWgi-D23A4Gce-1">
-          <mxGeometry y="50" width="160" height="70" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Copy of Copy of Copy of schema" id="lG45LG1TmZF7rPn5OzOX">
-    <mxGraphModel dx="2270" dy="2024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-0" />
-        <mxCell id="GX3i16CNYugUs-N-CCyD-1" parent="GX3i16CNYugUs-N-CCyD-0" />
-        <UserObject label="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Záznamy o provedení přípravy&lt;/font&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-160">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;opacity=50;textOpacity=50;fontSize=16;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="620" y="-43" width="125" height="90" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-118" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;ZAZNAMENANÁ PŘÍPRAVA&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=4;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=30;fontColor=default;labelBackgroundColor=#000000;labelBorderColor=#FF0000;strokeColor=#FFFFFF;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-540" y="500" width="820" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-3" value="" style="whiteSpace=wrap;html=1;strokeWidth=5;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1542.47" y="-1090" width="212.47" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-2" value="HODNOCENÍ" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=4;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=30;labelBackgroundColor=#000000;labelBorderColor=#FF0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="260" y="395" width="280" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-3" target="OANU7VIYK1MdwyJbdZrl-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="96.49999999999955" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-3" value="PROVEDENÍ" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=4;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=30;labelBackgroundColor=#000000;labelBorderColor=#fc0303;strokeColor=#FFFFFF;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="553.75" y="145" width="152.5" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=doubleBlock;endFill=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-91" target="GX3i16CNYugUs-N-CCyD-87" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-46" target="GX3i16CNYugUs-N-CCyD-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Cíl&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-13">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-610" y="-745" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-14" target="OANU7VIYK1MdwyJbdZrl-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Z5v účastníků&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-14">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="407.5" y="405" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Výprava&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-17">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="345" y="-342.75" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-18">
-          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-41" target="GX3i16CNYugUs-N-CCyD-19" edge="1">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="405" y="-462.75" as="sourcePoint" />
-            </mxGeometry>
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Události&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-19">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="345" y="-580" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-20" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;zamýšlený počet účastníku&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-880" y="-130.5" width="260" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;maximalní počet účastníku&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-870" y="-50.5" width="260" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;idealní počet účastníku&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-870" y="-90.5" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-23" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;doba trvání&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-940" y="15" width="120" height="40" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Konzultovat?&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-26">
-          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-990" y="-635.5" width="140" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;doba bourání&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-950" y="105" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-28" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;doba stavby&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-940" y="65" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Déšť&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-940" y="255" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-30" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Vevnitř&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-950" y="205" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-31" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;venku&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-940" y="165" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-108" target="GX3i16CNYugUs-N-CCyD-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Body ke splnění&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-33">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-610" y="-520" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-53" target="GX3i16CNYugUs-N-CCyD-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Naše&lt;/font&gt;" tags="Vstup Výstup" id="GX3i16CNYugUs-N-CCyD-34">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-450" y="-530" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Schůzka&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-35">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="207.5" y="-345" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Tábor&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-36">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="477.5" y="-342.75" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Odborka / vlček&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-37">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-700" y="-270" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-38">
-          <mxCell style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-35" target="GX3i16CNYugUs-N-CCyD-41" edge="1">
-            <mxGeometry relative="1" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-39">
-          <mxCell style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-17" target="GX3i16CNYugUs-N-CCyD-41" edge="1">
-            <mxGeometry relative="1" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-40">
-          <mxCell style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-36" target="GX3i16CNYugUs-N-CCyD-41" edge="1">
-            <mxGeometry relative="1" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Trvání události" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-41">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="345" y="-452.75" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;span style=&quot;font-size: 22px;&quot;&gt;Člen&lt;/span&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-42">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="860" y="50.5" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-55" target="GX3i16CNYugUs-N-CCyD-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-34" target="GX3i16CNYugUs-N-CCyD-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-33" target="GX3i16CNYugUs-N-CCyD-46" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Původ cíle" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-46">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-610" y="-620" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-50" target="GX3i16CNYugUs-N-CCyD-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-50" target="GX3i16CNYugUs-N-CCyD-99" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-50" target="GX3i16CNYugUs-N-CCyD-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-50" value="Hodnocení" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="740" y="400" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-53" target="GX3i16CNYugUs-N-CCyD-55" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Podporuje strat cíl" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-53">
-          <mxCell style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-465" y="-435" width="150" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Typ požadavku&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-54">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006600;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-920" y="-300" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Strategie&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-55">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-760" y="-530" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Úkol&lt;/font&gt;" tags="Proces" id="GX3i16CNYugUs-N-CCyD-56">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=4" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="860" y="-324.5" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=doubleBlock;endFill=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-59" target="GX3i16CNYugUs-N-CCyD-129" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-15" value="Inspirace" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GX3i16CNYugUs-N-CCyD-57" vertex="1" connectable="0">
-          <mxGeometry x="-0.1437" y="3" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-58" value="Produkt" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=doubleBlock;endFill=1;dashed=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-59" target="GX3i16CNYugUs-N-CCyD-129" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-59" value="Inspiruje" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-332.58" y="-102" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-62" target="GX3i16CNYugUs-N-CCyD-56" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-62" target="GX3i16CNYugUs-N-CCyD-99" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-62" value="Dokončování / realizování" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="845" y="-530" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-67" target="GX3i16CNYugUs-N-CCyD-56" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-67" target="GX3i16CNYugUs-N-CCyD-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-67" value="Přiřazení" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="845" y="-144.5" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=doubleBlock;endFill=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-70" target="GX3i16CNYugUs-N-CCyD-42" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="950" y="125.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-70" target="GX3i16CNYugUs-N-CCyD-71" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="335.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-70" value="Zařazení" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="940" y="215.5" width="150" height="70" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Družina&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-71">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="955" y="390.5" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-76" target="GX3i16CNYugUs-N-CCyD-54" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-76" target="GX3i16CNYugUs-N-CCyD-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-76" value="Požadování" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-790" y="-379" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-79" target="GX3i16CNYugUs-N-CCyD-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-230" y="-659.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-79" target="GX3i16CNYugUs-N-CCyD-99" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-79" value="Zaměření" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-370" y="-695" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-80" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Sdílené uložiště&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-159.99999999999994" y="-379.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-83" target="GX3i16CNYugUs-N-CCyD-80" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-30" y="-765" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IwGD6vJhbHGONddx6yma-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-83" target="GX3i16CNYugUs-N-CCyD-93" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-83" value="Přiřazená lokace" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-180" y="-242" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="OANU7VIYK1MdwyJbdZrl-6" target="GX3i16CNYugUs-N-CCyD-87" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-87" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Provedený&lt;br&gt;Bloku Programu&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="570" y="-117.5" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-88" target="OANU7VIYK1MdwyJbdZrl-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-88" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Komentáře pořadatelů&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="270" y="403.75" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-89" value="předchozí" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="253.75" y="-33.75" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-90" value="následující" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="281.25" y="-50" width="100" height="30" as="geometry" />
-        </mxCell>
-        <UserObject label="Složení" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-91">
-          <mxCell style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="297.5" y="-33.75" width="150" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-92" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=doubleBlock;endFill=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-91" target="GX3i16CNYugUs-N-CCyD-129" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-98" target="GX3i16CNYugUs-N-CCyD-93" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;span style=&quot;font-size: 20px;&quot;&gt;Sdílené Zkušenosti - záznamy&lt;/span&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-93">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="65" y="-237" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-129" target="GX3i16CNYugUs-N-CCyD-98" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-203.81999999999977" y="-70.75" as="sourcePoint" />
-            <mxPoint x="-8.410763921086144" y="-121.72537678360231" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-87" target="GX3i16CNYugUs-N-CCyD-98" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="OANU7VIYK1MdwyJbdZrl-16" target="GX3i16CNYugUs-N-CCyD-98" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Získání zkušeností" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-98">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="65" y="-102" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Produkty&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-99">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="62.5" y="-690" width="125" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-103" target="GX3i16CNYugUs-N-CCyD-99" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-101" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-19" target="GX3i16CNYugUs-N-CCyD-103" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-93" target="GX3i16CNYugUs-N-CCyD-103" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="125" y="-177" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="Typ výstupu" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-103">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="65" y="-581" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Průběh&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-104">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="571.25" y="237.25" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Plán&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-105">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="571.25" y="165" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-37" target="GX3i16CNYugUs-N-CCyD-108" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-109" target="GX3i16CNYugUs-N-CCyD-108" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Zařazení úkolu" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-108">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-610" y="-379" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Stezka&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-109">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-540" y="-270" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Z google kalendáře&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-110">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-1350" y="-97.07" width="125" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;span style=&quot;font-size: 22px;&quot;&gt;Z dokumentů google&lt;/span&gt;" tags="Vstup Výstup" id="GX3i16CNYugUs-N-CCyD-111">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-1350" y="-12.069999999999993" width="140" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-112" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Z google sheets&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1345" y="92.93" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-113" value="LEGENDA&lt;br&gt;barev a tvarů" style="whiteSpace=wrap;html=1;fillColor=none;strokeWidth=4;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=30;labelBackgroundColor=#000000;labelBorderColor=#FF0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1370" y="-400" width="180" height="667.93" as="geometry" />
-        </mxCell>
-        <UserObject label="Specializace" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-114">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-1345" y="-192.07" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-116" value="Vztah" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1362.5" y="-290" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-117" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;url&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="500" y="595.62" width="50" height="40" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Mechanika&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-121">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-43.53258426966292" y="590" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-122" target="GgvO-wxBNtOUe7tcvDS8-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Pravidla&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-122">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="29.99741573033708" y="510" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Hlavní Přínos Aktivity" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-123">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-247.41" y="190" width="115.96" height="70.25" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Zabavné&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-124">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="29.996516853932675" y="315" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-125">
-          <mxCell style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-124" target="GX3i16CNYugUs-N-CCyD-123" edge="1">
-            <mxGeometry relative="1" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Naučné&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-126">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-247.4114606741573" y="318" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-127">
-          <mxCell style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-126" target="GX3i16CNYugUs-N-CCyD-123" edge="1">
-            <mxGeometry relative="1" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-128">
-          <mxCell style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;bendable=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-123" target="GX3i16CNYugUs-N-CCyD-129" edge="1">
-            <mxGeometry relative="1" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Záznam&lt;br&gt;Přípravy Aktivity&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-129">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-247.40999999999997" y="68" width="115.96" height="85" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Prostředí&lt;br&gt;?tabulka pro 4 hodnot&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-130">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-830" y="165.5" width="115.96" height="115" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Materiál /&lt;br&gt;vybavení&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-131">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-690.0012359550562" y="185" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-134" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1529.9978651685394" y="-991.5" width="144.9438202247191" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-137" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=doubleBlock;endFill=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-138" target="GX3i16CNYugUs-N-CCyD-129" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-237.74853932584267" y="107" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=doubleBlock;endFill=1;dashed=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-138" target="GgvO-wxBNtOUe7tcvDS8-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-138" value="Požadování" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-429.9957303370787" y="47" width="144.9438202247191" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-140" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-148" target="IwGD6vJhbHGONddx6yma-0" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-415.6177528089888" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Potřebné / podpůrné&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-142">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-475.62235955056184" y="318" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-143" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-142" target="GX3i16CNYugUs-N-CCyD-123" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-145" value="Podkládání" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1497.4658426966291" y="-1021.5" width="144.9438202247191" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-146" target="GgvO-wxBNtOUe7tcvDS8-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Metodika&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-146">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-188.53258426966295" y="560" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=1;entryDx=0;entryDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-147" target="GgvO-wxBNtOUe7tcvDS8-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;span style=&quot;font-size: 22px;&quot;&gt;Teoretické podklady&lt;/span&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-147">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-321.5025842696629" y="560" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Různé / ostatní&lt;/font&gt;" tags="Výstup" id="GX3i16CNYugUs-N-CCyD-148">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-473.5967415730336" y="570" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-149" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Stolní&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="200.00000000000003" y="540" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-150" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Behací&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="190.00000000000003" y="560" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.747;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-152" target="GgvO-wxBNtOUe7tcvDS8-16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="520" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="160" y="500" />
-              <mxPoint x="118" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Typ Hry&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="GX3i16CNYugUs-N-CCyD-152">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="100" y="590" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-155" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1530" y="-1024.5" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="GX3i16CNYugUs-N-CCyD-156" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;gDrive&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1345" y="177.93" width="120" height="60" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Záznamy o vyhodnocení provedení&lt;/font&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/font&gt;" tags="Proces Výstup" id="GX3i16CNYugUs-N-CCyD-161">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;opacity=50;textOpacity=50;fontSize=16;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="325" y="185.5" width="125" height="90" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Kdo hodnotil" tags="Proces Výstup" id="OANU7VIYK1MdwyJbdZrl-1">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="270" y="267.93" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="Odhad / záznam" tags="Vstup" id="OANU7VIYK1MdwyJbdZrl-6">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="570" y="40" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="OANU7VIYK1MdwyJbdZrl-12" target="GX3i16CNYugUs-N-CCyD-87" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="OANU7VIYK1MdwyJbdZrl-12" target="GX3i16CNYugUs-N-CCyD-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Složení" tags="Výstup" id="OANU7VIYK1MdwyJbdZrl-12">
-          <mxCell style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="660" y="-365" width="150" height="70" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="OANU7VIYK1MdwyJbdZrl-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="OANU7VIYK1MdwyJbdZrl-1" target="OANU7VIYK1MdwyJbdZrl-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Záznam hodnocení&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="OANU7VIYK1MdwyJbdZrl-16">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="270" y="118.06" width="120" height="80" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-130" target="GgvO-wxBNtOUe7tcvDS8-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-935" y="152" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-131" target="GgvO-wxBNtOUe7tcvDS8-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GgvO-wxBNtOUe7tcvDS8-1" target="GgvO-wxBNtOUe7tcvDS8-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Druhy požadavků" tags="Vstup" id="GgvO-wxBNtOUe7tcvDS8-1">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-750" y="38.5" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;Požadavky aktivit&lt;br&gt;&lt;/font&gt;" tags="Vstup" id="GgvO-wxBNtOUe7tcvDS8-2">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-585.9512359550563" y="-2.5" width="115.95505617977528" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-8" value="Požadování" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-1494.9457303370789" y="-1054.5" width="144.9438202247191" height="70" as="geometry" />
-        </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 22px;&quot;&gt;V &quot;monitor sheetu&quot;&lt;/font&gt;" tags="Vstup" id="GgvO-wxBNtOUe7tcvDS8-12">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006600;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-1345" y="-365" width="120" height="60" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GgvO-wxBNtOUe7tcvDS8-17" target="GX3i16CNYugUs-N-CCyD-126" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Záznamy o Naučném" tags="Proces Výstup" id="GgvO-wxBNtOUe7tcvDS8-17">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-249.42999999999998" y="410" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="GgvO-wxBNtOUe7tcvDS8-16" target="GX3i16CNYugUs-N-CCyD-124" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Záznamy o Hře" tags="Proces Výstup" id="GgvO-wxBNtOUe7tcvDS8-16">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="27.970000000000013" y="401" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.224;entryY=1.053;entryDx=0;entryDy=0;entryPerimeter=0;" parent="GX3i16CNYugUs-N-CCyD-1" source="GX3i16CNYugUs-N-CCyD-121" target="GgvO-wxBNtOUe7tcvDS8-16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="57" y="540" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="14" y="500" />
-              <mxPoint x="55" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-33" value="jídelníček" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-540" y="565.62" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GgvO-wxBNtOUe7tcvDS8-34" value="recept" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="-541.0799999999999" y="600" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IwGD6vJhbHGONddx6yma-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GX3i16CNYugUs-N-CCyD-1" source="IwGD6vJhbHGONddx6yma-0" target="GX3i16CNYugUs-N-CCyD-142" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="Záznamy o Naučném" tags="Proces Výstup" id="IwGD6vJhbHGONddx6yma-0">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=20;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-            <mxGeometry x="-477.64" y="416" width="120" height="59" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="IwGD6vJhbHGONddx6yma-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Levitio?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GX3i16CNYugUs-N-CCyD-1" vertex="1">
-          <mxGeometry x="355" y="-621" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

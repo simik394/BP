@@ -1,5 +1,5 @@
 
-# P.Sl
+# P.Sl %% fold %%
 Dobrý den,
 
 Lehká taktická poznámka, když nepoužijete CC, ale BCC, tak není vidět seznam adresátů.
@@ -101,7 +101,7 @@ Strukturu pro podobně změřenou práci bych viděl zhruba následujícím způ
 
 
 
-# M.Po
+# M.Po %% fold %%
 Dobrý den pane Trousile, 
 děkuji za zprávu. Pokud by se Vám vedoucího během týdne nepodařilo najít, pomohu Vám jako zástupce vedoucího katedry. 
 S přáním hezkého dne
@@ -127,7 +127,7 @@ Děkuji za Váš čas.
 Šimon Trousil
 
 
-# Voj
+# Voj %% fold %%
 Dobrý den pane doktore,
 poskytnul byste mi prosím Vás komentář ke vhodnosti tohoto návrhu zadání BP?
 
@@ -148,6 +148,7 @@ Děkuji za Váš čas a přeji příjemný zbytek svátků.
 
 
 # V. Ře
+## 0 %% fold %%
 Dobrý den,
 
 a o co jde? 
@@ -181,7 +182,10 @@ Připravte se na otázky:
 Základní koncepce - kolik práce by teď vyžádovalo řízení se vším všudy vs kolik práce vynahradím systémem v GWorkspace.
 
 Tím způsobem by jsme měli výhody vyplývající ze zaznamenaných údajů, a navíc by jsme zůstali ušetřeni většiny práce vyplývající z organizování řečených údajů.
-# G. Fe
+
+### dotazy
+Pokud se události skládají z programů. A program může mít o sobě zaznamenaný lánovaný  skutečný harmonogram (jak dlouho věnovat jednotlivým svým částem a v jakém pořadí) 
+# G. Fe %% fold %%
 Hi Simon,
 do you have a topic for your BP; can you email me a proposal?
 regards,

@@ -19,10 +19,84 @@ podpůrné proc:
 
 
 
+
+# případy využití
+Případy užití:  
+
+## zaznamenávání aktivit, které by pomohly ve sledování některých cílů
+(aktivit, které by jsme někdy mohli realizovat)
+
+
+## hledání inspirace pří přípravě 
+(tvorba nového i využití již zaznamenaného)  
+### otázky: 
+- 
+## hledání při improvizaci 
+(když NÁHODOU bude potřeba)  
+### otázky: 
+- Které aktivity/programy sledují konkrétní cíle (e.g. aktuální události)?
+- Které aktivity/programy zapadají do požadovaného symbolického rámce?
+- Které aktivity/programy jsou proveditelné s aktuálně dostupným vybavením?(vyškrtat co nemám)
+## obohacení výstupů o zjištění ze Z5V 
+(podpora NEopakovaní chyb a kontinuálního zvyšování kvality)  
+### otázky: 
+- Jaké programy byly a jaké parametry měly?
+- Které části nefungovaly?
+- Které části byly úspěšné?
+## automatické tvorba úkolů na základě událostí a ostatních nekompletních záznamů
+### otázky: 
+- Které záznamy by bylo vhodné doplnit?
+- Jak vylepšit přípravu a poučit se z chyb, ale i úspěchů?
+
+## automatická tvorba přehledů o napojení vykonaných programu na cíle
+(usnandní vyhodnocování kvality vykonaných programů + implicitně usnadní plánování dalšího směru a obsahu aktivit)
+### otázky: 
+-
 # konceptuální model
-## v2.2
+
+## v3.1
+[[classDiagram.plantUML.bp]]
+
+## v3.0-test %% fold %%
+
+
+```mermaid
+classDiagram
+        Cíl činnosti <|-- Strategie
+        Cíl činnosti <|-- Bod_stezky
+        Cíl činnosti <|-- Oddílový_Cíl činnosti
+        Strategie "ideál 0..n" -- "reálný Cíl činnosti 0..n" Oddílový_Cíl činnosti 
+        Bod_stezky "prostředek 0..n" -- "ideál 0..n" Strategie
+        Bod_stezky "ffff" -- "ggggg" Typ_úkolu
+
+```
+
+```plantuml
+foo "x" - "d" bar
+Cíl_činnosti <|-- Strategie
+Cíl_činnosti <|-- úkol_stezky
+Cíl_činnosti <|-- výchovný_cíl
+Typ_úkolu "r" -- "k" úkol_stezky
+Strategie "ideál | 0..*" -- "prostředek | 0..*" výchovný_cíl 
+úkol_stezky "prostředek 0..*" -- "cíl 0..*" výchovný_cíl
+
+Událost "1..*"-- "n" Programový_blok
+skautská_činnost <|-- Událost
+```
+
+
+
+## v2.2 %% fold %%
 ![[concept-schema-ke-konzultaci2.2.png]]
-## v2.1
+### Komentář: 
+proč šestiúhelníky?
+vlastnost "obsazena"? (to mělo být "obsažena")
+bylo by lepší mít pojmenová konce vztahů více odpovídající realitě
+> Dopředělat do standartního UML diagramu tříd
+
+:
+- [ ] proměnné parametry každé aktivity?
+## v2.1  %% fold %% 
 ![[concept-schema-ke-konzultaci2.1.png]]
 ## v2
 ### schema:
@@ -40,13 +114,13 @@ Každá verze má nějaké vlastní parametry (doba nabíjení, počet stanoviš
 - [ ] V rámci programového bloku by mělo být zaznamenáno konkrétní nastavení parametrů zvoleného programu. 
 - [ ] Nicméně i v rámci aktivity může být specifikováno výchozí/doporučené nastavení těchto parametrů.
 
-- [x] U hry přidat parametr cíl/cíle hráčů?
+- [x] U hry přidat parametr Cíl činnosti/Cíl činnostie hráčů?
 Nebo vedle mechanik jako entitu obsaženou v pravidlech?
 - [ ] Aktivity by měly být reusable (očištěné od prvků specifických pro konkrétní události).
 
 - [ ] Události jsou primární produkt. Jaké jsou procesy jejich přípravy a provedení?
 
-Mechanika je npř cíl hráče, hraní po týmech, či po jednotlivcích.
+Mechanika je npř Cíl činnosti hráče, hraní po týmech, či po jednotlivcích.
 Mechanika = hráč musí/může/nemůže
 #= hráč chce
 
@@ -100,7 +174,7 @@ doba stavby >> čas na přípravu
 ![[Conceptschemakomentar1#^PQAHBZW4aME3Q98H8p1]]
 
 #### gen/spec
-hlavní cíl aktivity
+hlavní Cíl činnosti aktivity
 ![[Conceptschemakomentar1#^FIPPGZWWaME3Q98H8p1]]
 
 #### barvy
@@ -127,7 +201,7 @@ Programový blok
 ~~Záznam/zápis průběhu~~
 Komentáře k provedení
 ~~Vedoucí~~
-~~Cíl aktivity~~
+~~Cíl činnosti aktivity~~
 ~~Bod stezky~~
 ~~Bod odborky/vlčka~~
 ~~Herní mechanika~~
