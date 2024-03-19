@@ -1,0 +1,722 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/simon/ontologies/2023/5/777inf#"
+     xml:base="http://www.semanticweb.org/simon/ontologies/2023/5/777inf"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:gg77777="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#kdyVzhledemKTáboru -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#kdyVzhledemKTáboru">
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Během</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Před</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceJeVyžadovánaProcesem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceJeVyžadovánaProcesem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceObsaženaV -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceObsaženaV">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#obsahujeInformaci"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceVytvářenaProcesem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceVytvářenaProcesem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vytváříInformaci"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#jePodprocesemProcesu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#jePodprocesemProcesu">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#zahrnujeProces"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#mohlaByPodpořitProces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#mohlaByPodpořitProces">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#potenciálněVyužitelnáInformace"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#následujícíProgramJe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#následujícíProgramJe">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="cs">mapuje pořadí programů během tábora</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#obsahujeInformaci -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#obsahujeInformaci">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#potenciálněVyužitelnáInformace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#potenciálněVyužitelnáInformace">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vytváříInformaci -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vytváříInformaci">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#zahrnujeProces -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#zahrnujeProces">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.. -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2024/3/7-zaznamy-onto#.."/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Složka -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Složka"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#kdy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#kdy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#klíčováSlova -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#klíčováSlova"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#početOtázek -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#početOtázek">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#rok -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#rok"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vedoucíchPotřeba -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vedoucíchPotřeba"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vystupujícíPostavy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vystupujícíPostavy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#čárkamiOddělenýSeznamKroků -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#čárkamiOddělenýSeznamKroků"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Během -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Během">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#kdy"/>
+                        <owl:hasValue>b</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Před"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#EdukativníPodklady -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#EdukativníPodklady">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#klíčováSlova"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Hra"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Scénka"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Z5v"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#TáborovéBloky"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Hra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Hra">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vedoucíchPotřeba"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceJeVyžadovánaProcesem"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#informaceObsaženaV"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Soubor"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Naučný -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Naučný">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#EdukativníPodklady"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Postup"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Z5v"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#TáborovéBloky"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Nutné -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Nutné">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#TáborovéBloky"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Podpůrné -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Podpůrné">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#jePodprocesemProcesu"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#PřímoProdukujícíHodnotu"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Postup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Postup">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#čárkamiOddělenýSeznamKroků"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#jePodprocesemProcesu"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vytváříInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vyžadujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#zahrnujeProces"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Před -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Před">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#kdy"/>
+                        <owl:hasValue>p</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#PřímoProdukujícíHodnotu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#PřímoProdukujícíHodnotu">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Během"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Naučný"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Během"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#TáborovéBloky"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Scénka -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Scénka">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#vystupujícíPostavy"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Soubor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Soubor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#obsahujeInformaci"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Složka"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">File</rdfs:label>
+        <rdfs:label xml:lang="cs">Soubor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#SymbolickýRámec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#SymbolickýRámec"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Tábor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Tábor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#TáborovéBloky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#TáborovéBloky"/>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Z5v -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Z5v">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#početOtázek"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#InfoO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Řídící -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Řídící">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Proces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#- -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#-">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Soubor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#&#45;&#45; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#--">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Soubor"/>
+        <rdfs:label xml:lang="cs">Dokument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23">
+        <gg77777:vyžadujeInformaci rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Hra"/>
+        <gg77777:vyžadujeInformaci rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Scénka"/>
+        <gg77777:vyžadujeInformaci rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Z5v"/>
+        <gg77777:kdy>b</gg77777:kdy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Hra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Hra">
+        <gg77777:informaceObsaženaV rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23.doc"/>
+        <gg77777:vedoucíchPotřeba rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</gg77777:vedoucíchPotřeba>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Scénka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Scénka">
+        <gg77777:vystupujícíPostavy>Gandalf</gg77777:vystupujícíPostavy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Z5v -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Z5v">
+        <gg77777:početOtázek rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</gg77777:početOtázek>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23.doc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23.doc">
+        <gg77777:Složka>Tábor23/Etapy</gg77777:Složka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#HarmonogramTábora22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#HarmonogramTábora22">
+        <gg77777:informaceObsaženaV rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#ZápisZVýjezdníTáborovéRady22.doc"/>
+        <gg77777:mohlaByPodpořitProces rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#VytvořeníPřibližnéhoČasovéhoPlánuTábora23"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#HarmonogramTábora23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#HarmonogramTábora23">
+        <gg77777:informaceObsaženaV rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#ZápisZVýjezdníTaborovéRady23.doc"/>
+        <gg77777:rok rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</gg77777:rok>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#PřípravaE1-23-Hry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#PřípravaE1-23-Hry">
+        <gg77777:jePodprocesemProcesu rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23"/>
+        <gg77777:vytváříInformaci rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Etapa1-23-Hra"/>
+        <gg77777:kdy>p</gg77777:kdy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#RozděleníÚkolůNaPřípravuTábora23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#RozděleníÚkolůNaPřípravuTábora23">
+        <gg77777:rok rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</gg77777:rok>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#VytvořeníPřibližnéhoČasovéhoPlánuTábora23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#VytvořeníPřibližnéhoČasovéhoPlánuTábora23">
+        <gg77777:jePodprocesemProcesu rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#VýjezdníTáborováRada23"/>
+        <gg77777:vytváříInformaci rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#HarmonogramTábora23"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#VýjezdníTáborováRada23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#VýjezdníTáborováRada23">
+        <gg77777:kdy>p</gg77777:kdy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#ZápisZVýjezdníTaborovéRady23.doc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#ZápisZVýjezdníTaborovéRady23.doc">
+        <gg77777:obsahujeInformaci rdf:resource="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#RozděleníÚkolůNaPřípravuTábora23"/>
+        <gg77777:Složka>Tábor23</gg77777:Složka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#ZápisZVýjezdníTáborovéRady22.doc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#ZápisZVýjezdníTáborovéRady22.doc">
+        <gg77777:Složka>archiv/Tábor22</gg77777:Složka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Podpůrné"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#PřímoProdukujícíHodnotu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Řídící"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

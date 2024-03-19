@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/simon/ontologies/2024/2/bp.onto"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/simon/ontologies/2024/2/bp.onto">
+    <Prefix name="" IRI="http://www.semanticweb.org/simon/ontologies/2024/2/bp.onto/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Scénka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aktivita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodStezky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CílČinnosti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DokončenýÚkol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DílAktivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mechanika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetodickýCíl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metodika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metrika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naučná"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NegativníNázor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Názor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OddílovýCíl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PopisPrůběhu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potřebná"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PozitivníNázor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RůznýZáznam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkautskáČinnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skupina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategickýCíl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SymbolickýRámec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeoretickýPodklad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypAktivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypUdálosti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TématickýMotiv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Událost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VýstupPráce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zkušenost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Znalost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZpětnáVazba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zábavná"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Úkol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Člen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aktivitaMáDíl"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeDílemAktivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#činnostMáCíl"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Scénka"/>
+        <Class IRI="#SymbolickýRámec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aktivita"/>
+        <Class IRI="#SkautskáČinnost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aktivita"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#aktivitaMáDíl"/>
+            <Class IRI="#DílAktivity"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodStezky"/>
+        <Class IRI="#CílČinnosti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DokončenýÚkol"/>
+        <Class IRI="#Úkol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DílAktivity"/>
+        <Class IRI="#Znalost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DílAktivity"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#jeDílemAktivity"/>
+            <Class IRI="#Aktivita"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mechanika"/>
+        <Class IRI="#DílAktivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetodickýCíl"/>
+        <Class IRI="#CílČinnosti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metodika"/>
+        <Class IRI="#DílAktivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naučná"/>
+        <Class IRI="#Aktivita"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NegativníNázor"/>
+        <Class IRI="#Názor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Názor"/>
+        <Class IRI="#Zkušenost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OddílovýCíl"/>
+        <Class IRI="#CílČinnosti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PopisPrůběhu"/>
+        <Class IRI="#Zkušenost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potřebná"/>
+        <Class IRI="#Aktivita"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PozitivníNázor"/>
+        <Class IRI="#Názor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program"/>
+        <Class IRI="#SkautskáČinnost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RůznýZáznam"/>
+        <Class IRI="#DílAktivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkautskáČinnost"/>
+        <Class IRI="#VýstupPráce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkautskáČinnost"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#činnostMáCíl"/>
+            <Class IRI="#CílČinnosti"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrategickýCíl"/>
+        <Class IRI="#CílČinnosti"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SymbolickýRámec"/>
+        <Class IRI="#Znalost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TeoretickýPodklad"/>
+        <Class IRI="#DílAktivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TématickýMotiv"/>
+        <Class IRI="#SymbolickýRámec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Událost"/>
+        <Class IRI="#SkautskáČinnost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zkušenost"/>
+        <Class IRI="#VýstupPráce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Znalost"/>
+        <Class IRI="#VýstupPráce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZpětnáVazba"/>
+        <Class IRI="#Zkušenost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zábavná"/>
+        <Class IRI="#Aktivita"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/simon/ontologies/2023/4/gg77777#Scénka"/>
+        <Class IRI="#TématickýMotiv"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BodStezky"/>
+        <Class IRI="#MetodickýCíl"/>
+        <Class IRI="#OddílovýCíl"/>
+        <Class IRI="#StrategickýCíl"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mechanika"/>
+        <Class IRI="#Metodika"/>
+        <Class IRI="#RůznýZáznam"/>
+        <Class IRI="#TeoretickýPodklad"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aktivitaMáDíl"/>
+        <ObjectProperty IRI="#jeDílemAktivity"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aktivitaMáDíl"/>
+        <Class IRI="#Aktivita"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeDílemAktivity"/>
+        <Class IRI="#DílAktivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#činnostMáCíl"/>
+        <Class IRI="#SkautskáČinnost"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aktivitaMáDíl"/>
+        <Class IRI="#DílAktivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeDílemAktivity"/>
+        <Class IRI="#Aktivita"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#činnostMáCíl"/>
+        <Class IRI="#CílČinnosti"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

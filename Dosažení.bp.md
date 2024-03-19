@@ -20,12 +20,13 @@ podpůrné proc:
 
 
 
-# případy využití
+# případy využití %% fold %%
 Případy užití:  
 
 ## zaznamenávání aktivit, které by pomohly ve sledování některých cílů
 (aktivit, které by jsme někdy mohli realizovat)
 
+Zaznamenávat nápady
 
 ## hledání inspirace pří přípravě 
 (tvorba nového i využití již zaznamenaného)  
@@ -52,12 +53,55 @@ Případy užití:
 (usnandní vyhodnocování kvality vykonaných programů + implicitně usnadní plánování dalšího směru a obsahu aktivit)
 ### otázky: 
 -
+
+
+
+# kompetenční otázky
+
+Hry které se osvědčily a delší dobu nebyly na programu
+Hry které se ještě nehrály
+Osvědčený naučný program napojený na bod stezky, který většina ze členů družiny nemají splněný
+
+
+# definice pojmů
+
+Schůzka může mít výstup různý záznam.
+-
+Aktivita během události (část programu) může produkovat různý záznam.
+
+ (a) \[část programu]  (p) \[může vyžadovat] (různý záznam)
+
+Cíl má metriku
+dílAktivity -- aktivita
+
+
+
+Ggghhsjd %% fold %%
+ Fffh
+
+
+Tvorba ontologie která by na základě reasoningu aktualizovala/doplňovala 
+
+Využití ontologie jako auto-tagovacího systému?
+owlgred. Je to stále validní konceptuání model?
+
+Definice "zábavná" vs. "Naučná"?
+Které diagramy bych si pro implementaci alespoň dema měl připravit?
+Kompetenční otázky klíčové pro moje modelování?
+
+
+
+
+hodnocení + z5v psát vždy pod výstup práce ke kterému náleží (Aktivita, Program, Událost)
+# zdroje
+
+
 # konceptuální model
 
-## v3.1
+## v3.1 - plantUML
 [[classDiagram.plantUML.bp]]
 
-## v3.0-test %% fold %%
+## v3.0 - test %% fold %%
 
 
 ```mermaid
@@ -139,7 +183,7 @@ Chci vážně dělit aktivity na zábavné, naučné a potřebné? > ANO
 Program =vybrané aktivity s konkrétními parametry. By měly mít ještě připravené otázky jejichž zodpovězení proběhne ve z5v.
 
 ![[concept-schema-ke-konzultaci2.png]]
-## v1
+## v1 %% fold %% 
 ### schema:
 ![[concept-schema-ke-konzultaci1.png]]
 ### Komentáře-schema:
