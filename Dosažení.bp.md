@@ -95,6 +95,13 @@ Kompetenční otázky klíčové pro moje modelování?
 hodnocení + z5v psát vždy pod výstup práce ke kterému náleží (Aktivita, Program, Událost)
 # zdroje
 
+# implementace
+
+```bash
+#!/bin/bash
+docker run    --restart always     --publish=7474:7474 --publish=7687:7687     --env NEO4J_AUTH=neo4j/proutek345  --volume=/usr/data:/data --volume=/usr/gdb7-log:/log --detach --name="gdb7"    neo4j:5.18.0
+
+```
 
 # konceptuální model
 
