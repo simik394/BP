@@ -156,7 +156,7 @@ from: 2023-12-16 04-57-30 on: 2023-12-16 05:12:51
 
 ## Funkcionalita
 ---
-[[Požadavky-katalog.bp]]
+[[Podklady/Nápady/Požadavky-katalog.bp]]
 
 
 ## Obsah %% fold %%

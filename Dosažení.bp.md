@@ -106,7 +106,7 @@ docker run    --restart always     --publish=7474:7474 --publish=7687:7687     -
 # konceptuální model
 
 ## v3.1 - plantUML
-[[classDiagram.plantUML.bp]]
+[[assets/models/plantUML/classDiagram.plantUML.bp]]
 
 ## v3.0 - test %% fold %%
 
@@ -138,7 +138,7 @@ skautská_činnost <|-- Událost
 
 
 ## v2.2 %% fold %%
-![[concept-schema-ke-konzultaci2.2.png]]
+![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.2.png]]
 ### Komentář: 
 proč šestiúhelníky?
 vlastnost "obsazena"? (to mělo být "obsažena")
@@ -148,7 +148,7 @@ bylo by lepší mít pojmenová konce vztahů více odpovídající realitě
 :
 - [ ] proměnné parametry každé aktivity?
 ## v2.1  %% fold %% 
-![[concept-schema-ke-konzultaci2.1.png]]
+![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.1.png]]
 ## v2
 ### schema:
 
@@ -189,7 +189,7 @@ Chci vážně dělit aktivity na zábavné, naučné a potřebné? > ANO
 ---
 Program =vybrané aktivity s konkrétními parametry. By měly mít ještě připravené otázky jejichž zodpovězení proběhne ve z5v.
 
-![[concept-schema-ke-konzultaci2.png]]
+![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.png]]
 ## v1 %% fold %% 
 ### schema:
 ![[concept-schema-ke-konzultaci1.png]]
@@ -233,7 +233,7 @@ hlavní Cíl činnosti aktivity
 
 
 ### model:
-![[odm-Logical230703.png]]
+![[assets/models/datamodeller/odm-Logical230703.png]]
 ### Komentáře-model:
 
 
@@ -261,7 +261,7 @@ Komentáře k provedení
 
 
 # v0 %% fold %%
-[[bp.Příprava]]
+[[Podklady/Nápady/bp.Příprava]]
 ## Methods:
 1. 
 ## Deliverables

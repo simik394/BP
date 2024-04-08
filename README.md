@@ -15,7 +15,8 @@ FROM [[BP/README]] and !"BP/README"
 WHERE !fullyCompleted 
 ```
 
-
+# Odevzdání
+[Aplikovaná informatika (sharepoint.com)](https://vse.sharepoint.com/sites/intranet-studenti-FIS/SitePages/Aplikovan%C3%A1-informatika.aspx)
 
 
 # Files-and-Folders 
@@ -60,9 +61,20 @@ forma: <mark class="hltr-blue">souvislé bloky textu</mark>
 > from "BP/Podklady/Hledání vedení"
 
 ## favs %% fold %%
-[[tmp.bp]]
+[[Podklady/Odloženo/tmp.bp]]
 
-[[tábor23.bp]]
+[[Podklady/Pozorování/tábor23-artefakty.bp]]
 [[bp.vedení]]
 [[BP.Zadání
 
+
+# Linked Resources
+
+> [!NOTE]- n
+> ```dataview
+> table
+> from #P/bp 
+> ```
+
+___
+from: Linked-Zdroje-přehled on: 2024-04-08 19:04:15
