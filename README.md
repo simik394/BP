@@ -1,20 +1,24 @@
 
 
-
-
 # Odevzdání
 [Aplikovaná informatika (sharepoint.com)](https://vse.sharepoint.com/sites/intranet-studenti-FIS/SitePages/Aplikovan%C3%A1-informatika.aspx)
 
-# . %% fold %% 
+---
 
-## ToDo \[\[BP/README]] - dataview %% fold %% 
+
+
+
+# _
+> [!board]-
+> [[Podklady/dashboard.bp.canvas|dashboard.bp]]
+## ToDo \[\[BP/README]] - dataview
 ```dataview
 TASK
 FROM [[BP/README]] and !"BP/README"
 WHERE !fullyCompleted 
 ```
 
-
+# Resources
 ## favs %% fold %%
 [[Podklady/Odloženo/tmp.bp]]
 
@@ -23,7 +27,7 @@ WHERE !fullyCompleted
 [[BP.Zadání
 
 
-## Linked Resources 
+## Linked  
 
 > [!NOTE]- n
 > ```dataview

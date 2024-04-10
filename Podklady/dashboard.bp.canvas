@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"1ad8183a112d60bf","type":"group","collapsed":false,"x":-1800,"y":-2120,"width":1420,"height":860,"label":"Úvod"},
+		{"id":"74b7c9cb393d6dc5","type":"text","text":"","x":-1361,"y":-680,"width":250,"height":140},
+		{"collapsed":false,"id":"227bae3a9e10c296","type":"file","file":"BP/Dosažení.bp.md","subpath":"#Přínosy","x":-1340,"y":-1500,"width":399,"height":208},
+		{"collapsed":false,"id":"2e10a02cec565b42","type":"file","file":"BP/Zaměření.bp.md","subpath":"#Dílčí cíle + metody","x":-1340,"y":-2028,"width":399,"height":488},
+		{"collapsed":false,"id":"8f91b8e47fef7c7b","type":"file","file":"BP/Dosažení.bp.md","subpath":"#Limitace","x":-880,"y":-1740,"width":399,"height":400},
+		{"collapsed":false,"id":"f30a97e9d422bf62","type":"file","file":"BP/Dosažení.bp.md","subpath":"#Výstupy","x":-880,"y":-1984,"width":399,"height":200},
+		{"collapsed":false,"id":"8696d75925448db7","type":"file","file":"BP/Zaměření.bp.md","subpath":"#Problém","x":-1780,"y":-1968,"width":399,"height":184},
+		{"collapsed":false,"id":"fec564e230a1fb0e","type":"file","file":"BP/Zaměření.bp.md","subpath":"#Cíl","x":-1780,"y":-1704,"width":399,"height":328}
+	],
+	"edges":[]
+}
