@@ -2,7 +2,7 @@
 
 # Dv8
 ## dosažení
-### Aim + Objectives + methods
+### Aim + Objectives + methods %% fold %% 
 ![[BP/Zaměření.bp#Cíl]]
 ![[BP/Zaměření.bp#Dílčí cíle metody]]
 
@@ -22,7 +22,6 @@ enables/supports...
 1. Čas
 2. Nehledám, ani se nesnažím vytvořit jedinou aplikaci, která by měla všechny požadované funkce. 
 3. Vybírám google workspace jako základní prvek pro návrh, protože již v oddíle využíváme službu gDrive jako primární uložiště pro naše data v digitální podobě, mimo fotek. Všichni jsou na ně zvyklí, navíc ani nepředstavuje omezení, spíše naopak. *Nicméně v rámci hledání řešení, poslouží dostatečně dobře jako rámec a umožní mi tak se podrobněji věnovat modelování.*
-4. 
 
 ### Struktura
 
@@ -173,9 +172,9 @@ bylo by lepší mít pojmenová konce vztahů více odpovídající realitě
 > Dopředělat do standartního UML diagramu tříd
 
 :
-- [ ] proměnné parametry každé aktivity?
+-  roměnné parametry každé aktivity?
 ## v2.1  %% fold %% 
-![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.1.png]]
+![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.1.png]]fcgguu
 ## v2
 ### schema: %% fold %% 
 
