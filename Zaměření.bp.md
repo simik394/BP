@@ -1,46 +1,34 @@
  
-# v5   
-## motivace %% fold %%
-Co se tématu týče, původně mě zaujal task management jakožto klíčová podoblast projektového managementu, na které ve značné míře závisí jak efektivně (snadno/kvalitně) je možné dokončit produkt.
-Nemám však vyloženě zájem v hledání nějaké optimální metody řízení. Jelikož produkt který mě zajímá, jsou skautské tábory, které každý rok pořádáme. 
-
-Vzhledem ke skutečnosti, že každý kdo se na přípravě podílí, dělá tuto činnost dobrovolně. Typicky mají lidé motivaci připravovat, vymýšlet a provádět konkrétní programy s dětmi. Nicméně motivace pro koordinaci, delegování, či zaznamenávání průběhu, nebo finálního výsledku obohaceného o zpětnou vazbu, bývá značně nižší. 
-
-Jako primární nedostatek tohoto stavu vnímam výsledné častno nekompletní záznamy o vytvořených programech, které umožňují jen velmi obtížné využití jako reference při plánování v dalších letech. Tudíž spousta práce se každý rok dělá od nuly, ačkoliv kdyby jsme měli standartizovaně sdílené zkušenosti z dřívějška, bylo by pravděpodobně možné dosáhnout výsledků mnohem snáze a navíc se vyhnout opakování stejných chyb. 
-
-Avšak, nechci se asi zaměřovat čistě na sdílení znalostí. Rád bych, kromě základního sjednocení postupů pro záznam informací o plněných úkolech, sestavil semi-auto systém v prostředí Google Workspace (aktuálně využívané prostředí), který by umožnil 
-manuálně zaznamenávat:
-- úkoly k dokončení
-- závislosti mezi úkoly
-- stav a výstupy plněných úkolů
-
-automaticky:
-- agregovat zaznamenané údaje do reportů o průběžném pokroku
-- doporučovat časový plán pro zaznamenané úkoly s ohledem na jejich závislosti
-- doporučovat kterým vedoucím delegovat konkrétní úkoly v závislosti na jejich vytíženosti, osobních preferencích a dřívějších výsledcích
-
-Výsledek by tak měl odstranit potřebu manuálně prohledávat jednotlivé dokumenty, nebo alespoň zásadně usnadnit správu záznamů a poskytovat aktualizované přehledy. Tím způsobem by jsme měli výhody vyplývající ze zaznamenaných údajů, a navíc by jsme zůstali ušetřeni většiny práce vyplývající z organizování řečených údajů.
-
-## >> %% fold %%
-manuálně zaznamenávat:
-- úkoly k dokončení
-- závislosti mezi úkoly
-- stav a výstupy plněných úkolů
-
-automaticky:
-- agregovat zaznamenané údaje do reportů o průběžném pokroku
-- doporučovat časový plán pro zaznamenané úkoly s ohledem na jejich závislosti
-- doporučovat kterým vedoucím delegovat konkrétní úkoly v závislosti na jejich vytíženosti, osobních preferencích a dřívějších výsledcích
-### filtrovat podle
-- typ programu
-- multi-dimonzionální hodnocení = kvality
-- potřeby
-	- trvání
-	- vedoucí
-	- materiál
-	- prostředí
-- 
-- čas na úklid
+# Zv6
+## zaměření
+### Oblast + podoblast: 
+  Organizace znalostí + Task mgmt
+  
+### Problém: 
+  > Nalezení informací o připravených programech je v důsledku nesystematického, či chybějícího zápisu, velmi časově náročné.
+  
+### Aspekt problému:
+  Aktuálně **nemáme systém**, který by umožňil zároveň snadné prohledávání i tvorbu, ani samotné prohledávání sdílených znalostí.
+  
+### Cíl:
+  Navrhnout systém pro sdílení *znalostí o připravených programech*, využívající google dokumenty jako hlavní rozhraní pro jejich záznam a modifikace. 
+  Který by *uživatelům* poskytl možnost *snadných úprav obsahu*, a současně možnost v nich *efektivně vyhledávat*. 
+  Bez toho, *aniž by vyžadoval více zdrojů na provoz a údržbu,* než sám ušetří  při svém *využívání*.
+  
+### Dílčí cíle + metody:
+1. Vybrat informace k zaznamenávání.
+    *(literární rešerše)*
+2. Prozkoumat vztahy mezi údaji k zaznamenávání. 
+    *(konceptuální modelování :UML-class)*
+3. Odvodit schema pro databázi. 
+    *(Z modelu pojmů podle doporučených postupů, na základě využití báze)*
+4. Odvodit schema pro dokumenty. 
+    *(Z modelu pojmů podle využití báze a dostupných částí gDocs)*
+5. Navrhnout automatizavatelný postup pro udržování dat v databázi konzistentní s daty v dokumentech. 
+    *(procesní modelování :flowchart)*
+6. (Ověřit proveditelnost a úspěšnost návrhu.) 
+    *(experiment/implementace)*
+  
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů
@@ -133,6 +121,49 @@ Dejte prosím vědět, zda u mne zůstáváte a pokud ano, těším se a Vaši d
 
 S pozdravy
 V.Řepa
+# v5   
+## motivace %% fold %%
+Co se tématu týče, původně mě zaujal task management jakožto klíčová podoblast projektového managementu, na které ve značné míře závisí jak efektivně (snadno/kvalitně) je možné dokončit produkt.
+Nemám však vyloženě zájem v hledání nějaké optimální metody řízení. Jelikož produkt který mě zajímá, jsou skautské tábory, které každý rok pořádáme. 
+
+Vzhledem ke skutečnosti, že každý kdo se na přípravě podílí, dělá tuto činnost dobrovolně. Typicky mají lidé motivaci připravovat, vymýšlet a provádět konkrétní programy s dětmi. Nicméně motivace pro koordinaci, delegování, či zaznamenávání průběhu, nebo finálního výsledku obohaceného o zpětnou vazbu, bývá značně nižší. 
+
+Jako primární nedostatek tohoto stavu vnímam výsledné častno nekompletní záznamy o vytvořených programech, které umožňují jen velmi obtížné využití jako reference při plánování v dalších letech. Tudíž spousta práce se každý rok dělá od nuly, ačkoliv kdyby jsme měli standartizovaně sdílené zkušenosti z dřívějška, bylo by pravděpodobně možné dosáhnout výsledků mnohem snáze a navíc se vyhnout opakování stejných chyb. 
+
+Avšak, nechci se asi zaměřovat čistě na sdílení znalostí. Rád bych, kromě základního sjednocení postupů pro záznam informací o plněných úkolech, sestavil semi-auto systém v prostředí Google Workspace (aktuálně využívané prostředí), který by umožnil 
+manuálně zaznamenávat:
+- úkoly k dokončení
+- závislosti mezi úkoly
+- stav a výstupy plněných úkolů
+
+automaticky:
+- agregovat zaznamenané údaje do reportů o průběžném pokroku
+- doporučovat časový plán pro zaznamenané úkoly s ohledem na jejich závislosti
+- doporučovat kterým vedoucím delegovat konkrétní úkoly v závislosti na jejich vytíženosti, osobních preferencích a dřívějších výsledcích
+
+Výsledek by tak měl odstranit potřebu manuálně prohledávat jednotlivé dokumenty, nebo alespoň zásadně usnadnit správu záznamů a poskytovat aktualizované přehledy. Tím způsobem by jsme měli výhody vyplývající ze zaznamenaných údajů, a navíc by jsme zůstali ušetřeni většiny práce vyplývající z organizování řečených údajů.
+
+## >> %% fold %%
+manuálně zaznamenávat:
+- úkoly k dokončení
+- závislosti mezi úkoly
+- stav a výstupy plněných úkolů
+
+automaticky:
+- agregovat zaznamenané údaje do reportů o průběžném pokroku
+- doporučovat časový plán pro zaznamenané úkoly s ohledem na jejich závislosti
+- doporučovat kterým vedoucím delegovat konkrétní úkoly v závislosti na jejich vytíženosti, osobních preferencích a dřívějších výsledcích
+### filtrovat podle
+- typ programu
+- multi-dimonzionální hodnocení = kvality
+- potřeby
+	- trvání
+	- vedoucí
+	- materiál
+	- prostředí
+- 
+- čas na úklid
+
 # v4.1  %% fold %%
 ## téma BP
 
