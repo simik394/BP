@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"1ad8183a112d60bf","type":"group","x":-1680,"y":-1560,"width":400,"height":400,"label":"Untitled group"},
+		{"id":"a7d8738b2c4ff8c0","type":"text","text":"","x":-1640,"y":-1480,"width":250,"height":60},
+		{"id":"a6d096ce3d1b4f50","type":"text","text":"- [ ] minimální metodika","x":-1640,"y":-1360,"width":250,"height":80},
+		{"id":"000a46dae8a04c8e","type":"text","text":"","x":-1640,"y":-1240,"width":250,"height":60,"color":"#bc2020"}
+	],
+	"edges":[]
+}

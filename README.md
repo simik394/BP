@@ -1,64 +1,19 @@
-Porovnat možné implementace znalostní báze. Gsheet tabulky / Relační DB / graph DB
 
-- [ ] test onOpen() with mobile gSheets
 
-Návrh selfhosted finetunable agenta spouštěného v kagglu, který by extrahoval metodily, mechaniky a názory.
-Akorát bude ještě vytvářet úkoly(svoje výstupy ke kontrole).
 
-- [ ] model procesy >> porovnání náročnosti pro vedoucí před a po
-- [ ] pomocí základního llm agenta v kagglu extrahovat z dokumentů návrhy/kandidáty na znouvupoužitelné prvky, či separovat od sebe názory
-- [ ] graphDB = backend
-# ToDo 
+
+# Odevzdání
+[Aplikovaná informatika (sharepoint.com)](https://vse.sharepoint.com/sites/intranet-studenti-FIS/SitePages/Aplikovan%C3%A1-informatika.aspx)
+
+# . %% fold %% 
+
+## ToDo \[\[BP/README]] - dataview %% fold %% 
 ```dataview
 TASK
 FROM [[BP/README]] and !"BP/README"
 WHERE !fullyCompleted 
 ```
 
-# Odevzdání
-[Aplikovaná informatika (sharepoint.com)](https://vse.sharepoint.com/sites/intranet-studenti-FIS/SitePages/Aplikovan%C3%A1-informatika.aspx)
-
-
-# Files-and-Folders 
-
-> [!files]- .
-> ```dataview
-> list
-> from "BP" and !"BP/assets" and !"BP/chapters" and !"BP/Podklady"
-
-> [!files]- ./chapters
-> vznikají spojením vybraných a seřazených info-střepů 
-forma: <mark class="hltr-blue">souvislé bloky textu</mark>
-> ```dataview
-> list
-> from "BP/chapters"
-
-> [!files]- ./assets
-> diagramy a dalši vizualizace
-> ```dataview
-> list
-> from "BP/assets"
-
-> [!files]- ./Podklady
-> **vznikají kombinací ze <mark style="background: #FF5582A6;">Zotero annotací</mark> a <mark style="background: #BBFABBA6;">mých propojení</mark>**
-**forma:** střepy a odkazy na ty importované poskládané v logickém pořadí
-**obsah:** Podklady = zaměření | dosažení
-> ```dataview
-> list
-> from "BP/Podklady" AND !"BP/Podklady/Hledání vedení" AND !"BP/Podklady/Inspirace" AND !"BP/Podklady/Zastaralé"
-> ```
-
-> [!files]- ./Podklady/Inspirace
-> ukázky příkladů a oficiální zadání
-> ```dataview
-> list
-> from "BP/Podklady/Inspirace"
-
-> [!files]- ./Podklady/Hledání vedení
-> příprava komunikace s vyučujícími
-> ```dataview
-> list
-> from "BP/Podklady/Hledání vedení"
 
 ## favs %% fold %%
 [[Podklady/Odloženo/tmp.bp]]
@@ -68,7 +23,7 @@ forma: <mark class="hltr-blue">souvislé bloky textu</mark>
 [[BP.Zadání
 
 
-# Linked Resources
+## Linked Resources 
 
 > [!NOTE]- n
 > ```dataview
@@ -77,4 +32,4 @@ forma: <mark class="hltr-blue">souvislé bloky textu</mark>
 > ```
 
 ___
-from: Linked-Zdroje-přehled on: 2024-04-08 19:04:15
+from: Linked-Zdroje-přehled on: 2024-04-08 19:04:15/
