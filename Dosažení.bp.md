@@ -2,17 +2,27 @@
 
 # Dv8
 ## dosažení
-### Objectives + methods
+### Aim + Objectives + methods
+![[BP/Zaměření.bp#Cíl]]
 ![[BP/Zaměření.bp#Dílčí cíle metody]]
 
 ### Výstupy
 - model pojmů
 - schema databáze
 - schema dokumentů
+- model postupu zrcadlení dat do databáze
 
 ### Přínosy
+enables/supports...
+1. reusability of created content
+2. quality mgmt
+3. task mgmt 
 
 ### Limitace
+1. Čas
+2. Nehledám, ani se nesnažím vytvořit jedinou aplikaci, která by měla všechny požadované funkce. 
+3. Vybírám google workspace jako základní prvek pro návrh, protože již v oddíle využíváme službu gDrive jako primární uložiště pro naše data v digitální podobě, mimo fotek. Všichni jsou na ně zvyklí, navíc ani nepředstavuje omezení, spíše naopak. *Nicméně v rámci hledání řešení, poslouží dostatečně dobře jako rámec a umožní mi tak se podrobněji věnovat modelování.*
+4. 
 
 ### Struktura
 
@@ -74,14 +84,14 @@ Zaznamenávat nápady
 
 
 
-# kompetenční otázky
+# kompetenční otázky %% fold %% 
 
 Hry které se osvědčily a delší dobu nebyly na programu
 Hry které se ještě nehrály
 Osvědčený naučný program napojený na bod stezky, který většina ze členů družiny nemají splněný
 
 
-# definice pojmů
+# definice pojmů %% fold %% 
 
 Schůzka může mít výstup různý záznam.
 -
@@ -113,7 +123,7 @@ Kompetenční otázky klíčové pro moje modelování?
 hodnocení + z5v psát vždy pod výstup práce ke kterému náleží (Aktivita, Program, Událost)
 # zdroje
 
-# implementace
+# implementace %% fold %% 
 
 ```bash
 #!/bin/bash
@@ -121,7 +131,7 @@ docker run    --restart always     --publish=7474:7474 --publish=7687:7687     -
 
 ```
 
-# konceptuální model
+# konceptuální model %% fold %% 
 
 ## v3.1 - plantUML
 [[assets/models/plantUML/classDiagram.plantUML.bp]]

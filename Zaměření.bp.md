@@ -3,18 +3,14 @@
 ## zaměření
 ### Oblast + podoblast: 
   Organizace znalostí + Task mgmt
-  
 ### Problém: 
   > Nalezení informací o připravených programech je v důsledku nesystematického, či chybějícího zápisu, velmi časově náročné.
-  
 ### Aspekt problému:
   Aktuálně **nemáme systém**, který by umožňil zároveň snadné prohledávání i tvorbu, ani samotné prohledávání sdílených znalostí.
-  
 ### Cíl:
   Navrhnout systém pro sdílení *znalostí o připravených programech*, využívající google dokumenty jako hlavní rozhraní pro jejich záznam a modifikace. 
   Který by *uživatelům* poskytl možnost *snadných úprav obsahu*, a současně možnost v nich *efektivně vyhledávat*. 
   Bez toho, *aniž by vyžadoval více zdrojů na provoz a údržbu,* než sám ušetří  při svém *využívání*.
-  
 ### Dílčí cíle + metody:
 1. Vybrat informace k zaznamenávání.
     *(literární rešerše)*
@@ -28,7 +24,6 @@
     *(procesní modelování :flowchart)*
 6. (Ověřit proveditelnost a úspěšnost návrhu.) 
     *(experiment/implementace)*
-  
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů
