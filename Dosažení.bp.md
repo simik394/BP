@@ -1,5 +1,23 @@
 [[BP/README|README]]
 
+# Dv8
+## dosažení
+### Objectives + methods
+![[BP/Zaměření.bp#Dílčí cíle metody]]
+
+### Výstupy
+- model pojmů
+- schema databáze
+- schema dokumentů
+
+### Přínosy
+
+### Limitace
+
+### Struktura
+
+### Časový plán
+
 
 # procesní model %% fold %%
 ## v1
@@ -107,7 +125,6 @@ docker run    --restart always     --publish=7474:7474 --publish=7687:7687     -
 
 ## v3.1 - plantUML
 [[assets/models/plantUML/classDiagram.plantUML.bp]]
-
 ## v3.0 - test %% fold %%
 
 
@@ -150,35 +167,34 @@ bylo by lepší mít pojmenová konce vztahů více odpovídající realitě
 ## v2.1  %% fold %% 
 ![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.1.png]]
 ## v2
-### schema:
+### schema: %% fold %% 
 
 > [!NOTE]
 > - [x] Událost má symbolicky rámec a z toho vyplývá scénka
 
-- [ ] Událost může mít přihlášené lidi 
+Událost může mít přihlášené lidi 
 
-- [ ] Aktivita může mít různé verze (starší/novější), a je důležité zachytit, ke které verzi byla poskytnuta z5v.
+Aktivita může mít různé verze (starší/novější), a je důležité zachytit, ke které verzi byla poskytnuta z5v.
 
-- [ ] Aktivity mohou mít několik lehce odlišných verzí. 
+Aktivity mohou mít několik lehce odlišných verzí. 
 Verze by se měly drobně lišit, ne však příliš. pak nová aktivita. 
 Každá verze má nějaké vlastní parametry (doba nabíjení, počet stanovišť, počet týmů, běhaná vzdálenost, symbolický rámec, ...)
-- [ ] V rámci programového bloku by mělo být zaznamenáno konkrétní nastavení parametrů zvoleného programu. 
-- [ ] Nicméně i v rámci aktivity může být specifikováno výchozí/doporučené nastavení těchto parametrů.
+[[Podklady/Nápady/todonápady]]
 
-- [x] U hry přidat parametr Cíl činnosti/Cíl činnostie hráčů?
+U hry přidat parametr Cíl činnosti/Cíl činnostie hráčů?
 Nebo vedle mechanik jako entitu obsaženou v pravidlech?
-- [ ] Aktivity by měly být reusable (očištěné od prvků specifických pro konkrétní události).
+Aktivity by měly být reusable (očištěné od prvků specifických pro konkrétní události).
 
-- [ ] Události jsou primární produkt. Jaké jsou procesy jejich přípravy a provedení?
+Události jsou primární produkt. Jaké jsou procesy jejich přípravy a provedení?
 
 Mechanika je npř Cíl činnosti hráče, hraní po týmech, či po jednotlivcích.
 Mechanika = hráč musí/může/nemůže
 #= hráč chce
 
 ---
-- [ ] Členové mohou mít splněné některé body ke splnění
+Členové mohou mít splněné některé body ke splnění
 
-- [ ] Programový blok vychází z konkrétní události, mohl by tedy mít parametr "věk účastníků"
+Programový blok vychází z konkrétní události, mohl by tedy mít parametr "věk účastníků"
 
 Indpiruj se u návrhu db pro DnD
 
