@@ -3,8 +3,8 @@
 # Dv8
 ## dosažení
 ### Aim + Objectives + methods %% fold %% 
-![[BP/Zaměření.bp#Cíl]]
-![[BP/Zaměření.bp#Dílčí cíle metody]]
+![[Zaměření.bp#Cíl]]
+![[Zaměření.bp#Dílčí cíle metody]]
 
 ### Výstupy
 - model pojmů
@@ -26,6 +26,16 @@ enables/supports...
 ### Struktura
 
 ### Časový plán
+
+# Metodika
+1.
+2.
+3.
+4.
+5.
+6.
+
+
 
 
 # procesní model %% fold %%

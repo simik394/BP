@@ -1,13 +1,28 @@
 {
 	"nodes":[
-		{"id":"1ad8183a112d60bf","type":"group","collapsed":false,"x":-1800,"y":-2120,"width":1420,"height":860,"label":"Úvod"},
-		{"id":"74b7c9cb393d6dc5","type":"text","text":"","x":-1361,"y":-680,"width":250,"height":140},
-		{"collapsed":false,"id":"227bae3a9e10c296","type":"file","file":"BP/Dosažení.bp.md","subpath":"#Přínosy","x":-1340,"y":-1500,"width":399,"height":208},
-		{"collapsed":false,"id":"2e10a02cec565b42","type":"file","file":"BP/Zaměření.bp.md","subpath":"#Dílčí cíle + metody","x":-1340,"y":-2028,"width":399,"height":488},
-		{"collapsed":false,"id":"8f91b8e47fef7c7b","type":"file","file":"BP/Dosažení.bp.md","subpath":"#Limitace","x":-880,"y":-1740,"width":399,"height":400},
-		{"collapsed":false,"id":"f30a97e9d422bf62","type":"file","file":"BP/Dosažení.bp.md","subpath":"#Výstupy","x":-880,"y":-1984,"width":399,"height":200},
-		{"collapsed":false,"id":"8696d75925448db7","type":"file","file":"BP/Zaměření.bp.md","subpath":"#Problém","x":-1780,"y":-1968,"width":399,"height":184},
-		{"collapsed":false,"id":"fec564e230a1fb0e","type":"file","file":"BP/Zaměření.bp.md","subpath":"#Cíl","x":-1780,"y":-1704,"width":399,"height":328}
+		{"id":"0023ce925b14342f","type":"group","x":-2950,"y":680,"width":3310,"height":1040,"label":"Vypracování"},
+		{"id":"1ad8183a112d60bf","type":"group","collapsed":false,"x":-3040,"y":-2080,"width":3240,"height":800,"label":"Úvod"},
+		{"id":"a51de66984ac0db0","type":"group","collapsed":false,"x":-2885,"y":-320,"width":3020,"height":800,"label":"Teorie"},
+		{"id":"49bf6448e5476ebb","type":"group","collapsed":false,"x":-2950,"y":-1160,"width":3150,"height":704,"label":"Metodika"},
+		{"collapsed":false,"id":"6bc32132076e41ba","type":"group","x":-2440,"y":1880,"width":2400,"height":920,"label":"Diskuze"},
+		{"id":"db08a07a51ecb27d","type":"file","file":"BP/chapters/Úvod.bp.md","collapsed":true,"x":-4400,"y":-2380,"width":1120,"height":1160},
+		{"id":"10236567b08be8a7","type":"file","file":"BP/chapters/Vypracování.bp.md","collapsed":true,"x":800,"y":560,"width":1360,"height":1520},
+		{"id":"b2fb38309696f958","type":"file","file":"BP/chapters/Teorie.bp.md","collapsed":true,"x":-4560,"y":-400,"width":1120,"height":1680},
+		{"id":"c49c2b59e57ef62e","type":"file","file":"BP/chapters/Diskuze.bp.md","collapsed":true,"x":-4320,"y":1640,"width":1120,"height":1720},
+		{"id":"b4ea1a66e192e01b","type":"file","file":"BP/chapters/Metodika.bp.md","collapsed":true,"x":560,"y":-1924,"width":1360,"height":1520},
+		{"collapsed":false,"id":"227bae3a9e10c296","type":"file","file":"BP/drafts/Dosažení.bp.md","subpath":"#Přínosy","x":-1120,"y":-1780,"width":399,"height":264},
+		{"collapsed":false,"id":"8f91b8e47fef7c7b","type":"file","file":"BP/drafts/Dosažení.bp.md","subpath":"#Limitace","x":-640,"y":-1880,"width":399,"height":444},
+		{"collapsed":false,"id":"8696d75925448db7","type":"file","file":"BP/drafts/Zaměření.bp.md","subpath":"#Problém","x":-2960,"y":-1800,"width":299,"height":276},
+		{"collapsed":false,"id":"fec564e230a1fb0e","type":"file","file":"BP/drafts/Zaměření.bp.md","subpath":"#Cíl","x":-2560,"y":-1844,"width":399,"height":364},
+		{"collapsed":false,"id":"2e10a02cec565b42","type":"file","file":"BP/drafts/Zaměření.bp.md","subpath":"#Dílčí cíle + metody","x":-2080,"y":-1924,"width":399,"height":524,"color":"1"},
+		{"collapsed":false,"id":"f30a97e9d422bf62","type":"file","file":"BP/drafts/Dosažení.bp.md","subpath":"#Výstupy","x":-1595,"y":-1780,"width":399,"height":264},
+		{"id":"2a402466f172d4b3","type":"text","text":"Struktura a plán","x":-140,"y":-1798,"width":250,"height":140}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"8a82f8da9fd19a8b","fromNode":"1ad8183a112d60bf","fromSide":"left","toNode":"db08a07a51ecb27d","toSide":"right"},
+		{"id":"149ef69b63240cdd","fromNode":"49bf6448e5476ebb","fromSide":"right","toNode":"b4ea1a66e192e01b","toSide":"left"},
+		{"id":"0d546561c1c07c19","fromNode":"0023ce925b14342f","fromSide":"right","toNode":"10236567b08be8a7","toSide":"left"},
+		{"id":"e43cc14d68abe3fb","fromNode":"a51de66984ac0db0","fromSide":"left","toNode":"b2fb38309696f958","toSide":"right"},
+		{"id":"101c9a1e417eb2dd","fromNode":"6bc32132076e41ba","fromSide":"left","toNode":"c49c2b59e57ef62e","toSide":"right"}
+	]
 }
