@@ -31,61 +31,61 @@ viz. drawio [[../assets/models/concept-model-ke-konzultaci3.drawio.png|strana: m
 výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimální verzi program
 
 ## Metodika
-### 1.
+### 1. Pojmy - skutečnost
 > Cíl: Výběr _informací_ k zaznamenávání.
 #### Z pohledu Junáka:
-**Definovat pojmy** { "program", "aktivita", "činnost", "událost" } a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem.
-- f = (p, f){
+**Definovat pojmy** { "program", "aktivita", "činnost", "událost" } a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
+- f = (p, s){
 - Vyhledej v souboru f pojem p.
 - Pro každy výsky p pak:
 	- Pokud je součástí definice, získej definici.
-	- Prohlédni okolní odstavce, případně kapitolu pokud bude pdf f tématicky blízko pojmu p. A v případě že narazím na jiný pojem než p, který identifikuji jako potenciálně užitečný pro tvořenou bázi, získám ho a uvedu odůvodnění.
-	Výstup:: [definice], \[pojemKandidát, vztahKp, \[důvod\]\] }
--  map(`Knihovna/Metodika`, f)  
-- Získej definice. Každý pojemKandidát pak: pokud ho odůvodníš jako užitečný, přidej ho do listu pojmu k definování.
-- Definice pro každý pojem nakonec deduplikuji a zbytek agreguj do srozumitelného popisu, vhodného pro text bp.
+	- Prohlédni okolní odstavce, případně kapitolu pokud bude soubor s tématicky blízko pojmu p. A v případě že narazím na jiný pojem než p, který identifikuji jako potenciálně užitečný pro tvořenou bázi, získám ho a uvedu odůvodnění.
+	Výstup:: \[ definice ], \[ pojemKandidát, vztahKp, \[ důvod\] \] }
+	
+- Každý pojemKandidát pak: pokud ho odůvodníš jako užitečný, přidej ho do listu pojmu k definování.
+- *Definice pro každý pojem* nakonec deduplikuji a zbytek agreguj do srozumitelného popisu, vhodného pro text bp.
 #### Z pohledu vedoucího:
 **Prozkoumat existující báze** a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? { existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }
 
 #### Z pohledu řízení:
 
-### 2.
-> Výběr _datových struktur_ pro použití v návrhu.
+### 2. Datové struktury
+> **Výběr** datových struktur pro použití v návrhu.
 
 Výstup:: ds s rozhraním pro *čtení* i *psaní* splňující stanovené **požadavky**
 
 
-### 3.
-> Výběr _postupů_ pro vytvoření návrhu.
+### 3. Nejlepší praktiky
+> **Výběr** postupů pro vytvoření návrhu.
 
 Výstup:: *sady pravidel* pro využité postupy
 
 
-### 4.
-> Vytvořit _model pojmů_ a jejich vztahů. 
+### 4. Model pojmů
+> **Vytvořit** model pojmů a jejich vztahů. 
 
 Výstup:: koncept model
 
 
-### 5.
+### 5. Databázové schema
 > Vytvořit schema pro _databázi_. 
 
 Výstup:: db schema
 
 
-### 6.
+### 6. Dokumentové schema
 > Vytvořit schema pro _dokumenty_. 
 
 Výstup:: doc schema
 
 
-### 7.
+### 7. Postup údržby
 > Navrhnout postup pro _udržování_ dat v databázi konzistentní se skutečnými instancemi tříd. 
 
 Výstup:: flowchart, možná kód
 
 
-### 8.
+### 8. Vyhodnocení výsledků
 > Ověřit _proveditelnost_ a _úspěšnost_ návrhu.) 
 
 Výstup:: Výsledky úspěšnosti. Důkaz proveditelnosti
