@@ -32,7 +32,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 
 ## Metodika
 ### 1. Pojmy - skutečnost
-> Cíl: Výběr _informací_ k zaznamenávání.
+> **Výběr** informací k zaznamenávání.
 #### Z pohledu Junáka:
 **Definovat pojmy** { "program", "aktivita", "činnost", "událost" } a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
 - f = (p, s){
@@ -68,19 +68,19 @@ Výstup:: koncept model
 
 
 ### 5. Databázové schema
-> Vytvořit schema pro _databázi_. 
+> **Vytvořit** schema pro databázi. 
 
 Výstup:: db schema
 
 
 ### 6. Dokumentové schema
-> Vytvořit schema pro _dokumenty_. 
+> **Vytvořit** schema pro dokumenty. 
 
 Výstup:: doc schema
 
 
 ### 7. Postup údržby
-> Navrhnout postup pro _udržování_ dat v databázi konzistentní se skutečnými instancemi tříd. 
+> **Navrhnout** postup pro udržování dat v databázi konzistentní se skutečnými instancemi tříd. 
 
 Výstup:: flowchart, možná kód
 
