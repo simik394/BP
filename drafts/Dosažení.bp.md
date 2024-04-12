@@ -1,11 +1,12 @@
 [[BP/README|README]]
 
 # Dv8
-## dosažení
-### Aim + Objectives + methods %% fold %% 
+## zaměření
+### Aim %% fold %% 
 ![[Zaměření.bp#Cíl]]
+### Objectives + methods %% fold %% 
 ![[Zaměření.bp#Dílčí cíle metody]]
-
+## dosažení
 ### Výstupy
 - model pojmů
 - schema databáze
@@ -24,17 +25,70 @@ enables/supports...
 3. Vybírám google workspace jako základní prvek pro návrh, protože již v oddíle využíváme službu gDrive jako primární uložiště pro naše data v digitální podobě, mimo fotek. Všichni jsou na ně zvyklí, navíc ani nepředstavuje omezení, spíše naopak. *Nicméně v rámci hledání řešení, poslouží dostatečně dobře jako rámec a umožní mi tak se podrobněji věnovat modelování.*
 
 ### Struktura
+viz. drawio [[../assets/models/concept-model-ke-konzultaci3.drawio.png|strana: model textu práce]]
 
 ### Časový plán
+výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimální verzi program
 
-# Metodika
-1.
-2.
-3.
-4.
-5.
-6.
+## Metodika
+### 1.
+> Cíl: Výběr _informací_ k zaznamenávání.
+#### Z pohledu Junáka:
+**Definovat pojmy** { "program", "aktivita", "činnost", "událost" } a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem.
+- f = (p, f){
+- Vyhledej v souboru f pojem p.
+- Pro každy výsky p pak:
+	- Pokud je součástí definice, získej definici.
+	- Prohlédni okolní odstavce, případně kapitolu pokud bude pdf f tématicky blízko pojmu p. A v případě že narazím na jiný pojem než p, který identifikuji jako potenciálně užitečný pro tvořenou bázi, získám ho a uvedu odůvodnění.
+	Výstup:: [definice], \[pojemKandidát, vztahKp, \[důvod\]\] }
+-  map(`Knihovna/Metodika`, f)  
+- Získej definice. Každý pojemKandidát pak: pokud ho odůvodníš jako užitečný, přidej ho do listu pojmu k definování.
+- Definice pro každý pojem nakonec deduplikuji a zbytek agreguj do srozumitelného popisu, vhodného pro text bp.
+#### Z pohledu vedoucího:
+**Prozkoumat existující báze** a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? { existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }
 
+#### Z pohledu řízení:
+
+### 2.
+> Výběr _datových struktur_ pro použití v návrhu.
+
+Výstup:: ds s rozhraním pro *čtení* i *psaní* splňující stanovené **požadavky**
+
+
+### 3.
+> Výběr _postupů_ pro vytvoření návrhu.
+
+Výstup:: *sady pravidel* pro využité postupy
+
+
+### 4.
+> Vytvořit _model pojmů_ a jejich vztahů. 
+
+Výstup:: koncept model
+
+
+### 5.
+> Vytvořit schema pro _databázi_. 
+
+Výstup:: db schema
+
+
+### 6.
+> Vytvořit schema pro _dokumenty_. 
+
+Výstup:: doc schema
+
+
+### 7.
+> Navrhnout postup pro _udržování_ dat v databázi konzistentní se skutečnými instancemi tříd. 
+
+Výstup:: flowchart, možná kód
+
+
+### 8.
+> Ověřit _proveditelnost_ a _úspěšnost_ návrhu.) 
+
+Výstup:: Výsledky úspěšnosti. Důkaz proveditelnosti
 
 
 

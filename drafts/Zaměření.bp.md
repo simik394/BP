@@ -4,26 +4,29 @@
 ### Oblast + podoblast: 
   Organizace znalostí + Task mgmt
 ### Problém: 
-  > Nalezení informací o připravených programech je v důsledku nesystematického, či chybějícího zápisu, velmi časově náročné.
+  > Nalezení informací o připravených programech je v důsledku nesystematického, či chybějícího zápisu, přinejlepším poměrně časově náročné.
+
+_(chybějící zápis)_ -Proč není zapsaný? -> 
+Protože lidé nevidí dostatečný smysl v zápisu možných informací. -Proč?-> 
+Protože se jim buď zatím nepodařilo najít přijatelný způsob využití, nebo pro vytvořené záznamy prostě žádný důvod nevidí. -Proč-> 
+Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a kam zapisovat. A zároveň naoplátku umožňoval v minimálním čase zobrazovat pouze specifické informace i z velkých objemů záznamů*.
 ### Aspekt problému:
-  Aktuálně **nemáme systém**, který by umožňil zároveň snadné prohledávání i tvorbu, ani samotné prohledávání sdílených znalostí.
+  Aktuálně **nemáme systém**, který by umožňil zároveň **snadné prohledávání i tvorbu**, ani samotné prohledávání sdílených znalostí.
 ### Cíl:
   Navrhnout systém pro sdílení *znalostí o připravených programech*, využívající google dokumenty jako hlavní rozhraní pro jejich záznam a modifikace. 
   Který by *uživatelům* poskytl možnost *snadných úprav obsahu*, a současně možnost v nich *efektivně vyhledávat*. 
   Bez toho, *aniž by vyžadoval více zdrojů na provoz a údržbu,* než sám ušetří  při svém *využívání*.
 ### Dílčí cíle + metody:
-1. Vybrat informace k zaznamenávání.
-    *(literární rešerše)*
-2. Prozkoumat vztahy mezi údaji k zaznamenávání. 
-    *(konceptuální modelování :UML-class)*
-3. Odvodit schema pro databázi. 
-    *(Z modelu pojmů podle doporučených postupů, na základě využití báze)*
-4. Odvodit schema pro dokumenty. 
-    *(Z modelu pojmů podle využití báze a dostupných částí gDocs)*
-5. Navrhnout automatizavatelný postup pro udržování dat v databázi konzistentní s daty v dokumentech. 
-    *(procesní modelování :flowchart)*
-6. (Ověřit proveditelnost a úspěšnost návrhu.) 
-    *(experiment/implementace)*
+
+| Výběr *informací* k zaznamenávání.                                                               | *(literární rešerše)*                                                                                        |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| Výběr *datových struktur* pro použití v návrhu.                                                  |                                                                                                              |
+| Výběr *postupů* pro vytvoření návrhu.                                                            |                                                                                                              |
+| Vytvořit *model pojmů* a jejich vztahů.                                                          | *(konceptuální modelování :UML-class)*                                                                       |
+| Vytvořit schema pro *databázi*.                                                                  | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)*                                       |
+| Vytvořit schema pro *dokumenty*.                                                                 | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)*                                       |
+| Navrhnout postup pro *udržování* dat v databázi konzistentní se skutečnými instancemi tříd. <br> | *(Z modelu pojmů podle využití báze a dostupných částí gDocs)*<br>    *(procesní modelování :flowchart)*<br> |
+| Ověřit *proveditelnost* a *úspěšnost* návrhu.) <br>                                              | *(experiment/implementace)*                                                                                  |
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů
