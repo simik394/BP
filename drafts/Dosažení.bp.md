@@ -7,24 +7,24 @@
 ### Objectives + methods %% fold %% 
 ![[Zaměření.bp#Dílčí cíle metody]]
 ## dosažení
-### Výstupy
+### Výstupy %% fold %%
 - model pojmů
 - schema databáze
 - schema dokumentů
 - model postupu zrcadlení dat do databáze
 
-### Přínosy
+### Přínosy %% fold %%
 enables/supports...
 1. reusability of created content
 2. quality mgmt
 3. task mgmt 
 
-### Limitace
+### Limitace %% fold %%
 1. Čas
 2. Nehledám, ani se nesnažím vytvořit jedinou aplikaci, která by měla všechny požadované funkce. 
 3. Vybírám google workspace jako základní prvek pro návrh, protože již v oddíle využíváme službu gDrive jako primární uložiště pro naše data v digitální podobě, mimo fotek. Všichni jsou na ně zvyklí, navíc ani nepředstavuje omezení, spíše naopak. *Nicméně v rámci hledání řešení, poslouží dostatečně dobře jako rámec a umožní mi tak se podrobněji věnovat modelování.*
 
-### Struktura
+### Struktura %% fold %%
 viz. drawio [[../assets/models/concept-model-ke-konzultaci3.drawio.png|strana: model textu práce]]
 
 ### Časový plán
@@ -33,7 +33,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 ## Metodika
 ### 1. Pojmy - skutečnost
 > **Výběr** údajů k zaznamenávání.
-#### Z pohledu Junáka:
+#### Z pohledu Junáka: %% fold %%
 Definovat pojmy `{ "program", "aktivita", "činnost", "událost" }` a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
 - f = (p, s){
 - Vyhledej v souboru f pojem p.
@@ -45,7 +45,7 @@ Definovat pojmy `{ "program", "aktivita", "činnost", "událost" }` a jim nejbli
 **Získat** `[definice]` pro všechny analyzované pojmy. 
 Deduplikovat; vybrat nejpodstatnější;
 transformovat do srozumitelného popisu, vhodného pro text bp.
-#### Z pohledu vedoucího:
+#### Z pohledu vedoucího: %% fold %%
 Prozkoumat existující báze a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? `{ existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }`
 **Získat** vlastnosti, které jsou existujícími bázemi použity pro organizaci záznamů. 
 
@@ -60,25 +60,31 @@ Pro naše `existující soubory`
 - vytvořit mapu externí i interní struktury vybraných souborů
 	- externí= - v jakých složkách počínaje v kořenové, je soubor uložen? - Jaké soubory jsou na stejné úrovni jako daný soubor?
 	- interní= - Které pojmy jsou použity pro organizaci? Kterým typem gDoc elementu stránky jsou jednotlivé pojmy zapsané? (Ptám se proto, abych měl představu o tom, co je pro cílové uživatele komfortní na používání. Nebo alespoň bylo v době zapisování.)
-	**+získám** mapu báze, kterou vytvořili moji cíloví uživatelé v současné době.
+	**+získám** `mapu báze, kterou vytvořili moji cíloví uživatelé`.
 
 Pro `encyklopedie`  
 - Vybrat z každé kapitoly ze čtyř knih 3 vzorky
 - Určit vnější(extení) i vnitřní(interní) strukturu báze vzhledem k vybraným vzorkům
 	- ext= názvy kapitol a knih
 	- int= členění? pojmy?
-	**+získám** schema (mapu, ale nekompletnější než v minulém případě) báze her
+	**+získám** (mapu, ale nekompletnější než v minulém případě) `schema báze her`
 
 Pro `chystamprogram`
 - ext= Podle jakých klíčů umožňuje stránka filtrovat zobrazované položky? (Které údaje má každý záznam uvedeny v "hlavičce"?)
 - int= Vyberu 20 vzorků získaných z několika různě filtrovaných zobrazení. Pro každý vzorek pak analyzuji jeho obsah. Členění? Parametrizace? Pojmy k tomu využité?
-	**+získám** mapu externí struktury záznamů + tabulku frekvencí výskytu jednotlivých pojmů založenou na popisu dané aktivity mimo "hlavičku".
+	**+získám** `mapu externí struktury` záznamů + `tabulku frekvencí výskytu jednotlivých pojmů` založenou na popisu dané aktivity mimo "hlavičku".
 
-#### Z pohledu řízení:
+#### Z pohledu řízení: %% fold %%
 > tento pohled je tu z důvody snahy podpořit snadnou přípravu kvalitních programů.
 
-while
-
+Get odpověď( "Co je TM?" ); Get odpověď( "Jak efektivně TM?" ); Odvodit požadavkyNa( 'navrhovaný systém' ); Odvodit pojmy, které k tomu jsou potřeba.
+**Získám** `pojmy pro model` a `požadavky na systém podpory řízení práce/úkolů`.
+Prochození(skipIf='') google výsledků na zadané otázky...
+until(nalezenéShodnéDefinice.len=\=3) {uveď definici}
+until(nalezenéShodnéNávody.len=\=3) {uveď návod}
+Co z toho vyplývá pro moji bázi? 
+- já: navrhnout vyplývající požadavky( pojmy ) + zdůvodnit
+- ai: validovat moje zdůvodnění; doplnit vlastními návrhy
 
 
 ### 2. Datové struktury
