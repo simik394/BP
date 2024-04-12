@@ -75,6 +75,8 @@ Pro `chystamprogram`
 	**+získám** mapu externí struktury záznamů + tabulku frekvencí výskytu jednotlivých pojmů založenou na popisu dané aktivity mimo "hlavičku".
 
 #### Z pohledu řízení:
+> tento pohled je tu z důvody snahy podpořit snadnou přípravu kvalitních programů.
+
 while
 
 
