@@ -32,22 +32,33 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 
 ## Metodika
 ### 1. Pojmy - skutečnost
-> **Výběr** informací k zaznamenávání.
+> **Výběr** údajů k zaznamenávání.
 #### Z pohledu Junáka:
-**Definovat pojmy** { "program", "aktivita", "činnost", "událost" } a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
+Definovat pojmy `{ "program", "aktivita", "činnost", "událost" }` a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
 - f = (p, s){
 - Vyhledej v souboru f pojem p.
 - Pro každy výsky p pak:
 	- Pokud je součástí definice, získej definici.
 	- Prohlédni okolní odstavce, případně kapitolu pokud bude soubor s tématicky blízko pojmu p. A v případě že narazím na jiný pojem než p, který identifikuji jako potenciálně užitečný pro tvořenou bázi, získám ho a uvedu odůvodnění.
-	Výstup:: \[ definice ], \[ pojemKandidát, vztahKp, \[ důvod\] \] }
-	
+	Výstup:: `[[ definice ], [ pojemKandidát, vztahKp, [ důvod]]]` 
 - Každý pojemKandidát pak: pokud ho odůvodníš jako užitečný, přidej ho do listu pojmu k definování.
-- *Definice pro každý pojem* nakonec deduplikuji a zbytek agreguj do srozumitelného popisu, vhodného pro text bp.
+**Získat** `[definice]` pro všechny analyzované pojmy. 
+Deduplikovat; vybrat nejpodstatnější;
+transformovat do srozumitelného popisu, vhodného pro text bp.
 #### Z pohledu vedoucího:
-**Prozkoumat existující báze** a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? { existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }
+Prozkoumat existující báze a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? `{ existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }`
+**Získat** vlastnosti, které jsou existujícími bázemi použity pro organizaci záznamů. 
+Vlastnostmi jsou myšleny pojmy, které se opakují u záznamů v celé, nebo části analyzované báze.
+Pro naše `existující soubory` 
+- projít celý sdílený disk a vybrat pouze soubory, jejichž obsah by měl být převáděn do báze.
+- vytvořit mapu externí i interní struktury vybraných souborů
+	- externí= - v jakých složkách počínaje v kořenové, je soubor uložen? - Jaké soubory jsou na stejné úrovni jako daný soubor?
+	- interní= - Které pojmy jsou použity pro organizaci? Kterým typem gDoc elementu stránky jsou jednotlivé pojmy zapsané? (Ptám se proto, abych měl představu o tom, co je pro cílové uživatele komfortní na používání. Nebo alespoň bylo v době zapisování.)
+	**+získám** mapu báze, kterou mají k dispozici moji cíloví uživatelé v současné době.
+Pro `encyklopedie` a `chystamprogram`
 
 #### Z pohledu řízení:
+
 
 ### 2. Datové struktury
 > **Výběr** datových struktur pro použití v návrhu.
