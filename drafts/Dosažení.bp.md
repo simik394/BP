@@ -48,58 +48,141 @@ transformovat do srozumitelného popisu, vhodného pro text bp.
 #### Z pohledu vedoucího:
 Prozkoumat existující báze a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? `{ existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }`
 **Získat** vlastnosti, které jsou existujícími bázemi použity pro organizaci záznamů. 
-Vlastnostmi jsou myšleny pojmy, které se opakují u záznamů v celé, nebo části analyzované báze.
+
+> [!def]
+> Vlastnostmi jsou myšleny pojmy, které se opakují u záznamů v celé, nebo části analyzované báze.
+
+> [!váhy bází podle důkladnosti analýzy]
+> Třetí báze k analýze obsahuje jak hry, tak i seriozněji laděné rozvojové(vzdělávací) aktivity. Navíc je modernější. Z těchto důvodů, jí při analýze věnuji více pozornosti, než bázi 2 - encyklopedie. Nicméně jí nepřikládám vyšší váhu, než zdroji analyzovanému jako první. Jenž vznikl dalo by se říci přirozeně při naší činnosti.
+
 Pro naše `existující soubory` 
 - projít celý sdílený disk a vybrat pouze soubory, jejichž obsah by měl být převáděn do báze.
 - vytvořit mapu externí i interní struktury vybraných souborů
 	- externí= - v jakých složkách počínaje v kořenové, je soubor uložen? - Jaké soubory jsou na stejné úrovni jako daný soubor?
 	- interní= - Které pojmy jsou použity pro organizaci? Kterým typem gDoc elementu stránky jsou jednotlivé pojmy zapsané? (Ptám se proto, abych měl představu o tom, co je pro cílové uživatele komfortní na používání. Nebo alespoň bylo v době zapisování.)
-	**+získám** mapu báze, kterou mají k dispozici moji cíloví uživatelé v současné době.
-Pro `encyklopedie` a `chystamprogram`
+	**+získám** mapu báze, kterou vytvořili moji cíloví uživatelé v současné době.
+
+Pro `encyklopedie`  
+- Vybrat z každé kapitoly ze čtyř knih 3 vzorky
+- Určit vnější(extení) i vnitřní(interní) strukturu báze vzhledem k vybraným vzorkům
+	- ext= názvy kapitol a knih
+	- int= členění? pojmy?
+	**+získám** schema (mapu, ale nekompletnější než v minulém případě) báze her
+
+Pro `chystamprogram`
+- ext= Podle jakých klíčů umožňuje stránka filtrovat zobrazované položky? (Které údaje má každý záznam uvedeny v "hlavičce"?)
+- int= Vyberu 20 vzorků získaných z několika různě filtrovaných zobrazení. Pro každý vzorek pak analyzuji jeho obsah. Členění? Parametrizace? Pojmy k tomu využité?
+	**+získám** mapu externí struktury záznamů + tabulku frekvencí výskytu jednotlivých pojmů založenou na popisu dané aktivity mimo "hlavičku".
 
 #### Z pohledu řízení:
+while
+
 
 
 ### 2. Datové struktury
 > **Výběr** datových struktur pro použití v návrhu.
 
 Výstup:: ds s rozhraním pro *čtení* i *psaní* splňující stanovené **požadavky**
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
 
 
 ### 3. Nejlepší praktiky
 > **Výběr** postupů pro vytvoření návrhu.
 
 Výstup:: *sady pravidel* pro využité postupy
-
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
 
 ### 4. Model pojmů
 > **Vytvořit** model pojmů a jejich vztahů. 
 
 Výstup:: koncept model
+p
+p
+p
+p
+p
+p
+p
+p
+p
 
 
 ### 5. Databázové schema
 > **Vytvořit** schema pro databázi. 
 
 Výstup:: db schema
+p
+p
+p
+p
+p
+p
+p
+p
+p
 
 
 ### 6. Dokumentové schema
 > **Vytvořit** schema pro dokumenty. 
 
 Výstup:: doc schema
+p
+p
+p
+p
+p
+p
+p
+p
+p
 
 
 ### 7. Postup údržby
 > **Navrhnout** postup pro udržování dat v databázi konzistentní se skutečnými instancemi tříd. 
 
 Výstup:: flowchart, možná kód
+p
+p
+p
+p
+p
+p
+p
+p
+p
 
 
 ### 8. Vyhodnocení výsledků
 > Ověřit _proveditelnost_ a _úspěšnost_ návrhu.) 
 
 Výstup:: Výsledky úspěšnosti. Důkaz proveditelnosti
+p
+p
+p
+p
+p
+p
+p
+p
+p
 
 
 
