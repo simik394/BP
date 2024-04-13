@@ -164,9 +164,9 @@ p
 
 
 ### 7. Postup údržby
-> **Navrhnout** postup pro udržování dat v databázi konzistentní se skutečnými instancemi tříd. 
+> Odhadnout náročnost postup pro udržování dat v databázi konzistentní s údaji zapsanými v dokumentech. 
 
-Výstup:: flowchart, možná kód
+~~Výstup:: flowchart, možná kód~~
 p
 p
 p

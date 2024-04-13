@@ -18,15 +18,15 @@ Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a ka
   Měl by tak ==usnadnit přípravu kvalitních programů==.
 ### Dílčí cíle + metody:
 
-| Výběr *informací* k zaznamenávání.                                                               | *(literární rešerše)*                                                                                        |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| Výběr *datových struktur* pro použití v návrhu.                                                  |                                                                                                              |
-| Výběr *postupů* pro vytvoření návrhu.                                                            |                                                                                                              |
-| Vytvořit *model pojmů* a jejich vztahů.                                                          | *(konceptuální modelování :UML-class)*                                                                       |
-| Vytvořit schema pro *databázi*.                                                                  | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)*                                       |
-| Vytvořit schema pro *dokumenty*.                                                                 | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)*                                       |
-| Navrhnout postup pro *udržování* dat v databázi konzistentní se skutečnými instancemi tříd. <br> | *(Z modelu pojmů podle využití báze a dostupných částí gDocs)*<br>    *(procesní modelování :flowchart)*<br> |
-| Ověřit *proveditelnost* a *úspěšnost* návrhu.) <br>                                              | *(experiment/implementace)*                                                                                  |
+| Výběr *informací* k zaznamenávání.                                                                              | *(literární rešerše)*                                                  |
+| --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Výběr** datových struktur pro použití v návrhu.                                                               |                                                                        |
+| **Výběr** postupů pro vytvoření návrhu.                                                                         |                                                                        |
+| **Vytvořit** model pojmů a jejich vztahů.                                                                       | *(konceptuální modelování :UML-class)*                                 |
+| **Vytvořit** schema pro databázi.                                                                               | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)* |
+| **Vytvořit** schema pro dokumenty.                                                                              | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)* |
+| **Odhadnout** náročnost postup pro udržování dat v databázi konzistentní s údaji zapsanými v dokumentech.  <br> | *(experiment)*<br>    *(procesní modelování :flowchart)*<br>           |
+| Ověřit *proveditelnost* a *úspěšnost* návrhu.) <br>                                                             | *(experiment/implementace)*                                            |
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů
