@@ -32,165 +32,186 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 
 ## Metodika
 ### 1. Pojmy - skutečnost
-> **Výběr** údajů k zaznamenávání.
-#### Z pohledu Junáka: %% fold %%
-Definovat pojmy `{ "program", "aktivita", "činnost", "událost" }` a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
-- f = (p, s){
-- Vyhledej v souboru f pojem p.
-- Pro každy výsky p pak:
-	- Pokud je součástí definice, získej definici.
-	- Prohlédni okolní odstavce, případně kapitolu pokud bude soubor s tématicky blízko pojmu p. A v případě že narazím na jiný pojem než p, který identifikuji jako potenciálně užitečný pro tvořenou bázi, získám ho a uvedu odůvodnění.
-	Výstup:: `[[ definice ], [ pojemKandidát, vztahKp, [ důvod]]]` 
-- Každý pojemKandidát pak: pokud ho odůvodníš jako užitečný, přidej ho do listu pojmu k definování.
-**Získat** `[definice]` pro všechny analyzované pojmy. 
-Deduplikovat; vybrat nejpodstatnější;
-transformovat do srozumitelného popisu, vhodného pro text bp.
-#### Z pohledu vedoucího: %% fold %%
-Prozkoumat existující báze a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? `{ existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }`
-**Získat** vlastnosti, které jsou existujícími bázemi použity pro organizaci záznamů. 
 
-> [!def]
+> [!goal]-
+>  **Výběr** údajů k zaznamenávání.
+
+#### Z pohledu Junáka: %% fold %%
+
+> [!goal]
+> Definovat pojmy `{ "program", "aktivita", "činnost", "událost" }` a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
+>  Deduplikovat; vybrat nejpodstatnější; transformovat do srozumitelného popisu, 
+>  vhodného pro text bp.
+
+
+> [!postup]-
+> - f = (p, s){
+> - Vyhledej v souboru f pojem p.
+> - Pro každy výsky p pak:
+> 	- Pokud je součástí definice, získej definici.
+> 	- Prohlédni okolní odstavce, případně kapitolu pokud bude soubor s tématicky blízko pojmu p. A v případě že narazím na jiný pojem než p, který identifikuji jako potenciálně užitečný pro tvořenou bázi, získám ho a uvedu odůvodnění.
+> 	Výstup:: `[[ definice ], [ pojemKandidát, vztahKp, [ důvod]]]` 
+> - Každý pojemKandidát pak: pokud ho odůvodníš jako užitečný, přidej ho do listu pojmu k definování.
+
+> [!process-product]-
+> **Získat** `[definice]` pro všechny analyzované pojmy. 
+
+
+#### Z pohledu vedoucího: %% fold %%
+
+> [!goal]
+> Prozkoumat existující báze a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? `{ existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }`
+
+> [!process-product]-
+> **Získat** vlastnosti, které jsou existujícími bázemi použity pro organizaci záznamů. 
+
+> [!def]-
 > Vlastnostmi jsou myšleny pojmy, které se opakují u záznamů v celé, nebo části analyzované báze.
 
-> [!váhy bází podle důkladnosti analýzy]
+> [!váhy bází podle důkladnosti analýzy]-
 > Třetí báze k analýze obsahuje jak hry, tak i seriozněji laděné rozvojové(vzdělávací) aktivity. Navíc je modernější. Z těchto důvodů, jí při analýze věnuji více pozornosti, než bázi 2 - encyklopedie. Nicméně jí nepřikládám vyšší váhu, než zdroji analyzovanému jako první. Jenž vznikl dalo by se říci přirozeně při naší činnosti.
 
-Pro naše `existující soubory` 
-- projít celý sdílený disk a vybrat pouze soubory, jejichž obsah by měl být převáděn do báze.
-- vytvořit mapu externí i interní struktury vybraných souborů
-	- externí= - v jakých složkách počínaje v kořenové, je soubor uložen? - Jaké soubory jsou na stejné úrovni jako daný soubor?
-	- interní= - Které pojmy jsou použity pro organizaci? Kterým typem gDoc elementu stránky jsou jednotlivé pojmy zapsané? (Ptám se proto, abych měl představu o tom, co je pro cílové uživatele komfortní na používání. Nebo alespoň bylo v době zapisování.)
-	**+získám** `mapu báze, kterou vytvořili moji cíloví uživatelé`.
+##### Pro naše `existující soubory` 
 
-Pro `encyklopedie`  
-- Vybrat z každé kapitoly ze čtyř knih 3 vzorky
-- Určit vnější(extení) i vnitřní(interní) strukturu báze vzhledem k vybraným vzorkům
-	- ext= názvy kapitol a knih
-	- int= členění? pojmy?
-	**+získám** (mapu, ale nekompletnější než v minulém případě) `schema báze her`
+> [!postup]-
+> - projít celý sdílený disk a vybrat pouze soubory, jejichž obsah by měl být převáděn do báze.
+> - vytvořit mapu externí i interní struktury vybraných souborů
+> 	- externí= - v jakých složkách počínaje v kořenové, je soubor uložen? - Jaké soubory jsou na stejné úrovni jako daný soubor?
+> 	- interní= - Které pojmy jsou použity pro organizaci? Kterým typem gDoc elementu stránky jsou jednotlivé pojmy zapsané? (Ptám se proto, abych měl představu o tom, co je pro cílové uživatele komfortní na používání. Nebo alespoň bylo v době zapisování.)
 
-Pro `chystamprogram`
-- ext= Podle jakých klíčů umožňuje stránka filtrovat zobrazované položky? (Které údaje má každý záznam uvedeny v "hlavičce"?)
-- int= Vyberu 20 vzorků získaných z několika různě filtrovaných zobrazení. Pro každý vzorek pak analyzuji jeho obsah. Členění? Parametrizace? Pojmy k tomu využité?
-	**+získám** `mapu externí struktury` záznamů + `tabulku frekvencí výskytu jednotlivých pojmů` založenou na popisu dané aktivity mimo "hlavičku".
+> [!process-product]-
+> +**získám** `mapu báze 7`. Báze zapsané mými cílovými uživateli.
+
+##### Pro `encyklopedie`  
+
+> [!postup]-
+> - Vybrat z každé kapitoly ze čtyř knih 3 vzorky
+> - Určit vnější(extení) i vnitřní(interní) strukturu báze vzhledem k vybraným vzorkům
+> 	- ext= názvy kapitol a knih
+> 	- int= členění? pojmy?
+
+> [!process-product]-
+> **+získám** `schema báze her`(mapu, ale nekompletnější než v minulém případě) 
+
+##### Pro `chystamprogram`
+
+> [!postup]-
+> - ext= Podle jakých klíčů umožňuje stránka filtrovat zobrazované položky? (Které údaje má každý záznam uvedeny v "hlavičce"?)
+> - int= Vyberu 20 vzorků získaných z několika různě filtrovaných zobrazení. Pro každý vzorek pak analyzuji jeho obsah. Členění? Parametrizace? Pojmy k tomu využité?
+
+> [!process-product]-
+> **+získám** 
+> - `mapu externí struktury` záznamů 
+> + `tabulku frekvencí výskytu jednotlivých pojmů` založenou na popisu dané aktivity mimo "hlavičku".
 
 #### Z pohledu řízení: %% fold %%
-> tento pohled je tu z důvody snahy podpořit snadnou přípravu kvalitních programů.
 
-Get odpověď( "Co je TM?" ); Get odpověď( "Jak efektivně TM?" ); Odvodit požadavkyNa( 'navrhovaný systém' ); Odvodit pojmy, které k tomu jsou potřeba.
-**Získám** `pojmy pro model` a `požadavky na systém podpory řízení práce/úkolů`.
-Prochození(skipIf='') google výsledků na zadané otázky...
-until(nalezenéShodnéDefinice.len=\=3) {uveď definici}
-until(nalezenéShodnéNávody.len=\=3) {uveď návod}
-Co z toho vyplývá pro moji bázi? 
-- já: navrhnout vyplývající požadavky( pojmy ) + zdůvodnit
-- ai: validovat moje zdůvodnění; doplnit vlastními návrhy
+> [!goal]
+>  tento pohled je tu z důvody snahy podpořit snadnou přípravu kvalitních programů.
+
+> [!postup]-
+> Get odpověď( "Co je TM?" ); Get odpověď( "Jak efektivně TM?" ); Odvodit požadavkyNa( 'navrhovaný systém' ); Odvodit pojmy, které k tomu jsou potřeba.
+
+> [!process-product]-
+> **Získám** 
+> - `pojmy pro model` a 
+> - `požadavky na systém podpory řízení práce/úkolů`.
+
+> [!postup]-
+> Prochození(skipIf='') google výsledků na zadané otázky...
+> until(nalezenéShodnéDefinice.len=\=3) {uveď definici}
+> until(nalezenéShodnéNávody.len=\=3) {uveď návod}
+> Co z toho vyplývá pro moji bázi? 
+> - já: navrhnout vyplývající požadavky( pojmy ) + zdůvodnit
+> - ai: validovat moje zdůvodnění; doplnit vlastními návrhy
 
 
 ### 2. Datové struktury
-> **Výběr** datových struktur pro použití v návrhu.
 
-Výstup:: ds s rozhraním pro *čtení* i *psaní* splňující stanovené **požadavky**
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+> [!goal]-
+> **Výběr** 
+> ```
+>  datových struktur pro použití v návrhu.
+
+> [!process-product]-
+>  ds s rozhraním pro *čtení* i *psaní* splňující stanovené **požadavky**
+
+
 
 
 ### 3. Nejlepší praktiky
+
+> [!goal]-
 > **Výběr** postupů pro vytvoření návrhu.
 
-Výstup:: *sady pravidel* pro využité postupy
-p
-p
-p
-p
-p
-p
-p
-p
-p
-p
-
-### 4. Model pojmů
-> **Vytvořit** model pojmů a jejich vztahů. 
-
-Výstup:: koncept model
-p
-p
-p
-p
-p
-p
-p
-p
-p
+> [!process-product]-
+> *sady pravidel* pro využité postupy
 
 
-### 5. Databázové schema
-> **Vytvořit** schema pro databázi. 
 
-Výstup:: db schema
-p
-p
-p
-p
-p
-p
-p
-p
-p
+### 4. Model pojmů %% fold %% 
+
+> [!goal]-
+>  **Vytvořit** model pojmů a jejich vztahů. 
+
+> [!process-product]-
+> koncept model
 
 
-### 6. Dokumentové schema
-> **Vytvořit** schema pro dokumenty. 
-
-Výstup:: doc schema
-p
-p
-p
-p
-p
-p
-p
-p
-p
 
 
-### 7. Postup údržby
-> Odhadnout náročnost postup pro udržování dat v databázi konzistentní s údaji zapsanými v dokumentech. 
+### 5. Databázové schema %% fold %% 
 
-~~Výstup:: flowchart, možná kód~~
-p
-p
-p
-p
-p
-p
-p
-p
-p
+> [!goal]-
+>  **Vytvořit** schema pro databázi. 
+
+> [!process-product]-
+> db schema
 
 
-### 8. Vyhodnocení výsledků
-> Ověřit _proveditelnost_ a _úspěšnost_ návrhu.) 
 
-Výstup:: Výsledky úspěšnosti. Důkaz proveditelnosti
-p
-p
-p
-p
-p
-p
-p
-p
-p
+
+### 6. Dokumentové schema %% fold %% 
+
+> [!goal]-
+>  **Vytvořit** schema pro dokumenty. 
+
+> [!process-product]-
+> doc schema
+
+
+
+
+### 7. Náročnost Postup údržby
+
+> [!goal]-
+>  ```
+  Odhadnout náročnost postup pro udržování dat v databázi konzistentní s údaji zapsanými v dokumentech. 
+>  / 
+>   Odhadnout kolik času by zabrala manuální synchronizace DB podle Dokumentů za {{časové období}} {{běžného}} provozu/činnosti.
+
+Vlastně bych mohl nepočítat s časem na zápis, protože stejně se to "jakoby zapisuje", já řeším jenom přenos do DB aby v nich šlo hledat.
+btw. Cokoliv mimo čtení a zápis do DB je mimo možnosti měřit. A to i ta DB je diskutabilní.
+Vlastně bych mohl udělat i malinkatý odhad toho kolik času to naoplátku ušetří.
+
+> [!process-product]-
+>  `odhadované trvání`; `model postupu pro zrcadlení` použitý k odhadnutí trvání při určitěm počtu opakování (= 'časové období' * avg.početProvedeníPostupuNaFlowchartu); `model přípravy schuzky`; `ušetřený čas` při využití postupu 2 namísto 1 ; `ušetřený čas` při využití postupu 3 namísto 2
+
+
+
+
+
+
+
+### 8. Určení výsledků
+
+> [!goal]-
+> Ověřit _proveditelnost_ a _úspěšnost_ návrhu.
+
+> [!process-product]-
+> Výsledky úspěšnosti. Důkaz proveditelnosti
+
+
 
 
 
@@ -344,7 +365,7 @@ bylo by lepší mít pojmenová konce vztahů více odpovídající realitě
 ## v2
 ### schema: %% fold %% 
 
-> [!NOTE]
+> [!goal]-
 > - [x] Událost má symbolicky rámec a z toho vyplývá scénka
 
 Událost může mít přihlášené lidi 
