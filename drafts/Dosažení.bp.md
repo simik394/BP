@@ -31,7 +31,7 @@ viz. drawio [[../assets/models/concept-model-ke-konzultaci3.drawio.png|strana: m
 výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimální verzi program
 
 ## Metodika
-### 1. Pojmy - skutečnost
+### Pojmy - skutečnost
 
 > [!goal]-
 >  **Výběr** údajů k zaznamenávání.
@@ -126,7 +126,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 > - ai: validovat moje zdůvodnění; doplnit vlastními návrhy
 
 
-### 2. Datové struktury
+### Datové struktury
 
 > [!goal]-
 > **Výběr** 
@@ -137,9 +137,25 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 >  ds s rozhraním pro *čtení* i *psaní* splňující stanovené **požadavky**
 
 
+1. Na základě vybraných pojmů a cíle práce identifikovat požadavky na navrhovaný systém. S tím, že požadavky vyvozené z cíle práce
 
+jsou:
 
-### 3. Nejlepší praktiky
+2. Pro {Does, Sheets, RDB, GDB}
+
+Určit možnosti . zápisu, čtena a typu uložených dat
+
+Vyhodnotit podle požadavků vyvozených z cíle.
+
+return výsledky
+
+3. Na základě získaných výsledků vyber
+
+SW sro použití v návrhu.
+
+return konkrétní nástroje pro uložení záznamů o realitě.
+
+### Nejlepší praktiky
 
 > [!goal]-
 > **Výběr** postupů pro vytvoření návrhu.
@@ -149,7 +165,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 
 
 
-### 4. Model pojmů %% fold %% 
+### Model pojmů %% fold %% 
 
 > [!goal]-
 >  **Vytvořit** model pojmů a jejich vztahů. 
@@ -160,7 +176,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 
 
 
-### 5. Databázové schema %% fold %% 
+### Databázové schema %% fold %% 
 
 > [!goal]-
 >  **Vytvořit** schema pro databázi. 
@@ -171,7 +187,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 
 
 
-### 6. Dokumentové schema %% fold %% 
+### Dokumentové schema %% fold %% 
 
 > [!goal]-
 >  **Vytvořit** schema pro dokumenty. 
@@ -182,7 +198,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 
 
 
-### 7. Náročnost Postup údržby
+### Náročnost Postup údržby
 
 > [!goal]-
 >  ```
@@ -203,7 +219,7 @@ Vlastně bych mohl udělat i malinkatý odhad toho kolik času to naoplátku uš
 
 
 
-### 8. Určení výsledků
+### Určení výsledků
 
 > [!goal]-
 > Ověřit _proveditelnost_ a _úspěšnost_ návrhu.

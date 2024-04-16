@@ -13,7 +13,8 @@ Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a ka
 ### Aspekt problému:
   Aktuálně **nemáme systém**, který by umožňil zároveň **snadné prohledávání i tvorbu**, ani samotné prohledávání sdílených znalostí.
 ### Cíl:
-  Navrhnout systém pro sdílení *znalostí o připravených programech*. Který by *uživatelům* poskytl možnost **efektivního** (*rychle, správně*) a zároveň **příjemného** (*S co nejnižší bariérou, která je potřeba překonat pro použití novými uživateli. Naopak s co nejvyšším počtem featur, kterými je možné si po jejich naučení usnadnit práci.*) vyhledávání v uloženém obsahu. Spolu se zachováním alespoň stejné úrovně kvality uživatelské zkušenosti při zapisování, jako v aktuálním řešení.
+  Navrhnout systém pro sdílení *znalostí o připravených programech*. 
+  Který by *uživatelům* poskytl možnost **efektivního** (*rychle, správně*) a zároveň **příjemného** (*S co nejnižší bariérou, která je potřeba překonat pro použití novými uživateli. Naopak s co nejvyšším počtem featur, kterými je možné si po jejich naučení usnadnit práci.*) vyhledávání v uloženém obsahu. Spolu se zachováním alespoň stejné úrovně kvality uživatelské zkušenosti při zapisování, jako v aktuálním řešení.
   Bez toho, aniž by vyžadoval *více zdrojů na provoz* a *údržbu*, než sám ušetří při svém *využívání*.
   Měl by tak ==usnadnit přípravu kvalitních programů==.
 ### Dílčí cíle + metody:
