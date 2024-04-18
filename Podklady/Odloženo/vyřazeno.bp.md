@@ -15,3 +15,5 @@ V závislosti na naplněnosti báze = kolik bylo zapsáno? -> Zvyšuje šanci na
 V závislosti na důkladnosti přípravy a provedení.
 v závislosti na počtu vyhledání s nalezením a vyhledáním bez nalezení, a po jaké době.
 V závislosti na schopnosti uživatelů používat systém. (tuhle var můžu téměř eliminovat šblonama)
+
+*Úkol průzkumu vnitřní struktury pak bude zjistit, zda se nějaké pojmy vyskytují i v samotném obsahu záznamů, mimo filtrovatelnou 'hlavičku'. Odpověď určím pomocí vzorku vybraného následujícím způsobem. Pro každou možnou hodnotu v jednotlivých filtrech provedu vyhledání obsahu. Zjistím kolik záznamů bylo nalezeno, a vyberu druhý zobrazený jako součást vzorku. Ze sestaveného vzorku pak vyberu pojmy na základě cílů sdílených s ostatními částmi analýzy jednotným rámcovým postupem a pokud se opakují ve více než 3 záznamech ze vzorku.*

@@ -36,7 +36,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 > [!goal]-
 >  **Výběr** údajů k zaznamenávání.
 
-#### Z pohledu Junáka: %% fold %%
+#### Z pohledu Junáka: %% fold %% 
 
 > [!goal]
 > Definovat pojmy `{ "program", "aktivita", "činnost", "událost" }` a jim nejbližší související koncepty, na základě literatury oficiálně vydané českým Junákem. = map(`Knihovna/Metodika`, f) 
@@ -57,7 +57,7 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 > **Získat** `[definice]` pro všechny analyzované pojmy. 
 
 
-#### Z pohledu vedoucího: %% fold %%
+#### Z pohledu vedoucího:
 
 > [!goal]
 > Prozkoumat existující báze a zjistit, které údaje o programech jejich tvůrci považovány za dostatečně důležité na to, aby je zapisovaly? `{ existující záznamy na disku ; velká encyklopedie her - kniha ; chystamprogram.cz }`
@@ -71,6 +71,15 @@ výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimál
 > [!váhy bází podle důkladnosti analýzy]-
 > Třetí báze k analýze obsahuje jak hry, tak i seriozněji laděné rozvojové(vzdělávací) aktivity. Navíc je modernější. Z těchto důvodů, jí při analýze věnuji více pozornosti, než bázi 2 - encyklopedie. Nicméně jí nepřikládám vyšší váhu, než zdroji analyzovanému jako první. Jenž vznikl dalo by se říci přirozeně při naší činnosti.
 
+ODLOŽENO:
+
+->výstup> Tímto krokem tedy získám seznam pojmů, v této bázi asociovaných s aktivitami, který uvedu formou tabulky frekvencí výskytu jednotlivých vybraných pojmů.
+
+->cíl> Podobně jako v předchozím případě je účelem tohoto kroku sestavit seznam pojmů použitých bází v asociaci s hrami v tomto případě. 
+
+Posoudím jeho přínosnost pro navrhovaný systém a své rozhodnutí logicky zdůvodním. V případě odůvodnění využití pojmu ve sdílené bázi skautských programů, přidám pojem jako kandidáta na zychycení v konceptuálním modelu tvořeném na začátku praktické časti.
+
+Pokud ano, posoudím přínostost daného pojmu pro navrhovaný systém. V obou případech však poskytnu logické a podložené zdůvodnění pro své rozhodnutí.
 ##### Pro naše `existující soubory` 
 
 > [!postup]-
