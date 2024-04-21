@@ -1,5 +1,6 @@
  
 # Zv6
+Měl by tak ==usnadnit přípravu kvalitních programů==.
 ## zaměření
 ### Oblast + podoblast: 
   Organizace znalostí + Task mgmt
@@ -9,24 +10,22 @@
 _(chybějící zápis)_ -Proč není zapsaný? -> 
 Protože lidé nevidí dostatečný smysl v zápisu možných informací. -Proč?-> 
 Protože se jim buď zatím nepodařilo najít přijatelný způsob využití, nebo pro vytvořené záznamy prostě žádný důvod nevidí. -Proč-> 
-Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a kam zapisovat. A zároveň naoplátku umožňoval v minimálním čase zobrazovat pouze specifické informace i z velkých objemů záznamů*.
+Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a kam zapisovat. A zároveň naoplátku umožňoval v minimálním čase zobrazovat pouze specifické informace ani z malého, natož většího objemu záznamů*.
 ### Aspekt problému:
   Aktuálně **nemáme systém**, který by umožňil zároveň **snadné prohledávání i tvorbu**, ani samotné prohledávání sdílených znalostí.
 ### Cíl:
   Navrhnout systém pro sdílení *znalostí o připravených programech*. 
   Který by *uživatelům* poskytl možnost **efektivního** (*rychle, správně*) a zároveň **příjemného** (*S co nejnižší bariérou, která je potřeba překonat pro použití novými uživateli. Naopak s co nejvyšším počtem featur, kterými je možné si po jejich naučení usnadnit práci.*) vyhledávání v uloženém obsahu. Spolu se zachováním alespoň stejné úrovně kvality uživatelské zkušenosti při zapisování, jako v aktuálním řešení. A minimálně stejného, ideálně většího množství parametrů použitelných pro vyhledávání v záznamech, než umožňují existující implementace.
   Bez toho, aniž by vyžadoval *více zdrojů na provoz* a *údržbu*, než sám ušetří při svém *využívání*.
-  Měl by tak ==usnadnit přípravu kvalitních programů==.
+  
 ### Dílčí cíle + metody:
 
-| Výběr *informací* k zaznamenávání.                                                                              | *(literární rešerše)*                                                  |
-| --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **Výběr** datových struktur pro použití v návrhu.                                                               |                                                                        |
-| **Vytvořit** model pojmů a jejich vztahů.                                                                       | *(konceptuální modelování :UML-class)*                                 |
-| **Vytvořit** schema pro databázi.                                                                               | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)* |
-| **Vytvořit** schema pro dokumenty.                                                                              | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)* |
-| **Odhadnout** náročnost postup pro udržování dat v databázi konzistentní s údaji zapsanými v dokumentech.  <br> | *(experiment)*<br>    *(procesní modelování :flowchart)*<br>           |
-| Ověřit *proveditelnost* a *úspěšnost* návrhu.) <br>                                                             | *(experiment/implementace)*                                            |
+| *Výběr* pojmů z modelované domény.                | *(literární rešerše)*                                                  |
+| ------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Výběr** datových struktur pro použití v návrhu. | komparace                                                              |
+| **Vytvořit** model pojmů a jejich vztahů.         | *(konceptuální modelování :UML-class)*                                 |
+| **Vytvořit** schema pro databázi.                 | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)* |
+| Ověřit správnost výsledků. <br>                   | *(experiment/implementace)*                                            |
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů
