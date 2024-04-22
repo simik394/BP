@@ -5,11 +5,8 @@ aliases: ""
 # Návrh
 ## Model pojmů
 
-## Databáze
+## schema databáze
 
-## Docs
-
-## Postupy údržby a využití
 
 # Určení míry dosažení
 ## Minimalistická implementace
