@@ -1,3 +1,4 @@
+Jak zpracovat pojmy získané z encyklopedie her, extrahoval jsem trochu větší počet než si vím rady s. 
 
 dotaz
 Je nějaký jiný způsob, jak dokázat validtu konceptuálního modelu?
