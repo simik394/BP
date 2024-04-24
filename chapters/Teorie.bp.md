@@ -29,6 +29,7 @@ Pro zbývající pojmy je však opět možné zapisovat libovolný text.
 - přílohy - 
 - napojení na stezku - 
 - pomůcky a materiál - 
+- symbolický rámec - 
 - reflexe - 
 - bezpečnost - 
 - metodické poznámky - 

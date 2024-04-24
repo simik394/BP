@@ -1,4 +1,5 @@
-Jak zpracovat pojmy získané z encyklopedie her, extrahoval jsem trochu větší počet než si vím rady s. 
+Jak zpracovat pojmy získané z encyklopedie her, extrahoval jsem trochu větší počet než si vím rady s. Speciálně názvy kapitol jsou větší hromada, než umím zpracovat, mám tedy už v metodice říct, že je tedy vyhodnocovat nebudu a prostě je výsledků vyškrtat? 
+
 
 dotaz
 Je nějaký jiný způsob, jak dokázat validtu konceptuálního modelu?
