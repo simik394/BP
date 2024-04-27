@@ -16,6 +16,10 @@
 S tím, že nejdříve v kapitole Metodika bude představen postup pro dosažení návrhu. Následně v teoretické části práce budou prezentovány výsledky výběru pojmů z modelované domény a výsledky výběru sw řešení pro ukládání a přístup k vybraným údajům. V části praktické pak bude představen navržený model, sestavený z pojmů získaných v rámci prvního dílčího cíle. Spolu se schématem pro databázi vybranou v rámci drůhého dílčího cíle. Nakonec v kapitole Diskuze bude provedeno zhodnocení dosažení stanovených cílů a posouzeny možnosti pro další práci.
 ![[../assets/metodika-UMLactivity.svg]]
 
+- první dílčí cíl je analýza sw, ne analýza domény. Diagram tříd je vytvářený až v praktické části protože tento proces není tak triviální, jako vybrat sw podle jasných požadavků a podmínek. Zároveň diagram tříd představuje stále část analýzy domény skautských programů, respektive její závěrečnou fázi, kterážto má za úkol vyhodnotit a zpracovat výsledky získané analýzou.
+
+
+
 # metodika v2
 ## Metodika analýzy
 ### pojmy asociované se skautskými programy
@@ -153,6 +157,8 @@ Hlavním cílem této části bude poskytnutí odpověďi na otázku "Jak by mě
 Získání schematu databáze z konceptuálního modelu by bylo možné alespoň dvěma hlavními způsoby. První z nich by byl využitím poměrně jednoduchého algoritmu, který z logického relačního modelu vytvoří schema pro databázi grafovou [ ]. Jelikož i získání relačního modelu z již vytvořeného konceptuálního je velmi přímočaré, mohla by toto být snadná cesta k cíli. A pravděpodobně i je, nicméně takto vytvořený graf nebere v úvahu doporučení identifikovaná v několika oficiálních zdrojích Neo4j jako nejlepší praktiky pro modelování grafových dat, tak aby umožňovaly optimální využití. To znamená, že pravděpodobně bude následně ještě vyžadovat určité své části refaktorovat, aby využil naplno možností, které uložení v grafové struktuře nabízí. V rámci jazyka pro interakci s Neo4j existují i funkce pro snadné refaktorování uložené struktury, takže i to by bylo použitelné řešení. Vhodnější však v případě, že už by nějaká relační báze byla k dispozici, než v tomto.
 Postup této práce se mírně liší v tom ohledu, že nejprve v teoretické části představí ony nejlepší praktiky pro modelování grafů. Které jsou popsány v dokumentaci Neo4j [ ], knize Graph Databases od vydavatelství OReilly věnující se rovněž databázi Neo4j [ ] a navíc ještě na blogu jednoho z developerů Neo4j na serveru Medium [ ]. Bude se jednat o sadu doporučení pro jednotlivé prvky grafu {lable, relation, property, node} jak by měly být optimálně využívány. A tyto doporučení aplikuje na konceptuální model vytvořený v praktické části. Výsledné schema grafové databáze získané transformací konceptuálního modelu bude následně prezentováno v kapitole praktické části 'Návrh schema databáze'. Dohromady spolu s popisem, která doporučení byla aplikována a na které části původního modelu.
 ## Ověření
+![[../assets/overenivysledku-metodika-UMLactivity.jpg]]
+
 Na závěr praktické části práce, bude provedena verifikace navržené infrastruktury, zda je v teoretické části popsaný způsob její realizace opravdu proveditelný. Navíc bude verifikována i funkcionalita navrženého schématu databáze, zda opravdu umožňuje takové prohledávání, jako by podle požadavků stanovených v této práci měl.
 
 ### Ověření úspěšnosti výběru pojmů
@@ -171,4 +177,11 @@ A konkrétní aplikace v tomto případě je prostředek pro náš oddíl, kter�
 ### Ověření vyhledávací funkcionality navrženého db schematu
 Pro dokázání korektního převedení z konceptuálního modelu do schema databáze bude opět využito experimentu. Rovněž bude využita implementovaná databáze vytvořená v rámci ověření realizovatelnosti infrastruktury. Do této databáze budou nahrána vzorová data, které budou získána z existujících zápisů jak v bázi chystamprogram, tak Velké encyklopedie her. Následně na základě kompetenčních otázek použitých při tvorbě konceptuálního modelu, budou sesteveny dotazy v jazyce používaným databází a definovány očekávané výsledky, které by dotazy měly zobrazit na základě nahraných vzorových dat. Na závér budou zadány připravené dotazy do rozhraní implementované databáze a vrácené výsledky budou porovnány s těmi, které by se podle definice měly zobrazit. Pokud se tyto výsledky nebudou lišit, bude to interpretováno jako důkaz, že navržená báze splňuje podmínky na možnosti prohledávání stanovené cílem této práce.
 
+
+
+
+
+![[../assets/diskuze-metodika-UMLactivity.jpg]]
+
+![[../assets/zaver-metodika-UMLactivity.jpg]]
 
