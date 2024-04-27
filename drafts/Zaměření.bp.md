@@ -15,17 +15,17 @@ Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a ka
   Aktuálně **nemáme systém**, který by umožňil zároveň **snadné prohledávání i tvorbu**, ani samotné prohledávání sdílených znalostí.
 ### Cíl:
   Navrhnout systém pro sdílení *znalostí o připravených programech*. 
-  Který by *uživatelům* poskytl možnost **efektivního** (*rychle, správně*) a zároveň **příjemného** (*S co nejnižší bariérou, která je potřeba překonat pro použití novými uživateli. Naopak s co nejvyšším počtem featur, kterými je možné si po jejich naučení usnadnit práci.*) vyhledávání v uloženém obsahu. Spolu se zachováním alespoň stejné úrovně kvality uživatelské zkušenosti při zapisování, jako v aktuálním řešení. A minimálně stejného množství parametrů použitelných pro vyhledávání v záznamech jako umožňuje existující báze chystamprogram.
-  Bez toho, aniž by vyžadoval *více zdrojů na provoz* a *údržbu*, než sám ušetří při svém *využívání*.
+  Který by *uživatelům* poskytl možnost **efektivního** (*rychle, správně*) a zároveň **příjemného** (*S co nejnižší bariérou, která je potřeba překonat pro použití novými uživateli.*) vyhledávání v uloženém obsahu. Spolu se zachováním alespoň stejné úrovně kvality uživatelské zkušenosti při zapisování, jako v aktuálním řešení. A minimálně stejného množství parametrů použitelných pro vyhledávání v záznamech jako umožňuje existující báze chystamprogram.
+  Bez toho, aniž by celý systém vyžadoval *více zdrojů na provoz* a *údržbu*, než sám ušetří při svém *využívání*.
   
 ### Dílčí cíle + metody:
 
-| *Výběr* pojmů z modelované domény.                | analýza literatury                                                     |
-| ------------------------------------------------- | ---------------------------------------------------------------------- |
-| **Výběr** datových struktur pro použití v návrhu. | komparace                                                              |
-| **Vytvořit** model pojmů a jejich vztahů.         | *(konceptuální modelování :UML-class)*                                 |
-| **Vytvořit** schema pro databázi.                 | *(Z modelu pojmů podle doporučených postupů, na základě využití báze)* |
-| Ověřit správnost výsledků. <br>                   | *(experiment/implementace)*                                            |
+| *Výběr* pojmů z modelované domény.                | analýza literatury []                                                 |
+| ------------------------------------------------- | --------------------------------------------------------------------- |
+| **Výběr** datových struktur pro použití v návrhu. | komparace                                                             |
+| **Vytvořit** model pojmů a jejich vztahů.         | konceptuální modelování :UML-class []                                 |
+| **Vytvořit** schema pro databázi.                 | Z modelu pojmů podle doporučených postupů, na základě využití báze [] |
+| Ověřit správnost výsledků. <br>                   | experiment/implementac []                                             |
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů

@@ -2,6 +2,31 @@
 
 
 
+
+
+
+# 
+##### 3. Dopnění kontextu
+
+###### doplnění generalizací/specializací
+Případně mohou být pro dosažení lepší srozumitelnosti modelu využity následující úpravy. Pokud by třída A měla stejný vztah k třídě B i C, bude vymodelována nová třída D, která bude generalizací tříd B a C. Bude tím pádem možné modelovat vztah pouze jednou. Podobná logika bude využita v případě že třída M bude mít vztah ke třídě N, ale ne vždy. Budou vytvořeny dvě podtřídy pro třídu N, první třída O, která bude mít povinný vztah se třídou M. A druhou třídu P, která tento vztah s M nemá.
+
+###### doplnění volitelných vztahů
+Rozhodnutí, zda modelovat pojem P jako atribut třídy TI, nebo oddělenou třídu TP, která je s třídou TI asociována, bude učiněno v závislosti na tom, zda pojem P je asociován ještě s dalšími třídami kromě třídy TI. 
+Rovněž bude využito oddělené třídy, pokud instance třídy TP vytvořené z pojmu P mohou mít vztah s více instancemi asociované třídy TI zároveň.
+# 
+### Doplnění kontextu
+#### 6.
+Provedené úpravy model
+
+reasoning
+#### 7.
+Provedené úpravy model
+
+reasoning
+
+# 
+
 vlastně bych mohl nepočítat s časem na zápis, protože stejně se to "jakoby zapisuje", já řeším jenom přenos do DB aby v nich šlo hledat.
 btw. Cokoliv mimo čtení a zápis do DB je mimo možnosti měřit. A to i ta DB je diskutabilní.
 

@@ -7,7 +7,7 @@
 - Oblast rozvoje {
 };
 - Podoblast rozvoje {
-} ( Oblasti scutské výchovy (použivano např. u stezek), připadně kompetenci skautské výchovy. )
+} ( Oblasti skautské výchovy (použivano např. u stezek), připadně kompetenci skautské výchovy. )
 ;
 - Druh aktivity {
 Pohyb; 	Tvořivost; 	zamýšlení; 	Diskuze; 	\#SkautingDoma; 	Skauting pro školy; 	Historie; 	Klima; 	Idea Vas 
