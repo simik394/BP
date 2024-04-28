@@ -13,22 +13,35 @@
 Úvod -přínosy
 
 # Úvod -struktura
-S tím, že nejdříve v kapitole Metodika bude představen postup pro dosažení návrhu. Následně v teoretické části práce budou prezentovány výsledky výběru pojmů z modelované domény a výsledky výběru sw řešení pro ukládání a přístup k vybraným údajům. V části praktické pak bude představen navržený model, sestavený z pojmů získaných v rámci prvního dílčího cíle. Spolu se schématem pro databázi vybranou v rámci drůhého dílčího cíle. Nakonec v kapitole Diskuze bude provedeno zhodnocení dosažení stanovených cílů a posouzeny možnosti pro další práci.
+Následující schéma, založené na notaci 'activity' z UML, reprezentuje strukturu této práce. Jsou v něm zobrazeny datové objekty(obdélníky) a aktivity(čtyřúhelníky se zaoblenými rohy). ...
+- [ ] Doplnit podrobnější vysvětlení čtení použité notace
+
 ![[../assets/metodika-UMLactivity.svg]]
+Schéma struktury dosažení stanoveného cíle nezobrazuje část metodiky, jelikož celé schéma je reprezentací metodiky.
 
-- první dílčí cíl je analýza sw, ne analýza domény. Diagram tříd je vytvářený až v praktické části protože tento proces není tak triviální, jako vybrat sw podle jasných požadavků a podmínek. Zároveň diagram tříd představuje stále část analýzy domény skautských programů, respektive její závěrečnou fázi, kterážto má za úkol vyhodnotit a zpracovat výsledky získané analýzou.
-
+První následující kapitolou je Metodika, ta pro každý dílčí cíl uvede dílčí pohled na schéma a následně jej podrobně popíše a vysvětlí. Celá kapitola tak představuje konkrétní postup pro dosažení stanovených dílčích cílů. 
+Výsledky postupu, popsaného v metodice, jsou prezentovány v částech Teorie a Vypracování.
+Část Teorie zahrnuje výsledky i vyhodnocení 'analýzy softwarových kandidátů'(1.dílčí cíl). Z 'analýzy existujících bází'(2.dílčí cíl) jsou však v teoretické části pouze její výsledky s nejstručnějším popisem.
+Vyhodnocení výsledků získaných 'analýzou existujících bází' je uskutečněno sestavením diagramu tříd vycházejícího ze standardu UML. Jelikož proces konceptuálního modelování, narozdíl od přímočarého porovnávání softwaru, nepředstavuje triviální záležitost a navíc je vytvořený model přímým vstupem pro 'návrh schématu báze'(3.dílčí cíl), jsou výsledky z tvorby modelu(vyhodnocení výsledku získaných analýzou) podrobně popsány v úvodu praktické části 'Vypracování'. Dále se v praktické části nachází popis navrženého schématu pro databázi(3.dílčí cíl), které bylo odvozeno z konceptuální modelu pomocí nejlepších praktik pro modelování dat ve vybrané databázi, identifikovaných autory databáze.
+V závěru praktické části se pak nachází popsané výsledky z kroků provedených s cílem 'ověření úspěšnosti dosažení cílů'(4.dílčí cíl). 
+Na prezentované výsledky navazuje kapitola Diskuze, kterážto zahrnuje souhrnné hodnocení využité metodiky, tím získaných výsledků i výsledků z ověřování úspěšnosti získání výsledků. Diskuze dále vychází ze souhrnného hodnocení a identifikuje potenciální budoucí práci i provedenou prací realizované přínosy.
+Poslední kapitolou je pak Závěr, který shrnuje a hodnotí dosažení hlavního cíle práce (v tomto případě: 'návrh báze znalostí skautských programů').
 
 
 # Metodika v3
+## Metodika analýzy sw kandidátů
 ![[../assets/analyzaswkandidatu-metodika-UMLactivity.jpg]]
-
+jjjjjjj
+## Metodika analýzy existujících bází
 ![[../assets/analyzadomenyskautskychprogramu-metodika-UMLactivity.jpg]]
-
+kkkkkk
+## Metodika tvorby DB schematu
 ![[../assets/tvorbadbschematu-metodika-UMLactivity.jpg]]
-
+llllll
+## Metodika ověření výsledků
 ![[../assets/overenivysledku-metodika-UMLactivity.jpg]]
-
+pppppp
+## Metodika zakončení
 ![[../assets/diskuze-metodika-UMLactivity.jpg]]
 
 ![[../assets/zaver-metodika-UMLactivity.jpg]]

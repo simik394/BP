@@ -32,11 +32,11 @@ Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a ka
  
 ### Dílčí cíle + metody:
 
-| Analyzovat sw kandidáty na funkci uložiště v navrhované bázi (výběr sw). | analýza literatury [ ]                                                |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
-| Analyzovat doménu skautských programů podle exestujících bází.           | analýza literatury [ ] konceptuální modelování :UML-classDiagram [ ]  |
-| Navrhnout schema pro databázi.                                           | Z modelu pojmů podle doporučených postupů, na základě využití báze [] |
-| Ověřit úspěšnost dosažení výsledků. <br>                                 | experiment/implementac []                                             |
+| Analyzovat sw kandidáty na funkci uložiště záznamů v navrhované bázi. | analýza literatury [ ]                                                |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| Analyzovat doménu skautských programů podle exestujících bází.        | analýza literatury [ ] konceptuální modelování :UML-classDiagram [ ]  |
+| Navrhnout schema pro databázi.                                        | Z modelu pojmů podle doporučených postupů, na základě využití báze [] |
+| Ověřit úspěšnost dosažení výsledků. <br>                              | experiment/implementac []                                             |
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů
