@@ -4,7 +4,9 @@
 
 
 
-
+# 
+  
+  // A minimálně stejného množství parametrů použitelných pro vyhledávání v záznamech jako umožňuje existující báze chystamprogram.
 # 
 ##### 3. Dopnění kontextu
 

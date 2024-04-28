@@ -4,7 +4,7 @@
 ![[BP/drafts/Zaměření.bp#Cíl]]
 # Úvod -dílčí cíle
 ![[BP/drafts/Zaměření.bp#Dílčí cíle metody]]
-Úvod -výstupy
+# Úvod -výstupy
 - seznam pojmů asociovaných se skautskými programy v existujících bázích
 - konceptuální model domény skautských programů
 - infrastruktura pro bázi
@@ -20,10 +20,25 @@ S tím, že nejdříve v kapitole Metodika bude představen postup pro dosažen�
 
 
 
-# metodika v2
+# Metodika v3
+![[../assets/analyzaswkandidatu-metodika-UMLactivity.jpg]]
+
+![[../assets/analyzadomenyskautskychprogramu-metodika-UMLactivity.jpg]]
+
+![[../assets/tvorbadbschematu-metodika-UMLactivity.jpg]]
+
+![[../assets/overenivysledku-metodika-UMLactivity.jpg]]
+
+![[../assets/diskuze-metodika-UMLactivity.jpg]]
+
+![[../assets/zaver-metodika-UMLactivity.jpg]]
+
+
+
+# metodika v2 %% fold %% 
 ## Metodika analýzy
 ### pojmy asociované se skautskými programy
-![[../assets/analyzaexistujicichbazi-metodika-UMLactivity.jpg]]
+
 #### Účel analýzy
 Cílem této části práce je vybrání pojmů, kteréžto budou představovat odpověď na otázku "Co zaznamenávát v navrhované bázi?". Abych zjistil jaké informace jsou relevantí pro zaznamenávání v bázi skautských programů, provedu analýzu literatury z této oblasti podle doporučení specifikovaných Bernedtsonem a spol. v jejich knize.
 [[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^4VZXLNGCaNT5KVCQVp67]]
@@ -65,7 +80,6 @@ pro každý základní p/t:
 	z výsledků vybrat asociovatelné pojmy
 
 ### infrastruktura vyhovující požadavkům práce
-![[../assets/analyzaswkandidatu-metodika-UMLactivity.jpg]]
 #### Účel analýzy
 
 Kromě údajů, které by se měly ukládat, je také zásadní otázkou, jak a kde budou záznamy skutečně uloženy. Toto rozhodnutí ovlivňuje mimo konceptuální model všechnu další práci. V této části bude určeno právě místo pro uložení záznamů, které by splňovalo podmínky definované cílem této práce a tím tak představovalo odpověď na otázku "Kam uložit záznamy v navrhované bázi?". 
@@ -96,7 +110,7 @@ V případě nalezení takového způsobu, bude způsob popsán a jeho provedite
 ## Metodika návrhu
 Nyní, se získanýmy pojmy tvořícími cílovou doménu, i vybranými vhodnými nástroji, které realizaci jako takovou umožní, je konečně čas na návrh. 
 ### model pojmů
-![[../assets/tvorbadiagramutrid-metodika-UMLactivity.jpg]]
+
 #### obecný postup 
 Hlavním cílem této části návrhu je poskytnutí odpovědi na otázku "Jak spolu ve skutečnosti souvisí pojmy asociované se skautskými programy?".
 *Otázkou, na níž by vytvořený model měl poskytnout odpověď je: "Co jsou to skautské programy?". Respektive: "Které pojmy jsou asociovány se skautskými programy a jaké jsou přitom role jednotlivých asociovaných pojmů?"*
@@ -151,13 +165,13 @@ Případně mohou být pro dosažení lepší srozumitelnosti modelu využity n�
 Rozhodnutí, zda modelovat pojem P jako atribut třídy TI, nebo oddělenou třídu TP, která je s třídou TI asociována, bude učiněno v závislosti na tom, zda pojem P je asociován ještě s dalšími třídami kromě třídy TI. 
 Rovněž bude využito oddělené třídy, pokud instance třídy TP vytvořené z pojmu P mohou mít vztah s více instancemi asociované třídy TI zároveň.
 ### db schema
-![[../assets/tvorbadbschematu-metodika-UMLactivity.jpg]]
+
 Hlavním cílem této části bude poskytnutí odpověďi na otázku "Jak by měl obsah, uložený v navržené bázi, být strukturován, aby umožňoval požadované možnosti prohledávání?".
 
 Získání schematu databáze z konceptuálního modelu by bylo možné alespoň dvěma hlavními způsoby. První z nich by byl využitím poměrně jednoduchého algoritmu, který z logického relačního modelu vytvoří schema pro databázi grafovou [ ]. Jelikož i získání relačního modelu z již vytvořeného konceptuálního je velmi přímočaré, mohla by toto být snadná cesta k cíli. A pravděpodobně i je, nicméně takto vytvořený graf nebere v úvahu doporučení identifikovaná v několika oficiálních zdrojích Neo4j jako nejlepší praktiky pro modelování grafových dat, tak aby umožňovaly optimální využití. To znamená, že pravděpodobně bude následně ještě vyžadovat určité své části refaktorovat, aby využil naplno možností, které uložení v grafové struktuře nabízí. V rámci jazyka pro interakci s Neo4j existují i funkce pro snadné refaktorování uložené struktury, takže i to by bylo použitelné řešení. Vhodnější však v případě, že už by nějaká relační báze byla k dispozici, než v tomto.
 Postup této práce se mírně liší v tom ohledu, že nejprve v teoretické části představí ony nejlepší praktiky pro modelování grafů. Které jsou popsány v dokumentaci Neo4j [ ], knize Graph Databases od vydavatelství OReilly věnující se rovněž databázi Neo4j [ ] a navíc ještě na blogu jednoho z developerů Neo4j na serveru Medium [ ]. Bude se jednat o sadu doporučení pro jednotlivé prvky grafu {lable, relation, property, node} jak by měly být optimálně využívány. A tyto doporučení aplikuje na konceptuální model vytvořený v praktické části. Výsledné schema grafové databáze získané transformací konceptuálního modelu bude následně prezentováno v kapitole praktické části 'Návrh schema databáze'. Dohromady spolu s popisem, která doporučení byla aplikována a na které části původního modelu.
 ## Ověření
-![[../assets/overenivysledku-metodika-UMLactivity.jpg]]
+
 
 Na závěr praktické části práce, bude provedena verifikace navržené infrastruktury, zda je v teoretické části popsaný způsob její realizace opravdu proveditelný. Navíc bude verifikována i funkcionalita navrženého schématu databáze, zda opravdu umožňuje takové prohledávání, jako by podle požadavků stanovených v této práci měl.
 
@@ -174,14 +188,10 @@ Pro určenení dostatečné dokončenosti modelu pojmů na to, aby bylo možné 
 S pomocí těchto otázek tedy bude dokoknčeno definování modelované domény. Myšleno pro tuto itaraci. Jelikož strukturování znalostí je nutně iterativní proces, který nemá žádné jedno správné řešení. Ale závisí vždy na konkrétní aplikaci a plánovaných rozšířeních. [ ]
 A konkrétní aplikace v tomto případě je prostředek pro náš oddíl, který by mu umožnil efektivně a příjemně vyhledávat ve sdílených záznamech. *S podporou alespoň stejných možností parametrizace uložených programů, jako umožňují ostatní zmiňované implementace*. Pokud tedy takového stavu bude dosaženo, výsledek bude popsán v kapitole 'Návrh konceptuálního modelu' praktické části práce. A přijde na řadu samotná báze a její struktura.
 
-### Ověření vyhledávací funkcionality navrženého db schematu
+### Ověření vyhledávací funkcionality navrženého db schematu %% fold %% 
 Pro dokázání korektního převedení z konceptuálního modelu do schema databáze bude opět využito experimentu. Rovněž bude využita implementovaná databáze vytvořená v rámci ověření realizovatelnosti infrastruktury. Do této databáze budou nahrána vzorová data, které budou získána z existujících zápisů jak v bázi chystamprogram, tak Velké encyklopedie her. Následně na základě kompetenčních otázek použitých při tvorbě konceptuálního modelu, budou sesteveny dotazy v jazyce používaným databází a definovány očekávané výsledky, které by dotazy měly zobrazit na základě nahraných vzorových dat. Na závér budou zadány připravené dotazy do rozhraní implementované databáze a vrácené výsledky budou porovnány s těmi, které by se podle definice měly zobrazit. Pokud se tyto výsledky nebudou lišit, bude to interpretováno jako důkaz, že navržená báze splňuje podmínky na možnosti prohledávání stanovené cílem této práce.
 
 
 
 
-
-![[../assets/diskuze-metodika-UMLactivity.jpg]]
-
-![[../assets/zaver-metodika-UMLactivity.jpg]]
 
