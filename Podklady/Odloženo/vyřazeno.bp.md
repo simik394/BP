@@ -1,6 +1,12 @@
 
 
 
+# 
+## Metodika zakončení
+![[BP/assets/diskuze-metodika-UMLactivity.jpg]]
+
+![[BP/assets/zaver-metodika-UMLactivity.jpg]]
+
 
 
 

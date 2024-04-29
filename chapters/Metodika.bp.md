@@ -13,51 +13,147 @@
 Úvod -přínosy
 
 # Úvod -struktura
+Členění práce je provedeno podle doporučené struktury pro výzkumné práce IMRaD [ ]
+
+První následující kapitolou je Metodika, ta s využitím výše uvedeného schématu definuje metody využité pro dosažení stanovených dílčích cílů. 
+Výsledky definované metodiky, jsou prezentovány v částech Teorie a Vypracování.
+
+Část Teorie zahrnuje výsledky i interpretaci výsledků 'analýzy softwarových kandidátů', která je použita jako metoda pro 1. dílčí cíl. Z 'analýzy existujících bází', metody zvolené pro dosažení 2. dílčího cíle, jsou však v teoretické části pouze její výsledky s nejstručnějším popisem.
+Interpretace výsledků získaných 'analýzou existujících bází' je totiž uskutečněno sestavením diagramu tříd vycházejícího ze standardu UML. A jelikož proces konceptuálního modelování, narozdíl od přímočarého porovnávání softwaru, nepředstavuje triviální záležitost a zejména pak proto, že je vytvořený model přímým vstupem pro 'návrh schématu báze'(3.dílčí cíl), jsou výsledky z tvorby modelu(interpretace výsledků získaných analýzou existujících bází) podrobně popsány až v úvodu praktické části 'Vypracování'. Dále se v praktické části nachází popis navrženého schématu pro databázi, které bylo odvozeno z konceptuální modelu pomocí nejlepších praktik pro modelování dat ve vybrané databázi, identifikovaných autory databáze.
+
+Na prezentované výsledky navazuje kapitola Diskuze, kterážto zahrnuje kromě 'ověření úspěšnosti dosažení cílů'(4.dílčí cíl) také vysvětlení získaných výsledků. Rovněž se tato kapitola vyjadřuje k limitacím přijatým pro dokončení práce a z nich vyplývající potenciální budoucí práci na zdokonalování nyní dosaženého návrhu.
+Poslední kapitolou je pak Závěr, který shrnuje a hodnotí dosažení hlavního cíle práce (v tomto případě: 'návrh báze znalostí skautských programů').
+
+Dalo by se tak také říci, že rozdělení textu dodržuje stejné dva principy aplikované pro lepší čitelnost a pochopitelnost kódu. 
+Jedná se zaprvé 'Locality of behavior', která přeneseně (v původním znění je například použito výrazu zdrojový kód místo text) říká, že 'lokalita' je charakteristika textu, která umožňuje jeho čtenáři pochopení konkrétního obsaženého významu pouze z malé části celého textu [ ]. V praxi to tak má předejít situacím, kdy aby čtenář kódu pochopil co daný kód dělá, je nucen přecházet mezi několika soubory, což snadné a rychlé pochopení téměř určitě neusnadňuje. Ze stejného důvodu IMRaD definuje několik konkrétních částí, které optimalizují rozdělení textu o provedeném výzkumu z hlediska možných "typů chování" při kterých bude čtenář chtít využít daný popsaný výzkum. Jako typy chování je myšleno například vyhledávání zdrojů, pro toto chování jsou strukturou IMRaD následně definovány části titulek, abstrakt i úvod, pro podporu různých hledání.  
+Co se druhého principu týče, je jím tkzvaný princip 'Separation of concerns'. Ten je realizován v jednotlivých sekcích pomocí podsekcí a dalšího dělení. Například sekce Úvod by měla být rozdělena na části adresující motivaci pro psaní práce, konkrétní řešený problém, hlavní cíl, dílčí cíle atd.. Rozdělení tak odpovídá jednotlivým 'starostem', které by čtenář v rámci čtení dané sekce mohl mít.
+![[myDM/Zotero/LiteratureNotes/wuImprovingWritingResearch2011#^ITPMW4Q5aMPNI3JCVp2]]
+
+### schema full
 Následující schéma, založené na notaci 'activity' z UML, reprezentuje strukturu této práce. Jsou v něm zobrazeny datové objekty(obdélníky) a aktivity(čtyřúhelníky se zaoblenými rohy). ...
 - [ ] Doplnit podrobnější vysvětlení čtení použité notace
 
 ![[../assets/metodika-UMLactivity.svg]]
 Schéma struktury dosažení stanoveného cíle nezobrazuje část metodiky, jelikož celé schéma je reprezentací metodiky.
 
-První následující kapitolou je Metodika, ta pro každý dílčí cíl uvede dílčí pohled na schéma a následně jej podrobně popíše a vysvětlí. Celá kapitola tak představuje konkrétní postup pro dosažení stanovených dílčích cílů. 
-Výsledky postupu, popsaného v metodice, jsou prezentovány v částech Teorie a Vypracování.
-Část Teorie zahrnuje výsledky i vyhodnocení 'analýzy softwarových kandidátů'(1.dílčí cíl). Z 'analýzy existujících bází'(2.dílčí cíl) jsou však v teoretické části pouze její výsledky s nejstručnějším popisem.
-Vyhodnocení výsledků získaných 'analýzou existujících bází' je uskutečněno sestavením diagramu tříd vycházejícího ze standardu UML. Jelikož proces konceptuálního modelování, narozdíl od přímočarého porovnávání softwaru, nepředstavuje triviální záležitost a navíc je vytvořený model přímým vstupem pro 'návrh schématu báze'(3.dílčí cíl), jsou výsledky z tvorby modelu(vyhodnocení výsledku získaných analýzou) podrobně popsány v úvodu praktické části 'Vypracování'. Dále se v praktické části nachází popis navrženého schématu pro databázi(3.dílčí cíl), které bylo odvozeno z konceptuální modelu pomocí nejlepších praktik pro modelování dat ve vybrané databázi, identifikovaných autory databáze.
-V závěru praktické části se pak nachází popsané výsledky z kroků provedených s cílem 'ověření úspěšnosti dosažení cílů'(4.dílčí cíl). 
-Na prezentované výsledky navazuje kapitola Diskuze, kterážto zahrnuje souhrnné hodnocení využité metodiky, tím získaných výsledků i výsledků z ověřování úspěšnosti získání výsledků. Diskuze dále vychází ze souhrnného hodnocení a identifikuje potenciální budoucí práci i provedenou prací realizované přínosy.
-Poslední kapitolou je pak Závěr, který shrnuje a hodnotí dosažení hlavního cíle práce (v tomto případě: 'návrh báze znalostí skautských programů').
 
 
 # Metodika v3
+V této kapitole jsou definovány metody využité prací k dosažení dílčích cílů. Pro každý z cílů je nejprve definován a vysvětlen jeho účel, popsán a zdůvodněn konkrétní postup, případně i obecný postup, pokud je takový aplikován, a na závěr jsou identifikovány části práce, ve kterých jsou výstupy konkrétních metod prezentovány. 
 ## Metodika analýzy sw kandidátů
+#### Účel postupu
+Jelikož tato práce neklade na navrhovaný systém zrovna nízké nároky (viz. Cíl), nestačí pouze určit, který obsah zaznamenávat a opomenout přitom řádný výběr softwarového nástroje nebo nástrojů pro uložení zaznamenávaného obsahu. Zároveň nelze tento krok ani vynechat, poněvaďž bez volby alespoň konkrétního typu SW pro uložení dat(npř. RDB, GDB, ...), není možné navrhnout ani konkrétní strukturu nové báze. Co víc, toto rozhodnutí ovlivňuje mimo konceptuální model, jakožto prostředek nezávislý na konkrétní implementaci, všechnu budoucí práci na vývoji, údržbu nasazeného systému i šanci na to, aby byla navržená báze skutečně cílovými uživatly přijata a využívána. Proto byl zvolen **dílčí cíl:** "Vybrat sw řešení umožňující dosažení cíle práce.". A účelem tohoto postupu proto je určení místa (SW nástroje) pro uložení záznamů navrhovanou bází, které by splňovalo požadavky definované cílem práce (viz. Cíl) a tím tak bylo odpovědí na otázku "Kam uložit záznamy v navrhované bázi?".
+Záměrem však není ani tak podrobná či kompletní analýza veškerých dostupných nástrojů, spíše jako porovnání několika softwarových zástupců (kandidátů) s odlišnými typy datových struktur, které se obvykle pro stavbu bází využívají, a zjištění, kteří kandidáti splňují požadavky stanovené v cíli (viz. Cíl). 
+Jako typy datových struktur k posouzení byly zvoleny dokumenty jakožto výchozí možnost, spreadsheets jakožto kompromis mezi databází a prostředím dokumentů, relační databáze jakožto prakticky standart při tvorbě znalostních bází a grafová databáze jakožto modernější varianta klasické relační DB. Konkrétními kandidáty posuzovanými na funkci uložiště záznamů navrhované báze, reprezentující jednotlivé typy zvolených datových struktur, jsou gDocs za dokumenty, gSheets za spreadsheets strukturu, MySQL za RDB a nakonec databáze Neo4j jakožto reprezentace GDB a NoSQL.
+První dva SW kandidáti byly zahrnuti do výběru také proto, že se jedná o nástroje aktuálně v našem oddíle využívané, což znamená, že cíloví uživatelé navrhovaného systému již mají určité standardy, na než jsou zvyklí, že systém nabízí. A jak je prací stanoveno, tyto kvality by neměly být návrhem zredukovány, ba naopak by mělo být provedeno jejich rozšíření. Z toho důvodu jsou zahrnuti druzí dva SW kandidáti, jelikož disponují funkcemi, které v aktuálním řešení chybí.
+#### Obecný postup
+Pro dosažení prvního dílčího cíle byla zvolena metoda 'analýza literatury' dodržující postup popsaný Bernedtssonem a spol. (berndtssonThesisProjectsGuide2008). Autoři knihy uvádějí, že účelem této metody, mimo získání konkrétních hledaných údajů, je přesvědčení čtenáře práce o tom, že bylo analyzováno dostatečné množství, dostatečně kvalitních a relevantních zdrojů. 
+Aby čtenář mohl udělat názor o tom, zda byly zdroje dostatečně relevantní, potřebuje znát konkrétní zamýšlený účel se kterým je analýza prováděna. Jasně definovaný účel je pak podle autorů klíčovým prvkem rovněž i pro autora analýzy, jelikož pokud si autor nebude konkrétního účelu vědom nebo ho bude přehlížet, jeho šance na přesvědčení čtenářů o validitě a přínosnosti prováděné analýza značně klesá. Zároveň specifický účel k provedení odlišuje 'analýzu literatury' od 'rešerše literatury', kterážto má primární účel seznámit autora i čtenáře s obsahem literatury z dané oblasti. [ ]
+Autoři knihy dále identifikují následující kroky, které by jak v zájmu autora tak i čtenáře měly mít jasně definovanou strategii provedení. [[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^ZIT8YCXSaNT5KVCQVp67]]
+- **Výběr literatury:** Zahrnuje vyhledávání relevantních zdrojů a literatury související s tématem projektu.
+  Jasně definovaná strategie pomůže, aby čtenář nepochyboval že byly provedeno adekvátní hledání zdrojů.
+- **Hodnocení zdrojů:** Kritické posouzení zdrojů na základě jejich relevance a spolehlivosti.
+  ..., aby čtenář nepochyboval o dostatečném objemu a dostatečné kvalitě zpracovaných zdrojů. 
+  ..., aby čtenář porozumněl proč byly některé zdroje vybrané a jiné vynechané.
+- **Analýza obsahu:** Podrobné zkoumání a získávání informací z vybraných zdrojů.
+  ..., aby měl čtenář šanci pochopit jak byly výsledky získány.
+- **Interpretace výsledků:** Integrace zjištění do koherentního celku a formulace závěrů.
+  ..., aby čtenář rozumněl co získané údaje reprezentují.
+### Konkrétní postup
+Pro nalezení odpovědí hledaných v rámci kroků 'hodnocení' i 'analýzy' jsou využity publikované zdroje k daným nástrojům, primárně pak dokumentace. Avšak platí, že tato analýza se nezabývá zdroji o nástrojích, ale nástroji samotnými. To znamená, že například v následující podkapitole 'Hodnocení zdrojů k analýze' jsou vnímány jako hodnocené zdroje samotné nástroje, nikoliv zdroje o nástrojích, ačkoliv právě ve zdrojích o jednotlivých nástrojích budou hledány odpovědi při prováděném hodnocení, není však prováděno žádné dodatečné systematické prohledávání či hodnocení dostupných zdrojů o nástrojích. Bylo tak rozhodnuto poněvadž je předpokládáno, že v rámci na webu dostupných informací o analyzovaných nástrojích, jakožto jasně definovaném softwaru, není významná šance, že by nalezené informace obsahovaly vyloženě nepravdivá tvrzení, zejména pak pokud budou při odpovídání upřednostněny oficiální zdroje k danému nástroji.
+#### Výběr zdrojů
+Co se prvotního výběru zdrojů (v tomto případě SW nástrojů využitelných jako uložiště báze znalostí) týče, ten je proveden bez rozsáhlejšího vhledávání, protože limitovaný rozsah práce neumožňuje adekvátní zpracování většího objemu variant zároveň spolu s dosažením stanoveného cíle. Konkrétní předvybraní zástupci posuzovaných datových struktur proto byly již, i s argumentací pro jejich výběr, představeni dříve v této kapitole. A protože i specifický účel pro analýzu byl vyjasněn, následující podkapitola se bude zabývat rovnou hodnocením předvybraných zdrojů a určením pro jakou podmnožinu ze SW kandidátů budou následně v rámci 'analýzy obsahu' zjišťovány odpovědi na stanovené analytické otázky.
+#### Hodnocení zdrojů (sw)(čtení, zápis)
+V této části budou všichni SW kandidáti vahodnoceni ze dvou hledisek (možnosti zápisu a čtení uložených dat) odvozených z cíle práce (viz. Cíl). Každé z obou hledisek přitom bude vyhodnoceno zvlášť. To znamená, že jejich vyhodnocení vyprodukuje dvě sady výsledků, jednu pro každé hledisko.
+##### Hodnocení nástrojů z hlediska zapisování 
+Podmínka pro zápis říká, že navržená báze má zachovat úroveň uživatelské zkušenosti, jako poskytuje aktuální řešení. Tím jsou gDocs, případně gSheets pro data jako seznam členů. K ani jedné z této variant, nepotřebuje uživatel téměř žádné nestandartní znalosti k tomu, aby informace zaznamenal. Pokud mu bude dán odkaz na dokument do kterého má zápis udělat, a pod jaký nadpis, mělo by to stačit každému. Jako kritérium pro vyhodnocení kandidátů z hlediska zápisu proto bude, zda vyžadují od uživatele znalost, jako například specifický jazyk k tomu, aby mohl zapisovat do uložiště. Pokud ano, nejsou pro návrh z hlediska zapisování do báze přijatelné.
+
+Výsledkem tohoto hodnocení může být více nástrojů, jelikož není z pohledu cíle práce zapotřebí specifikovat jiná kritéria, než to jedno aktuálně definované.
+##### Hodnocení nástrojů z hlediska čtení 
+- [ ] možná mírně rozvést nejkratší věty a dovysvětlit jejich význam
+Z hlediska čtení, respektive možností prohledávání uloženého obsahu. Podmínka z cíle říká, že čtení má být efektivní. Měřeno rychlostí na získání výsledků a správností výsledků. To znamená absenci jak chyb kdy je zobrazen výsledek neobsahujicí hledaný obsah (false positive), tak chyb kdy obsah hledaný uživatelem není nalezen, ikdyž ve skutečnosti je zaznamenán a měl by se zobrazit (false negative). Z kandidátu tedy budou vyřazeni ti, kteří toto nesplňují.
+
+Pro zbývající pak bude vyhodnoceno stanovené kritérium příjemnosti využití. Definované jako co nejnižší bariera pro nové uživatele, kterou potřebují překonat aby mohli bázi prohledávat. Velikost bariéry pak bude měřena počtem znaků potřebných pro zadávání dotazů. A podle toho, zda k interakci s bází je v základu k dispozici webové grafické rozhraní.
+
+Zbývající kandidáti tedy budou porovnání podle počtu znaků vyžadovaných k napsání dotazu, přítomnosti webového grafického rozhraní ve výchozí instalaci báze. Vyhodnoceno bude nejdříve pořadí kandidátů podle každého z těchto dvou kritérií zvlášť. Následně takto získané ~~tři~~ hodnoty pro kaďého z kandidátů budou sečteny a kandidát, který bude mít nejnižší výsledné číslo, protože se například podle každého kritéria umístnil na prvním místě, bude přijat jako možná část navrhované báze. 
+
+Výsledkem tohoto hodnocení je tak jediný nástroj, který podle sečtených výsledků z vyhodnocení kritérií hlediska zapisování (rychlost, správnost, příjemnost) vychází jako ten nejlepší.
+#### Analýza vybraných zdrojů (sw)(uložení-DS,přístup-PA)->(zdroje vyžadované na údržbu)
+Pro zdroje splňující alespoň jedno hledisko hodnocení, jsou určeny jejich 'vnitřní datová struktura', spolu s jejich 'integrovatelností'. 
+'Vnitřní datovou strukturou' je myšlena struktura souborů skutečně uložených na disku. To znamená, že může být využita analytická otázka "Jak daný sw ukládá zaznamenané údaje na disk?".
+Pojmem 'integovatelnost' jsou pak  varianty skrze které je možné programově přístupovat k uloženému obsahu i ho stejným způsobem modifikovat. Odpovídající analytická otázka proto může být "Jaké možnosti programového přístupu k zaznamenaným údajům daný SW nástroj nabízí?".
+A co se 'programového přístupu' týče, typickými příklady jsou například podpora prohledávání databáze pomocí HTTP dotazů, nebo s využitím programovacího jazyka s využitím některé dostupné, na volbě jazyka závisející, specifické knihovny implementující metody pro komunikaci. V obou případech se každopádně jedná o způsoby externí komunikace optimalizované pro využití v kódu konkrétního programu, proto zvolené označení.
+#### Získání nejlepších praktik pro modelování dat v nejlépe prohledatelném nástroji
+Navíc pro vyhodnocený nejlepší nástroj z hlediska možností čtení uloženého obsahu budou identifikovány nejlepší praktiky pro strukturování do něj ukládaných dat. Tento krok analýzy je důležitý z toho důvodu, že samotný výběr nástroje nezaručuje jeho správné využití a tím pádem nejvyšší šanci na splnění požadavků zohledňovaných při jeho výběru. 
+Důvodem pro identifikaci nejlepších postupů pouze pro konkrétně jeden nástroj je to, že primární nedostatky aktuálního řešení jsou právě v možnostech prohledávání uložených záznamů, a proto práce klade důraz zejména na zdokonalení tohoto aspektu znalostních bází. V důsledku takto stanovených priorit a opět vzhledem k limitovanému rozsahu práce, je navrhována struktura pouze pro uložiště s nejlepšími výsledky z hlediska čtení, ikdyž v rámci návrhu bude pro dosažení Cíle práce využito více než jedno uložiště.
+#### Interpretace výsledků (sw)
+Vycházeje z výsledků, získaných vyhodnocením předchozích dvou analytických otázek, bude určeno, zda je možné na základě vybraných sw kandidátů možné postavit bázi, která jak specifikuje cíl práce, nebude vyžadovat víc prostředků na provoz a údržbu než sama ušetří. To konkrétně bude provedeno pomocí nalezení způsobu jak eliminovat potřebu na ručně vykonávanou údržbu konzistence a aktuálnosti uloženého obsahu v bázi. 
+Při tomto hledání je vycházeno z předpokladu, že báze může ušetřit nějaký čas svým využitím, jen když nebude zároveň také vyžadovat čas na údržbu pro svojí správnou funkčnost. Rovněž by také neměla vyžadovat žádné finanční prostředky, jelikož vzhledem k neziskové povaze skauta není způsob, jak by se prostředky vydané na provoz takového systému mohly vrátit.
+Základní otázkou, kterou se tedy tento krok analýzy bude snažit zodpovědět je otázka "Je možné eliminovat či alespoň zcela minimalizovat potřebu lidských i finančních zdrojů na údržbu konzistence údajů ve vybraných softwarech zaznamenaných?".
+
+V případě nalezení takového způsobu, bude způsob popsán a následně sestaven výčet funkcionalit kritických pro funkcionalitu odpovídající požadavkum na navrhovanou bázi.
+
+### Výstupy
+- [ ] DODĚLAT
+tool UI w (Data Structure, programmatic access)
+tool UI r (Data Structure, programmatic access)
+sw solution description (best practices for DB data structuring, core functionalities, proč jenom DB a ne Docs Schema?)
+
+### Schema
 ![[../assets/analyzaswkandidatu-metodika-UMLactivity.jpg]]
-jjjjjjj
 ## Metodika analýzy existujících bází
+#### Účel postupu
+Motivací pro tuto sekci je druhý kritický aspekt navrhované báze. Jedná se však pouze o aspekt druhý v pořadí prezentace, nikoliv druhý ve významu důležitosti pro návrh. Ve skutečnosti je tento aspekt pro návrh na podobné úrovni důležitosti jako ten řešený v předchozí sekci. Jak už bylo zmíněno, je tímto aspektem určení samotného obsahu, který bude v bázi uložený. Proto byl stanoven **dílčí cíl:** "Vybrat výseč reality relevantní pro skautské programy.". Cílem této části proto je vybrání pojmů a jejich vztahů, kteréžto budou představovat odpověď na otázku "Co zaznamenávát v navrhované bázi?"
+Záměrem však není provedení vyčerpávající analýzy dané domény, jelikož to by važadovalo celou samostatnou práci, 
+#### Obecný postup
+Abych zjistil jaké informace jsou relevantí pro zaznamenávání v bázi skautských programů, provedu analýzu literatury z této oblasti podle doporučení specifikovaných Bernedtsonem a spol. v jejich knize.
+[[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^4VZXLNGCaNT5KVCQVp67]]
+'analýza literatury' ([[../../myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008]])
+
+UML class diagram
+
+### Konkrétní postup
+~~Výběr~~
+Hodnocení 
+(argumentace výběru; identifikace nedostatků, které brání dané bázi v tom, aby byla využívána namísto navrhované nové )
+Analýza (základní pojmy podle zdroje; pojmy asociované se skaut.programem, kompetenční otázky)
+Interpretace
+	Základní definice
+	Rozšíření definice
+
+#### Výstupy
+
+### Schema
 ![[../assets/analyzadomenyskautskychprogramu-metodika-UMLactivity.jpg]]
-kkkkkk
 ## Metodika tvorby DB schematu
+### Účel postupu
+**Dílčí cíl:** Navrhnout schema pro databázi.
+### Obecný postup
+### Konkrétní postup
+### Výstupy
+### Schema
 ![[../assets/tvorbadbschematu-metodika-UMLactivity.jpg]]
-llllll
 ## Metodika ověření výsledků
+### Účel postupu
+**Dílčí cíl:** Ověřit úspěšnost dosažení výsledků
+### Obecný postup
+### Konkrétní postup
+### Výstupy
+### Schema
 ![[../assets/overenivysledku-metodika-UMLactivity.jpg]]
-pppppp
-## Metodika zakončení
-![[../assets/diskuze-metodika-UMLactivity.jpg]]
-
-![[../assets/zaver-metodika-UMLactivity.jpg]]
-
-
 
 # metodika v2 %% fold %% 
 ## Metodika analýzy
 ### pojmy asociované se skautskými programy
 
 #### Účel analýzy
-Cílem této části práce je vybrání pojmů, kteréžto budou představovat odpověď na otázku "Co zaznamenávát v navrhované bázi?". Abych zjistil jaké informace jsou relevantí pro zaznamenávání v bázi skautských programů, provedu analýzu literatury z této oblasti podle doporučení specifikovaných Bernedtsonem a spol. v jejich knize.
-[[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^4VZXLNGCaNT5KVCQVp67]]
+==Cílem této části práce je vybrání pojmů, kteréžto budou představovat odpověď na otázku "Co zaznamenávát v navrhované bázi?"==. ==Abych zjistil jaké informace jsou relevantí pro zaznamenávání v bázi skautských programů, provedu analýzu literatury z této oblasti podle doporučení specifikovaných Bernedtsonem a spol. v jejich knize.
+[[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^4VZXLNGCaNT5KVCQVp67]]==
 ![[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^TNTKU53KaNT5KVCQVp68]]
-Podle autorů je hlavním cílem této metody, mimo získání konkrétních hledaných údaju, aby čtenář práce pochopil strategii pro hledání a výběr hledaných údajů. Samozřejmě by měl také znát a chápat konkrétní důvod proč je analýza prováděna. 
-Duvod k analýze byl již stanoven, proto v následující podkapitole budou nejprve představeny dostupné zdroje, spolu s jejich přednostmi i nevýhodami, aby měl čtenář šanci porozumět proč byly, či nybyly vybrány k analýze. A aby čtenář nepochyboval o tom, zda je, vzhledem k cíli práce, analyzováno dostatečné množství zdrojů. V následující podkapitole pak bude popsán konkrétní způsob výběru pojmů z analyzovaných zdrojů, aby měl čtenář šanci pochopit jak byly výsledky získány, proč právě takovým způsobem a co získané údaje reprezentují.
+Podle autorů je hlavním cílem této metody==, mimo získání konkrétních hledaných údaju, aby čtenář== práce pochopil strategii pro hledání a získání hledaných údajů. Samozřejmě by ==měl také znát a chápat konkrétní důvod proč je analýza prováděna.== 
+
+Duvod k analýze byl již stanoven, proto v následující podkapitole budou nejprve představeny dostupné zdroje, spolu s jejich přednostmi i nevýhodami, ==aby měl čtenář šanci porozumět proč byly, či nybyly vybrány k analýze. A aby čtenář nepochyboval o tom, zda je, vzhledem k cíli práce, analyzováno dostatečné množství zdrojů.== 
+V následující podkapitole pak bude popsán konkrétní způsob výběru pojmů z analyzovaných zdrojů, ==aby měl čtenář šanci pochopit jak byly výsledky získány==, proč právě takovým způsobem a ==co získané údaje reprezentují==.
 #### Analyzované zdroje(báze)
 Dostupnou literaturu představují již existující báze, které poslouží zároveň jako inspirace svým obsahem a zároveň jako prostředek pro porovnání možností prohledávání s navrhovanou bází.
 Co se kvality a vhodnosti pro potřeby práce týče, představují existující báze zcela optimální zdroje k analýze. Navíc vzhledem k tomu, že i rozsah těchto zdrojů je větší, než je vůbec možné v rámci limitovaného rozsahu této práce využít, není prováděno hledání dalších analyzovatelných zdrojů.
@@ -92,12 +188,12 @@ základní pojmy/třídy
 pro každý základní p/t:
 	z výsledků vybrat asociovatelné pojmy
 
-### infrastruktura vyhovující požadavkům práce
+### ==infrastruktura vyhovující požadavkům práce==
 #### Účel analýzy
 
-Kromě údajů, které by se měly ukládat, je také zásadní otázkou, jak a kde budou záznamy skutečně uloženy. Toto rozhodnutí ovlivňuje mimo konceptuální model všechnu další práci. V této části bude určeno právě místo pro uložení záznamů, které by splňovalo podmínky definované cílem této práce a tím tak představovalo odpověď na otázku "Kam uložit záznamy v navrhované bázi?". 
-Kandidáty na uložiště jsou gDocs jakožto baseline, gSheets jakožto kompromis mezi databází a prostředím dokumentů. Třetím kandidátem je relační databáze MySQL. A nakonec databáze Neo4j jakožto reprezentace NoSQL. Všechny budou vyhodnoceny ze dvou hledisek (zápis, čtení). To znamená, že z jejich vyhodnocení získám dvě sady výsledků. 
-#### Výběr zdrojů k analýze(sw)
+Kromě údajů, které by se měly ukládat, je také zásadní otázkou, jak a kde budou záznamy skutečně uloženy. ==Toto rozhodnutí ovlivňuje mimo konceptuální model všechnu další práci.== V této části bude ==určeno právě místo pro uložení záznamů, které by splňovalo podmínky definované cílem této práce a tím tak představovalo odpověď na otázku "Kam uložit záznamy v navrhované bázi?".== 
+==Kandidáty na uložiště jsou gDocs jakožto baseline, gSheets jakožto kompromis mezi databází a prostředím dokumentů. Třetím kandidátem je relační databáze MySQL. A nakonec databáze Neo4j jakožto reprezentace NoSQL. Všechny budou vyhodnoceny ze dvou hledisek (zápis, čtení). To znamená, že z jejich vyhodnocení získám dvě sady výsledků.== 
+#### ==Výběr zdrojů k analýze(sw)==
 ##### zápis
 Podmínka pro zápis říká, že navržená báze má zachovat úroveň uživatelské zkušenosti, jako poskytuje aktuální řešení. Tím jsou gDocs, případně gSheets pro data jako seznam členů. K ani jedné z této variant, nepotřebuje uživatel téměř žádné nestandartní znalosti k tomu, aby informace zaznamenal. Pokud mu bude dán odkaz na dokument do kterého má zápis udělat, a pod jaký nadpis, mělo by to stačit každému. Jako kritérium pro vyhodnocení kandidátů z hlediska zápisu proto bude, zda vyžadují od uživatele znalost, jako například specifický jazyk k tomu, aby mohl zapisovat do uložiště. Pokud ano, nejsou pro návrh z hlediska zapisování do báze přijatelné.
 ##### čtení
@@ -116,7 +212,7 @@ Pro vybrané sw kandidáty bude určeno:
 ##### integrovatelnost (přístup)
 
 #### Vyhodnocení výsledků analýzy (sw)
-##### prostředky vyžadované na údržbu
+##### ==prostředky vyžadované na údržbu==
 Vycházeje z výsledků, získaných vyhodnocením předchozích dvou analytických otázek, bude určeno, zda je možné na základě vybraných sw kandidátů možné postavit bázi, která jak specifikuje cíl práce, nebude vyžadovat víc prostředků na provoz a údržbu než sama ušetří. To konkrétně bude provedeno pomocí nalezení způsobu jak eliminovat potřebu na ručně vykonávanou údržbu báze do stavu, kdy bude prohledávatelná a bude zobrazovat aktuální údaje. Při tomto hledání je vycházeno z předpokladu, že báze může ušetřit nějaký čas svým využitím, jen když nebude zároveň také vyžadovat čas na údržbu pro svojí správnou funkčnost. Rovněž by také neměla vyžadovat žádné finanční prostředky, jelikož vzhledem k neziskové povaze skauta není způsob, jak by se prostředky vydané na provoz takového systému mohly vrátit.
 V případě nalezení takového způsobu, bude způsob popsán a jeho proveditelnost argumentována dokumentací daných nástrojů.
 

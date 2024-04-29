@@ -89,8 +89,11 @@ Jak bylo řečeno v metodice, ani jeden z produktů společnosti Google toto kri
 - gDocs
 - gSheets
 ### Vyhodnocení hlediska čtení pro všechny kandidáty %% fold %% 
+
+Vyhodnocení druhého hlediska však bude již komplexnější, konkrétně tak, že pro získání výsledků využívá vícero kritérií, která jsou na závěr agragována do jednoho souhrnného vyhodnocení.
 #### rychlost
-Vyhodnocení druhého hlediska však bude již komplexnější. První kritérium se zaměřuje na rychlost získání výsledků. Při následujícím hodnocení kandidátů nebude mít podstatnou roli. Nicméně nedostatečná rychlost vyhledávání v záznamech, pokud je možné jen manuální otevírání jednotlivých dokumentů podle jejich názvu a umístnění ve složce, je primárním důvodem vzniku této práce. A proto není možnost manuálního prohledávání ani začleněna mezi kandidáty, kteří všichni toto kritérium splňují.
+První kritérium se zaměřuje na rychlost získání výsledků. 
+Při následujícím hodnocení kandidátů nebude mít podstatnou roli. Nicméně nedostatečná rychlost vyhledávání v záznamech, pokud je možné jen manuální otevírání jednotlivých dokumentů podle jejich názvu a umístnění ve složce, je primárním důvodem vzniku této práce. A proto není možnost manuálního prohledávání ani začleněna mezi kandidáty, kteří všichni toto kritérium splňují.
 #### správnost
 Další kritérium, absence chyb jak prvního, tak druhého typu, je však již relevantním pro hodnocené kandidáty. 
 Nejsnazší vyhodnocení tohoto kritéria umožňují kandidáti databázového typu, v jejich případě je totiž tato podmínka zahrnuta již v jejich podstatě jako databázích. Proto u nich absence chyb při vyhledávání nebude dále ověřována a bude předpokládáno, že toto kritérium splňují.
@@ -105,7 +108,7 @@ Z výsledků těchto dvou experimentů vyplynulo, že tato varianta prohledává
 Kritérium příjemnosti je ze všech kriterií zatím nejkomplexnější, proto i jeho vyhodnocení bude tomu odpovídat. Jak bylo stanoveno v metodice, bude nejprve vyhodnoceno pořadí zbývajících kandidátů podle každého z dílčích kriterií zvlášť. A tak získané dílčí výsledky budou následně využity k výběru nejvhodnějšího z kandidátů z hlediska příjemnosti prohledávání obsahu navrhované báze.
 Následující dílčí kriteria budou vyhodnocena pro gSheets (funkce 'query'), MySQL (SQL) a Neo4j (Cypher). Využito bude primárně odhadů a dedukce.
 1. počet znaků potřebných k napsání dotazu
-Při hodnocení tohoto dílčího kritéria, je vycházeno z předpokladu, že funkce gSheets 'query', jakožto pouhá napodobenina funkcionality nabízené 'SQL', bude v případně jednoduchých dotazů možná i stejně úsporná na potřebné znaky jako jako SQL pro obdobný dotaz. Pro komplexnější dotazy, vyžadující například data z víc tabulek, je potom předpokládano, že SQL bude, ve srovnání s funkcí query v gSheets, umožňovat díky své podstatně rozvinutější funkcionalitě způsob zapsání daného komplexnějšího dotazu s nižším počtu znaků, než funkce query. 
+Při hodnocení tohoto dílčího kritéria, je vycházeno z předpokladu, že funkce gSheets 'query', jakožto pouhá napodobenina funkcionality nabízené 'SQL', bude v případně jednoduchých dotazů možná i stejně úsporná na potřebné znaky jako jako SQL pro obdobný dotaz. Pro komplexnější dotazy, vyžadující například data z víc tabulek, je potom předpokládano, že SQL bude, ve srovnání s funkcí query v gSheets, umožňovat díky své podstatně rozvinutější funkcionalitě způsob zapsání daného komplexnějšího dotazu s nižším počtem znaků, než funkce query. 
 Pro porovnání počtu znaků vyžadovaných k napsání dotazu bázi Neo4j a MySQL je využito článku s názven 'Use graph databases for complex hierarchies' [ ]. Tento článek na modelovém příkladu dat, vyhodnocuje několik různých dotazů a porovnává jejich zápis a následný postup vyhodnocení v případě využití SQL oproti případu s využitím jazyka Cypher. V této práci jsou však zohledněny pouze porovnání zapsaných dotazů, nikoliv způsoby jejich vyhodnocování.
 Z výsledků prezentovaných v článku vyplývá, že pro zapsání SQL dotazu je téměř v každém případě potřeba více znaků, než pro získání stejných výsledků pomocí jazyka Cypher. SQL přitom v některých případech vyžaduje až několikanásobně více znaku než ekvivalent zapsaný Cypherem. Proto navíc tato práce předpokládá i to, že ani pomocí funkce query v gSheets, není možné dosáhnout kratšího zápisu dotazů, než v případě Neo4j a Cypheru, jelikož odhadovaný počet znaků vyžadovaný funkcí query je v jednoduších případech podobný jako v případě SQL a ve složitějších situacích horší než SQL.
 Výsledné pořadí tohoto dílčího kriteria proto je:
@@ -122,9 +125,6 @@ Výsledné pořadí tohoto dílčího kriteria proto je:
 	1. místo - gSheets, Neo4j
 	2. místo - MySQL
 
-3. ~~objem funkcí nad standartní rámec čtení~~
-~~Toto kriterium bude vyhodnoceno pomocí informací uvedených v dokumentacích daných sofwarových kandidátů, hledány budou popsané funkcionality, které v ostatních softwarech nejsou podporovány. Vysledkem by tak měl být software s nejširší nabídkou funkcionalit.~~ 
-~~Prvním krokem bude~~ 
 
 Finální pořadí kandidátů podle kriteria příjemnosti čtení jejich obsahu je proto následující.
 	1. místo - Neo4j (1+1)
