@@ -109,8 +109,7 @@ Pro vybrané kvalifikované kandidáty jsou v další části vyhodnoceny charak
 Po těchto, následuje posouzení dosažitelnosti cíle prací stanoveného a prezentování potenciálního řešení softwarové infrastruktury pro navrhovanou bázi. Samotná dosažitelnost je přitom charakterizována sadou požadavků, které musí být splněny, aby návrh bylo možné skutečně postavit, 
 Rovněž jsou uvedeny nejlepší praktiky pro modelování dat v nástroji, jenž byl v rámci této metody vyhodnocen jako nejlepší v nabízených možnostech čtení v něm uloženého obsahu.
 
-### Schema
-![[../assets/analyzaswkandidatu-metodika-UMLactivity.jpg]]
+
 ## Metodika analýzy existujících bází
 #### Účel postupu
 Motivací pro tuto sekci je druhý kritický aspekt navrhované báze. Jedná se však pouze o aspekt druhý v pořadí prezentace, nikoliv druhý ve významu důležitosti pro návrh. Ve skutečnosti je tento aspekt pro návrh na podobné úrovni důležitosti jako ten řešený v předchozí sekci. 
@@ -120,7 +119,7 @@ Záměrem však není ani tak provedení vyčerpávající analýzy dané domén
 #### Obecný postup
 Pro získání odpovědi na otázku "Co zaznamenávat v bázi skautských programů?", byla opět využita 'analýza literatury' ([[../../myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008]]), stejně jako v první provedené analýze.
 
-- [ ] MOŽNO doplnit konkrétní specifika standartu UML [chap::Metodika] [sect::obecny postup analyzy bází]
+- [ ] [Ttyp::VYLEPŠIT]|: #p/bp/metodika/báze/obecnýPostup - MOŽNO doplnit konkrétní specifika standartu UML 
 - [x] DOPLNIT popsanou odchylku od standartního UML
 Navíc bylo v rámci kroku interpretace výsledků využito UML. Nástroj byl vybrán jelikož velmi dobře standartizuje způsoby modelování struktur i skutečnosti obecně. Ve verzi 2.5.1 ze které aktuálně výcházím, má i celou druhou polovinu zaměřenou na stavy, chování, akce interakce, až případy užití. Ač se jedná o velmi užitečnou část, na její využití v této práci pravděpodobně nedojde z důvodu času a rozsahu práce.
 Jediná odchylka od standardu UML bude provedena v případě generalizace, která místo běžné verze:
@@ -222,7 +221,10 @@ Navíc jisté zohlednění "povinnosti" k zapsání konkrétních částí bylo 
 - [x] DOPLNIT popsat výstupy 'analýzy obsahu z postupu analýzy bází
 
 Co se prezentování analýzou získaných pojmů týče, to je uskutečněno pomocí jediného seznamu. Nejedná se však pouze o spojené získaných dílčích výsledků dohromady. Primárním účelem této prezentace je totiž, mimo transformace získaných údajů s ohledem na čtenáře, rovněž také předzpracování a vyčištění analýzou získaných dat, než jsou předány dále k jejich interpretaci.
-Důvodem pro toto předzpracování je třeba i to, že některé pojmy jsou v množném a jiné v jednotném čísle a pro účely následné interpretace je žádoucí mít všechny pojmy v čísle jednotném, ale především skutečnost, že různé báze mohou používat stejné výrazy, ale myslet odlišný význam a naopak. Příkladem může být 'místo konání'. V bázi chystamprogram tento pojem může reprezentovat hodnoty npř. místnost, louka,... . Zato v případě asociace s událostí jsou tímto pojmem typicky označovány přibližné i konkrétní geografické lokace, kde se děti s vedoucími budou v průběhu události pohybovat, případně nocovat, pokud se jedná o vícedení událost. Místem konání pro události tak bývají například konkrétní skautské klubovny, souřadnice tábořiště etc.. 
+Důvodem pro toto předzpracování je třeba i to, že některé pojmy jsou v množném a jiné v jednotném čísle 
+- [ ] [Ttyp::DODĚLAT] nejen v jednotném čísle, ale připravit všestraně na použití v modelu
+
+a pro účely následné interpretace je žádoucí mít všechny pojmy v čísle jednotném, ale především skutečnost, že různé báze mohou používat stejné výrazy, ale myslet odlišný význam a naopak. Příkladem může být 'místo konání'. V bázi chystamprogram tento pojem může reprezentovat hodnoty npř. místnost, louka,... . Zato v případě asociace s událostí jsou tímto pojmem typicky označovány přibližné i konkrétní geografické lokace, kde se děti s vedoucími budou v průběhu události pohybovat, případně nocovat, pokud se jedná o vícedení událost. Místem konání pro události tak bývají například konkrétní skautské klubovny, souřadnice tábořiště etc.. 
 
 Nestačí proto vybrat pouze pojmy, které se opakují, nýbrž bylo zapotřebí zjistit, co daným pojmem báze zastupuje, respektive jaké konkrétní hodnoty pojem v daném kontextu reprezentuje. 
 Ke každému pojmu v seznamu proto bude doplněn krátký popis jeho významu odvozený z kontextu ve kterém se nachází v bázi ve které byl nalezen. Právě z umístnění v konkrétní bázi vyplývá i další část údajů, jenž budou zachyceny o každém pojmu ve vytvořeném souhrnném seznamu. Aby transformací dat nebyla ztracena informace o původním místě výskytu daného pojmu, jsou v řádku za názvem pojmu a pomlčkou uvedeny zkratky bází ze kterých byl pojem získán. Zároveň v případě, kdy báze explicitně identifikuje sadu konkrétních hodnot, jenž jsou pojmem reprezentovány, jsou pro takový pojem v prezentovaném seznamu hodnoty z dané sady uvedeny.
@@ -230,7 +232,7 @@ Ke každému pojmu v seznamu proto bude doplněn krátký popis jeho významu od
 Zbývají tak už jen dva údaje z původní datové sady, které zatím nemají specifikovaný formát prezentace, je jím údaj o tom, které pojmy byly vybrány jako základní a které ve své původní bázi zprostředkovávají filtrování obsahu báze podle svých hodnot. Základní pojmy, jelikož jich je relativně málo vzhledem k celku seznamu, jsou označeny symbolem šipky "==>>" v prvním řádku záznamu před jejich názvem. A v případech, kdy je podle pojmu a jím reprezentovaných hodnot možné prohledávat obsah báze v níž se vyskytuje, je záznam v souhrnném seznamu rozšířen symbolickou předponou dvou otazníků "??" a do třetího řádku záznamu pod řádek s popisem je doplněna otázka, kterou daný pojem umožňuje bázi zodpovídat.
 - [x] zbývající údaje které byly získány zbývá už jen
 - [x] x -> jednotné číslo x
-- [ ] DOPLNIT - ukázka formátu tabulky [chap::Metodika] [sect::anal bází výstupy] [treq::31]
+- [ ] [Ttyp::DODĚLAT] - ukázka formátu tabulky #p/bp/metodika/báze/výstupy   [treq::31]
 ##### interpretace
 Výsledky interpretace, uvedené na začátku praktické části, jsou prezentovány dílčími pohledy na jednotlivé základní třídy a provedeným metodikou k nim asociovaných tříd. To znamená konkrétně 4 části, která každá z nich adresuje a argumentuje kroky provedené pro vytvoření prezentovaného modelu takovým způsobem, aby struktura textu těmto krokům odpovídala tak, že poskytne odpovědi na následující otázky:
 - Proč byly konkrétní třídy přiřazeny k dané základní třídě?
@@ -239,24 +241,23 @@ Výsledky interpretace, uvedené na začátku praktické části, jsou prezentov
 
 Na závěr je uveden pohled na celý diagram, nicméně nezobrazuje nic, co by v dílčích pohledech již nebylo, proto tím i končí poslední analytický krok celé práce.
 - [x] AKTUALIZOVAT model pojmů výstupy
-### Schema
-![[../assets/analyzadomenyskautskychprogramu-metodika-UMLactivity.jpg]]
+
+
 ## Metodika tvorby DB schematu
 #### Účel postupu
 **Dílčí cíl:** Navrhnout schema pro databázi.
+- [ ] [Ttyp::UDĚLAT]|[testm::15min]||: #p/bp/metodika/sw - Napsat účel postupu tvorby DB schematu | #p/bp/core
 #### Obecný postup
 ### Konkrétní postup
 #### Výstupy
-### Schema
-![[../assets/tvorbadbschematu-metodika-UMLactivity.jpg]]
+
+
 ## Metodika ověření výsledků
 #### Účel postupu
-#### **Dílčí cíl:** Ověřit úspěšnost dosažení výsledků
+**Dílčí cíl:** Ověřit úspěšnost dosažení výsledků
 #### Obecný postup
 ### Konkrétní postup
 #### Výstupy
-### Schema
-![[../assets/overenivysledku-metodika-UMLactivity.jpg]]
 
 # metodika v2 %% fold %% 
 ## Metodika analýzy

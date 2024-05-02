@@ -19,12 +19,24 @@ Celek znamená, že v práci musí být jasný záměr, postup, výsledek (jak t
 > [!board]-
 > [[Podklady/dashboard.bp.canvas|dashboard.bp]]
 ## ToDo \[\[BP/README]] - dataview
+⚗️🧼🚧💣
 ```dataview
 TASK
-FROM [[BP/README]] and !"BP/README"
-WHERE !fullyCompleted and chap = "Metodika"
+WHERE Ttyp = "DODĚLAT"
+```
+```dataview
+TASK
+WHERE Ttyp = "UDĚLAT"
+```
+```dataview
+TASK
+WHERE Ttyp = "VYLEPŠIT"
 ```
 
+```dataview
+TASK
+WHERE Ttyp = "UČESAT"
+```
 # Resources
 ## favs %% fold %%
 [[Podklady/Odloženo/tmp.bp]]

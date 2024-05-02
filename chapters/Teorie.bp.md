@@ -100,7 +100,7 @@ API, to umožňuje pomocí http dotazů jak získávání obsahu jednotlivých d
 Možnosti programové interakce s databází Neo4j závisí na tom, která z implementací je využita. První varianta implementace Neo4j je cloud verze nabízená jako SaaS, spolu s poměrně dostatečným objemem zdrojů v rámci bezplatné úrovně účtu. Tato verze nicméně umožňuje programovou interakci, pouze pomocí knihoven, které jsou sice pro většinu nejběžnějších jazyků k dispozici, takže ve většině případů bude tato varianta nabízet dostatečnou konektivitu. Avšak v případě, jako dříve zmíněné Apps Scripts, které omezují možnosti externí komunikace pouze na http dotazy skrze předdefinovanou funkci, představuje absence podpory http komunikace v cloudové verzi Neo4j poměrně problém. Naštěstí existuje druhá varianta implementace, konkrétně takzvaná 'self-hosted' varianta, která může být například s využitím dockeru, nebo pomocí klasické instalace spůštěna na libovolné výpočetní instanci (počítači). A tato 'self-hosted' varianta umožňuje jak programovou interakci pomocí http tak pomocí knihoven pro konkrétní jazyky.
 ## Vyhodnocení výsledků analýzy (sw) %% fold %% 
 Jak bylo stanoveno v metodice, v rámci této části bude popsán způsob implementace navrhované báze, který by nevyžadoval víc prostředků na údružbu, než sám ušetří. Konkrétně, vzhledem k tomu, že aktuálně není k dispozici způsob jak změřit ušetřený čas při využívání báze, je vycházeno z předpokladu, že pokud budou vyžadovány lidské, či finanční prostředky na to, aby byla prováděna jednosměrná synchronizace zapsaného obsahu v gDocs do efektivně prohledatelné databáze, nebude ušetřený čas větší, než ten vyžadovaný na údržbu. Proto bude popsána možnost automatizace synchronizačního procesu taková, která by nevyžadovala finanční prostředky na svůj provoz. Rovněž budou definovány konkrétní funkcionality, na kterých závisí proveditelnost popsaného způsobu.
-- [ ] DODĚLAT [chap::teorie] [sect::interpretace.sw] CRITICAL [treq::180] [weig::8]
+- [ ] [Ttyp::DODĚLAT]|[Cdist::4] 🚧💣🚧 #p/bp/teorie/sw/vyhodnoceníVýsledkůAnalýzy #p/bp/core [treq::180] 
 Na základě vybraných kandidátů a jim dostupných možností bylo určeno
 ### automatizace jednosměrné synchronizace (zrcadlení)
 
@@ -111,21 +111,21 @@ Na základě vybraných kandidátů a jim dostupných možností bylo určeno
 # Získání pojmů asociovaných se skautských programů
 ## !-Hodnocení zdrojů
 ### chystamprogram
- - [ ] UČESAT [chap::teorie] [sect::hodnocení.chystamprogram]
+ - [ ] [Ttyp::UČESAT]|[Cdist::9] ||: #p/bp/teorie/pojmy/hodnocení/chp
 
 """
 Její předností je zaměření na výchovnou a rozvojovou hodnotu programů. To je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
 Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. Jako větší nedostatek však vnímám spíše omezenou možnost poskytování zpětné vazby, a komentářu k zapsaným programům. Jediná možnost hodnocení, je totiž zaslání svého hodnocení pouze soukromě autorovi daného programu. Což opět pro interní využití, které by mělo umožňovat sdílení obsahu a na něm následnou spolupráci, není vyloženě příhodné.
 """
 ### encyklopedie her
-- [ ] UČESAT [chap::teorie] [sect::hodnocení.encyklopedie]
+- [ ] [Ttyp::UČESAT]|[Cdist::9] #p/bp/teorie/pojmy/hodnocení/encyk
 
 """
 Právě tento objem, pědstavuje hlavní pědnost tohoto zdroje. Jelikož vzhledem k době jeho vydání, existuje šance, že některé zapsané hry, nebudou již dnes pro děti zábavné. Avšak vzhledem ke zmíněnému objemu, by se musela od té doby změnit kompletně celé podstata dětských her, aby tento zdroj již nebyl relevantní, což tato práce nepředpokládá.
 S rokem vydání encyklopedie souvisí však i další nevýhody, které přehlédnout nelze. Klíčovým nedostatekm jou značně limitované možnosti efektivního prohledávání, které jsou implicitním důsledkem tištěné formy báze. Hry jsou sice jednotlivými knihami rozděleny podle prostědí do kterého jsou vhodné a dále pak pomocí kapitol. Navíc každá hra má vedle názvu uvedeno specifické značení, popsané na začátků každé z knih, které poskytuje informace například o tom, pro jaký počet, nebo věk hráču je hra vhodná. Nicméně to pořád znamená, že je třeba záznamy procházet manuálně a vizuálně kontrolovat, zda chci o dané hře číst více. Nemluvě o tom, že doplňování zpětné vazby či komentářů rovněž není možné.
 """"
-### -sdílený disk našeho oddílu
-- [ ] DODĚLAT [chap::teorie] [sect::hodnocení.sdílený disk]
+### sdílený disk našeho oddílu
+- [ ] [Ttyp::DODĚLAT]|[Cdist::6] ||: #p/bp/teorie/pojmy/hodnocení/disk 
 
 ## Výsledky analýzy obsahu (báze)
 
@@ -135,7 +135,7 @@ První složka pojmenovaná 'Výpravy' obsahuje jeden dokument na jednu výpravu
 Výpravy představují události organizované typicky na jeden, či více dní, kdy vedoucí připravují pro děti nějaký program. Jelikož však i samotná výprava potřebuje přípravu, dá se říci, že samotná událost výpravy je připravovaným programem. Mezi typicky organizované události patří kromě výprav ještě schůzky a tábory. Všechny události přitom mají tu společnou vlastnost, že se skládají z určitých bloků, které mají nějaké naplánované pořadí, to se však může lišit od reálného průběhu události. Jednotlivé bloky pak představují konkrétní aktivity a hry, které jsou při události realizovány.
 Druhá složka nese název 'Programy' a obsahuje několik neroztříděných aktivit, které mohou být využity při libovolné připravované události. Navíc jsou zde však i podsložky pojmennované podle jednotlivých věkových skupin (vlčata, skauti), které obsahují popsané aktivity (programy) zamýšlené buď pro mladší, nebo pro starší.
 ### pojmy získané analýzou
-- [ ] DOPLNIT seznam pojmů bez duplicit, formát viz reM [chap::teorie] [sect::pojmy-tabulka]
+- [ ] [Ttyp::UDĚLAT]|[Cdist::4] ||: #p/bp/teorie/pojmy/výsledky seznam pojmů bez duplicit, formát viz reM 
 
 
 
