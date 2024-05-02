@@ -1,4 +1,95 @@
 
+# odloženo z teorie
+V této kapitole budou prezentovány výsledky z analýzy existujících bází skautských programů.
+
+1. Vizualizovat/vypsat pojmy (asociovatelné/doporučené asociovat) se zaznamenávanými programy v dané bázi.
+2. Definovat kompetenční otázky, vycházející z otázek, na které daná báze "umí odpovídat".  
+### pojmy získané z báze chystamprogram %% fold %%
+#### Se záznamy asociuje pojmy..
+S každou aktivitu zaznamenanou v bází chystam program, mohou autoři asociovat pojmy z následujícího seznamu.
+Pro základní identifikaci aktivit jsou v této bázi použity pojmy:
+- Název aktivity - ( pojmemuj aktivitu )
+- Anotace - ( Krátce popiš aktivitu )
+- Výchovný cíl - ( co aktivita účastnikdm přinese? )
+
+Napojení na Stezku je zprostředkováno následujícími pojmy reprezentujícími jednotlivé kapitoly a podkapitoly Stezky. Narozdíl od prvních třech pojmů, které k sobě umožňují zapsat libovolný text, následující dva pojmy mohou nabývat pouze předdefinovaných hodnot odpovídajících oblastem Stezky.
+- oblast rozvoje - ()
+  {Co umím a znám, Kdo jsem, Moje kamarádství, Můj domov, Svět okolo nás, Příroda kolem nás}
+- podoblast rozvoje - ()
+  {Praktický život  
+Tábornická praxe  
+Fyzická zdatnost  
+Budme připraveni  
+Tvořivost a zručnost  
+  
+Moje svědomí  
+Já a můj život  
+Osobní rozvoj  
+  
+Vztahy  
+Komunikace mezi lidmi  
+Pomoc druhým  
+  
+Moje rodina  
+Moje družina  
+Moje dobrá parta  
+  
+Já v demokracii  
+Rozmanitost světa  
+Příběhy našeho světa  
+Propojený svět  
+  
+Pobyt v přírodě  
+Vnímání přírody  
+Poznávání přírody  
+Hodnota přírody  
+Šetrné chování
+}
+
+Jako další pojmy s vymezenými přípustnými hodnotami představují:
+- druh aktivity - ()
+  { Pohyb; 	Tvořivost; 	zamýšlení; 	Diskuze; 	\#SkautingDoma; 	Skauting pro školy; 	Historie; 	Klima; 	Idea Vas }
+- doba trvání - ()
+  {}
+- doba na přípravu - ()
+  {}
+- místo konání - ()
+  { Místnost; 	Louka; 	Les; 	Město; 	Hřiště }
+- velikost skupiny - ()
+  {}
+- věk skupiny - ()
+  { Benjaminci; 	Vlčata a světlušky; 	Mladší skauti a skautky; 	Starši skauti a skautky; 	Mladši roveři a rangers; 	Starší roveři a rangers; 	3.-5. ročník ZS; 	6.-7. ročník ZS; 	8.-9. ročník ZŠ; 	Střední škola }
+- psychická náročnost - ( jak moc je aktivita psychicky náročná? 1 - v pohodě; 2 - může psychicky 3 - nutné ošetřeni psychiky po skončeni hry, nebo v jejím průběhu? )
+  { 1,2,3 } 
+- fyzická náročnost - ( jak moc je aktivita fyzicky náročnä? 1 - ani se nezapotiš, 2 - trochu zapotiš, - zapotiŠ se. )
+  { 1,2,3 } 
+
+Pro zbývající pojmy je však opět možné zapisovat libovolný text.
+- obsah programu - 
+- přílohy - 
+- napojení na stezku (stupeň, úkol) - ( K jakému úkolu ve stezce se aktivita vztahuje? )
+- pomůcky a materiál - ( Co bude k aktivitě potřeba? )
+- symbolický rámec (Motivace)- ( aktivita nějaký pňběh, motivaci apod.? )
+- reflexe - ( Návrat ke klíčovým momentům cele aktivity např. skrz otázky, diskuzi. )
+- bezpečnost - ( Na co dát pozor před, při a po realizaci aktivit )
+- metodické poznámky - ( Tipy a triky k aktivitě )
+- zdroje - ( pokud se při tvorbě aktivity inspirovali jinde, nebo jste aktivitu převzali, uveďte zdroj. )
+- autor - 
+#### Umí odpovídat na otázky..
+Prohledávání v bázi chystamprogram je potom umožněno v případě parametrů s vymezenými přípustnými hodnotami, pomocí rozklikávacích nabídek jednotlivých přípustných hodnot. Pro ty zbývající, u kterých je možné zapisovat libovolný text, je potom možné vyhledávat pomocí full-text vyhledávání podle přítomnosti konkrétních slov.
+### pojmy získané z báze encyklopedie her %% fold %% 
+Jelikož v rámci hledání pojmů ve 'Velké encyklopedii her' bylo prohledáno několik jejích částí, bude i výčet pojmů rozdělen podle těchto částí. Na úvod budou představeny pojmy získané z doporučení pro zapisování tradičních her, nacházejícím se v Úvodní kapitole čtvrté z knih. A na závěr pojmy získané ze symbolického značení definovaným shodně ve všech knihách. 
+#### Se záznamy asociuje pojmy.. 
+{název hry; alternativní název; průběh hry; úlohy hráčů; losování; rozpočitadla; herní území; jednolitý děj; zřetelné odlišených částí; formulky při hře užívané; tradiční dialogy; melodie v notách; nakreslený obrazec; místo; počet hráčů; jen chlapců, jen děvčat,; chlapci i děvčata; vek hráčů; věk nejmladšího; Věk nejstaršího; trvání; pokračující neomezenou dobu; Věci, které jsou ke hře potřebné; určitém ročním období; dokumentární fotografie; charakteristické okamžiky; soutěživá; nesoutěživá; Role hráčů; hra, při které rozhodují o vítězství a porážce jen schopnosti hráčů; hra, ve které má jistou úlohu náhoda a štěstí; tělesné vlastnosti a schopnosti uplatňující se ve hře; Hrubá motorika (rychlost, síla, obratnost, vytrvalost); jemná motorika (zručnost, rovnováha, nervosvalová koordinace, orientacev rostoru, speciální dovednosti); duševní schopnosti uplatňující se ve hře; povahové vlastnosti projevující se ve hře; prvky, ze kterých je hra složena}
+
+
+#### Umí odpovídat na otázky..
+-  věkové kategorie Pro kterou je hra vhodná
+- hra vhodná pro hochy, dívky, nebo všechny
+- hráčů vyžadováno
+- tělesné a duševní vlastnosti hrou rozvíjené
+- pomůcky vyžadovány
+
 # Popis skutečnosti
 ## chystamprogram
 
@@ -103,7 +194,10 @@ Na třetí řádce jsou potřebné pomůcky.  []
 }
 ### vnitřní
 {
-název hry; víc různých názvů; průběh hry; úlohy hráčů; losování; rozpočitadla; herní území; jednolitý děj; zřetelné odlišených částí; formulky při hře užívané; tradiční dialogy; melodie v notách; nakreslený obrazec; místo; počet hráčů; jen chlapců, jen děvčat,; chlapci i děvčata; vek hráčů; věk nejmladšího; Věk nejstaršího; trvání hry; pokračující neomezenou dobu; Věci, které jsou ke hře potřebné; určitém ročním období; dokumentární fotografie; charakteristické okamžiky; soutěživá; nesoutěživá; Role hráčů; Rozhodují o vítězství a porážce jen schopnosti hráčů; má ve hřejistou úlohu náhoda, štěstí?; tělesné vlastnosti a schopnosti uplatňující se ve hře; Hrubá motorika (rychlost, síla, obratnost, vytrvalost); jemná motorika (mučnost, rovnováha, nervosvalová koordinace, orientacev rostoru, speciální dovednosti; duševní schopnosti uplatňující se ve hře; povahové vlastnosti projevující se ve hře; Z jakých prvků je hra složena?
+název hry; víc různých názvů; průběh hry; úlohy hráčů; losování; rozpočitadla; herní území; jednolitý děj; zřetelné odlišených částí; formulky při hře užívané; tradiční dialogy; melodie v notách; nakreslený obrazec; místo; počet hráčů; jen chlapců, jen děvčat,; chlapci i děvčata; vek hráčů; věk nejmladšího; Věk nejstaršího; trvání hry; pokračující neomezenou dobu; Věci, které jsou ke hře potřebné; určitém ročním období; dokumentární fotografie; charakteristické okamžiky; soutěživá; nesoutěživá; Role hráčů; Rozhodují o vítězství a porážce jen schopnosti hráčů; má ve hřejistou úlohu náhoda, štěstí?; tělesné vlastnosti a schopnosti uplatňující se ve hře; Hrubá motorika (rychlost, síla, obratnost, vytrvalost); jemná motorika (mučnost, rovnováha, nervosvalová koordinace, orientacev rostoru, speciální dovednosti; duševní schopnosti uplatňující se ve hře; povahové vlastnosti projevující se ve hře; Z jakých prvků je hra složena(Běh — skákání — zvedání
+a nošení — házení a vrhání — odrážení — chytání — zápasení —
+přetahování — taneční pohyby — zpěv — dialog — hraní rolí po-
+dobných divadlu — schovávání a hledání.)?
 }
 ## sdílený disk %% fold %% 
 - [ ] ex
@@ -112,6 +206,8 @@ název hry; víc různých názvů; průběh hry; úlohy hráčů; losování; r
 {}
 ### vnitřní
 {}
+
+
 
 # Datové struktury
 

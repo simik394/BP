@@ -22,7 +22,7 @@ Celek znamená, že v práci musí být jasný záměr, postup, výsledek (jak t
 ```dataview
 TASK
 FROM [[BP/README]] and !"BP/README"
-WHERE !fullyCompleted 
+WHERE !fullyCompleted and chap = "Metodika"
 ```
 
 # Resources

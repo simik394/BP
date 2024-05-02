@@ -1,5 +1,122 @@
+# výstupy interpretace(modelpojmů) podle starý metodiky
+postupné rozšiřování modelu pro základní pojmy a získání tak agregovaného pohledu na zkoumanou doménu.
+
+Toho je docíleno zaprvé tak, že jsou nejdříve představeny výsledky z dílčího kroku 'zakreslení pojmů' ve formě modelu, jenž má pouze umístněné zakreslené pojmy v blízkosti základních pojmů, avšak neobsahuje zatím žádné asociace.  
+S jedinou vyjímkou atributů základních tříd, jejichž datovým typem je buď boolean nebo intager, ty jsou totiž již při zakreslování umístněny "dovnitř" odpovídající základní třídy. Bylo tak učiněno z důvodu lepší přehlednosti modelu. Konkrétně byl postup vybrán jakožto nejsnažší možnost na "zbavení se" části pojmů, rychle, hned na začátku, pomocí snadno vyhodnotitelného kritéria a usnadnění tak celého dalšího modelování.
+
+A zadruhé, jsou prezentovány výsledky z kroku 'modelování pojmů'. Není však představen celý model najednou, nýbrž jsou představený postupně dílčí pohledy, na část vytvořeného modelu odpovídající jendotlivým základním třídám, počínaje od té nejvíce generalizované.  
+Pro každý z těchto dílčích pohledů na model je následně poskytnut podrobný popis vyseče reality, který je jím zobrazen. Zároveň je také doručena argumentace pro jednotlivá rozhodnutí, učinněná v rámci procesu modelování pojmů, a tím tak odůvodněno, proč jsou konkrétní pojmy vymodelovány tak jak jsou vymodelovány a ne jinak.
+
+# no. to je zrovna špatnej příklad
+Hlavní existující strukturou, jež byla hledána, jsou hierarchie mezi existujícími získanými pojmy. Příkladem mohou být pojmy 'věk skupiny', 'věk nejmladšího', 'věk nejstaršího',
+
+a thole mi tak pŕekáží 
+shlukovat specializace podle stejné logiky pomocí nové generalizované třídy || gen class if > 2 tříd specializovaných podle stejné logiby (obsahují typicky v názvu stejné slovo)
+# pokus o syst tvorbu modelu chápaní významu atributů
+ Prvně jsou pojmy z výsledků analýzy obsahu bází převedeny do jednotného čísla, pokud jsou napsány jinak a z každého z nich je následně vytvořena jedna třída, se stejným názvem jako daný pojem, v modelovacím nástroji reprezentovaná obdélníkem.
+
+*Předtím, než byla provedena "hlavní" modelovací část, bylo zapotřebí nejdříve získané pojmy do modelovacího (kreslícího) nástroje zakreslit.*
+-  atributy typů bool,int vymodelovat do vlastnictví odpovídajících základních tříd
+ Třídy, jenž reprezentují pouze binární hodnotu (ano, ne) nebo jedinou číselnou hodnotu, byly modelovány jako atributy, jim přiřazených, tříd základních.
+
+pro komplexnější pojmy, jejichž 
 
 
+- enumerations z existujících bází (také částečně kvůli "kompatibilitě" záznamů)
+
+
+
+- zbylé pojmy (classes)
+1. hierarchie mezi existujícími asociovanými pojmy
+
+2. další povinné vztahy mezi asociovanými
+
+3. Shlukovat specializace podle stejné logiky pomocí nové generalizované třídy || gen class if > 2 tříd specializovaných podle stejné logiby (obsahují typicky v názvu stejné slovo)
+
+4. asociace se základními třídami,
+
+5. doplněné alespoň jednoho atributu ke každé nespecializované třídě
+
+# metodika-interpretace->modelpojmů
+Konkrétně z UML ==byl při návrhu využit diagram tříd. Který byl sestaven s pomocí nalezených pojmů a mých doménových znalostí, jakožto člena oddílu posledních 15 let a jako vedoucího posledních 6 let. ==
+
+Při tvorbě diagramu bylo postupováno podle následujícího postupu.
+
+"""
+##### Základní definice
+==Nejdříve byly určeny vztahy mezi obsahem z jednotlivých existujících bází. Jelikož každá z nich se na problematiku skautských programů dívá z jiného pohledu, agregací těchto pohledů by měla vzniknout lepší a přesnější základní definice skautských programů, než v případě využití pouze jedné báze. Pro její získání byly využity základní pojmy, charakterizující obsah jednotlivých bází, získané předchozím krokem.
+-
+Získané základí pojmy a jejich vztahy jsou vymodelovány pomocí jednoduchého, ale pravdivého diagramu tříd, který tak poskytne základní strukturu tvořeného diagramu. 
+-
+S tím, že tento základní prvek, bude v následujím postupu tvorby diagramu obohacován a doplňován pojmy získanými literární analýzou.==
+##### Rozšíření definice
+ Rozšíření definice
+
+==Cílem je vhodné asociování získaných pojmů k základním třídám reprezentujícím doména skautských programů "7/10"
+
+## ==zakreslení pojmů==
+
+- roztřídit podle asociovatelnosti se základními třídami (+implicitně se zbavit duplikátů )  
+    + ujednocení do Jednotného čísla
+- A* atributy (boolean,int) k základním třídám
+- B*sets z originálních bází,  
+    pomocí takzvaných číselníků, neboli "enumerates"  
+    (OFFaby zůstala Zachovala kompatibilitaOFF)  
+    + * classes
+
+## ==modelování pojmů==
+
+1. hierarchie mezi existujícími asociovanými pojmy
+
+2. další povinné vztahy mezi asociovanými
+
+3. Shlukovat specializace podle stejné logiky pomocí nové generalizované třídy || gen class if > 2 tříd specializovaných podle stejné logiby (obsahují typicky v názvu stejné slovo)
+
+4. asociace se základními třídami,
+
+5. doplněné alespoň jednoho atributu ke každé třídě==
+
+## 
+pro každý základní p/t:
+	z výsledků vybrat asociovatelné pojmy
+
+[huh? jasně, že jo, co to je za otázku?] Je možné asociovat některé pojmy ze specializovaných tříd s jim generalzovanou třídou?
+
+==deduplikace
+Pokud má pojem asociovaný se třídou A stejný či velmi podobý název jako jiný pojem asociovaný s odlišnou třídou B, ale liší se v přípustných hodnotách, je na tyto pojmy pohlíženo jako na rozdílné. To znamená, že pojmy odpovídající této podmínce, nebudou sloučeny prostřednictvím generalizované třídy (v tomto případě Program), nýbrž budou vymodelovány dvě oddělené třídy, jedna pro každou z tříd (v tomto případě Aktivita, Událost). Příkladem může být 'místo konání'. V bázi chystamprogram tento pojem může reprezentovat hodnoty npř. místnost, louka,... . Zato v případě asociace s událostí jsou tímto pojmem typicky označovány přibližné i konkrétní geografické lokace, kde se děti s vedoucími budou v průběhu události pohybovat, případně nocovat, pokud se jedná o vícedení událost. Místem konání pro události tak bývají například konkrétní skautské klubovny, souřadnice tábořiště etc.
+-
+Pokud ale má pojem A minimálně rozdílný název od pojmu B a zároveň i reprezentuje stejné hodnoty, pak je pojem s daným názvem převeden do vlastnictví generalizované třídy.==
+
+[nahh, tohle nechci] Obohacování modelu, je vždy prováděno vzhledem ke konkrétnímu pojmu ze základní definice.
+	1. Nějaké gen/spec mezi vztahy vybranými k obohacení modelu?
+	2. vlastnost(atribut:string||atribut:enumeration)
+	3. asociace s třídou
+		1. asociace sama se sebou
+	4. specializovaná třída
+	
+==programy
+	vybrat pojmy z chystamprogram asociovatelné i s událostmi .
+	vybrat pojmy z popisu obsahu sdíleného disku asociovatelné i s aktivitami 
+	vybrat pojmy z encyklopedie her asociovatelné s uálostmi i  s aktivitami
+-
+aktivita
+vybrat pojmy vyskytující se v chystamprogram a zároveň encyklopedii 
+(chystamprogram - program) + (hry - program) 
+kdy modelovat pojem jako třídu a kdy jako atribut
+-
+hra
+vybrat pojmy z encyklopedie, které se nevyskytují v chystamprogram 
+(hra - program -aktivita)
+-
+událost
+vybrat poojmy z popisu obsahu sdíleného disku.==
+'''
+Případně mohou být pro dosažení lepší srozumitelnosti modelu využity následující úpravy. Pokud by třída A měla stejný vztah k třídě B i C, bude vymodelována nová třída D, která bude generalizací tříd B a C. Bude tím pádem možné modelovat vztah pouze jednou. Podobná logika bude využita v případě že třída M bude mít vztah ke třídě N, ale ne vždy. Budou vytvořeny dvě podtřídy pro třídu N, první třída O, která bude mít povinný vztah se třídou M. A druhou třídu P, která tento vztah s M nemá.  [jako true, ale naštěstí tam takovýhle srandy nedělam]
+
+Rozhodnutí, zda modelovat pojem P jako atribut třídy TI, nebo oddělenou třídu TP, která je s třídou TI asociována, bude učiněno v závislosti na tom, zda pojem P je asociován ještě s dalšími třídami kromě třídy TI. [nesmysl, i v případě atributu je možné aby ho využívalo více tříd]
+Rovněž bude využito oddělené třídy, pokud instance třídy TP vytvořené z pojmu P mohou mít vztah s více instancemi asociované třídy TI zároveň. [taky nesmysl, to může v pohodě i atribut]
+
+"""
 
 # 
 ## Metodika zakončení

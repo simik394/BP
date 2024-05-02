@@ -77,7 +77,7 @@ Podmínka pro zápis říká, že navržená báze má zachovat úroveň uživat
 
 Výsledkem tohoto hodnocení může být více nástrojů, jelikož není z pohledu cíle práce zapotřebí specifikovat jiná kritéria, než to jedno aktuálně definované.
 ##### Hodnocení nástrojů z hlediska čtení 
-- [ ] možná mírně rozvést nejkratší věty a dovysvětlit jejich význam [chap::Metodika] [sect::hodnocení nástrojů - čtení]
+- [ ] možná mírně rozvést nejkratší věty a dovysvětlit jejich význam [chap::hodnocení nástrojů - čtení]
 
 Z hlediska čtení, respektive možností prohledávání uloženého obsahu. Podmínka z cíle říká, že čtení má být efektivní. Měřeno rychlostí na získání výsledků a správností výsledků. To znamená absenci jak chyb kdy je zobrazen výsledek neobsahujicí hledaný obsah (false positive), tak chyb kdy obsah hledaný uživatelem není nalezen, ikdyž ve skutečnosti je zaznamenán a měl by se zobrazit (false negative). Z kandidátu tedy budou vyřazeni ti, kteří toto nesplňují.
 
@@ -102,12 +102,11 @@ Základní otázkou, kterou se tedy tento krok analýzy bude snažit zodpovědě
 V případě nalezení takového způsobu, bude způsob popsán a následně sestaven výčet funkcionalit kritických pro funkcionalitu odpovídající požadavkum na navrhovanou bázi.
 
 #### Výstupy
-- [x] DODĚLAT [chap::analyza sw.výstupy]
-Výsledky z dosažení prvního dílčího cíle jsou prezentovány jako první v kapitole Teorie.
-S tím že pořadí prezentace odpovídá pořadí jejich vypracování. Nejdříve jsou proto uvedena hodnocení SW kandidátů podle hledisek možností čtení a psaní, čímž je argumentován následný výběr jejich podmnožin podle specifikovaných hledisek.
-Pro vybrané kvalifikované kandidáty jsou v další části vyhodnoceny charakteristiky uložení dat v daných softwarech a možnosti programového přistupování k jejich obsahu.
-Po těchto, následuje posouzení dosažitelnosti cíle prací stanoveného a prezentování potenciálního řešení softwarové infrastruktury pro navrhovanou bázi. Samotná dosažitelnost je přitom charakterizována sadou požadavků, které musí být splněny, aby návrh bylo možné skutečně postavit, 
-Rovněž jsou uvedeny nejlepší praktiky pro modelování dat v nástroji, jenž byl v rámci této metody vyhodnocen jako nejlepší v nabízených možnostech čtení v něm uloženého obsahu.
+- [ ] DODĚLAT [chap::analyza sw.výstupy]
+
+tool UI w (Data Structure, programmatic access)
+tool UI r (Data Structure, programmatic access)
+sw solution description (best practices for DB data structuring, core functionalities, proč jenom DB a ne Docs Schema?)
 
 ### Schema
 ![[../assets/analyzaswkandidatu-metodika-UMLactivity.jpg]]
@@ -120,7 +119,7 @@ Záměrem však není ani tak provedení vyčerpávající analýzy dané domén
 #### Obecný postup
 Pro získání odpovědi na otázku "Co zaznamenávat v bázi skautských programů?", byla opět využita 'analýza literatury' ([[../../myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008]]), stejně jako v první provedené analýze.
 
-- [ ] MOŽNO doplnit konkrétní specifika standartu UML [chap::Metodika] [sect::obecny postup analyzy bází]
+- [ ] MOŽNO doplnit konkrétní specifika standartu UML
 - [x] DOPLNIT popsanou odchylku od standartního UML
 Navíc bylo v rámci kroku interpretace výsledků využito UML. Nástroj byl vybrán jelikož velmi dobře standartizuje způsoby modelování struktur i skutečnosti obecně. Ve verzi 2.5.1 ze které aktuálně výcházím, má i celou druhou polovinu zaměřenou na stavy, chování, akce interakce, až případy užití. Ač se jedná o velmi užitečnou část, na její využití v této práci pravděpodobně nedojde z důvodu času a rozsahu práce.
 Jediná odchylka od standardu UML bude provedena v případě generalizace, která místo běžné verze:
@@ -143,23 +142,24 @@ Co se kvality a vhodnosti pro potřeby práce týče, představují existující
 Hodnocení zdrojů proto nesloužilo v tomto případě, k vybrání jejich podmnožiny pro další zpracování, jako v předchozí analýze. Nicméné stále mělo smysl vybrané zdroje ohodnotit. Konkrétně ze dvou důvodů, zaprvé proto, aby byly představeny kvality bází, které zároveň argumentují jejich výběr. Zadruhé pak proto, aby byly představeny jejich nedostatky, které je čiňí nepřijatelnými či nevhodnými pro takové využití, jako by měla umožnit v této práci navržená báze. 
 #### Analýza 
 Cílem analýzy obsahu vybraných zdrojů pak bylo pro každý z nich zvlášť, zodpovědět následující analytické otázky.
+- Jaké pojmy (max 2) nejlépe vystihují obsah dané báze?
 - Jaké pojmy jsou využity danou bází k charakterizování zapsaných aktivit?
-- Podle jakých pojmů umožňuje daná báze prohledávat? 
-- Jaké pojmy (max 2) nejlépe vystihují obsah dané báze a daly by se tak pro ni označit jako 'základní'?
+- Podle jakých pojmů umožňuje daná báze prohledávat? //(-> Kompetenční otázky)
 
-- [x] DOPLNIT postup pro definování kompetenčních otázek [chap::metodika] [sect::analýzaBází]
+- [ ] DOPLNIT postup pro definování kompetenčních otázek [chap::metodika] [sect::analýzaBází]
 
-S vyjímkou sdíleného disku našeho oddílu, který byl do výběru zařazen z důvodu své cennosti, avšak neumožňuje tak snadné systematické vyhodnocení jako zbylé dvě báze, kvůli své "chaotičtější" struktuře, v jehož případě jsou vyhodnoceny pouze první a poslední analytická otázka.
-Vzhledem k rozdílným strukturám analyzovaných bází, byly odpovědi na otázky v každěm případě získány lehce odlišným způsobem.
+S vyjímkou sdíleného disku našeho oddílu, který byl do výběru zařazen z důvodu své cennosti, avšak neumožňuje tak snadné systematické vyhodnocení jako zbylé dvě báze, kvůli své "chaotičtější" struktuře, v jehož případě jsou vyhodnoceny pouze první dvě z analytických otázek.
+
+Vzhledem k rozdílným strukturám analyzovaných bází, budou odpovědi na otázky v každěm případě získány lehce odlišným způsobem.
  
-Nejsnažší zodpovězení umožnila báze chystamprogam, jelikož poskytuje šablonu pro nové záznamy s pojmenovanými a popsanými políčky(prvky) k vyplnění. 
-Odpověd na první otázku byla proto získána vypsáním názvů, jejich popisů, případně povolených hodnot pro všechny možné prvky ze šablony. 
-K zodpovězení druhé pak byly prohledány filtry poskytnuté ve vrchní části stránky 'Hledat Aktivity' v této bázi a vypsány pojmy použité jako názvy parametrů umožňujících filtrování, stejně tak jejich přípustné hodnoty.
+Nejsnažší zodpovězení umožňuje báze chystamprogam, jelikož poskytuje šablonu pro nové záznamy s pojmenovanými a popsanými políčky(prvky) k vyplnění. 
+Odpověd na první otázku je proto získána vypsáním názvů,jejich popisů, případně povolených hodnot pro všechny možné prvky ze šablony. 
+K zodpovězení druhé jsou pak prohledýny poskytnuté filtry ve vrchní části stránky 'Hledat Aktivity' v této bázi a vypsány pojmy použité jako názvy parametrů umožňujících filtrování, stejně tak jejich přípustné hodnoty.
 
 V případě tištěné encyklopedie je trochu problém, protože zápisy v ní nejsou na první pohled nijak systematicky strukturovány, kromě symbolického značení vedle názvů a svého zařazení do kapitol. Bylo by proto potřeba vybrat vzorek ze záznamů a na základě něj se pokusit určit jaká části se napříč záznamy vyskytují. Naštěstí jedna z encyklopedií zahrnuje ve své Úvodní kapitole část pojmenovanou "Jak zapisovat tradiční hry". Autor se v ní sice věnuje takzvaně tradičním dětským hrám. Tím má na mysli hry, které si děti hrají, ale jejich pravidla existují pouze jako sdílené vědomosti mezi hráči, nejsou však nikde popsána, tudíž je šance, že postupem času tyto hru upadnou v zapomění. Ač se autorova motivace liší od motivace této práce. Výčet parametrů relevantních pro hry, které v této části nabízí, představuje podobně hodnotný zdroj, jako šablona pro zapisování v předchozí bázi. Pro získání odpovědi na první analytickou otázku proto budou vypsány pojmy právě z tohoto výčtu, nikoliv ze skutečně zapsaných her. 
 Co se prohledávání týče, to je zprostředkováno samotnými knihami, jejich kapitolami a symbolickým značením, u jednotlivých záznamů, popsaným za začátku každé z knih. Proto právě z těchto částí by bylo vhodné získat odpovědi na druhou z analytických otázek. Kapitoly avšak, vzhledem ke značému rozsahu encyklopedie, obsahují příliš mnoho pojmů na to, aby je bylo možné, v rámci limitovaného rozsahu této práce, adekvátně systematicky vyhodnotit a nezanedbat v důsledku toho další klíčové části práce. Proto v rámci analýzy encyklopedie her, k zodpovězení druhé analitické otázky, bude použito pouze symbolické značení u jednotlivých her.
 
-Aby bylo možné vyhodnocení sdíleného disku, byla nejprve provedena stručná rešerše obsahu na něm uloženého. A na základě této rešerše jsou pak určeny odpovědi na první a poslední analytickou otázku.
+Aby bylo možné vyhodnocení sdíleného disku, byla nejprve provedena stručná rešerše obsahu na něm uloženého. A na základě této rešerše jsou pak určeny odpovědi na první dvě analytické otázky.
 #### Interpretace
 Výsledky z analýzy, ve formě dlouhého seznamu pojmů, by se při návrhu schématu báze jistě zužitkovaly, nejedná se však o příliš efektivní ani elegantní řešení.
 Pro vytvoření koherentního celku z právě zmíněného obsáhlého seznamu, čárkou nebo novým řádkem oddělených pojmů, byl proto při návrhu využit diagram tříd. Který byl sestaven s pomocí získaných pojmů, mých doménových znalostí, jakožto člena oddílu posledních 15 let, zároveň jako vedoucího posledních 6 let a s pomocí následujícího postupu.
@@ -215,7 +215,6 @@ Navíc jisté zohlednění "povinnosti" k zapsání konkrétních částí bylo 
 #### Výstupy
 ##### hodnocení exist. bází
 - [x] DOPLNIT popsat výstupy 'hodnocení zdrojů' z postupu analýzy bází
-
  Výsledky z hodnocení jednotlivých analyzovaných bází, argumentující jejich výběr silnými stránkami jejich obsahu a zároveň se zdůvodněním, proč není využívána daná existující báze, ale je navrhována nová, se nachází ve druhé sekci kapitoly Teorie.
 
 ##### analýza obsahu bází
@@ -226,19 +225,19 @@ Důvodem pro toto předzpracování je třeba i to, že některé pojmy jsou v m
 
 Nestačí proto vybrat pouze pojmy, které se opakují, nýbrž bylo zapotřebí zjistit, co daným pojmem báze zastupuje, respektive jaké konkrétní hodnoty pojem v daném kontextu reprezentuje. 
 Ke každému pojmu v seznamu proto bude doplněn krátký popis jeho významu odvozený z kontextu ve kterém se nachází v bázi ve které byl nalezen. Právě z umístnění v konkrétní bázi vyplývá i další část údajů, jenž budou zachyceny o každém pojmu ve vytvořeném souhrnném seznamu. Aby transformací dat nebyla ztracena informace o původním místě výskytu daného pojmu, jsou v řádku za názvem pojmu a pomlčkou uvedeny zkratky bází ze kterých byl pojem získán. Zároveň v případě, kdy báze explicitně identifikuje sadu konkrétních hodnot, jenž jsou pojmem reprezentovány, jsou pro takový pojem v prezentovaném seznamu hodnoty z dané sady uvedeny.
-
-Zbývají tak už jen dva údaje z původní datové sady, které zatím nemají specifikovaný formát prezentace, je jím údaj o tom, které pojmy byly vybrány jako základní a které ve své původní bázi zprostředkovávají filtrování obsahu báze podle svých hodnot. Základní pojmy, jelikož jich je relativně málo vzhledem k celku seznamu, jsou označeny symbolem šipky "==>>" v prvním řádku záznamu před jejich názvem. A v případech, kdy je podle pojmu a jím reprezentovaných hodnot možné prohledávat obsah báze v níž se vyskytuje, je záznam v souhrnném seznamu rozšířen symbolickou předponou dvou otazníků "??" a do třetího řádku záznamu pod řádek s popisem je doplněna otázka, kterou daný pojem umožňuje bázi zodpovídat.
+Z výsledků analýzy, které zatím nemají specifikovaný formát prezentace, zbývají už tak jen údaje o tom, které pojmy byly vybrány jako základní a které ve své původní bázi zprostředkovávají filtrování obsahu báze podle svých hodnot. Základní pojmy, jelikož jich je relativně málo vzhledem k celku seznamu, jsou označeny symbolem šipky "==>>" v prvním řádku záznamu před jejich názvem. A v případech, kdy je podle pojmu a jím reprezentovaných hodnot možné prohledávat obsah báze v níž se vyskytuje, je záznam v souhrnném seznamu rozšířen symbolickou předponou dvou otazníků "??" a do třetího řádku záznamu pod řádek s popisem je doplněna otázka, kterou daný pojem umožňuje bázi zodpovídat.
 - [x] zbývající údaje které byly získány zbývá už jen
 - [x] x -> jednotné číslo x
-- [ ] DOPLNIT - ukázka formátu tabulky [chap::Metodika] [sect::anal bází výstupy] [treq::31]
-##### interpretace
-Výsledky interpretace, uvedené na začátku praktické části, jsou prezentovány dílčími pohledy na jednotlivé základní třídy a provedeným metodikou k nim asociovaných tříd. To znamená konkrétně 4 části, která každá z nich adresuje a argumentuje kroky provedené pro vytvoření prezentovaného modelu takovým způsobem, aby struktura textu těmto krokům odpovídala tak, že poskytne odpovědi na následující otázky:
-- Proč byly konkrétní třídy přiřazeny k dané základní třídě?
-- Proč je mezi třídami v dílčím pohledu taková struktura jaká je?
-- Proč byly konkrétní třídy asociovány k základní třídě takovým způsobem jak jsou? 
 
-Na závěr je uveden pohled na celý diagram, nicméně nezobrazuje nic, co by v dílčích pohledech již nebylo, proto tím i končí poslední analytický krok celé práce.
-- [x] AKTUALIZOVAT model pojmů výstupy
+##### interpretace
+Výsledky interpretace, uvedené na začátku praktické části, prezentují postupné rozšiřování modelu pro základní pojmy a získání tak agregovaného pohledu na zkoumanou doménu.
+
+Toho je docíleno zaprvé tak, že jsou nejdříve představeny výsledky z dílčího kroku 'zakreslení pojmů' ve formě modelu, jenž má pouze umístněné zakreslené pojmy v blízkosti základních pojmů, avšak neobsahuje zatím žádné asociace.  
+S jedinou vyjímkou atributů základních tříd, jejichž datovým typem je buď boolean nebo intager, ty jsou totiž již při zakreslování umístněny "dovnitř" odpovídající základní třídy. Bylo tak učiněno z důvodu lepší přehlednosti modelu. Konkrétně byl postup vybrán jakožto nejsnažší možnost na "zbavení se" části pojmů, rychle, hned na začátku, pomocí snadno vyhodnotitelného kritéria a usnadnění tak celého dalšího modelování.
+
+A zadruhé, jsou prezentovány výsledky z kroku 'modelování pojmů'. Není však představen celý model najednou, nýbrž jsou představený postupně dílčí pohledy, na část vytvořeného modelu odpovídající jendotlivým základním třídám, počínaje od té nejvíce generalizované.  
+Pro každý z těchto dílčích pohledů na model je následně poskytnut podrobný popis vyseče reality, který je jím zobrazen. Zároveň je také doručena argumentace pro jednotlivá rozhodnutí, učinněná v rámci procesu modelování pojmů, a tím tak odůvodněno, proč jsou konkrétní pojmy vymodelovány tak jak jsou vymodelovány a ne jinak.
+- [ ] AKTUALIZOVAT model pojmů výstupy
 ### Schema
 ![[../assets/analyzadomenyskautskychprogramu-metodika-UMLactivity.jpg]]
 ## Metodika tvorby DB schematu

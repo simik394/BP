@@ -1,3 +1,7 @@
+---
+up:
+  - "[[../README|README]]"
+---
 # Určení úspěšnosti dosažení
 ## Výběr pojmů
 ## Minimalistická implementace

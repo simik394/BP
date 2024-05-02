@@ -13,6 +13,8 @@ Protože se jim buď zatím nepodařilo najít přijatelný způsob využití, n
 Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a kam zapisovat. A zároveň naoplátku umožňoval v minimálním čase zobrazovat pouze specifické informace ani z malého, natož většího objemu záznamů*.
 ### Aspekt problému:
   Aktuálně **nemáme systém**, který by umožňil zároveň **snadné prohledávání i zápis**, ani samotné prohledávání sdílených znalostí.
+
+
 ### Cíl:
   Navrhnout systém pro sdílení *znalostí o připravených programech*. 
 
@@ -29,7 +31,10 @@ Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a ka
 
 
   Bez toho, aniž by navržený systém vyžadoval *více zdrojů na provoz* a *údržbu*, než sám ušetří při svém *využívání*.
- 
+### Záměr využití 
+
+Konkrétně by navržená báze měla být využita na sdílení všech, v rámci oddílu připravených programů, které by umožnilo přípravu lepších programů tak, že umožní asociaci zpětné vazby k zaznamenaným programům a následné efektivní prohledávání všech historických záznamů. 
+V takovém případě pak bude možné efektivněji využívat dříve realizované programy. Knkrétně tak, že historické záznamy realizovaných programů obohacené o zpětnou vazbu případně hodnocení, jsou následně možné využít při přípravě nových programů dvěma způsoby, zaprvé je možné identifikovat která rozhodnutí opakovaně nefungují a bylo by proto pravděpodobně lepší se jim v budoucnu vyhnout a zadruhé, je přesně naopak možné identifikovat rozhodnutí, která opakovaně vedla k dobrým výsledků a bylo by proto možná užitečné aplikovat konkrétní rozhodnutí i v budoucnu.
 ### Dílčí cíle + metody:
 
 | Vybrat sw řešení umožňující dosažení cíle práce.       | analýza literatury [ ] +<br>komparace, miltikriteriární výběr              |

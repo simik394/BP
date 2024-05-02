@@ -1,83 +1,8 @@
 ---
-aliases: ""
+aliases: 
+up:
+  - "[[../README|README]]"
 ---
-
-
-
-# Získání pojmů asociovaných se skautských programů
-## Výsledky analýzy (báze)
-V této kapitole budou prezentovány výsledky z analýzy existujících bází skautských programů.
-
-1. Vizualizovat/vypsat pojmy (asociovatelné/doporučené asociovat) se zaznamenávanými programy v dané bázi.
-2. Definovat kompetenční otázky, vycházející z otázek, na které daná báze "umí odpovídat".  
-### pojmy získané z báze chystamprogram %% fold %%
-#### Se záznamy asociuje pojmy..
-S každou aktivitu zaznamenanou v bází chystam program, mohou autoři asociovat pojmy z následujícího seznamu.
-Pro základní identifikaci aktivit jsou v této bázi použity pojmy:
-- Název aktivity - ( pojmemuj aktivitu )
-- Anotace - ( Krátce popiš aktivitu )
-- Výchovný cíl - ( co aktivita účastnikdm přinese? )
-
-Napojení na Stezku je zprostředkováno následujícími pojmy reprezentujícími jednotlivé kapitoly a podkapitoly Stezky. Narozdíl od prvních třech pojmů, které k sobě umožňují zapsat libovolný text, následující dva pojmy mohou nabývat pouze předdefinovaných hodnot odpovídajících oblastem Stezky.
-- oblast rozvoje - ()
-  {}
-- podoblast rozvoje - ()
-  {}
-
-Jako další pojmy s vymezenými přípustnými hodnotami představují:
-- druh aktivity - ()
-  { Pohyb; 	Tvořivost; 	zamýšlení; 	Diskuze; 	\#SkautingDoma; 	Skauting pro školy; 	Historie; 	Klima; 	Idea Vas }
-- doba trvání - ()
-  {}
-- doba na přípravu - ()
-  {}
-- místo konání - ()
-  { Místnost; 	Louka; 	Les; 	Město; 	Hřiště }
-- velikost skupiny - ()
-  {}
-- věk skupiny - ()
-  { Benjaminci; 	Vlčata a světlušky; 	Mladší skauti a skautky; 	Starši skauti a skautky; 	Mladši roveři a rangers; 	Starší roveři a rangers; 	3.-5. ročník ZS; 	6.-7. ročník ZS; 	8.-9. ročník ZŠ; 	Střední škola }
-- psychická náročnost - ( jak moc je aktivita psychicky náročná? 1 - v pohodě; 2 - může psychicky 3 - nutné ošetřeni psychiky po skončeni hry, nebo v jejím průběhu? )
-  { 1,2,3 } 
-- fyzická náročnost - ( jak moc je aktivita fyzicky náročnä? 1 - ani se nezapotiš, 2 - trochu zapotiš, - zapotiŠ se. )
-  { 1,2,3 } 
-
-Pro zbývající pojmy je však opět možné zapisovat libovolný text.
-- obsah programu - 
-- přílohy - 
-- napojení na stezku (stupeň, úkol) - ( K jakému úkolu ve stezce se aktivita vztahuje? )
-- pomůcky a materiál - ( Co bude k aktivitě potřeba? )
-- symbolický rámec (Motivace)- ( aktivita nějaký pňběh, motivaci apod.? )
-- reflexe - ( Návrat ke klíčovým momentům cele aktivity např. skrz otázky, diskuzi. )
-- bezpečnost - ( Na co dát pozor před, při a po realizaci aktivit )
-- metodické poznámky - ( Tipy a triky k aktivitě )
-- zdroje - ( pokud se při tvorbě aktivity inspirovali jinde, nebo jste aktivitu převzali, uveďte zdroj. )
-- autor - 
-#### Umí odpovídat na otázky..
-Prohledávání v bázi chystamprogram je potom umožněno v případě parametrů s vymezenými přípustnými hodnotami, pomocí rozklikávacích nabídek jednotlivých přípustných hodnot. Pro ty zbývající, u kterých je možné zapisovat libovolný text, je potom možné vyhledávat pomocí full-text vyhledávání podle přítomnosti konkrétních slov.
-### pojmy získané z báze encyklopedie her %% fold %% 
-Jelikož v rámci hledání pojmů ve 'Velké encyklopedii her' bylo prohledáno několik jejích částí, bude i výčet pojmů rozdělen podle těchto částí. Na úvod budou představeny pojmy získané z doporučení pro zapisování tradičních her, nacházejícím se v Úvodní kapitole čtvrté z knih. A na závěr pojmy získané ze symbolického značení definovaným shodně ve všech knihách. 
-#### Se záznamy asociuje pojmy.. 
-{název hry; alternativní název; průběh hry; úlohy hráčů; losování; rozpočitadla; herní území; jednolitý děj; zřetelné odlišených částí; formulky při hře užívané; tradiční dialogy; melodie v notách; nakreslený obrazec; místo; počet hráčů; jen chlapců, jen děvčat,; chlapci i děvčata; vek hráčů; věk nejmladšího; Věk nejstaršího; trvání; pokračující neomezenou dobu; Věci, které jsou ke hře potřebné; určitém ročním období; dokumentární fotografie; charakteristické okamžiky; soutěživá; nesoutěživá; Role hráčů; hra, při které rozhodují o vítězství a porážce jen schopnosti hráčů; hra, ve které má jistou úlohu náhoda a štěstí; tělesné vlastnosti a schopnosti uplatňující se ve hře; Hrubá motorika (rychlost, síla, obratnost, vytrvalost); jemná motorika (zručnost, rovnováha, nervosvalová koordinace, orientacev rostoru, speciální dovednosti); duševní schopnosti uplatňující se ve hře; povahové vlastnosti projevující se ve hře; prvky, ze kterých je hra složena}
-
-
-#### Umí odpovídat na otázky..
-- Pro které věkové kategorie je hra vhodná?
-- Je hra vhodná pro hochy, dívky, nebo všechny?
-- Kolik hráčů vyžaduje?
-- Které tělesné a duševní vlastnosti hra cvičí a rozvíjí?
-- Jaké pomůcky hra vyžaduje?
-
-### pojmy ze sdíleného disku
-#### rešerše
-Většina dokumentů na sdíleném disku jsou dokumenty využívané pro administrativní účely, nicméně několik složek je dedikováno záznamům o programech. 
-První složka pojmenovaná 'Výpravy' obsahuje jeden dokument pro jednu výpravu, s tím že zapsaných výprav je přibliženě 40. Jak výpravy souvisí s programem? A co vlastně jsou výpravy? 
-Výpravy představují události organizované typicky na jeden, či více dní, kdy vedoucí připravují pro děti nějaký program. Jelikož však i samotná výprava potřebuje přípravu, dá se říci, že samotná událost výpravy je připravovaným programem. Mezi typicky organizované události patří kromě výprav ještě schůzky a tábory. Všechny události přitom mají tu společnou vlastnost, že se skládají z určitých bloků, které mají nějaké naplánované pořadí, to se však může lišit od reálného průběhu události. Jednotlivé bloky pak představují konkrétní aktivity a hry, které jsou při události realizovány.
-Druhá složka nese název 'Programy' a obsahuje několik neroztříděných aktivit, které mohou být využity při libovolné připravované události. Navíc jsou zde však i podsložky pojmennované podle jednotlivých věkových skupin (vlčata, skauti), které obsahují popsané aktivity (programy) zamýšlené buď pro mladší, nebo pro starší.
-#### pojmy
-
-
-
 
 # Získání infrastruktury vyhovující požadavkům práce
 V této kapitole budou prezentovány výsledky z výběru softwaru, který by umožňil návrh báze odpovídající podmínkam stanovených v cíli této práce.
@@ -130,7 +55,7 @@ Finální pořadí kandidátů podle kriteria příjemnosti čtení jejich obsah
 	1. místo - Neo4j (1+1)
 	2. místo - gSheets (1+3), MySQL (2+2)
 A kandidátem vybraným v rámci hlediska čtení zapsaného obsahu se tak stává databáza Neo4j, jelikož umožňuje interakci pomocí dotazů s nejnižším počtem znaků z posuzovaných kandidátů a zároveň k interakci s ní není třeba žádný dodatečný software, který by nebyl zahrnut v základní instalaci.
-## Výsledky analýzy vybraných zdrojů (sw) %% fold %% 
+## Výsledky analýzy obsahu (sw) %% fold %% 
 Vybraným softwarem pro základ navrhované báze jsou tedy gDocs a gSheets jako uživatelské rozhraní pro zapisování údaje do báze a případnou modifikaci zapsaných údajů. Spolu s databází Neo4j sloužící jako uživatelské rozhraní k prohledávání zapsaných údajů v navrhované bazi skautských programů. V této části boudou představeny datové struktury využívané jednotlivými vybranými nástroji spolu s představením jejich možností vzájemné integrace.
 ### datové struktury (uložení)
 #### gWorkspace
@@ -175,10 +100,43 @@ API, to umožňuje pomocí http dotazů jak získávání obsahu jednotlivých d
 Možnosti programové interakce s databází Neo4j závisí na tom, která z implementací je využita. První varianta implementace Neo4j je cloud verze nabízená jako SaaS, spolu s poměrně dostatečným objemem zdrojů v rámci bezplatné úrovně účtu. Tato verze nicméně umožňuje programovou interakci, pouze pomocí knihoven, které jsou sice pro většinu nejběžnějších jazyků k dispozici, takže ve většině případů bude tato varianta nabízet dostatečnou konektivitu. Avšak v případě, jako dříve zmíněné Apps Scripts, které omezují možnosti externí komunikace pouze na http dotazy skrze předdefinovanou funkci, představuje absence podpory http komunikace v cloudové verzi Neo4j poměrně problém. Naštěstí existuje druhá varianta implementace, konkrétně takzvaná 'self-hosted' varianta, která může být například s využitím dockeru, nebo pomocí klasické instalace spůštěna na libovolné výpočetní instanci (počítači). A tato 'self-hosted' varianta umožňuje jak programovou interakci pomocí http tak pomocí knihoven pro konkrétní jazyky.
 ## Vyhodnocení výsledků analýzy (sw) %% fold %% 
 Jak bylo stanoveno v metodice, v rámci této části bude popsán způsob implementace navrhované báze, který by nevyžadoval víc prostředků na údružbu, než sám ušetří. Konkrétně, vzhledem k tomu, že aktuálně není k dispozici způsob jak změřit ušetřený čas při využívání báze, je vycházeno z předpokladu, že pokud budou vyžadovány lidské, či finanční prostředky na to, aby byla prováděna jednosměrná synchronizace zapsaného obsahu v gDocs do efektivně prohledatelné databáze, nebude ušetřený čas větší, než ten vyžadovaný na údržbu. Proto bude popsána možnost automatizace synchronizačního procesu taková, která by nevyžadovala finanční prostředky na svůj provoz. Rovněž budou definovány konkrétní funkcionality, na kterých závisí proveditelnost popsaného způsobu.
-
+- [ ] DODĚLAT [chap::teorie] [sect::interpretace.sw] CRITICAL [treq::180] [weig::8]
 Na základě vybraných kandidátů a jim dostupných možností bylo určeno
 ### automatizace jednosměrné synchronizace (zrcadlení)
 
 ### nasazení databáze
 
 ### funkcionality k ověření
+
+# Získání pojmů asociovaných se skautských programů
+## !-Hodnocení zdrojů
+### chystamprogram
+ - [ ] UČESAT [chap::teorie] [sect::hodnocení.chystamprogram]
+
+"""
+Její předností je zaměření na výchovnou a rozvojovou hodnotu programů. To je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
+Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. Jako větší nedostatek však vnímám spíše omezenou možnost poskytování zpětné vazby, a komentářu k zapsaným programům. Jediná možnost hodnocení, je totiž zaslání svého hodnocení pouze soukromě autorovi daného programu. Což opět pro interní využití, které by mělo umožňovat sdílení obsahu a na něm následnou spolupráci, není vyloženě příhodné.
+"""
+### encyklopedie her
+- [ ] UČESAT [chap::teorie] [sect::hodnocení.encyklopedie]
+
+"""
+Právě tento objem, pědstavuje hlavní pědnost tohoto zdroje. Jelikož vzhledem k době jeho vydání, existuje šance, že některé zapsané hry, nebudou již dnes pro děti zábavné. Avšak vzhledem ke zmíněnému objemu, by se musela od té doby změnit kompletně celé podstata dětských her, aby tento zdroj již nebyl relevantní, což tato práce nepředpokládá.
+S rokem vydání encyklopedie souvisí však i další nevýhody, které přehlédnout nelze. Klíčovým nedostatekm jou značně limitované možnosti efektivního prohledávání, které jsou implicitním důsledkem tištěné formy báze. Hry jsou sice jednotlivými knihami rozděleny podle prostědí do kterého jsou vhodné a dále pak pomocí kapitol. Navíc každá hra má vedle názvu uvedeno specifické značení, popsané na začátků každé z knih, které poskytuje informace například o tom, pro jaký počet, nebo věk hráču je hra vhodná. Nicméně to pořád znamená, že je třeba záznamy procházet manuálně a vizuálně kontrolovat, zda chci o dané hře číst více. Nemluvě o tom, že doplňování zpětné vazby či komentářů rovněž není možné.
+""""
+### -sdílený disk našeho oddílu
+- [ ] DODĚLAT [chap::teorie] [sect::hodnocení.sdílený disk]
+
+## Výsledky analýzy obsahu (báze)
+
+### rešerše obsahu sdíleného disku
+Většina dokumentů na sdíleném disku jsou dokumenty využívané pro administrativní účely, nicméně několik složek je dedikováno záznamům o programech. 
+První složka pojmenovaná 'Výpravy' obsahuje jeden dokument na jednu výpravu, s tím že zapsaných výprav je přibliženě 40. Jak výpravy souvisí s programem? A co vlastně jsou výpravy? 
+Výpravy představují události organizované typicky na jeden, či více dní, kdy vedoucí připravují pro děti nějaký program. Jelikož však i samotná výprava potřebuje přípravu, dá se říci, že samotná událost výpravy je připravovaným programem. Mezi typicky organizované události patří kromě výprav ještě schůzky a tábory. Všechny události přitom mají tu společnou vlastnost, že se skládají z určitých bloků, které mají nějaké naplánované pořadí, to se však může lišit od reálného průběhu události. Jednotlivé bloky pak představují konkrétní aktivity a hry, které jsou při události realizovány.
+Druhá složka nese název 'Programy' a obsahuje několik neroztříděných aktivit, které mohou být využity při libovolné připravované události. Navíc jsou zde však i podsložky pojmennované podle jednotlivých věkových skupin (vlčata, skauti), které obsahují popsané aktivity (programy) zamýšlené buď pro mladší, nebo pro starší.
+### pojmy získané analýzou
+- [ ] DOPLNIT seznam pojmů bez duplicit, formát viz reM [chap::teorie] [sect::pojmy-tabulka]
+
+
+
+
