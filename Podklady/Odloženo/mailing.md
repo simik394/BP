@@ -101,7 +101,7 @@ Pro získání odpovědi na otázku "Co zaznamenávat v bázi skautských progra
 - [ ] MOŽNO doplnit konkrétní specifika standartu UML [chap::Metodika] [sect::obecny postup analyzy bází]
 Navíc bylo v rámci kroku interpretace výsledků využito UML. Nástroj byl vybrán jelikož velmi dobře standartizuje způsoby modelování struktur i skutečnosti obecně. Ve verzi 2.5.1 ze které aktuálně výcházím, má i celou druhou polovinu zaměřenou na stavy, chování, akce interakce, až případy užití. Ač se jedná o velmi užitečnou část, na její využití v této práci pravděpodobně nedojde z důvodu času a rozsahu práce.
 Jediná odchylka od standardu UML bude provedena v případě generalizace, která místo běžné verze:
-![[myDM/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
+[[myDM/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
 bude pro generalizace využívat následující notaci.
 []
 Je tak učiněno z toho důvodu, že v používaném modelovacím nástroji (draw.io) je jednoduší s modelem manipulovat (posouvat jednotlivé části) v případě využití alternativní notace pro modelování generalizací.

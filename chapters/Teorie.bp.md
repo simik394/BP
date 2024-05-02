@@ -58,6 +58,7 @@ A kandidátem vybraným v rámci hlediska čtení zapsaného obsahu se tak stáv
 ## Výsledky analýzy obsahu (sw) %% fold %% 
 Vybraným softwarem pro základ navrhované báze jsou tedy gDocs a gSheets jako uživatelské rozhraní pro zapisování údaje do báze a případnou modifikaci zapsaných údajů. Spolu s databází Neo4j sloužící jako uživatelské rozhraní k prohledávání zapsaných údajů v navrhované bazi skautských programů. V této části boudou představeny datové struktury využívané jednotlivými vybranými nástroji spolu s představením jejich možností vzájemné integrace.
 ### datové struktury (uložení)
+
 #### gWorkspace
 Oba tyto nástroje z prostředí gWorkspace (gDocs, gSheets) mají jeden aspekt své struktury shodný. A to sice ten že v obou případech se jedná o soubory, uložené na disku google (gDrive). Každý ze souborů pak má přiřazené unikátní id, které je mimochodem součástí webové adresy (url) využité pro zobrazení GUI editoru daného souboru. Pokud tedy v prohlížeči bude otevřen jeden konkrétní soubor tabulek z disku s identifikátorem ID, url zobrazované ve vyhledávacím řádku prohlížeče bude `https://docs.google.com/spreadsheets/d/{ID}/edit#gid=0` []. Adresa funguje i v případě vynechání textu za posledním lomítkem, i v případě že je text "spreadsheets" nahrazen textem "docs" a je použito ID náležící dokumentu místo tabulek. Kromě id má také každý soubor přiřazený název, typ (gdocs,gsheets,pdf,...) a další. Navíc může být přiřazen například popis, který se zobrazuje v GUI gDrive i gDocs, ale i další volitelné atributy se kterými je však možno interagovat jen pomocí REST API [ ]. 
 
@@ -65,6 +66,7 @@ Vnitřní strukturu souborů už však mají oba nástroje specifickou.
 V případě dokumentů, je každý tvořen například záhlavím, zápatím a tělem dokumentu (nejedná se o kompletní výčet) [ ]. Tělo dokumentu je pak dále členěno na jednotlivé elementy. V praksi je elementem každý nový řádek vytvořený stisknutím klávesy 'enter', případně vložený objekt jako třeba tabulka, nebo obrázek. Každý elemant pak může mít přířazené hodnoty reprezentující jeho formátování, ale i konkrétní text zapsaný v daném elementu. Navíc, protože pro dokumenty je důležité pořadí zapsaných elementů, je s každým elementem asociován i identifikátor vyjadřující pořadí daného elementu v rámci těla dokumentu [ ]. Je tak například možné získat na jakých pozicích, z hlediska pořadí v dokumentu, jsou nadpisy úrovně 1 a pomocí jednoduchých aritmetických operací získat na jakých pozicích v dokumentu začíná i končí elementy pod konkrétním nadpisem 1. urovně.
 
 V případě tabulek, jsou jednotlivé soubory organizovány do listů (stránek), s tím že každý list je tvořen tabulkovou strukturou ve které může být zapsáno i více tabulek. Konkrétní rozsahy v rámci listů mohou být také pojménovány a reference na ně tak mohou být realizovány pomocí tohoto pojmenování [ ]. Jelikož se však jedná spíše o sekundární rozhraní pro navrhovanou bázi, které je zamýšleno zejména na zapisování dalo by se říci konfiguračních údajů (dostupné materiály, seznam členů, výchovné cíle), popis struktury jeho souborů není rozebírán do větších podrobností.
+
 #### Neo4j
 Neo4j, vzhledem ke své podstatě databáze, má strukturu uložených údajů značně odlišnou. Struktura označovaná jako 'property graph' využitá Neo4j k uložení zapsaných dat, je na disku realizována pomocí několika odlišných souborů. To konkrétně znamená, že každá část uložené grafové struktury (nodes-vrcholy, relationships-vztahy, lables-popisky/štítky, properties-vlastnosti) je uložena v separátním souboru [ ].
 Všechny tyto čtyři soubory se přitom skládají ze záznamů o fixní délce bytů, dalo by se na ně tedy pohlížet jako na tabulky, ve kterých je možné velmi rychle přistupovat ke konkrétním záznamům, pokud známe pořadí ve kterém byly do souboru zapsány. Právě proto je databází využita tato fixní struktura, jelikož je s jeji pomocí je možné efektivní propojení jednotlivých částí napříč čtyřmi separátními soubory. Například pokud je k vrcholu přiřazená vlastnost, bude ve vyhrazeném místě (bytech) pro zaznamenání přiřazených vlastností v daném záznamu v souboru vrcholů uvedeno pořadí ve kterém byla přiřazená vlastnost zapsána do souboru obsahujícího vlastnosti. Dalo by se tak říci, že pořadí zápisu jednotlivých záznamů do souborů, představují primární klíče pro jednotlivé "tabulky" a zachycení grafové struktury je dosaženo pomocí zápisu těchto klíčů k ostatním souvisejícím částem jako cizích klíčů. 
@@ -92,16 +94,24 @@ Pro záznam v souboru ukládajícím vztahy je pak popsána následující struk
 Vlastnosti (properties) jsou potom uloženy následujícím způsobem. Opět je využita fixní velikost pro jednotlivé záznamy. S tím že každý záznam vlastnosti obsahuje odkaz na další související záznam. To je z důvodu, že vzhledem k fixní velikosti uložených vrcholů a vztahů, jsou k těmto částem grafu zaznamenány pouze odkazy na první přiřazenou vlastnost, a ostatní přiřazené vlastnosti jsou pak připojeny právě pomocí odkazu na následující záznam vlastnosti obsažený v záznamu první přířazené vlastnosti k vrcholu, či vztahu. Podobný princip je pak aplikován i při procházení všech ostatních prvků v zaznamenaném grafu. Kromě tedy odkazu na další záznam v tomto 'řetězu vlastností', je u každého záznamu uveden datový typ dané vlastnosti (jakýkoliv primitivní typ podporováný Java Virtual Machine, strings, arrays JVM primitivních typů), spolu s odkazem na soubor 'indexu vlastností', který obsahuje jména vlastností použitých v bázi. A na závěr je u každého záznamu vlastnosti buď uložena samotná hodnota vlastnosti, pokud je dostatečně malá, aby se vešla do fixně velkého záznamu. Nebo v případě, že velikost hodnoty přesahuje velikost místa poskytnutého záznamem fixní velikosti, je uložen pouze odkaz na zapsanou hodnotu vlastnosti, a samotná hodnota je uložená do speciálního dynamického uložiště vlastností, které je realizováno opět samostatným souborem. Ve skutečnosti Neo4j disponuje dvěma těmito dynamickými uložišti. První je optimalizováno pro uložení delších textů (stringů) a podporuje například full-text indexování a následné prohledávání těchto textů podle obsaženého textu. A druhé optimalizované pro uložení delších polí (arrays), typicky ubsahujících čísla, v oblasti strojového učení a neuro sítí také označovány jako vektory, nebo tensory [ ]. 
 
 Toto dynamické uložiště polí proto může být využito například pro uložení takzvaných 'embedded' hodnot, která jsou získány "zakódováním" nějakého vstupu (text, obrázek,...) pomocí AI modelu. Takto získané hodnoty se následně využívají k 'Retrieve Augmented Genaration', což prakticky znamená proces, ve kterém jsou nejdříve vyhledány záznamy, jejichž 'embedded' hodnota je vektorově podobná 'embedded' hodnotě uživatelem zadaného dotazu. Z nalezených vektorově podobných záznamů je následně vybráno vrchních x, a ty jsou poskytnuty některému z jazykových modelů spolu s uživatelovým dotazem, aby na základě takto obohacených podkladů teprve vygeneroval odpověď zobrazenou nakonec uživateli.
+
 ### integrovatelnost (přístup)
+
 #### gWorkspace
 Interakci s vybranými nástroji z gWorkspace pomocí programového kódů zprostředkovává googlem provozované REST 
 API, to umožňuje pomocí http dotazů jak získávání obsahu jednotlivých dokumentů, tak i modifikaci jejich obsahu. Pro použití tohoto API je však potřeba každý dotaz adekvátně autorizovat [ ]. Existuje nicméně ještě jedna možnost interakce s dokumenty pomocí kódu, která ale nevyžaduje explicitně autorizovat každý dotaz. Jedná se o interakci se službami v rámci gWorkspace pomocí služby google Apps Scripts, která je rovněž zahrnuta v gWorkspace. Samotné Apps Scripts představují službu, která umožňuje napsání téměř libovolného javascript kódů a jeho spouštění v rámci definovaných limitů zdarma. Scripty mohou být spouštěny buď časovačem, nebo přes "zavolání" url adresy přiřazené automaticky implementaci daného kódu napsaného v Apps Scripts. Hlavní výhodou při použití Apps Scripts je to, že rozhraní ostatních služeb (gDocs, gSheets, gDrive,..) není potřeba volat pomocí REST API a http dotazů, ale stačí rozhraní dané služby přidat jako knihovnu ke psanému scriptu. Jedinkrát při prvním spuštění je třeba odsouhlasit, že jako majitel účtu souhlasíte s tím, aby daný script měl přístup k vybrané službě, a tím starosti s autorizací požadavků končí [ ]. Kromě denního limitu na počet spuštění, je bezplatné využití této služby vykoupeno ještě jedním podstatným omezením. A to sice, že není možné provádět "volání ven" ze skriptu (externí komunikaci) jinak než s využitím předdefinované funkce 'UrlFetch()'. Což zároveň znamená, že i pokud se podaří dostat do skriptu knihovnu například pro komunikaci s databází nebude tato knihovna fungovat [ ].
+
 #### Neo4j 
 Možnosti programové interakce s databází Neo4j závisí na tom, která z implementací je využita. První varianta implementace Neo4j je cloud verze nabízená jako SaaS, spolu s poměrně dostatečným objemem zdrojů v rámci bezplatné úrovně účtu. Tato verze nicméně umožňuje programovou interakci, pouze pomocí knihoven, které jsou sice pro většinu nejběžnějších jazyků k dispozici, takže ve většině případů bude tato varianta nabízet dostatečnou konektivitu. Avšak v případě, jako dříve zmíněné Apps Scripts, které omezují možnosti externí komunikace pouze na http dotazy skrze předdefinovanou funkci, představuje absence podpory http komunikace v cloudové verzi Neo4j poměrně problém. Naštěstí existuje druhá varianta implementace, konkrétně takzvaná 'self-hosted' varianta, která může být například s využitím dockeru, nebo pomocí klasické instalace spůštěna na libovolné výpočetní instanci (počítači). A tato 'self-hosted' varianta umožňuje jak programovou interakci pomocí http tak pomocí knihoven pro konkrétní jazyky.
+
 ## Vyhodnocení výsledků analýzy (sw) %% fold %% 
+- [ ] [Ttyp::DODĚLAT]|[Cdist::1]|[HHTD::8] 🚧💣🚧 [treq::180] #p/bp/teorie/sw/vyhodnoceníVýsledkůAnalýzy #p/bp/core  
+
 Jak bylo stanoveno v metodice, v rámci této části bude popsán způsob implementace navrhované báze, který by nevyžadoval víc prostředků na údružbu, než sám ušetří. Konkrétně, vzhledem k tomu, že aktuálně není k dispozici způsob jak změřit ušetřený čas při využívání báze, je vycházeno z předpokladu, že pokud budou vyžadovány lidské, či finanční prostředky na to, aby byla prováděna jednosměrná synchronizace zapsaného obsahu v gDocs do efektivně prohledatelné databáze, nebude ušetřený čas větší, než ten vyžadovaný na údržbu. Proto bude popsána možnost automatizace synchronizačního procesu taková, která by nevyžadovala finanční prostředky na svůj provoz. Rovněž budou definovány konkrétní funkcionality, na kterých závisí proveditelnost popsaného způsobu.
-- [ ] [Ttyp::DODĚLAT]|[Cdist::4] 🚧💣🚧 #p/bp/teorie/sw/vyhodnoceníVýsledkůAnalýzy #p/bp/core [treq::180] 
+
 Na základě vybraných kandidátů a jim dostupných možností bylo určeno
+...
+
 ### automatizace jednosměrné synchronizace (zrcadlení)
 
 ### nasazení databáze
@@ -109,23 +119,28 @@ Na základě vybraných kandidátů a jim dostupných možností bylo určeno
 ### funkcionality k ověření
 
 # Získání pojmů asociovaných se skautských programů
-## !-Hodnocení zdrojů
+
+## Hodnocení zdrojů
+
 ### chystamprogram
- - [ ] [Ttyp::UČESAT]|[Cdist::9] ||: #p/bp/teorie/pojmy/hodnocení/chp
+ - [ ] [Ttyp::UČESAT]|[Cdist::9]|[HHTD::2] ||: #p/bp/teorie/pojmy/hodnocení/chp
 
 """
 Její předností je zaměření na výchovnou a rozvojovou hodnotu programů. To je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
 Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. Jako větší nedostatek však vnímám spíše omezenou možnost poskytování zpětné vazby, a komentářu k zapsaným programům. Jediná možnost hodnocení, je totiž zaslání svého hodnocení pouze soukromě autorovi daného programu. Což opět pro interní využití, které by mělo umožňovat sdílení obsahu a na něm následnou spolupráci, není vyloženě příhodné.
 """
+
 ### encyklopedie her
-- [ ] [Ttyp::UČESAT]|[Cdist::9] #p/bp/teorie/pojmy/hodnocení/encyk
+- [ ] [Ttyp::UČESAT]|[Cdist::9]|[HHTD::2] #p/bp/teorie/pojmy/hodnocení/encyk
 
 """
 Právě tento objem, pědstavuje hlavní pědnost tohoto zdroje. Jelikož vzhledem k době jeho vydání, existuje šance, že některé zapsané hry, nebudou již dnes pro děti zábavné. Avšak vzhledem ke zmíněnému objemu, by se musela od té doby změnit kompletně celé podstata dětských her, aby tento zdroj již nebyl relevantní, což tato práce nepředpokládá.
 S rokem vydání encyklopedie souvisí však i další nevýhody, které přehlédnout nelze. Klíčovým nedostatekm jou značně limitované možnosti efektivního prohledávání, které jsou implicitním důsledkem tištěné formy báze. Hry jsou sice jednotlivými knihami rozděleny podle prostědí do kterého jsou vhodné a dále pak pomocí kapitol. Navíc každá hra má vedle názvu uvedeno specifické značení, popsané na začátků každé z knih, které poskytuje informace například o tom, pro jaký počet, nebo věk hráču je hra vhodná. Nicméně to pořád znamená, že je třeba záznamy procházet manuálně a vizuálně kontrolovat, zda chci o dané hře číst více. Nemluvě o tom, že doplňování zpětné vazby či komentářů rovněž není možné.
 """"
+
 ### sdílený disk našeho oddílu
-- [ ] [Ttyp::DODĚLAT]|[Cdist::6] ||: #p/bp/teorie/pojmy/hodnocení/disk 
+- [ ] [Ttyp::DODĚLAT]|[Cdist::6]|[HHTD::3] ||: #p/bp/teorie/pojmy/hodnocení/disk 
+
 
 ## Výsledky analýzy obsahu (báze)
 
@@ -134,8 +149,9 @@ Většina dokumentů na sdíleném disku jsou dokumenty využívané pro adminis
 První složka pojmenovaná 'Výpravy' obsahuje jeden dokument na jednu výpravu, s tím že zapsaných výprav je přibliženě 40. Jak výpravy souvisí s programem? A co vlastně jsou výpravy? 
 Výpravy představují události organizované typicky na jeden, či více dní, kdy vedoucí připravují pro děti nějaký program. Jelikož však i samotná výprava potřebuje přípravu, dá se říci, že samotná událost výpravy je připravovaným programem. Mezi typicky organizované události patří kromě výprav ještě schůzky a tábory. Všechny události přitom mají tu společnou vlastnost, že se skládají z určitých bloků, které mají nějaké naplánované pořadí, to se však může lišit od reálného průběhu události. Jednotlivé bloky pak představují konkrétní aktivity a hry, které jsou při události realizovány.
 Druhá složka nese název 'Programy' a obsahuje několik neroztříděných aktivit, které mohou být využity při libovolné připravované události. Navíc jsou zde však i podsložky pojmennované podle jednotlivých věkových skupin (vlčata, skauti), které obsahují popsané aktivity (programy) zamýšlené buď pro mladší, nebo pro starší.
-### pojmy získané analýzou
-- [ ] [Ttyp::UDĚLAT]|[Cdist::4] ||: #p/bp/teorie/pojmy/výsledky seznam pojmů bez duplicit, formát viz reM 
+
+### pojmy získané analýzou (seznam)
+- [ ] [Ttyp::UDĚLAT]|[Cdist::1]|[HHTD::7] 🚧💣🚧||: #p/bp/teorie/pojmy/výsledky seznam pojmů bez duplicit, formát viz reM 
 
 
 
