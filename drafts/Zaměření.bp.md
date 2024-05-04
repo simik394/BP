@@ -11,7 +11,7 @@ _(chybějící zápis)_ -Proč není zapsaný? ->
 Protože lidé nevidí dostatečný smysl v zápisu možných informací. -Proč?-> 
 Protože se jim buď zatím nepodařilo najít přijatelný způsob využití, nebo pro vytvořené záznamy prostě žádný důvod nevidí. -Proč-> 
 Protože *aktuálně neexistuje žádný systém, který by říkal co, jak a kam zapisovat. A zároveň naoplátku umožňoval v minimálním čase zobrazovat pouze specifické informace ani z malého, natož většího objemu záznamů*.
-### Aspekt problému:
+#### Aspekt problému:
   Aktuálně **nemáme systém**, který by umožňil zároveň **snadné prohledávání i zápis**, ani samotné prohledávání sdílených znalostí.
 
 

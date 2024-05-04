@@ -4,15 +4,17 @@ up:
   - "[[../README|README]]"
 ---
 
+#####  Dotazy
+- jak moc bych měl popisovat výsledný model? Stačí stručně argumentovat jednotlivé prvky, proč jsou modelovány tak jak jsou?
 
 # Model pojmů
-## základní definice
+## Základní definice
 Vybrané základní pojmy využité jednotlivými existujícími bázemi jsou:
 - chystamprogram - program, aktivita
 - encyklopedie her - hra
 - sdílený disk - program, událost
 ![[../assets/images/Pasted image 20240425140659.png]]
-- [ ] [Ttyp::UDĚLAT]|[Cdist::2]|[HHTD::5] #p/bp/vypracování/modelPojmů/základní REASONING pro základní definici
+- [ ] [Ttyp::UDĚLAT]|[Cdist::3]|[HHTD::5] ||: #p/bp/vypracování/modelPojmů/základní REASONING pro základní definici
 
 ## Rozšíření základních tříd
 
@@ -20,8 +22,7 @@ Vybrané základní pojmy využité jednotlivými existujícími bázemi jsou:
 - chystamprogram - Název, Anotace, Výchovný cíl, oblast rozvoje, podoblast rozvoje, napojení na stezku, obsah programu, přílohy, symbolický rámec, reflexe, zdroje, autor
 - sdílený disk - zpětná vazba
 - encyklopedie her - Název, Alternativní název
-- [ ] [Ttyp::UDĚLAT]|[Cdist::2]|[HHTD::4] #p/bp/vypracování/modelPojmů/rozšířený/program model + reasoning
-
+- [ ] [Ttyp::UDĚLAT]|[Cdist::3]|[HHTD::4] ||: #p/bp/vypracování/modelPojmů/rozšířený/program model + reasoning
 
 
 ### aktivita
@@ -29,29 +30,48 @@ Vybrané základní pojmy využité jednotlivými existujícími bázemi jsou:
 - encyklopedie her - 'věci, které jsou ke hře potřebné'(~pomůcky a materiál), počet hráčů(~velikost skupiny), místo(~místo konání), věková kategorie(~věk skupiny), věk nejmladšího; Věk nejstaršího, trvání({doba trvání})
 
 
-- [ ] [Ttyp::UDĚLAT]|[Cdist::3]|[HHTD::4] #p/bp/vypracování/modelPojmů/rozšířený/aktivita  model + reasoning
-
+- [ ] [Ttyp::UDĚLAT]|[Cdist::3]|[HHTD::4]  ||: #p/bp/vypracování/modelPojmů/rozšířený/aktivita  model + reasoning
 
 
 ### hra
 - encyklopedie her - průběh hry; úlohy hráčů; losování; rozpočitadla; herní území; jednolitý děj; zřetelné odlišených částí; formulky při hře užívané; tradiční dialogy; melodie v notách; nakreslený obrazec; jen chlapců, jen děvčat,; chlapci i děvčata; pokračující neomezenou dobu; určitém ročním období; dokumentární fotografie; charakteristické okamžiky; soutěživá; nesoutěživá; Role hráčů; hra, při které rozhodují o vítězství a porážce jen schopnosti hráčů; hra, ve které má jistou úlohu náhoda a štěstí; tělesné vlastnosti a schopnosti uplatňující se ve hře; Hrubá motorika (rychlost, síla, obratnost, vytrvalost); jemná motorika (zručnost, rovnováha, nervosvalová koordinace, orientacev rostoru, speciální dovednosti); duševní schopnosti uplatňující se ve hře; povahové vlastnosti projevující se ve hře; prvky, ze kterých je hra složena(Běh — skákání — zvedání a nošení — házení a vrhání — odrážení — chytání — zápasení — přetahování — taneční pohyby — zpěv — dialog — hraní rolí podobných divadlu — schovávání a hledání.)}
 
 
-- [ ] [Ttyp::UDĚLAT]|[Cdist::3]|[HHTD::5] #p/bp/vypracování/modelPojmů/rozšířený/hra model + reasoning
-
-
+- [ ] [Ttyp::UDĚLAT]|[Cdist::3]|[HHTD::5]  ||: #p/bp/vypracování/modelPojmů/rozšířený/hra model + reasoning
 
 ### událost
 sdílený disk - plánovaný průběh, skutečný průběh
 
-- [ ] [Ttyp::UDĚLAT]|[Cdist::4]|[HHTD::3] #p/bp/vypracování/modelPojmů/rozšířený/událost model + reasoning
+- [ ] [Ttyp::UDĚLAT]|[Cdist::4]|[HHTD::3]  ||:  #p/bp/vypracování/modelPojmů/rozšířený/událost model + reasoning
 
-
-### Výsledek interpretace výsledků analýzy obsahu exist. bází %% fold %% 
+# Schema databáze
+## Rozšířená definice %% fold %% 
+jen uvedený celý diagram + popisek(caption)
 ![[../assets/analyzabazi.vysledky.interpretace.svg]]
-# schema databáze
 
-- [ ] [Ttyp::UDĚLAT]|[Cdist::2]|[HHTD::12] 🚧💣🚧 #p/bp/vypracování/schemaDB/transform popsat relevantní transformace vycházející z best practices a na výsledku vysvětlit jak se projevily
+## Nejlepší praktiky
+- [ ] [Ttyp::UDĚLAT]|[Cdist::1]|[HHTD::6] 🚧💣🚧 #p/bp/vypracování/schemaDB/bestPractices popsat nejlepší praktiky pro modelování grafů v Neo4j (postupně jednotlivé prvky(4))
+### nodes
 
+### lables
+
+### relationships
+
+### properties
+
+
+
+## Návrh schématu
+- [ ] [Ttyp::UDĚLAT]|[Cdist::2]|[HHTD::12] 🚧💣🚧 #p/bp/vypracování/schemaDB/transform popsat provedené transformace vycházející z best practices a na výsledku vysvětlit jak se projevily
+	- [ ] [testm::40min]|[HHTD::3]|[%targ::0]|[wtarg::200] - lables + nodes
+	- [ ] [testm::30min]|[HHTD::3]|[%targ::0]|[wtarg::100] - relationships
+	- [ ] [testm::40min]|[HHTD::3]|[%targ::0]|[wtarg::200] - properties
+
+
+### lables, nodes (transformed)
+
+### relationships (transformed)
+
+### properties (transformed)
 
 
