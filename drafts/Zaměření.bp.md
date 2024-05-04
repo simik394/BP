@@ -41,7 +41,6 @@ V takovém případě pak bude možné efektivněji využívat dříve realizova
 | ------------------------------------------------------ | -------------------------------------------------------------------------- |
 | Vybrat výseč reality relevantní pro skautské programy. | analýza literatury [ ] + <br>konceptuální modelování :UML-classDiagram [ ] |
 | Navrhnout schema pro databázi.                         | Z modelu pojmů podle doporučených postupů, na základě využití báze []      |
-| Ověřit úspěšnost dosažení výsledků. <br>               | experiment/implementac []                                                  |
 ## V systému  %% fold %%
 ### Název práce:
 Návrh báze znalostí skautských programů

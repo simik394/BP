@@ -4,11 +4,17 @@ up:
   - "[[../README|README]]"
 ---
 
+##### TODO
+- [ ] [Ttyp::UČESAT]|[Cdist::5]|[HHTD::2] ||: #p/bp/teorie/pojmy/hodnocení/chp
+- [ ] [Ttyp::UČESAT]|[Cdist::6]|[HHTD::2] #p/bp/teorie/pojmy/hodnocení/encyk
+- [ ] [Ttyp::DODĚLAT]|[Cdist::7]|[HHTD::3] ||: #p/bp/teorie/pojmy/hodnocení/disk 
+
+- [ ] [Ttyp::UDĚLAT]|[Cdist::1]|[HHTD::7] 🚧💣🚧 
+    ||: #p/bp/teorie/pojmy/výsledky seznam pojmů bez duplicit, formát viz reM  #p/bp/core 
+
 # Získání infrastruktury vyhovující požadavkům práce
 V této kapitole budou prezentovány výsledky z výběru softwaru, který by umožňil návrh báze odpovídající podmínkam stanovených v cíli této práce.
-
-## Výběr zdrojů k analýze (sw)
-
+## Hodnocení zdrojů (sw)
 ### Vyhodnocení hlediska zápisu pro všechny kandidáty %% fold %% 
 Vyhodnocení tohoto hlediska je velmi přímočaré. Vzhledem k tomu, že tento návrh klade velký důraz na minimalizaci nových nároků na uživatele. Zejména pak na nároky pro zapisování, jelikož pro navrhovanou bázi je klíčové, aby do báze uživatelé zapisovali a sdíleli tak své zkušenosti z připravených programů, čímž budou obohacovat prohledatelný obsah. Proto z tohoto hlediska budou vyřazeni kandidáti, kteří umožňují zapisování obsahu jen pomocí specifického jazyka.
 Jak bylo řečeno v metodice, ani jeden z produktů společnosti Google toto kritérium nesplňuje, zůstávají tedy jako přijatelné pro návrh. Oproti tomu, ani jedna z databází přes toto kritérium neprojde. Pro interakci s databází MySQL je totiž potřeba využít SQL (Structured Query Language) a v případě Neo4j se jedná prozměnu o 'Cypher', což je také jazyk, akorát uzpůsobený k prohledávání grafových struktur.
@@ -75,9 +81,7 @@ A kandidátem vybraným v rámci hlediska čtení zapsaného obsahu se tak stáv
 
 ## Výsledky analýzy obsahu (sw) %% fold %% 
 Vybraným softwarem pro základ navrhované báze jsou tedy gDocs a gSheets jako uživatelské rozhraní pro zapisování údaje do báze a případnou modifikaci zapsaných údajů. Spolu s databází Neo4j sloužící jako uživatelské rozhraní k prohledávání zapsaných údajů v navrhované bazi skautských programů. V této části boudou představeny datové struktury využívané jednotlivými vybranými nástroji spolu s představením jejich možností vzájemné integrace.
-
 ### datové struktury (uložení)
-
 #### gWorkspace
 Oba tyto nástroje z prostředí gWorkspace (gDocs, gSheets) mají jeden aspekt své struktury shodný. A to sice ten že v obou případech se jedná o soubory, uložené na disku google (gDrive). Každý ze souborů pak má přiřazené unikátní id, které je mimochodem součástí webové adresy (url) využité pro zobrazení GUI editoru daného souboru. Pokud tedy v prohlížeči bude otevřen jeden konkrétní soubor tabulek z disku s identifikátorem ID, url zobrazované ve vyhledávacím řádku prohlížeče bude `https://docs.google.com/spreadsheets/d/{ID}/edit#gid=0` []. Adresa funguje i v případě vynechání textu za posledním lomítkem, i v případě že je text "spreadsheets" nahrazen textem "docs" a je použito ID náležící dokumentu místo tabulek. Kromě id má také každý soubor přiřazený název, typ (gdocs,gsheets,pdf,...) a další. Navíc může být přiřazen například popis, který se zobrazuje v GUI gDrive i gDocs, ale i další volitelné atributy se kterými je však možno interagovat jen pomocí REST API [ ]. 
 
@@ -115,69 +119,78 @@ Vlastnosti (properties) jsou potom uloženy následujícím způsobem. Opět je 
 Toto dynamické uložiště polí proto může být využito například pro uložení takzvaných 'embedded' hodnot, která jsou získány "zakódováním" nějakého vstupu (text, obrázek,...) pomocí AI modelu. Takto získané hodnoty se následně využívají k 'Retrieve Augmented Genaration', což prakticky znamená proces, ve kterém jsou nejdříve vyhledány záznamy, jejichž 'embedded' hodnota je vektorově podobná 'embedded' hodnotě uživatelem zadaného dotazu. Z nalezených vektorově podobných záznamů je následně vybráno vrchních x, a ty jsou poskytnuty některému z jazykových modelů spolu s uživatelovým dotazem, aby na základě takto obohacených podkladů teprve vygeneroval odpověď zobrazenou nakonec uživateli.
 
 ### integrovatelnost (přístup)
-
 #### gWorkspace
 Interakci s vybranými nástroji z gWorkspace pomocí programového kódů zprostředkovává googlem provozované REST 
-API, to umožňuje pomocí http dotazů jak získávání obsahu jednotlivých dokumentů, tak i modifikaci jejich obsahu. Pro použití tohoto API je však potřeba každý dotaz adekvátně autorizovat [ ]. Existuje nicméně ještě jedna možnost interakce s dokumenty pomocí kódu, která ale nevyžaduje explicitně autorizovat každý dotaz. Jedná se o interakci se službami v rámci gWorkspace pomocí služby google Apps Scripts, která je rovněž zahrnuta v gWorkspace. Samotné Apps Scripts představují službu, která umožňuje napsání téměř libovolného javascript kódů a jeho spouštění v rámci definovaných limitů zdarma. Scripty mohou být spouštěny buď časovačem, nebo přes "zavolání" url adresy přiřazené automaticky implementaci daného kódu napsaného v Apps Scripts. Hlavní výhodou při použití Apps Scripts je to, že rozhraní ostatních služeb (gDocs, gSheets, gDrive,..) není potřeba volat pomocí REST API a http dotazů, ale stačí rozhraní dané služby přidat jako knihovnu ke psanému scriptu. Jedinkrát při prvním spuštění je třeba odsouhlasit, že jako majitel účtu souhlasíte s tím, aby daný script měl přístup k vybrané službě, a tím starosti s autorizací požadavků končí [ ]. Kromě denního limitu na počet spuštění, je bezplatné využití této služby vykoupeno ještě jedním podstatným omezením. A to sice, že není možné provádět "volání ven" ze skriptu (externí komunikaci) jinak než s využitím předdefinované funkce 'UrlFetch()'. Což zároveň znamená, že i pokud se podaří dostat do skriptu knihovnu například pro komunikaci s databází nebude tato knihovna fungovat [ ].
+API, to umožňuje pomocí http dotazů jak získávání obsahu jednotlivých dokumentů, tak i modifikaci jejich obsahu. Pro použití tohoto API je však potřeba každý dotaz adekvátně autorizovat [ ]. Existuje nicméně ještě jedna možnost interakce s dokumenty pomocí kódu, která ale nevyžaduje explicitně autorizovat každý dotaz. Jedná se o interakci se službami v rámci gWorkspace pomocí služby google Apps Scripts, která je rovněž zahrnuta v gWorkspace. 
+Samotné Apps Scripts představují službu, která umožňuje napsání téměř libovolného javascript (Ve skutečnosti je to googlem přizpůsobená verze javascriptu, ale liší se pouze v drobnostech, upravených pravděpodobně proto, aby zneužívání této služby bylo složitější a vyskytovalo se tak méně často. Konkrétní příklad je uveden dále v textu.) kódu a jeho spouštění v rámci stanovených limitů zdarma. Scripty mohou být spouštěny buď časovačem, nebo přes "zavolání" url adresy přiřazené automaticky implementaci daného kódu napsaného v Apps Scripts. 
+Hlavní výhodou při použití Apps Scripts je to, že rozhraní ostatních služeb (gDocs, gSheets, gDrive,..) není nutné volat pomocí REST API a http dotazů (vyžaduje manuální autorizaci), ale stačí rozhraní dané služby přidat jako knihovnu ke psanému scriptu. Jedinkrát při prvním spuštění je pak třeba odsouhlasit, že jako majitel účtu souhlasíte s tím, aby daný script měl přístup k využité službě, a tím starosti s autorizací požadavků končí [ ]. Kromě denního limitu na počet spuštění, je bezplatné využití této služby vykoupeno ještě jedním podstatným omezením. A to sice, že není možné provádět "volání ven" ze skriptu (externí komunikaci) jinak než s využitím předdefinované funkce 'UrlFetch()'. Což zároveň znamená, že i pokud se podaří dostat do skriptu knihovnu například pro komunikaci s databází nebude tato knihovna fungovat [ ].
 
 #### Neo4j 
 Možnosti programové interakce s databází Neo4j závisí na tom, která z implementací je využita. První varianta implementace Neo4j je cloud verze nabízená jako SaaS, spolu s poměrně dostatečným objemem zdrojů v rámci bezplatné úrovně účtu. Tato verze nicméně umožňuje programovou interakci, pouze pomocí knihoven, které jsou sice pro většinu nejběžnějších jazyků k dispozici, takže ve většině případů bude tato varianta nabízet dostatečnou konektivitu. Avšak v případě, jako dříve zmíněné Apps Scripts, které omezují možnosti externí komunikace pouze na http dotazy skrze předdefinovanou funkci, představuje absence podpory http komunikace v cloudové verzi Neo4j poměrně problém. Naštěstí existuje druhá varianta implementace, konkrétně takzvaná 'self-hosted' varianta, která může být například s využitím dockeru, nebo pomocí klasické instalace spůštěna na libovolné výpočetní instanci (počítači). A tato 'self-hosted' varianta umožňuje jak programovou interakci pomocí http tak pomocí knihoven pro konkrétní jazyky.
 
-## Vyhodnocení výsledků analýzy (sw)
-- [ ] [Ttyp::DODĚLAT]|[Cdist::1]|[HHTD::8] 🚧💣🚧  [treq::180] 
-     ||:  #p/bp/teorie/sw/vyhodnoceníVýsledkůAnalýzy #p/bp/core  
-      {není potřeba mít hotovou dříve než přijde na řadu realizace ověřování úspěšnosti dosažení výsledků (protože klíčové funkcionality jenž je třeba ověřit implementací)}
 
-Jak bylo stanoveno v metodice, v rámci této části bude popsán způsob implementace navrhované báze, který by nevyžadoval víc prostředků na údružbu, než sám ušetří. Konkrétně, vzhledem k tomu, že aktuálně není k dispozici způsob jak změřit ušetřený čas při využívání báze, je vycházeno z předpokladu, že pokud budou vyžadovány lidské, či finanční prostředky na to, aby byla prováděna jednosměrná synchronizace zapsaného obsahu v gDocs do efektivně prohledatelné databáze, nebude ušetřený čas větší, než ten vyžadovaný na údržbu. Proto bude popsána možnost automatizace synchronizačního procesu taková, která by nevyžadovala finanční prostředky na svůj provoz. Rovněž budou definovány konkrétní funkcionality, na kterých závisí proveditelnost popsaného způsobu.
+# --Získání pojmů asociovaných se skautských programů
+## --!Hodnocení zdrojů
+### -chystamprogram
 
-Na základě vybraných kandidátů a jim dostupných možností bylo určeno
-...
-
-pozor na to, že apps scripts mají runtime limity, proto je potřeba dát si pozor, aby spouštěné scripty nebyly příliš časově náročné, protože pokud běži déle než 30(90?) vteřit, platforma je automaticky přeruší.
-
-### automatizace jednosměrné synchronizace (zrcadlení)
-
-### nasazení databáze
-
-### funkcionality k ověření
-
-# Získání pojmů asociovaných se skautských programů
-
-## Hodnocení zdrojů
-
-### chystamprogram
- - [ ] [Ttyp::UČESAT]|[Cdist::5]|[HHTD::2] ||: #p/bp/teorie/pojmy/hodnocení/chp
-
-"""
 Její předností je zaměření na výchovnou a rozvojovou hodnotu programů. To je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
 Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. Jako větší nedostatek však vnímám spíše omezenou možnost poskytování zpětné vazby, a komentářu k zapsaným programům. Jediná možnost hodnocení, je totiž zaslání svého hodnocení pouze soukromě autorovi daného programu. Což opět pro interní využití, které by mělo umožňovat sdílení obsahu a na něm následnou spolupráci, není vyloženě příhodné.
 """
 
-### encyklopedie her
-- [ ] [Ttyp::UČESAT]|[Cdist::6]|[HHTD::2] #p/bp/teorie/pojmy/hodnocení/encyk
+### -encyklopedie her
 
-"""
 Právě tento objem, pědstavuje hlavní pědnost tohoto zdroje. Jelikož vzhledem k době jeho vydání, existuje šance, že některé zapsané hry, nebudou již dnes pro děti zábavné. Avšak vzhledem ke zmíněnému objemu, by se musela od té doby změnit kompletně celé podstata dětských her, aby tento zdroj již nebyl relevantní, což tato práce nepředpokládá.
 S rokem vydání encyklopedie souvisí však i další nevýhody, které přehlédnout nelze. Klíčovým nedostatekm jou značně limitované možnosti efektivního prohledávání, které jsou implicitním důsledkem tištěné formy báze. Hry jsou sice jednotlivými knihami rozděleny podle prostědí do kterého jsou vhodné a dále pak pomocí kapitol. Navíc každá hra má vedle názvu uvedeno specifické značení, popsané na začátků každé z knih, které poskytuje informace například o tom, pro jaký počet, nebo věk hráču je hra vhodná. Nicméně to pořád znamená, že je třeba záznamy procházet manuálně a vizuálně kontrolovat, zda chci o dané hře číst více. Nemluvě o tom, že doplňování zpětné vazby či komentářů rovněž není možné.
 """"
+ 
+### !sdílený disk našeho oddílu
 
-### sdílený disk našeho oddílu
-- [ ] [Ttyp::DODĚLAT]|[Cdist::7]|[HHTD::3] ||: #p/bp/teorie/pojmy/hodnocení/disk 
 
 
-## Výsledky analýzy obsahu (báze)
-
+## !Výsledky analýzy obsahu (báze)
 ### rešerše obsahu sdíleného disku
 Většina dokumentů na sdíleném disku jsou dokumenty využívané pro administrativní účely, nicméně několik složek je dedikováno záznamům o programech. 
 První složka pojmenovaná 'Výpravy' obsahuje jeden dokument na jednu výpravu, s tím že zapsaných výprav je přibliženě 40. Jak výpravy souvisí s programem? A co vlastně jsou výpravy? 
 Výpravy představují události organizované typicky na jeden, či více dní, kdy vedoucí připravují pro děti nějaký program. Jelikož však i samotná výprava potřebuje přípravu, dá se říci, že samotná událost výpravy je připravovaným programem. Mezi typicky organizované události patří kromě výprav ještě schůzky a tábory. Všechny události přitom mají tu společnou vlastnost, že se skládají z určitých bloků, které mají nějaké naplánované pořadí, to se však může lišit od reálného průběhu události. Jednotlivé bloky pak představují konkrétní aktivity a hry, které jsou při události realizovány.
 Druhá složka nese název 'Programy' a obsahuje několik neroztříděných aktivit, které mohou být využity při libovolné připravované události. Navíc jsou zde však i podsložky pojmennované podle jednotlivých věkových skupin (vlčata, skauti), které obsahují popsané aktivity (programy) zamýšlené buď pro mladší, nebo pro starší.
 
-### pojmy získané analýzou (seznam)
-- [ ] [Ttyp::UDĚLAT]|[Cdist::1]|[HHTD::7] 🚧💣🚧 
-    ||: #p/bp/teorie/pojmy/výsledky seznam pojmů bez duplicit, formát viz reM  #p/bp/core 
-    {není potřeba mít hotovou dříve než přijde Na řadu realizace ověřování úspěšnosti dosažení výsledků (protože kompetenční otázky)}
+### !pojmy získané analýzou (seznam)
 
 
+
+
+# !!!!Získání nejlepších praktik pro modelování dat ve vybrané DB
+### !nodes
+
+
+"""
+ myšlenky
+  -
+ todo
+  -
+### !lables
+
+
+"""
+ myšlenky
+  -
+ todo
+  -
+### !relationships
+
+
+"""
+ myšlenky
+  -
+ todo
+  -
+### !properties
+
+
+"""
+ myšlenky
+  -
+ todo
+  -
 
 

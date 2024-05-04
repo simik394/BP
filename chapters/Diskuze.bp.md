@@ -15,46 +15,16 @@ objectives achieved?
 limitations?
 implications for future work?
 
-#### Dotazy
-**ověření jako samostatný dílčí cíl? nějaké ověření na výsledky ověření?**
-ověření jako oddělená část metodiky?
-ověření s metodikou popsanuo u jednotlivých dílčích cílů?
-
-##### ověření 1. dílčího
-**? experiment/implementace ?** klíčových prvků pro návrh jako:
-- obsah z gDocs je možné číst s pomocí AppsScripts?
-- je možné s pomocí AppsScripts přistupovat pouze ke specifickým částem dokumentů na základě jejich absolutního i relativního umístnění ve struktuře dokumentu?
-- je s pomocí AppsScripts možné komunikovat s Neo4j?
-**Jsou uvedené funkcionality dostatěcným důkazem, že s pomocí AppsScripts je možné dosáhnout zrcadlení aktuálního obsahu gDocs to Neo4j?)**
-
-##### ověření 2. dílčího (analýza bází -> rozšířená definice modelované domény(model))
-a) komparace s NEsystematicky vytvořeným modelem
-	
-
-b) systematické posouzení správnosti a úplnosti vytvořeného modelu domény skautských programů s využitím LLMs a několika různých promptů
-	prompty:
-		bez pojmů z bází se zeptat na možné pojmy pro danou doménu
-		-||- pro danou doménu s tím, že pojmy budou základem pro databázi, jenž by měla plnit {konkrétní účel popsaný v úvodu}
-		popsat dílčí pohledy na model
-		nějaké vztahy, které jsou nepravdivé nebo nedávjí smysl (podle LLM)
-		které další pojmy by v daném dílčím pohledu mohly být?
-		které další pojmy by mohly být v systému, který má  daný {konkrétní účel} (in: pouze seznam pojmů nikoliv celý model (neumí ho přečíst))
-
-##### ověření 3. dílčího (návrh báze)
-experiment
-1. sestavit a nahrát do DB, vytvořené během ověřování 1. dílčího cíle, ukázkové (demo)  záznamy, získané transformací záznamů z existujících bází tak, aby odpovídaly navrženému schématu. **( Je potřeba nějak *podrobně* komentovat jejitch tvorbu, případně obsah? Nestačí nahrát do veřejného git repozitáře a uvést odkaz?)**
-2. sestavit dotazy **(stačí podmnožina, nebo musím všechny? Asi klidně i vyzkouším vśechny, ale jak mám pak výsledky prezentovat? )**
-
-
-- 
 
 # Určení úspěšnosti dosažení
-## Výběr pojmů
-## Minimalistická implementace
-
-## Správnost konceptuálního modelu
-
-## Ověření využitelnosti báze
-
-
-# 
+1. **Interpretace výsledků**: Začni s interpretací svých výsledků. Jak se tvé výsledky vztahují k tvým výzkumným otázkám nebo hypotézám? Byly tvé původní předpoklady potvrzeny nebo vyvráceny?
+    
+2. **Porovnání s existující literaturou**: Porovnej své výsledky s existujícími studiemi nebo literaturou. Souhlasí tvé zjištění s tím, co už bylo publikováno, nebo jsou nějaké rozdíly?
+    
+3. **Vysvětlení nečekaných výsledků**: Pokud jsi narazil(a) na nějaké nečekané výsledky, pokus se je vysvětlit. Můžeš navrhnout teorie, proč se tak stalo.
+    
+4. **Omezení studie**: Diskutuj o možných omezeních tvého výzkumu. Co mohlo ovlivnit tvé výsledky? Jak by omezení mohla ovlivnit interpretaci výsledků?
+    
+5. **Doporučení pro budoucí výzkum**: Na základě tvých zjištění a omezení, co by mohlo být téma pro budoucí výzkum? Jaké další kroky by mohly být podniknuty k dalšímu zkoumání tohoto tématu?
+    
+6. **Závěr**: Shrnutí hlavních bodů diskuze a jak tvé zjištění přispívají k oboru.

@@ -1,4 +1,38 @@
 
+# dotazy na konzultaci co nevyšla
+#### Dotazy %% fold %% 
+**ověření jako samostatný dílčí cíl? nějaké ověření na výsledky ověření?**
+ověření jako oddělená část metodiky?
+ověření s metodikou popsanuo u jednotlivých dílčích cílů?
+
+##### ověření 1. dílčího
+**? experiment/implementace ?** klíčových prvků pro návrh jako:
+- obsah z gDocs je možné číst s pomocí AppsScripts?
+- je možné s pomocí AppsScripts přistupovat pouze ke specifickým částem dokumentů na základě jejich absolutního i relativního umístnění ve struktuře dokumentu?
+- je s pomocí AppsScripts možné komunikovat s Neo4j?
+**Jsou uvedené funkcionality dostatěcným důkazem, že s pomocí AppsScripts je možné dosáhnout zrcadlení aktuálního obsahu gDocs to Neo4j?)**
+
+##### ověření 2. dílčího (analýza bází -> rozšířená definice modelované domény(model))
+a) komparace s NEsystematicky vytvořeným modelem
+	
+
+b) systematické posouzení správnosti a úplnosti vytvořeného modelu domény skautských programů s využitím LLMs a několika různých promptů
+	prompty:
+		bez pojmů z bází se zeptat na možné pojmy pro danou doménu
+		-||- pro danou doménu s tím, že pojmy budou základem pro databázi, jenž by měla plnit {konkrétní účel popsaný v úvodu}
+		popsat dílčí pohledy na model
+		nějaké vztahy, které jsou nepravdivé nebo nedávjí smysl (podle LLM)
+		které další pojmy by v daném dílčím pohledu mohly být?
+		které další pojmy by mohly být v systému, který má  daný {konkrétní účel} (in: pouze seznam pojmů nikoliv celý model (neumí ho přečíst))
+
+##### ověření 3. dílčího (návrh báze)
+experiment
+1. sestavit a nahrát do DB, vytvořené během ověřování 1. dílčího cíle, ukázkové (demo)  záznamy, získané transformací záznamů z existujících bází tak, aby odpovídaly navrženému schématu. **( Je potřeba nějak *podrobně* komentovat jejitch tvorbu, případně obsah? Nestačí nahrát do veřejného git repozitáře a uvést odkaz?)**
+2. sestavit dotazy **(stačí podmnožina, nebo musím všechny? Asi klidně i vyzkouším vśechny, ale jak mám pak výsledky prezentovat? )**
+
+
+- 
+
 
 # metodika v2 %% fold %% 
 ## Metodika analýzy
@@ -76,7 +110,7 @@ Pro vybrané sw kandidáty bude určeno:
 Vycházeje z výsledků, získaných vyhodnocením předchozích dvou analytických otázek, bude určeno, zda je možné na základě vybraných sw kandidátů možné postavit bázi, která jak specifikuje cíl práce, nebude vyžadovat víc prostředků na provoz a údržbu než sama ušetří. To konkrétně bude provedeno pomocí nalezení způsobu jak eliminovat potřebu na ručně vykonávanou údržbu báze do stavu, kdy bude prohledávatelná a bude zobrazovat aktuální údaje. Při tomto hledání je vycházeno z předpokladu, že báze může ušetřit nějaký čas svým využitím, jen když nebude zároveň také vyžadovat čas na údržbu pro svojí správnou funkčnost. Rovněž by také neměla vyžadovat žádné finanční prostředky, jelikož vzhledem k neziskové povaze skauta není způsob, jak by se prostředky vydané na provoz takového systému mohly vrátit.
 V případě nalezení takového způsobu, bude způsob popsán a jeho proveditelnost argumentována dokumentací daných nástrojů.
 
-## Metodika návrhu
+## Metodika návrhu %% fold %% 
 Nyní, se získanýmy pojmy tvořícími cílovou doménu, i vybranými vhodnými nástroji, které realizaci jako takovou umožní, je konečně čas na návrh. 
 ### ==model pojmů==
 
@@ -201,7 +235,7 @@ pro komplexnější pojmy, jejichž
 
 5. doplněné alespoň jednoho atributu ke každé nespecializované třídě
 
-# metodika-interpretace->modelpojmů
+# metodika-interpretace->modelpojmů %% fold %% 
 Konkrétně z UML ==byl při návrhu využit diagram tříd. Který byl sestaven s pomocí nalezených pojmů a mých doménových znalostí, jakožto člena oddílu posledních 15 let a jako vedoucího posledních 6 let. ==
 
 Při tvorbě diagramu bylo postupováno podle následujícího postupu.
