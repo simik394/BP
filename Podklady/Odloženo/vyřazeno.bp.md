@@ -1,4 +1,89 @@
 
+
+Co se prezentování analýzou získaných pojmů týče, to je uskutečněno pomocí jediného se-  
+znamu. Nejedná se však pouze o spojení získaných dílčích výsledků dohromady. Primárním  
+účelem této prezentace je totiž, mimo transformace získaných údajů s ohledem na čtenáře,  
+rovněž také předzpracování a vyčištění analýzou získaných dat, než jsou předány dále k jejich  
+interpretaci.  
+Důvodem pro toto předzpracování je zároveň i to, že některé pojmy jsou v množném a jiné  
+v jednotném čísle a pro účely následné interpretace je žádoucí mít všechny pojmy v čísle  
+jednotném. Ale především je tím důvodem skutečnost, že různé báze mohou používat stejné  
+výrazy, ale myslet odlišný význam a naopak. Příkladem může být ’místo konání’. V bázi  
+’chystamprogram’ tento pojem může reprezentovat hodnoty např. místnost, louka,... , kdežto  
+v případě asociace s událostí jsou tímto pojmem typicky označovány přibližné i konkrétní  
+28
+
+geografické lokace, kde se děti s vedoucími budou v průběhu události pohybovat (případně  
+nocovat, pokud se jedná o vícedenní událost - místem konání pro události bývají například  
+konkrétní skautské klubovny, souřadnice tábořiště etc.).  
+Nestačí proto vybrat pouze pojmy, které se opakují, nýbrž bylo zapotřebí zjistit, co daným  
+pojmem báze zastupuje, respektive jaké konkrétní hodnoty pojem v daném kontextu reprezen-  
+tuje. Ke každému pojmu v seznamu proto bude doplněn krátký popis jeho významu odvozený  
+z kontextu, ve kterém se nachází v bázi, kde byl nalezen.  
+Právě z umístnění v konkrétní bázi vyplývá i další část údajů, jenž budou zachyceny o každém  
+pojmu ve vytvořeném souhrnném seznamu. Aby transformací dat nebyla ztracena informace  
+o původním místě výskytu daného pojmu, jsou v řádku za názvem pojmu a pomlčkou uve-  
+deny zkratky bází, ze kterých byl pojem získán (ChP - ’chystamprogram’ (2), Enc - Velká  
+encyklopedie her (3)(4)(5)(6), disk - sdílený disk našeho oddílu). Zároveň v případě, kdy báze  
+explicitně identifikuje sadu konkrétních hodnot, jenž jsou pojmem reprezentovány, jsou pro  
+takový pojem v prezentovaném seznamu hodnoty z dané sady uvedeny.  
+Zbývají tak už jen dva údaje z původní datové sady, které zatím nemají specifikovaný formát  
+prezentace, je jím údaj o tom, které pojmy byly vybrány jako základní, a které ve své původní  
+bázi zprostředkovávají filtrování obsahu báze podle svých hodnot.  
+Základní pojmy, jelikož jich je relativně málo vzhledem k celku seznamu, jsou označeny sym-  
+bolem šipky -=»"v prvním řádku záznamu před jejich názvem. A v případech, kdy je podle  
+pojmu a jím reprezentovaných hodnot možné prohledávat obsah báze, v níž se vyskytuje,  
+je záznam v souhrnném seznamu rozšířen symbolickou předponou dvou otazníků "??"a do  
+třetího řádku záznamu pod řádek s popisem je doplněna otázka, kterou daný báze umožňuje  
+pomocí tohoto pojmu zodpovídat.  
+Základní pojem Program například je zapsán takto:  
+• ==» Program - ChP, disk  
+Nejobecnější označení pro připravované aktivity a události.  
+Pojmy, s předepsanou sadou hodnot, jenž reprezentují, jsou zapsány například:  
+• Typické roční období - Enc  
+Období, kdy je obvykle aktivita provozována.  
+jaro, léto, podzim, zima  
+A pojmy, podle kterých umožňují jejich zdroje prohledávat a filtrovat svůj obsah jsou zapsány:  
+• Psychická náročnost - Chp  
+Jak moc je aktivita psychicky náročná.  
+1, 2, 3  
+Které aktivity sdílejí danou míru psychické náročnosti?
+
+# best practices podklady
+"""
+	-pdf
+	- ==Use nodes to represent entities—that is, the things in our domain that are of interest to us, and which can be labeled and grouped.==
+	Nodes for Things,
+	Model Facts as Nodes
+	-	
+	Represent Complex Value Types as Nodes
+	Time
+	-
+	-docs
+	==The first entities that we identify in our domain are the nodes. Nodes are one of two fundamental units that form a graph (the other fundamental unit is relationships).==
+	-
+	Nodes are often used to represent entities, but can also represent other domain components, depending on the use case. Nodes can contain properties that hold name-value pairs of data. Nodes can be assigned roles or types using one or more labels.
+	-
+	You can often find nodes for the graph model by identifying ==nouns in your domain==. Entities such as a car, a person, a customer, a company, an asset, and others similar can be defined as nodes for a good starting point.
+	We can identify nodes as entities with a unique conceptual identity. In our scenario we began for Sally and John, these entities are outlined below in bold.
+	-
+	One modeling technique that is useful in this model is the concept of a ==hyperedge.== Hyperedges are often created to model relationships that exist between more than two entities. Neo4j doesn’t support relationships between more than two nodes and instead uses intermediate nodes to model this kind of relationship. ====
+	A common example of this is a university course. There may be multiple offerings of the same course with the same instructor in the same building, etc. Each section of the class (or offering) would then become an instance of the course.
+	-
+	-
+	-blogs
+	==Separate nodes are ideal when you need to look up other nodes that share a property value, or when the cardinality of the categorical variable is very high.== For example, if a predicate on one of your queries is to filter people by shared occupation, that might argue for making job a separate node that you can “navigate through” to ease your queries.
+	-
+	==Finally — a separate node is ideal when you might want to capture other metadata later about the category. For example, our “Job Code” is a category, but later on we might want to include a definition of that job code, or provide details about a licensing board for that job. If you’re thinking that something might be _a complex object, and not just a category_; then a separate node is probably a good option.==
+	-
+	Separate nodes can risk becoming “[Supernodes](https://stackoverflow.com/a/27569672/2920686)” when they are too densely connected. For example, imagine a census graph with 200 million people in it; if we modeled gender as a separate node, then the “Male” node would be expected to have close to 100 million relationships! That’s a ==super-node== for sure, and will slow down queries that access it. There is often a relationship between variable cardinality and selectivity; the fewer options a variable can take on (gender only has a small handful) the larger number of relationships it would have in a large data set. On the other hand, the more options a variable has, the less likely you are to end up with a supernode. “Job” probably has thousands of possible codes.
+	-
+"""
+ myšlenky
+  -
+ todo
+  -
+
 # dotazy na konzultaci co nevyšla
 #### Dotazy %% fold %% 
 **ověření jako samostatný dílčí cíl? nějaké ověření na výsledky ověření?**
@@ -318,9 +403,9 @@ Rovněž bude využito oddělené třídy, pokud instance třídy TP vytvořené
 
 # 
 ## Metodika zakončení
-![[BP/assets/diskuze-metodika-UMLactivity.jpg]]
+![[../../assets/diagrams/activity/diskuze-metodika-UMLactivity.jpg]]
 
-![[BP/assets/zaver-metodika-UMLactivity.jpg]]
+![[../../assets/diagrams/activity/zaver-metodika-UMLactivity.jpg]]
 
 
 

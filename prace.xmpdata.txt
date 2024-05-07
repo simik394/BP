@@ -1,0 +1,7 @@
+% Metadata k uložení do PDF, podrobnější popis viz dokumentace balíčku pdfx.
+
+\Author{Šimon Trousil}
+\Title{Návrh báze znalostí skautských programů}
+\Keywords{znalosti, báze znalostí, skauting, skautské programy, grafová databáze, apps scripts, neo4j}
+\Subject{Tato práce softwarové řešení pro skautský oddíl které by umožnilo ukládání zápisů o připravených programech prostřednictvím alespoň stejně uživatelsky nenáročného rozhraní  pro zapisování jako mají dokumenty Google, které by navíc umožnilo i filtrování uloženého obsahu pomocí definovatelný parametrů. Proto porovnává čtyři běžné softwarové nástroje pro, aby z nich byla vybrána kombinace nástrojů, které by podle stanovených kritérií byla nejlepší. A tím tak určuje infrastrukturu která bude použita pro návrh. Tahle práce analyzuje tři existující báze skautských znalostí, vybírá z nich pojmy asociované se záznamy v dané bázi a na závěr analýzy interpretuje pomocí diagramu tříd podle UML. S vybranou infrastrukturou i určeným obsahem k zaznamenávání, identifikuje poslední krok nejlepší postupy pro modelování grafových dat na základě oficiálních publikací k vybrané databázi, jejichž pomocí nakonec transformuje diagram tříd na schéma vhodné uložení do vybrané databáze. Správnost výběru infrastruktury a míra její realizace je vyhodnocena pomocí implementace klíčových částí návrhu, které jsou identifikovány ve vztahu k možnosti dosažení konkrétních požadavků, které na systém práce specifikuje.}
+\Publisher{Vysoká škola ekonomická v Praze, fakulta informatiky a statistiky}

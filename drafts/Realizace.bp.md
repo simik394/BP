@@ -50,13 +50,13 @@ Jako další pojmy s vymezenými přípustnými hodnotami představují:
 - druh aktivity - ()
   { Pohyb; 	Tvořivost; 	zamýšlení; 	Diskuze; 	\#SkautingDoma; 	Skauting pro školy; 	Historie; 	Klima; 	Idea Vas }
 - doba trvání - ()
-  {}
+  { 0-30 minut, 30-60 minut, 60-120 minut, Dlouhodobé}
 - doba na přípravu - ()
-  {}
+  {nezáleží,0-15 min,15-30 min,30-60 min}
 - místo konání - ()
   { Místnost; 	Louka; 	Les; 	Město; 	Hřiště }
 - velikost skupiny - ()
-  {}
+  {nezáleží,Jednotlivec (1-1), Skupina (2-5), Družina (4-10),Oddíl (10-50), Družina/oddíl/třída (4-50), Středisko (50-150), Neomezeno (2-9999)}
 - věk skupiny - ()
   { Benjaminci; 	Vlčata a světlušky; 	Mladší skauti a skautky; 	Starši skauti a skautky; 	Mladši roveři a rangers; 	Starší roveři a rangers; 	3.-5. ročník ZS; 	6.-7. ročník ZS; 	8.-9. ročník ZŠ; 	Střední škola }
 - psychická náročnost - ( jak moc je aktivita psychicky náročná? 1 - v pohodě; 2 - může psychicky 3 - nutné ošetřeni psychiky po skončeni hry, nebo v jejím průběhu? )

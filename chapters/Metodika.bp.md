@@ -11,6 +11,8 @@ up:
 - [ ] [Ttyp::DODĚLAT]|[Cdist::2]|[HHTD::8] 🚧💣🚧 ||: #p/bp/metodika/ověření/1
 - [ ] [Ttyp::DODĚLAT]|[Cdist::2]|[HHTD::8] 🚧💣🚧 ||: #p/bp/metodika/ověření/3
 - [ ] [testm::8min] co se prezentace nejlepších praktik týče, v textu práce se nacházejí popsané až v praktické části... ||: #p/bp/metodika/sw/výstupy 
+- [ ] [Ttyp::VYLEPŠIT]|: #p/bp/metodika/báze/obecnýPostup - MOŽNO doplnit konkrétní specifika standartu UML 
+
 # Úvod -motivace(problém)
 ![[BP/drafts/Zaměření.bp#Problém]]
 # Úvod -cíl
@@ -47,7 +49,7 @@ Pokud je mnou provedené přirovnání chybné, uvítám připomínky.
 Následující schéma, založené na notaci 'activity' z UML, reprezentuje strukturu této práce. Jsou v něm zobrazeny datové objekty(obdélníky) a aktivity(čtyřúhelníky se zaoblenými rohy). ...
 - [ ] Doplnit podrobnější vysvětlení čtení použité notace 
 
-![[../assets/metodika-UMLactivity.svg]]
+![[../assets/diagrams/activity/metodika-UMLactivity.svg]]
 Schéma struktury dosažení stanoveného cíle nezobrazuje část metodiky, jelikož celé schéma je reprezentací metodiky.
 
 
@@ -55,7 +57,7 @@ Schéma struktury dosažení stanoveného cíle nezobrazuje část metodiky, jel
 # Metodika v3
 V této kapitole jsou definovány metody využité prací k dosažení dílčích cílů. Pro každý z cílů je nejprve definován a vysvětlen jeho účel, popsán a zdůvodněn konkrétní postup, případně i obecný postup, pokud je takový aplikován, a na závěr jsou identifikovány části práce, ve kterých jsou výstupy konkrétních metod prezentovány. 
 
-## -!!Metodika analýzy sw kandidátů
+## !Metodika analýzy sw kandidátů
 #### Účel postupu
 Jelikož tato práce neklade na navrhovaný systém zrovna nízké nároky (viz. Cíl), nestačí pouze určit, který obsah zaznamenávat a opomenout přitom řádný výběr softwarového nástroje nebo nástrojů pro uložení zaznamenávaného obsahu. Zároveň nelze tento krok ani vynechat, poněvaďž bez volby alespoň konkrétního typu SW pro uložení dat(npř. RDB, GDB, ...), není možné navrhnout ani konkrétní strukturu nové báze. Co víc, toto rozhodnutí ovlivňuje mimo konceptuální model, jakožto prostředek nezávislý na konkrétní implementaci, všechnu budoucí práci na vývoji, údržbu nasazeného systému i šanci na to, aby byla navržená báze skutečně cílovými uživatly přijata a využívána. Proto byl zvolen **dílčí cíl:** "Vybrat sw řešení umožňující dosažení cíle práce.". A účelem tohoto postupu proto je určení místa (SW nástroje) pro uložení záznamů navrhovanou bází, které by splňovalo požadavky definované cílem práce (viz. Cíl) a tím tak bylo odpovědí na otázku "Kam uložit záznamy v navrhované bázi?".
 
@@ -79,8 +81,9 @@ Autoři knihy dále identifikují následující kroky, které by jak v zájmu a
 - **Interpretace výsledků:** Integrace zjištění do koherentního celku a formulace závěrů.
   ..., aby čtenář rozumněl co získané údaje reprezentují.
   
-Pro nalezení odpovědí hledaných v rámci kroků 'hodnocení' i 'analýzy' jsou využity publikované zdroje k daným nástrojům, primárně pak dokumentace. Avšak platí, že tato analýza se nezabývá zdroji o nástrojích, ale nástroji samotnými. To znamená, že například v následující podkapitole 'Hodnocení zdrojů k analýze' jsou vnímány jako hodnocené zdroje samotné nástroje, nikoliv zdroje o nástrojích, ačkoliv právě ve zdrojích o jednotlivých nástrojích budou hledány odpovědi při prováděném hodnocení, není však prováděno žádné dodatečné systematické prohledávání či hodnocení dostupných zdrojů o nástrojích. Bylo tak rozhodnuto poněvadž je předpokládáno, že v rámci na webu dostupných informací o analyzovaných nástrojích, jakožto jasně definovaném softwaru, není významná šance, že by nalezené informace obsahovaly vyloženě nepravdivá tvrzení, zejména pak pokud budou při odpovídání upřednostněny oficiální zdroje k danému nástroji. 
-### !!Konkrétní postup
+Pro nalezení odpovědí hledaných v rámci kroků 'hodnocení' i 'analýzy' jsou využity publikované zdroje k daným nástrojům, primárně pak dokumentace. 
+Avšak platí, že tato analýza se nezabývá zdroji o nástrojích, ale nástroji samotnými. To znamená, že například v následující podkapitole 'Hodnocení zdrojů k analýze' jsou vnímány jako hodnocené zdroje samotné nástroje, nikoliv zdroje o nástrojích, ačkoliv právě ve zdrojích o jednotlivých nástrojích budou hledány odpovědi při prováděném hodnocení, není však prováděno žádné dodatečné systematické prohledávání či hodnocení dostupných zdrojů o nástrojích. Bylo tak rozhodnuto poněvadž je předpokládáno, že v rámci na webu dostupných informací o analyzovaných nástrojích, jakožto jasně definovaném softwaru, není významná šance, že by nalezené informace obsahovaly vyloženě nepravdivá tvrzení, zejména pak pokud budou při odpovídání upřednostněny oficiální zdroje k danému nástroji. 
+### Konkrétní postup
 #### Výběr zdrojů
 Co se prvotního výběru zdrojů (v tomto případě SW nástrojů využitelných jako uložiště báze znalostí) týče, ten je proveden bez rozsáhlejšího vhledávání, protože limitovaný rozsah práce neumožňuje adekvátní zpracování většího objemu variant zároveň spolu s dosažením stanoveného cíle. Konkrétní předvybraní zástupci posuzovaných datových struktur proto byly již, i s argumentací pro jejich výběr, představeni dříve v této kapitole. A protože i specifický účel pro analýzu byl vyjasněn, následující podkapitola se bude zabývat rovnou hodnocením předvybraných zdrojů a určením pro jakou podmnožinu ze SW kandidátů budou následně v rámci 'analýzy obsahu' zjišťovány odpovědi na stanovené analytické otázky.
 
@@ -118,41 +121,37 @@ Základní otázkou, kterou se tedy tento krok analýzy bude snažit zodpovědě
 
 V případě nalezení takového způsobu, bude způsob popsán a následně sestaven výčet funkcionalit kritických pro funkcionalitu odpovídající požadavkum na navrhovanou bázi.
 
-#### !Ověření úspěšnosti
-Verifikace realizovatelnosti navržené infrastruktury byla provedena pomocí experimentu, jehož prvním krokem bylo definování klíčových prvků návrhu, a definování funkcionalit návrhu, které na těchto prvcích závisí. 
-Druhým krokem potom byla implementace definovaných klíčových prvků a porovnání chování implementovaného systému s tím definovaným v prvním kroce experimentu. Pokud se tato chování nebudou lišit, bude to interpretováno jako důkaz, že návrh infrastruktury báze je proveditelný.
 
-#### !Výstupy
+### !Ověření úspěšnosti
+Jelikož cílem této práce je navržení báze, ne nutně implementace celého rozsahu navrženého řešení. Vychází verifikace realizovatelnosti navržené infrastruktury pouze z experimentu, jehož prvním krokem bylo definování klíčových prvků návrhu, jenž nástroje musí podporovat, aby byla navržená infrastruktura realizovatelná.
+A druhým krokem potom byla implementace definovaných klíčových prvků a porovnání chování implementovaného systému s tím definovaným v prvním kroce experimentu. Pokud se tato chování nebudou lišit, bude to interpretováno jako důkaz, že návrh infrastruktury báze je proveditelný.
+
+### ?Výstupy
 Výsledky z dosažení prvního dílčího cíle jsou prezentovány jako první v kapitole Teorie.
 S tím že pořadí prezentace odpovídá pořadí jejich vypracování. Nejdříve jsou proto uvedena hodnocení SW kandidátů podle hledisek možností čtení a psaní, čímž je argumentován následný výběr jejich podmnožin podle specifikovaných hledisek.
 Pro vybrané kvalifikované kandidáty jsou v další části vyhodnoceny charakteristiky uložení dat v daných softwarech a možnosti programového přistupování k jejich obsahu.
 Po těchto, následuje posouzení dosažitelnosti cíle prací stanoveného a prezentování potenciálního řešení softwarové infrastruktury pro navrhovanou bázi. Samotná dosažitelnost je přitom charakterizována sadou požadavků, které musí být splněny, aby návrh bylo možné skutečně postavit, 
 
-*Rovněž jsou uvedeny nejlepší praktiky pro modelování dat v nástroji, jenž byl v rámci této metody vyhodnocen jako nejlepší v nabízených možnostech čtení v něm uloženého obsahu.**
-*
-
-
-
-## --!-Metodika analýzy existujících bází
+## !!Metodika analýzy existujících bází
 #### Účel postupu
 Motivací pro tuto sekci je druhý kritický aspekt navrhované báze. Jedná se však pouze o aspekt druhý v pořadí prezentace, nikoliv druhý ve významu důležitosti pro návrh. Ve skutečnosti je tento aspekt pro návrh na podobné úrovni důležitosti jako ten řešený v předchozí sekci. 
 Jak už bylo zmíněno, je tímto aspektem určení samotného obsahu, který bude v bázi uložený. Proto byl stanoven **dílčí cíl:** "Vybrat výseč reality relevantní pro skautské programy.". Cílem této části proto je vybrání pojmů a jejich vztahů, kteréžto budou představovat odpověď na otázku "Co zaznamenávát v navrhované bázi?"
 
 Záměrem však není ani tak provedení vyčerpávající analýzy dané domény, jelikož to by važadovalo celou samostatnou práci, jako spíš snaha o agregování pohledů na problematiku několika existujícími bázemi. Výsledky provedeného postupu tak umožňují tvorbu báze, která dovede odpovídat na rozsáhlejší sadu odpovědí, než báze existující. A zároveň v důsledku tohoto postupu je možné rozšiřovat navrženou bázi obsahem z těch existujících, protože možný obsah dané báze byl zohledněn při návrhu a zakomponován do výsledného schematu báze.
 
-#### -Obecný postup
+#### Obecný postup
 Pro získání odpovědi na otázku "Co zaznamenávat v bázi skautských programů?", byla opět využita 'analýza literatury' ([[../../myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008]]), stejně jako v první provedené analýze.
 
-- [ ] [Ttyp::VYLEPŠIT]|: #p/bp/metodika/báze/obecnýPostup - MOŽNO doplnit konkrétní specifika standartu UML 
-- [x] DOPLNIT popsanou odchylku od standartního UML
 Navíc bylo v rámci kroku interpretace výsledků využito UML. Nástroj byl vybrán jelikož velmi dobře standartizuje způsoby modelování struktur i skutečnosti obecně. Ve verzi 2.5.1 ze které aktuálně výcházím, má i celou druhou polovinu zaměřenou na stavy, chování, akce interakce, až případy užití. Ač se jedná o velmi užitečnou část, na její využití v této práci pravděpodobně nedojde z důvodu času a rozsahu práce.
 Jediná odchylka od standardu UML bude provedena v případě generalizace, která místo běžné verze:
 ![[myDM/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
 bude pro generalizace využívat následující notaci.
-[]
+[ ]
 Je tak učiněno z toho důvodu, že v používaném modelovacím nástroji (draw.io) je jednoduší s modelem manipulovat (posouvat jednotlivé části) v případě využití alternativní notace pro modelování generalizací.
+Je tomu proto, že v případě originální notace je zakresleno několik šipek přes sebe a v situaci, kdy je potřeba s generalizovanou třídou v rámci kreslícího plátna posouvat, je pak nutné ručně přesouvat a znovu umisťovat šipky opět přes sebe, což je nepřiměřeně časově náročné. Alternativní notace tak využívá přidání grafického elementu (malý obdélník) mezi generalizovanou třídu a její specializace, které se všechny napojí na přidaný element a z něj pak ke generalizované třídě je vedena už jen jediná šipka značící generalizaci. O výrazné usnadnění se jedná zejmána pak v případě, kdy má generalizovaná třída několik různých specializovaných sad.
+[ ]
 
-### -Konkrétní postup
+### Konkrétní postup
 #### Výběr (báze)
 Podobně, jako při předchozí analýze, nebylo opět provedeno žádné systematické prohledávání dostupných bází, nýbrž byly vybrány báze, které bývají občas, minimálně našem v oddíle, využívány jako inspirace pro přípravu realizovaných programů v rámci naší činnosti.
 
@@ -173,7 +172,7 @@ Cílem analýzy obsahu vybraných zdrojů pak bylo pro každý z nich zvlášť,
 - Podle jakých pojmů umožňuje daná báze prohledávat? 
 - Jaké pojmy (max 2) nejlépe vystihují obsah dané báze a daly by se tak pro ni označit jako 'základní'?
 
-- [x] DOPLNIT postup pro definování kompetenčních otázek [chap::metodika] [sect::analýzaBází]
+- [ ] DOPLNIT postup pro definování kompetenčních otázek [chap::metodika] [sect::analýzaBází]
 
 S vyjímkou sdíleného disku našeho oddílu, který byl do výběru zařazen z důvodu své cennosti, avšak neumožňuje tak snadné systematické vyhodnocení jako zbylé dvě báze, kvůli své "chaotičtější" struktuře, v jehož případě jsou vyhodnoceny pouze první a poslední analytická otázka.
 Vzhledem k rozdílným strukturám analyzovaných bází, byly odpovědi na otázky v každěm případě získány lehce odlišným způsobem.
@@ -213,7 +212,7 @@ K určení, analýzou získaných, pojmů asociovatelných se třídou Program, 
  - z popisu obsahu sdíleného disku, asociovatelné i s aktivitami
  - z encyklopedie her, asociovatelné s uálostmi i s aktivitami
 
-Jelikož už ze získaných pojmů byly vybrány ty, které se dají asociovat i s událostmi, nebylo třeba ten vztah dále zvažovat. K určení pojmů asociovatelných se třídou Aktivita, byly tedy výsledky vyrány podle pravidel:
+Jelikož už ze získaných pojmů byly vybrány ty, které se dají asociovat i s událostmi, nebylo třeba tento vztah dále zvažovat. K určení pojmů asociovatelných se třídou Aktivita, byly tedy výsledky vyrány podle pravidel:
  - z chystamprogram, bez pojmů přiřazených programu
  - z encyklopedie her, asociovatelné i obecněji s aktivitami, bez pojmů přiřazených programu
 
@@ -237,14 +236,14 @@ Nakonec pak z existjících struktur byly vyhledány a vymodelovány povinné as
 Díky struktuře vytvořené mezi třídami, jejichž asociaci k těm základním byla určována, bylo možné určit, které z nich je třeba explicitně asociovat k odpovídající základní třídě.  A které třídy naopak nepotřebují, protože jsou specializací nebo částí některé jiné, která sdružuje více podobných tříd a jako jediná má tak explicitně vymodelovanou asociaci s odpovídající základní třídou. 
 Zbývalo tedy už jen určit jak konkrétně má být vymodelována asociace mezi základními třídami a jim přiřazeným, teď již strukturovaných, třídám. Možnými variantami, vzhledem ke standartu UML, byly buď jako atribut (vlastnost) dané základní třídy nebo jako separátní třídu, která je s tou první asociována. Toto rozhodování bylo provedeno na základě "síly" konkrétního asociačního vztahu s tím, že silné závislosti jsou modelovány jako atributy daných základních tříd a slabé závislosti jsou modelovány separátními oddělenými třídami. Podle čeho ale vyhodnotit onu sílu asociací?
 
-Ve statistice je například míra asociace určována pro numerické proměnné tím, jak často se konkrétní hodnoty jednotlivých proměnných vyskytují spolu. Dalo by se také říci, že nejsilnější je takový vztah, který je povinný a vyskytuje se proto vždy. podobně V této práci je za silnou asociace považová tehdy, pokud se vyskytuje u většiny instancí konkrétní třídy. Opačně v případě, kdy bývá uvedena jen občas, je považována za slabou. 
+Ve statistice je například míra asociace určována pro numerické proměnné tím, jak často se konkrétní hodnoty jednotlivých proměnných vyskytují spolu. Dalo by se také říci, že nejsilnější je takový vztah, který je povinný a vyskytuje se proto vždy. podobně V této práci je za silnou asociace považová tehdy, pokud se vyskytuje u většiny instancí konkrétní třídy. Opačně v případě, kdy bývá třída asociována jen občas, je považována za slabou. 
 Samotné rozhodnutí pak bohužel nebylo z důvodu rozsahových možností práce založeno na žádných jiných podkladech, než mych doménových znalostech a informacích z původně analyzovaných bází. V důsledku toho, odpovídá volba tříd k asociaci jako atributy, pravděpodobně více mému vlastnímu přesvědčení o tom která třída je pro dané záznamy nejužitečnější a tudíž by bylo nejlepší klást důraz na její zaznamenávání, než podle skutečných frekvencí výskytu ku celkovému počtu záznamů. 
 
 Obdobně byla nakonec vyhodnocena i takzvaná 'násobnost' vztahů, která udává zda instance třídy A mohou být asociovány s více než jednou instancí z třídy B.
 Volitelnost (instance z třídy A musejí být asociovány s instancí z třídy B) vztahů nebyla vyhodnocena, protože je vycházeno z předpokladu, že všechno zapisování do báze je dobrovolná aktivita (jako vše ve skatu), tudíž nebudou zápisy vynucovat zapsání žádné ze svých částí a všechny asociované třídy jsou proto volitelné.
 Navíc jisté zohlednění "povinnosti" k zapsání konkrétních částí bylo učiněno v předchozím kroce v rámci určování síly asociace.
 
-#### !Posouzení úspěšnosti
+### !Posouzení úspěšnosti
 ##### ověření 2. dílčího (analýza bází -> rozšířená definice modelované domény(model))
 a) komparace s NEsystematicky vytvořeným modelem
 	
@@ -257,23 +256,34 @@ b) systematické posouzení správnosti a úplnosti vytvořeného modelu domény
 		nějaké vztahy, které jsou nepravdivé nebo nedávjí smysl (podle LLM)
 		které další pojmy by v daném dílčím pohledu mohly být?
 		které další pojmy by mohly být v systému, který má  daný {konkrétní účel} (in: pouze seznam pojmů nikoliv celý model (neumí ho přečíst))
-#### -Výstupy
-##### hodnocení exist. bází
+### !Výstupy
+##### Hodnocení exist. bází
 Výsledky z hodnocení jednotlivých analyzovaných bází, argumentující jejich výběr silnými stránkami jejich obsahu a zároveň se zdůvodněním, proč není využívána daná existující báze, ale je navrhována nová, se nachází ve druhé sekci kapitoly Teorie.
 
-##### -analýza obsahu bází
+##### Analýza obsahu bází
 Co se prezentování analýzou získaných pojmů týče, to je uskutečněno pomocí jediného seznamu. Nejedná se však pouze o spojené získaných dílčích výsledků dohromady. Primárním účelem této prezentace je totiž, mimo transformace získaných údajů s ohledem na čtenáře, rovněž také předzpracování a vyčištění analýzou získaných dat, než jsou předány dále k jejich interpretaci.
-Důvodem pro toto předzpracování je třeba i to, že některé pojmy jsou v množném a jiné v jednotném čísle 
-- [ ] [Ttyp::DODĚLAT]|[testm::15min]  - nejen v jednotném čísle, ale připravit všestraně na použití v modelu ||: #p/bp/metodika/báze/výstupy 
 
-a pro účely následné interpretace je žádoucí mít všechny pojmy v čísle jednotném, ale především skutečnost, že různé báze mohou používat stejné výrazy, ale myslet odlišný význam a naopak. Příkladem může být 'místo konání'. V bázi chystamprogram tento pojem může reprezentovat hodnoty npř. místnost, louka,... . Zato v případě asociace s událostí jsou tímto pojmem typicky označovány přibližné i konkrétní geografické lokace, kde se děti s vedoucími budou v průběhu události pohybovat, případně nocovat, pokud se jedná o vícedení událost. Místem konání pro události tak bývají například konkrétní skautské klubovny, souřadnice tábořiště etc.. 
+Důvodem pro toto předzpracování je zároveň i to, že některé pojmy jsou v množném a jiné v jednotném čísle 
+a pro účely následné interpretace je žádoucí mít všechny pojmy v čísle jednotném. Ale především je tím důvodem skutečnost, že různé báze mohou používat stejné výrazy, ale myslet odlišný význam a naopak. Příkladem může být 'místo konání'. V bázi chystamprogram tento pojem může reprezentovat hodnoty npř. místnost, louka,... . Zato v případě asociace s událostí jsou tímto pojmem typicky označovány přibližné i konkrétní geografické lokace, kde se děti s vedoucími budou v průběhu události pohybovat, případně nocovat, pokud se jedná o vícedení událost. Místem konání pro události tak bývají například konkrétní skautské klubovny, souřadnice tábořiště etc.. 
 
 Nestačí proto vybrat pouze pojmy, které se opakují, nýbrž bylo zapotřebí zjistit, co daným pojmem báze zastupuje, respektive jaké konkrétní hodnoty pojem v daném kontextu reprezentuje. 
-Ke každému pojmu v seznamu proto bude doplněn krátký popis jeho významu odvozený z kontextu ve kterém se nachází v bázi ve které byl nalezen. Právě z umístnění v konkrétní bázi vyplývá i další část údajů, jenž budou zachyceny o každém pojmu ve vytvořeném souhrnném seznamu. Aby transformací dat nebyla ztracena informace o původním místě výskytu daného pojmu, jsou v řádku za názvem pojmu a pomlčkou uvedeny zkratky bází ze kterých byl pojem získán. Zároveň v případě, kdy báze explicitně identifikuje sadu konkrétních hodnot, jenž jsou pojmem reprezentovány, jsou pro takový pojem v prezentovaném seznamu hodnoty z dané sady uvedeny.
+Ke každému pojmu v seznamu proto bude doplněn krátký popis jeho významu odvozený z kontextu ve kterém se nachází v bázi ve které byl nalezen. Právě z umístnění v konkrétní bázi vyplývá i další část údajů, jenž budou zachyceny o každém pojmu ve vytvořeném souhrnném seznamu. Aby transformací dat nebyla ztracena informace o původním místě výskytu daného pojmu, jsou v řádku za názvem pojmu a pomlčkou uvedeny zkratky bází ze kterých byl pojem získán (ChP - chystamprogram, Enc - Velá encyklopedie her, disk - sdílený disk našeho oddílu). Zároveň v případě, kdy báze explicitně identifikuje sadu konkrétních hodnot, jenž jsou pojmem reprezentovány, jsou pro takový pojem v prezentovaném seznamu hodnoty z dané sady uvedeny.
 
-Zbývají tak už jen dva údaje z původní datové sady, které zatím nemají specifikovaný formát prezentace, je jím údaj o tom, které pojmy byly vybrány jako základní a které ve své původní bázi zprostředkovávají filtrování obsahu báze podle svých hodnot. Základní pojmy, jelikož jich je relativně málo vzhledem k celku seznamu, jsou označeny symbolem šipky "==>>" v prvním řádku záznamu před jejich názvem. A v případech, kdy je podle pojmu a jím reprezentovaných hodnot možné prohledávat obsah báze v níž se vyskytuje, je záznam v souhrnném seznamu rozšířen symbolickou předponou dvou otazníků "??" a do třetího řádku záznamu pod řádek s popisem je doplněna otázka, kterou daný pojem umožňuje bázi zodpovídat.
-- [ ] [Ttyp::DODĚLAT] [treq::31] - ukázka formátu tabulky #p/bp/metodika/báze/výstupy
+Zbývají tak už jen dva údaje z původní datové sady, které zatím nemají specifikovaný formát prezentace, je jím údaj o tom, které pojmy byly vybrány jako základní a které ve své původní bázi zprostředkovávají filtrování obsahu báze podle svých hodnot. Základní pojmy, jelikož jich je relativně málo vzhledem k celku seznamu, jsou označeny symbolem šipky "==>>" v prvním řádku záznamu před jejich názvem. A v případech, kdy je podle pojmu a jím reprezentovaných hodnot možné prohledávat obsah báze v níž se vyskytuje, je záznam v souhrnném seznamu rozšířen symbolickou předponou dvou otazníků "??" a do třetího řádku záznamu pod řádek s popisem je doplněna otázka, kterou daný báze umožňuje pomocí tohoto pojmu zodpovídat.
 
+Základní pojem Program například je zapsán takto:
+- ==>> Program - ChP, disk
+	Nejobecnější označení pro připravované aktivity a události.
+Pojmy, s předepsanou sadou hodnot, jenž reprezentují jsou zapsány například:
+- Typické roční období - Enc
+	Období kdy je obvykle aktivita provozována.
+	{jaro, léto, podzim, zima}
+A pojmy podle kterých umožňují jejich zdroje prohledávat a filtrovat svůj obsah jsou zapsány:
+- Psychická náročnost - Chp
+	Jak moc je aktivita psychicky náročná.
+	{1, 2, 3}
+	Které aktivity sdílejí danou míru psychické náročnosti?
+	
 ##### interpretace
 Výsledky interpretace, uvedené na začátku praktické části, Není však představen celý model najednou, nýbrž jsou představený postupně dílčí pohledy, na část vytvořeného modelu odpovídající jendotlivým základním třídám, počínaje od té nejvíce generalizované. To znamená konkrétně 4 části, která každá z nich adresuje a argumentuje kroky provedené pro vytvoření prezentovaného modelu takovým způsobem, aby struktura textu těmto krokům odpovídala tak, že poskytne odpovědi na následující otázky:
 - Proč byly konkrétní třídy přiřazeny k dané základní třídě?
@@ -310,11 +320,17 @@ a) just reads well
 
 b) queryabilty
 
-Pro určenení uspěšnosti dosažení třetího dílčího cíle, budou použity takzvané 'kompetenční otázky'. Jedná se o pojem využívaný například při tvorbě ontologií [ ], nebo i v případě modelování grafových dat například pro Neo4j [ ]. V obou případech pojem 'kompetenčních otázek' znamená otázky na které by vytvořená struktura "uměla odpovídat". Nejpochopitelnější je to na příkladu otázek pro bázi jako Neo4j, kdy je snadné si představit, že aby byla báze schopná vám vracet odpovědi na specifické dotazy, musí struktura uložených dat obsahovat všechny údaje potřebné k tomu, aby "uměla odpovědět". Proto se takto stanovené otázky následně užívají jako vodítko při modelování, jelikož pomáhají tvůrci udržet pozornost na zamýšleném účelu pro tvořenou bázi, model, či ontologii.
+Pro určenení uspěšnosti dosažení třetího dílčího cíle, budou použity takzvané 'kompetenční otázky'. Jedná se o pojem využívaný například při tvorbě ontologií [ ], nebo i v případě modelování grafových dat například pro Neo4j [ ]. V obou případech pojem 'kompetenčních otázek' znamená otázky na které by vytvořená struktura "uměla odpovídat". 
+Nejpochopitelnější je to na příkladu otázek pro bázi jako Neo4j, kdy je snadné si představit, že aby byla báze schopná vám vracet odpovědi na specifické dotazy, musí struktura uložených dat obsahovat všechny údaje potřebné k tomu, aby "uměla odpovědět". Proto se takto stanovené otázky následně užívají jako vodítko při modelování, jelikož pomáhají tvůrci udržet pozornost na zamýšleném účelu pro tvořenou bázi, model, či ontologii.
 
 *Konkrétní kompetenční otázky budou založeny na schopnostech existujících bází odpovídat*. To znamená, že pokud umožňuje báze chystamprogram hledat aktivity podle toho, které oblasti Stezky odpovídají. Bude odvozená otázka: "Které aktivity jsou asociované s danou oblastí Stezky?". Pro model to tak znamená, že musí obsahovat asociaci mezi třídami oblast_Stezky a aktivita.
 
-Pro dokázání korektního převedení z konceptuálního modelu do schema databáze bude opět využito experimentu. Rovněž bude využita implementovaná databáze vytvořená v rámci ověření realizovatelnosti infrastruktury. Do této databáze budou nahrána vzorová data, které budou získána z existujících zápisů jak v bázi chystamprogram, tak Velké encyklopedie her. Následně na základě kompetenčních otázek použitých při tvorbě konceptuálního modelu, budou sesteveny dotazy v jazyce používaným databází a definovány očekávané výsledky, které by dotazy měly zobrazit na základě nahraných vzorových dat. Na závér budou zadány připravené dotazy do rozhraní implementované databáze a vrácené výsledky budou porovnány s těmi, které by se podle definice měly zobrazit. Pokud se tyto výsledky nebudou lišit, bude to interpretováno jako důkaz, že navržená báze splňuje podmínky na možnosti prohledávání stanovené cílem této práce.
+Pro dokázání korektního převedení z konceptuálního modelu do schema databáze bude opět využito experimentu. Rovněž bude využita implementovaná databáze, vytvořená v rámci ověření realizovatelnosti infrastruktury. Do této databáze budou nahrána vzorová data, které budou získána z existujících zápisů jak v bázi chystamprogram, tak Velké encyklopedie her. Následně na základě kompetenčních otázek použitých při tvorbě konceptuálního modelu, budou sesteveny dotazy v jazyce používaným databází a definovány očekávané výsledky, které by dotazy měly zobrazit na základě nahraných vzorových dat. Na závr budou zadány připravené dotazy do rozhraní implementované databáze a vrácené výsledky budou porovnány s těmi, které by se podle definice měly zobrazit. Pokud se tyto výsledky nebudou lišit, bude to interpretováno jako důkaz, že navržená báze splňuje podmínky na možnosti prohledávání stanovené cílem této práce.
+
+Tvorba datasetu
+
+Porovnání
+
 
 ##### ověření 3. dílčího (návrh báze)
 experiment

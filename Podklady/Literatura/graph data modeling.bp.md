@@ -4,11 +4,8 @@
 ## nodes
 - Use nodes to represent entities—that is, the things in our domain that are of interest to us, and which can be labeled and grouped.
 Nodes for Things,
-
 Model Facts as Nodes
-
 Represent Complex Value Types as Nodes
-
 Time
 
 > [!nodes.docs]-
@@ -27,13 +24,57 @@ Super nodesc
 
 ## labels
 
-> [!labels.docs]-
+> [!labels.docs]+
 > ![[myDM/Websites/Graph modeling guidelines - Getting Started ----- 8eb0cb94-0add-44c7-85f5-2ef1ab66e854#https neo4j com docs getting-started data-modeling guide-data-modeling add-labels Labels]]
 
-> [!labels.blogs]-
+
+> [!labels.neo4jblog]+
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#What is a label What do they mean]]
+> 
+> ---
+
+
+> [!tip]- Sets memberships
+>  ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Set membership]]
+
+ ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Multiple set membership]]
+
+
+
+
+> [!Tip]+ labels.neo4jblog - How should use?
+> 
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#^omk907]]
+> 
+> ---
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Label every node]]
+> -
+> ---
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Always have a query use case for a label]]
+> -
+> ---
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Multiple labels should be semantically orthogonal]]
+> -
+> ---
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Don’t overdo it — Avoid label overload]]
+> -
+> ---
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Avoid class hierarchies]]
+> -
+> ---
+> ![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#Avoid composition relationships]]
+
+
+
+
+
+
+
+
+> [!labels.blogs]+
 > ![[myDM/Websites/Graph Data Modeling Categorical Variables  by David Allen  Neo4j Developer Blog  Medium-----8b1d81d4-0be7-4dc4-a476-1554f60094a5#Labels]]
 >
-![[myDM/Websites/Graph Modeling Labels. What are labels for, and how can you…  by David Allen  Neo4j Developer Blog  Medium-----eec9c46c-c8c3-4c4e-8beb-da367f0061e6#^omk907]]
+
 
 ![[myDM/Websites/Graph Data Modeling Categorical Variables  by David Allen  Neo4j Developer Blog  Medium-----8b1d81d4-0be7-4dc4-a476-1554f60094a5#^4j7rzt]]
 
@@ -53,6 +94,26 @@ Fine-Grained versus Generic Relationships
 > [!.]- nodeXrelation.docs
 > ![[myDM/Websites/Modeling designs - Getting Started ----- d40abf2e-00bd-451d-b820-e097f0bcac42#https neo4j com docs getting-started data-modeling modeling-designs property-vs-relationship Property vs relationship fold]]
 
+
+> [!tip]- relations are verbs
+> ![[myDM/Websites/Graph Data Modeling All About Relationships  by David Allen  Neo4j Developer Blog  Medium ----- d5ba916b-344f-4b53-affa-be575c8b3335#Relationships are verbs]]
+> -
+
+> [!tip]- relations normalize data
+> ![[myDM/Websites/Graph Data Modeling All About Relationships  by David Allen  Neo4j Developer Blog  Medium ----- d5ba916b-344f-4b53-affa-be575c8b3335#Relationships normalize data]]
+> -
+
+> [!tip]- know your relations semantics
+> ![[myDM/Websites/Graph Data Modeling All About Relationships  by David Allen  Neo4j Developer Blog  Medium ----- d5ba916b-344f-4b53-affa-be575c8b3335#Know your relationships’ semantics]]
+> -
+
+> [!tip]- know your relations semantics
+> ![[myDM/Websites/Graph Data Modeling All About Relationships  by David Allen  Neo4j Developer Blog  Medium ----- d5ba916b-344f-4b53-affa-be575c8b3335#Deciding on relationship properties]]
+> -
+
+> [!tip]- reifying relationships
+> ![[myDM/Websites/Graph Data Modeling All About Relationships  by David Allen  Neo4j Developer Blog  Medium ----- d5ba916b-344f-4b53-affa-be575c8b3335#Reifying relationships]]
+> -
 
 ## properties
 - Use node properties to represent entity attributes, plus any necessary entity meta‐ data, such as timestamps, version numbers, etc.
@@ -79,6 +140,8 @@ modeling process can best be summed up as an attempt to create a graph struc‐ 
 3. Identify the entities and the relationship that appear in these questions. 
 4. Translate these entities and relationships into Cypher path expressions. 
 5. Express the questions we want to ask of our domain as graph patterns using path expressions similar to the ones we used to model the domain.
+# gen summ
+## labels
 
 
 

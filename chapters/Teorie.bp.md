@@ -12,26 +12,25 @@ up:
 - [ ] [Ttyp::UDĚLAT]|[Cdist::1]|[HHTD::7] 🚧💣🚧 
     ||: #p/bp/teorie/pojmy/výsledky seznam pojmů bez duplicit, formát viz reM  #p/bp/core 
 
-# Získání infrastruktury vyhovující požadavkům práce
+# Získání infrastruktury
+ vyhovující požadavkům práce
 V této kapitole budou prezentovány výsledky z výběru softwaru, který by umožňil návrh báze odpovídající podmínkam stanovených v cíli této práce.
-## Hodnocení zdrojů (sw)
-### Vyhodnocení hlediska zápisu pro všechny kandidáty %% fold %% 
+## Hodnocení zdrojů (sw-úložiště)
+### Z hlediska možností zapisování ukládaného obsahu
 Vyhodnocení tohoto hlediska je velmi přímočaré. Vzhledem k tomu, že tento návrh klade velký důraz na minimalizaci nových nároků na uživatele. Zejména pak na nároky pro zapisování, jelikož pro navrhovanou bázi je klíčové, aby do báze uživatelé zapisovali a sdíleli tak své zkušenosti z připravených programů, čímž budou obohacovat prohledatelný obsah. Proto z tohoto hlediska budou vyřazeni kandidáti, kteří umožňují zapisování obsahu jen pomocí specifického jazyka.
 Jak bylo řečeno v metodice, ani jeden z produktů společnosti Google toto kritérium nesplňuje, zůstávají tedy jako přijatelné pro návrh. Oproti tomu, ani jedna z databází přes toto kritérium neprojde. Pro interakci s databází MySQL je totiž potřeba využít SQL (Structured Query Language) a v případě Neo4j se jedná prozměnu o 'Cypher', což je také jazyk, akorát uzpůsobený k prohledávání grafových struktur.
 
-#### přijatelné pro zápis
+Jedinými přijatelnými nástroji pro zapisování do báze jsou:
 - gDocs
 - gSheets
 
-### Vyhodnocení hlediska čtení pro všechny kandidáty %% fold %% 
-
+### Z hlediska možností čtení uloženého obsahu
 Vyhodnocení druhého hlediska však bude již komplexnější, konkrétně tak, že pro získání výsledků využívá vícero kritérií, jejichž výsledky jsou na závěr agragována do jednoho souhrnného vyhodnocení.
-
-#### rychlost
+#### Z hlediska rychlosti získání odpovědí
 První kritérium se zaměřuje na rychlost získání výsledků. 
 Při následujícím hodnocení kandidátů nebude mít podstatnou roli. Nicméně nedostatečná rychlost vyhledávání v záznamech, pokud je možné jen manuální otevírání jednotlivých dokumentů podle jejich názvu a umístnění ve složce, je primárním důvodem vzniku této práce. A proto není možnost manuálního prohledávání ani začleněna mezi kandidáty, kteří všichni toto kritérium splňují.
 
-#### správnost
+#### Z hlediska správnosti vrácených odpovědí
 Další kritérium, absence chyb jak prvního, tak druhého typu, je však již relevantním pro hodnocené kandidáty. 
 
 Nejsnazší vyhodnocení tohoto kritéria umožňují kandidáti databázového typu, v jejich případě je totiž tato podmínka zahrnuta již v jejich podstatě jako databázích. Proto u nich absence chyb při vyhledávání nebude dále ověřována a bude předpokládáno, že toto kritérium splňují.
@@ -46,9 +45,10 @@ Aby byla zohledněna možnost, že systému trvá nějakou dobu, než provede in
 
 2. Vybrání co nejunikátnějšího klíčového textu z libovolného souboru zapsanáho na mém disku déle než měsíc, následované pokusem o nelezení daného souboru podle toho, že obsahuje vybraný klíčový text.
 
-Z výsledků těchto dvou experimentů vyplynulo, že tato varianta prohledávání jednoznačně není bezchybná. Jelikož oba pokusy o vyhledání dokumentu obsahujícího klíčový text byly neúspěšné, byly sice rychlé, avšak dokument z něhož byl získán klíčový text použitý k hledání, nebyl zobrazen ani v jednom případě. Postupujícími sw kandidáty k dalšímu  hodnocení jsou tedy pouze gSheets a databáze MySQL a Neo4j. gDocs byly na základě experimentálně zjištěných výsledků vyhodnoceny jako nástroj nepřijatelný pro uživatelské rozhraní zprostředkující čtení obsahu navrhované báze.
+Z výsledků těchto dvou experimentů vyplynulo, že tato varianta prohledávání jednoznačně není bezchybná. Jelikož oba pokusy o vyhledání dokumentu obsahujícího klíčový text byly neúspěšné, byly sice rychlé, avšak dokument z něhož byl získán klíčový text použitý k hledání, nebyl zobrazen ani v jednom případě. 
+Postupujícími sw kandidáty k dalšímu  hodnocení jsou tedy pouze gSheets a databáze MySQL a Neo4j. gDocs byly na základě experimentálně zjištěných výsledků vyhodnoceny jako nástroj nepřijatelný pro uživatelské rozhraní zprostředkující čtení obsahu navrhované báze.
 
-#### příjemnost
+#### Z hlediska příjemnosti zadávání dotazů
 Kritérium příjemnosti je ze všech kriterií zatím nejkomplexnější, proto i jeho vyhodnocení bude tomu odpovídat. Jak bylo stanoveno v metodice, bude nejprve vyhodnoceno pořadí zbývajících kandidátů podle každého z dílčích kriterií zvlášť. A tak získané dílčí výsledky budou následně využity k výběru nejvhodnějšího z kandidátů z hlediska příjemnosti prohledávání obsahu navrhované báze.
 
 Následující dílčí kriteria budou vyhodnocena pro gSheets (funkce 'query'), MySQL (SQL) a Neo4j (Cypher). Využito bude primárně odhadů a dedukce.
@@ -79,7 +79,7 @@ Finální pořadí kandidátů podle kriteria příjemnosti čtení jejich obsah
 
 A kandidátem vybraným v rámci hlediska čtení zapsaného obsahu se tak stává databáza Neo4j, jelikož umožňuje interakci pomocí dotazů s nejnižším počtem znaků z posuzovaných kandidátů a zároveň k interakci s ní není třeba žádný dodatečný software, který by nebyl zahrnut v základní instalaci.
 
-## Výsledky analýzy obsahu (sw) %% fold %% 
+## Výsledky analýzy obsahu (sw-úložiště)
 Vybraným softwarem pro základ navrhované báze jsou tedy gDocs a gSheets jako uživatelské rozhraní pro zapisování údaje do báze a případnou modifikaci zapsaných údajů. Spolu s databází Neo4j sloužící jako uživatelské rozhraní k prohledávání zapsaných údajů v navrhované bazi skautských programů. V této části boudou představeny datové struktury využívané jednotlivými vybranými nástroji spolu s představením jejich možností vzájemné integrace.
 ### datové struktury (uložení)
 #### gWorkspace
@@ -129,25 +129,33 @@ Hlavní výhodou při použití Apps Scripts je to, že rozhraní ostatních slu
 Možnosti programové interakce s databází Neo4j závisí na tom, která z implementací je využita. První varianta implementace Neo4j je cloud verze nabízená jako SaaS, spolu s poměrně dostatečným objemem zdrojů v rámci bezplatné úrovně účtu. Tato verze nicméně umožňuje programovou interakci, pouze pomocí knihoven, které jsou sice pro většinu nejběžnějších jazyků k dispozici, takže ve většině případů bude tato varianta nabízet dostatečnou konektivitu. Avšak v případě, jako dříve zmíněné Apps Scripts, které omezují možnosti externí komunikace pouze na http dotazy skrze předdefinovanou funkci, představuje absence podpory http komunikace v cloudové verzi Neo4j poměrně problém. Naštěstí existuje druhá varianta implementace, konkrétně takzvaná 'self-hosted' varianta, která může být například s využitím dockeru, nebo pomocí klasické instalace spůštěna na libovolné výpočetní instanci (počítači). A tato 'self-hosted' varianta umožňuje jak programovou interakci pomocí http tak pomocí knihoven pro konkrétní jazyky.
 
 
-# --Získání pojmů asociovaných se skautských programů
-## --!Hodnocení zdrojů
-### -chystamprogram
+# !seznamPojmů | Získání pojmů 
+asociovaných se skautským programem
+## Hodnocení zdrojů (obsah existujících bází)
+### chystamprogram
+Předností této báze je její zaměření na výchovnou a rozvojovou hodnotu programů. Zaměření je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
 
-Její předností je zaměření na výchovnou a rozvojovou hodnotu programů. To je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
-Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. Jako větší nedostatek však vnímám spíše omezenou možnost poskytování zpětné vazby, a komentářu k zapsaným programům. Jediná možnost hodnocení, je totiž zaslání svého hodnocení pouze soukromě autorovi daného programu. Což opět pro interní využití, které by mělo umožňovat sdílení obsahu a na něm následnou spolupráci, není vyloženě příhodné.
-"""
+Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. 
 
-### -encyklopedie her
+Jako větší nedostatek však vnímám spíše omezenou možnost poskytování zpětné vazby, a komentářu k zapsaným programům. Jediná možnost hodnocení, je totiž zaslání svého hodnocení pouze soukromě autorovi daného programu. Což opět pro interní využití, které by mělo umožňovat sdílení obsahu a na něm následnou spolupráci, není vyloženě příhodné.
 
-Právě tento objem, pědstavuje hlavní pědnost tohoto zdroje. Jelikož vzhledem k době jeho vydání, existuje šance, že některé zapsané hry, nebudou již dnes pro děti zábavné. Avšak vzhledem ke zmíněnému objemu, by se musela od té doby změnit kompletně celé podstata dětských her, aby tento zdroj již nebyl relevantní, což tato práce nepředpokládá.
+### encyklopedie her
+Hlavní a nespornou předností této báze je její úctyhodný rozsah. 
+Ikdyž vzhledem k době jejího vydání, existuje šance, že některé zapsané hry, nebudou již dnes pro děti zábavné. Avšak vzhledem ke zmíněnému objemu, by se musela od té doby změnit kompletně celé podstata dětských her, aby tento zdroj již nebyl relevantní, což tato práce nepředpokládá.
 S rokem vydání encyklopedie souvisí však i další nevýhody, které přehlédnout nelze. Klíčovým nedostatekm jou značně limitované možnosti efektivního prohledávání, které jsou implicitním důsledkem tištěné formy báze. Hry jsou sice jednotlivými knihami rozděleny podle prostědí do kterého jsou vhodné a dále pak pomocí kapitol. Navíc každá hra má vedle názvu uvedeno specifické značení, popsané na začátků každé z knih, které poskytuje informace například o tom, pro jaký počet, nebo věk hráču je hra vhodná. Nicméně to pořád znamená, že je třeba záznamy procházet manuálně a vizuálně kontrolovat, zda chci o dané hře číst více. Nemluvě o tom, že doplňování zpětné vazby či komentářů rovněž není možné.
-""""
- 
-### !sdílený disk našeho oddílu
+### sdílený disk našeho oddílu
+Jak už bylo řečeno, z hlediska této práce je největší předností této báze její původ, tedy to, že byla vytvořeny členy oddílu. V Souvislosti s konkrétními připravovanými programy během činnosti oddílu. Navíc společnost Google Podporuje Skauting a poskytuje nejen o GB sdíleného disku jednotlivým oddílům ale i pak dalších 40 každému jednomu členovi.
+Poskytuje tím tak sjednocenou platformu pro zaznamenáváníjak pracovních podkladů využitelných jen jejich autorem, ale i následné sdílení předatelných informací a znalostí z jednotlivých zápisů časem syntetizovaných.
+
+Zároveň se také jedná "nativně"(původně) cloudovou službu, s čímž je spojená například perfektí real-time kolaborace při úpravách dokumentů, a možná nepřímo i příjemně ovladatelné mobilní aplikace pro jednotlivé služby.
+
+Na druhu stranu však ve spojitosti s cloudovou podstatou této služby se vyskytují i určité nedostatky. Příkladem mohou být limitované možnosti prohledávání uloženého obsahu, identifikované během hodno­cení spolehlivosti prohledávání obsahu analyzo­vaných sw kandidátů na uložiště.
+
+Npř. One None Desktop umí také vyhledávat "jen" pomocí jednoho pole pro zadání hledané části textu a následného prohledání full-text indexu z uloženého obsahu.
+A při obdobném experimentu, jako pro vyhledávání mezi soubory na gDisku, podle jejich obsahu (Zapsání někam na běžné využívané místo v dané struktuře, unikátní string a následný - pokus o jeho vyhledání pomocí testované funkcionality dané struktury.), provedeném v desktopové aplikaci OneNote, však nebyla nalezena jediná nepravdivá odpověd" a navíc bylo vyhledávání místo cca 2s téměr instantní.
 
 
-
-## !Výsledky analýzy obsahu (báze)
+## !(seznamPojmů) Výsledky analýzy obsahu (obsah existujících bází)
 ### rešerše obsahu sdíleného disku
 Většina dokumentů na sdíleném disku jsou dokumenty využívané pro administrativní účely, nicméně několik složek je dedikováno záznamům o programech. 
 První složka pojmenovaná 'Výpravy' obsahuje jeden dokument na jednu výpravu, s tím že zapsaných výprav je přibliženě 40. Jak výpravy souvisí s programem? A co vlastně jsou výpravy? 
@@ -159,38 +167,49 @@ Druhá složka nese název 'Programy' a obsahuje několik neroztříděných akt
 
 
 
-# !!!!Získání nejlepších praktik pro modelování dat ve vybrané DB
-### !nodes
+# Získání nejlepších praktik
+ pro modelování dat ve vybrané DB
+## nodes (vrcholy)
+Vrcholy jsou podle oficiální dokumentace definovány jako první entitu, kterou je vhodné celémodelování domény začínat. Rovněž se jedná o jeden ze dvou základních stavebních prvků z nichž se graf skládá (tou druhou jsou vztahy mezi jednotlivými vrcholy). [[../../myDM/Websites/Graph modeling guidelines - Getting Started ----- 8eb0cb94-0add-44c7-85f5-2ef1ab66e854|Graph modeling guidelines - Getting Started]]
+Všechny zdroje se zároveň shodují na tom že vrcholí se používají k modelování věcí v doméně našeho zájmu. Tyto věci pak bývají v přirozené řeči typicky reprezentovány podstatnými jmény, ale je tak možné modelovat i konkrétní fakta jako například konkrétní rok. Pokud by pak grafové schéma obsahovalo kromě vrcholů a roků i vrcholy konkrétních uskutečněných událostí, bylo by možné vztahy mezi vrcholem události a vrcholem roku reprezentovat v jakém roce se událost uskutečnila. 
+To by samo o sobě nebylo nic úžasného, avšak v kombinaci s grafovou strukturou jejíž specifika jsou popsána v teoretické části, volba této varianty znázornéní umožní vyhledat velmi snadno všechny záznamy událostí, které se uskutečnily v daném roce. Je to díky tomu, že v grafové struktuře jsou vztahy tím prvkem, který propojuje jednotlivé záznamy, znamená to prakticky to, že záznamy událostí jsou dostupné hned vedle záznamu odpovídajícímu roku jejich uskutečnění
+Vrcholy tak mohou být vhodnou volbou pro kategorické proměnné, které mají velmi vysokou kardinalitu [blogs-categoricalvars]
+je tak pomocí těchto prvků možné podobně reprezentovat i komplexní (složené) hodnoty. [pdfOReilly]
+Je však potřeba dát si pozor na takzvané 'super vrcholy'. To značí vrcholy, které mají příliš mnoho vztahů. Vzhledem totiž k tomu jak Neo4j ukládá dat (vztahy daného vrcholu odkazují na další i předchozí vztah daného vrcholu stejného typu), je při každé prohledávání do kterého je zahrnut onen 'super vrchol' procházet všechny tyto jeho vztahy, což zásadné ovlivňuje rychlost na získání odpovědí.
+Jako přirovnání k běžné relační databázi by se pak dalo říci, že jednotlivé vrcholy odpovídají jednotlivým řádkům v tabulkách.
 
 
-"""
- myšlenky
-  -
- todo
-  -
-### !lables
+
+## labels
+Než bude prezentována definice pojmu 'label' ve spojitosti s Neo4j, je pro tento pojem stanoveno významově odpovídající české slovo, které když bude použito v textu této práce a nubude řečeno jinak, odkazuje právě na pojem 'label'. Za český ekvivalent je dále vužíváno označení 'štítek'. Toto slovo nebylo zvoleno jen pro svoji významovou blízkost se slovam label, ale zároveň protože se relativně málo používá, oproti například pojmu 'označení', kteréžto slovo mi vrátil slovník.
+
+Podle oficiální dokumentace   "Štítek je pojmenovaný prvek struktury grafu, který je užíván k seskupování vrcholů do skupin, respektive jejich různých setů (sad)." [docs]
+Bylo by tak možné tyto štítky přirovnat k tabulkám v relační databázi, na rozdíl však od relační databáze a tabulek, vrchol může zároveň mít i více štítků a být tak členem několika různých sad. Efektivně to tak umožňuje přistupovat přímo k podmnožinám z celého uloženého grafu. Proto je vhodné, modelovat štítky vrcholu podle toho, které údaje budou zahrnuty v dotazech jenž budou databázi zadávány.
+
+Narozdíl však od vrcholů, nejsou štítky vhodné pro promněnné s vysokou kardinalitou, nýbrž se hodí pro reprezentaci proměnných s nízkou kardinalitou a v případě, kdy se jednotlivé kategorie stanovené proměnnou mohou překrývat (vyskytovat zároveň). 
+Je také doporučováno používat maximálně 4 štítky na jeden vrchol, což by dle tvrzení autorů mělo být více než dostačující prostou většinu případů, i těch když se ukládádána opravdu rozsáhlá data. V běžných případech by pak na dostatečné rozlišení jednotlivých podmnožin v grafu mělo bohatě stačit 1 až 2 štítky ne 1 vrchol.
+
+Autoři zároveň odrazují čtenáře od taho, aby s pomocí štítky modelovali hierarchické vztahy typu "pojem A" JE "pojem b". Důvodem pro to je jednak to že databáze nepodporuje nastavování omezujících podmínek pro štítky přiřazené k vrcholu, rovněž to když je s prohlubující se hierarchií velmi rychle roste i počet vyžadovaných štítků což opět vzhledem ke struktuře ve které databáze ukládá data, má negativní dopady na výkon. Argumentují také tím jenže modelování generalizovaných tříd není nutné, protože pro získání odpovědí se stejným obsahem jako při využití dané generalizované třídy stačí pouze v dotazu explicitně vyjmenovat jednotlivé podtřídy a spojte pomocí logických výrazu, a databáze tak vrátí odpovídající například sjednocené množiny záznamů.
+Navíc podobně jako u vrcholů, můžem dojít k vytvoření takzvané super třídy v případě že je 1 štítek přiřazený k příliš mnoho záznamů. 
+Kromě hierarchií by také štítky neměly být využity pro reprezentaci vztahů, které jsou typu "MÁ", takový vztah by měl být vyjádřen pomocí struktury k tomu určené, což jsou vztahy.
+
+Na rozdíl od hierarchie a vlastností však autoři důrazně doporučují zakládat výběr použitých štítků na konkrétních otázkách které jsou požadovány aby tvořená báze byla schopná zodpovídat
 
 
-"""
- myšlenky
-  -
- todo
-  -
-### !relationships
+## relationships
+Vztahy představují druhý ze základních prvků grafové struktury. Díky nim je je v grafu uložená veškerá struktura a propojení mezi jednotlivými záznamy. Hodí se říci že při vytváření vztahu mezi vrcholy databáze vyžaduje ambit byl specifikován směr tohoto stavu, nicméně databáze umožňuje procházet i tyto vztahy jako nesměrované.
+Klíčovým principem grafové databáze je takzvaný žádné rozbité odkazy princip, který zajišťuje že vztah nikdy nebude odkazovat k neexistujícímu vrcholu, výsledně to tak znamená že není možné smazat vrcholu pokud k němu vede nějaký vztah.
+Jakoby pro identifikaci vrcholů měly posloužit podstatná jména, pro identifikaci vztahů by měl fungovat slovesa.
+
+Užitečné je i vědět že využitím vztahu dochází k normalizaci dat. Účelem tohoto procesu je odstranění duplicit ních hodnot vyskytujících se mezi množstvím záznamů v bázi a jejich nahrazením za odkaz na danou hodnotu, která byla z duplicitních výskytů extrahována a umístěna do vlastní tabulky v případě relační databáze. Ve zvolené grafové databázi se však tento postup příliš neliší, rozdíl je zejména v tom, že oproti tabulkám je grafová struktura podstatně flexibilnější a není tak problémem refaktorovat uloženou strukturu podle potřeby. Není k tomu třeba podstupovat migraci databáze či jiný složitý proces, nýbrž je možné využít nativně podporovaných funkcí určených pro transformaci daných prvků uložený struktury na strukturálně odlišný typ prvku. Je tak možné převést třeba hodnotu vybraného štítku, na reprezentaci odděleným vrcholem, jenž nebude mít změněný význam.
 
 
-"""
- myšlenky
-  -
- todo
-  -
-### !properties
+## properties
+v textu dále označované jako vlastnosti představuji nejuniverzálnější prvek grafové struktury, je možné ho přiřadit totiž jak k vrcholům tak k vztahům. Avšak ke vztahům se doporučuje přiřazovat pouze v nejnutnějších případech, jelikož typicky bývá nejvýhodnější vymodelovat místo 1 vztahu který bude mít větší počet vlastností, radši několik různých vztahů které povedou mezi stejnými vrcholy a každý z nich bude reprezentovat jinou z těch vlastností. Vhodnější je to z pohledu výkonnosti databáze jelikož v případě vlastností je potřeba vždy procházet skrz všechny asociované vlastnosti (dokud není nalezena odpověď), zatímco vztahy můžeme identifikovat jejich typem a na základě toho přistupovat přímo k nim. 
 
+Vhodným využitím vlastností, je naopak podle autorů pro frekventovaně měněné hodnoty, zaznamenávání metadat jako časové známky nebo čísla verze mezi vlastností vrcholů nebo pro vztahy vyjadřování jejich síly, váhy, nebo kvality, zároveň s metadaty stejně jako v případě s vrcholy. [ ]
 
-"""
- myšlenky
-  -
- todo
-  -
+Nehodící tím řešením když jsou vlastnosti oproti tomu v případě, kdy se vlastností reprezentované hodnoty moho překrývat, nebo jich může být pro jednu instatnci více než jedna.
+Stejně tak nešikovným je přitom využití vlastnosti pro hodnoty, které budou často využívány v rámci dotazů s účelem získat podmnožinu záznamů sdílejících konkrétní hodnotu dané vlastnosti. V takových případech se hodí modelovat pojem spíše jako separátní vrchol.
 
 
