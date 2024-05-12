@@ -37,10 +37,34 @@ Na závěr konceptuálního modelování pak byly modelovány vhodné asociace m
 Popsanou metodikou získaný diagram tříd je nakonec porovnán s modelem tvořeným rovněž pro navrhovanou bázi, nicméně primárně s využitím mých vlastních doménových znalostí, nikoliv systematickým zpracováním existujících zdrojů.
 
 3.
+Aby byla podpořena šance na navržení takové struktury, která by byla v souladu s nejlepšími praktikami identifikovanými pro zvolený databázový nástroj, byla nejprve provedena rešerše publikované literatury k danému nástroji s cílem identifikovat tyto praktiky. 
+
+Samotný návrh struktury báze znalostí skautských programů byl realizován transformací diagramu tříd tvořícího 'rozšířenou definici' modelované domény s ohledem na dříve identifikované nejlepší praktiky. Pro zakreslení navrženého schématu byla využita stejná notace, jakou běžně využívá i oficiální dokumentace zvolené databáze.
+
+Správnost navrženého schématu byla verifikována pomocí několika kompetenčních otázek, které vycházejí z podmnožiny pojmů z množiny všech, podle kterých dovedly existující báze filtrovat zobrazované záznamy. Kompetenční otázky byly následně přeloženy do jazyka používaného databází a byla pro ně provedena vizuální kontrola porovnáním oproti navrženému schématu, zda jsou v něm obsaženy všechny údaje nezbytné pro zodpovězení daného dotazu.
 
 
 # Dosažené výsledky
-Na základě zjišťení z publikací o daných nástrojích je dále identifikována konkrétní infrastruktura odpovídající hlavnímu cíli práce
+Výsledky jsou v práci prezentovány ve dvou, na sebe navazujících částech, rozdělených podle toho, zda se jedná o mezivýsledky vytvořené jako prostředek pro dosažení stanovených dílčích cílů, nebo o finální výsledky stanovených dílčích cílů a ověření úspěšnosti jejich dosažení.
+
+\paragraph{Teoretická část} Mezivýsledky využité k dosažení dílčích cílů práce jsou uvedeny právě v této části.
+
+Konkrétně pro 1. dílčí cíl se jedná o výsledky z hodnocení, metodikou vybraných softwarových nástrojů, z hlediska jimi nabízených možností čtení a zapisování uloženého obsahu. Následované výsledky z analýzy nástrojů, přijatých v rámci buď hlediska čtení nebo hlediska zapisování obsahu. V rámci této analýzy byla detailněji popsána datová struktura a možnosti integrovatelnosti, hodnocením přijatých nástrojů.
+
+Z výsledků získaných v rámci 2. dílčího cíle jsou v této části prezentovány pouze ty z hodnocení vybraných existujících bází. A pokud daná existující báze neměla jasně stanovenou strukturu pro záznamy, pak i rešerše obsahu dané báze. 
+Samotné pojmy, asociované se záznamy o programech analyzovanými bázemi, jsou představeny až v praktické části, jelikož během sestavování definice modelované domény jsou stejné pojmy detailně popisovány, není proto nutné, získané pojmy popisovat v obou částech.
+
+V rámci posledního dílčího cíle jsou jediným mezivýsledkem popsané nejlepší praktiky pro modelování dat ve zvoleném databázovém nástroji, získané rešerší publikované literatury o konkrétním nástroji.
+
+\paragraph{Praktická část} Na úvod této části jsou interpretovány výsledky z hodnocení a analýzy posuzovaných nástrojů. K interpretaci bylo využito jednoduchých modelů, hodnocením přijatých nástrojů, reprezentujících integrovatelnost (možnosti programového přístupu) jednotlivých z nich. Ze zjištěných informací byly následně vyvozeny konkrétní tvrzení, která musí být pravdivá, má-li navržená infrastruktura splňovat všechny požadavky hlavního cíle práce.
+Posledním výsledkem získaným v rámci 1. dílčího cíle, je tak už jen implementace konkrétních funkcí, identifikovaných jako nutnost, pokud má návrh mít šanci naplnit prací stanovený cíl. 
+
+Výsledkem 2. dílčího cíle je primárně diagram tříd, jak základní (1-2 pojmy z každého analyzovaného zdroje) i rozšířený (základní + ostatní získané pojmy z modelované domény). Kteréžto představují vybranou výseč reality navrženou k zaznamenávání. Diagramy jsou rovněž doplněny o vysvětlení jednotlivých, v modelu zachycených pojmů i jejich vztahů.
+Uspěšnost dosažení tohoto dílčího cíle je pak vyjádřena porovnáním modelovaného obsahu s dříve vytvořeným diagramem tříd, jenž byl sestaven primárně pomocí vlastních doménových znalostí. 
+
+Závěrečnými výsledky 3. dílčího cíle je prvně návrh schématu pro vybranou bázi. Pro názorné vysvětlení postupu transformace diagramu tříd podle nejlepších praktitk pro modelování dat ve vybrané databázi, jsou prezentovány výstupy několika iterací transformování schématu. Bylo při tom započato iterací s minimálnimi změnami oproti původnímu diagramu a pokračováno několika dalšími, které dále postupně optimalizují a upřesňují nakreslené schéma.
+Za druhé, výsledkem k ověření správnosti navrženého schématu, jsou sestavené ukázkové dotazy pro databázi, které vycházejí z pojmů s jejichž pomocí umožňují filtrování svého obsahu existující báze.
+
 
 # Vlastní přínos autora
 

@@ -43,10 +43,10 @@ Celek znamená, že v práci musí být jasný záměr, postup, výsledek (jak t
 
 
 # TODO Podle Kapitol
-> [!question]
+> [!todo] autoreferát.bp
 > ```dataview
 > TASK
-> where contains(tags,"p/bp/úvod") or contains(tags,"p/bp/závěr")
+> from "BP/autoreferát.bp"
 > ```
 
 ## Metodika
