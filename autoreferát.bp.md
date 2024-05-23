@@ -1,3 +1,9 @@
+---
+id: autoreferát.bp
+aliases: []
+tags: []
+---
+
 
 # Cíl práce
 Cílem mé práce bylo, navrhnout bázi znalostí skautských programů. S tím, že báze je specifikována jako systém umožňující co nejsnazší sdílení (zapisování) záznamů o programech připravených v rámci činnosti našeho oddílu a zároveň nabízející možnost správného a rychlého filtrování zobrazení (čtení) uložených záznamů, podle definovaných částí jejich obsahu. Kterýžto systém by zároveň, vzhledem k neziskové a dobrovolné povaze skautingu, nevyžadoval lidské ani finanční zdroje na svůj provoz či údržbu konzistence uložených dat.
@@ -67,4 +73,12 @@ Za druhé, výsledkem k ověření správnosti navrženého schématu, jsou sest
 
 
 # Vlastní přínos autora
+
+Prvním přínosem mé práce je výběr softwarového řešení, jenž splňuje podmínky stanovené s ohledem na snadné a nenáročné využívání navrženého systému. Pro toto softwarové řešení jsem také ověřil jeho realizovatelnost pomocí implementace jeho klíčových funkcionalit.
+
+Druhým přínosem je sestavení základní definice domény skautských programů s využitím diagramu tříd podle UML. Tuto definici jsem poté rozšířil o pojmy, které jsou vhodné pro asociování se skautskými programy v případě vytváření záznamů o jednotlivých instancích základních tříd z této domény.
+
+Třetím přínosem je navržení schématu pro vybraný databázový nástroj. Toto schéma vychází ze sestaveného diagramu tříd, představujícího rozšířenou definici modelované domény. Navíc jsem ověřil kompetence navrženého schématu na zodpovídání otázek, jako dovedou zodpovídat existující báze.
+
+A konečně, mým přínosem je i relativně podrobné popsání postupu, který jsem v rámci práce využil pro získání výsledků.
 
