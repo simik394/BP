@@ -3,7 +3,11 @@ id: autoreferát.bp
 aliases: []
 tags: []
 ---
-
+```custom-frames
+frame: gDoc
+style: height: 1000px;
+urlSuffix: 1f7Qi-hCgeiD0aAB7ecQT1YbKKI5_VncLFkKbo_XeFxo
+```
 
 # Cíl práce
 Cílem mé práce bylo, navrhnout bázi znalostí skautských programů. S tím, že báze je specifikována jako systém umožňující co nejsnazší sdílení (zapisování) záznamů o programech připravených v rámci činnosti našeho oddílu a zároveň nabízející možnost správného a rychlého filtrování zobrazení (čtení) uložených záznamů, podle definovaných částí jejich obsahu. Kterýžto systém by zároveň, vzhledem k neziskové a dobrovolné povaze skautingu, nevyžadoval lidské ani finanční zdroje na svůj provoz či údržbu konzistence uložených dat.
