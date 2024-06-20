@@ -1,12 +1,16 @@
+---
+id: mgr studium
+aliases: []
+tags: []
+---
 
-# přijímačky
-## kognitivníI
 
-### Okruhy k přijímacím zkouškám – Fakulta informatiky a statistiky – Vysoká škola ekonomická v Praze
+# kognitivníI
+## Okruhy k přijímacím zkouškám – Fakulta informatiky a statistiky – Vysoká škola ekonomická v Praze
 [online](https://fis.vse.cz/magisterske-studium/prijimaci-rizeni/okruhy-a-literatura-k-prijimaci-zkousce/)
 date: "2024-06-05 13:12:50"
 
-
+### Průběh %% fold %% 
 Přijímací zkouška probíhá formou ústního pohovoru a má dvě základní části:
 
 a) v **odborné části pohovoru** jsou *testovány vědomosti uchazeče* z oblasti informatiky, a to v předpokládaném *standardním rozsahu vědomostí absolventa bakalářského stupně studia v oboru informatika*. Uchazeči jsou položeny dvě nebo více otázek z výše uvedených okruhů a jeho odpovědi jsou s ním diskutovány.
@@ -16,17 +20,10 @@ b) v **motivační části pohovoru** je *zjišťována motivace uchazeče* ke s
 Obě části se na vyhodnocení výsledku pohovoru podílejí stejnou měrou.
 
 Minimální očekávaná úroveň znalostí uchazeče odpovídá základním znalostem v jednotlivých dílčích tématech základů informatiky:
-
--   Informační technologie, jejich smysl, historický vývoj a současná úroveň, aplikace informačních technologií v různých oblastech lidského života a společnosti.
--   Základy algoritmizace a programování.
--   Informační systémy, základní principy a postupy jejich vývoje.
--   Řízení informatických projektů a týmů.
--   Databázové systémy a správa databází.
--   Webové aplikace a technologie.
--   Zpracování znalostí.
+[[BP/Pokračování/oblasti k přijímačkám.KI.vse|Vypracování]]
 
 ---
-### Literatura:
+## Literatura: %% fold %% 
 
 - BRUCKNER, T., VOŘÍŠEK, J., BUCHALCEVOVÁ, A., STANOVSKÁ, I., CHLAPEK, D., ŘEPA, V. Tvorba informačních systémů. 1. vyd. Praha: Grada Publishing, 2012. 357 s. ISBN 978-80-247-4153-6.
 - ŘEPA, Václav. Procesně řízená organizace. 1. vyd. Praha: Grada Publishing, 2012. 304 s. ISBN 978-80-247-4128-4. Kapitola 3.
@@ -39,12 +36,14 @@ Minimální očekávaná úroveň znalostí uchazeče odpovídá základním zna
 - POKORNÝ, J. — VALENTA, M. Databázové systémy. Praha: České vysoké učení technické v Praze, 2013. ISBN 978-80-01-05212-9.
 - ROSICKÝ, Antonín: Informace a systémy: Základy teorie pro úspěšnou praxi. 1. vyd. Praha: Oeconomica, 2009, ISBN 978-80-245-1629-5.
 
-## ZWtech
-### Okruhy k přijímacím zkouškám – Fakulta informatiky a statistiky – Vysoká škola ekonomická v Praze
+# ZWtech
+## Okruhy k přijímacím zkouškám – Fakulta informatiky a statistiky – Vysoká škola ekonomická v Praze
 [online](https://fis.vse.cz/magisterske-studium/prijimaci-rizeni/okruhy-a-literatura-k-prijimaci-zkousce/)
 date: "2024-06-05 13:13:17"
 
+[[BP/Pokračování/oblasti k přijímačkám.ZWTech.vse|Vypracování oblastí]]
 
+Originální seznam:
 1.  Reprezentace dat v počítači, problém zaokrouhlovacích chyb. Základní datové struktury (pole, spojový seznam, fronta, zásobník), operace na těchto strukturách.
 2.  Algoritmus, prostředky pro zápis algoritmu, algoritmické konstrukce. Složitost algoritmu, algoritmicky neřešitelné problémy.
 3.  Význam informace v řízení systémů. Modely vyhledávání textových dokumentů.
@@ -57,7 +56,7 @@ date: "2024-06-05 13:13:17"
 10.  Vývoj a testování softwaru. Vzory při vývoji softwaru. Testování softwaru. Správa konfigurací, integrace (sestavení) a distribuce aplikací. Řešení uživatelského rozhraní IS/ICT jako jedné z dimenzí IS/ICT.
 
 ---
-### Literatura:
+## Literatura: %% fold %% 
 
 - PALOVSKÝ, R.: Informační a komunikační sítě. Díl I. Praha, Oeconomica 2010. ISBN 978-80-245-1729-2.
 - ODOM, W.: Počítačové sítě bez předchozích znalostí. Brno, CP Books 2005. ISBN 80-251-0538-5.
@@ -66,3 +65,5 @@ date: "2024-06-05 13:13:17"
 - GÁLA, L. – POUR, J. – TOMAN, P.: Podniková informatika. Praha, Grada 2006. ISBN 80-247-1278-4
 - CHLAPEK, D. – ŘEPA. V. – STANOVSKÁ, I: Analýza a návrh informačních systémů, Vysoká škola ekonomická v Praze, Nakladatelství Oeconomica, 2011, ISBN 978-80-245-1782-7.
 - BRUCKNER, T. – VOŘÍŠEK, J. – BUCHALCEVOVÁ, A. – STANOVSKÁ, I. – CHLAPEK, D. – ŘEPA, V. Tvorba informačních systémů : principy, metodiky, architektury. Praha: Grada Publishing, 2012. 978-80-247-4153-6
+
+
