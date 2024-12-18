@@ -1,4 +1,4 @@
-[[BP/README|README]]
+[[Prods/120-BP/README|README]]
 
 # Dv8
 ## zaměření
@@ -25,7 +25,7 @@ enables/supports...
 3. Vybírám google workspace jako základní prvek pro návrh, protože již v oddíle využíváme službu gDrive jako primární uložiště pro naše data v digitální podobě, mimo fotek. Všichni jsou na ně zvyklí, navíc ani nepředstavuje omezení, spíše naopak. *Nicméně v rámci hledání řešení, poslouží dostatečně dobře jako rámec a umožní mi tak se podrobněji věnovat modelování.*
 
 ### Struktura %% fold %%
-viz. drawio [[../assets/models/concept-model-ke-konzultaci3.drawio.png|strana: model textu práce]]
+viz. drawio [[concept-model-ke-konzultaci3.drawio.png|strana: model textu práce]]
 
 ### Časový plán
 výběr tématu proběhlo v únoru, na začátku dubna jsem dodělával minimální verzi program
@@ -345,7 +345,7 @@ docker run    --restart always     --publish=7474:7474 --publish=7687:7687     -
 # konceptuální model %% fold %% 
 
 ## v3.1 - plantUML
-[[assets/models/plantUML/classDiagram.plantUML.bp]]
+[[classDiagram.plantUML.bp]]
 ## v3.0 - test %% fold %%
 
 
@@ -376,7 +376,7 @@ skautská_činnost <|-- Událost
 
 
 ## v2.2 %% fold %%
-![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.2.png]]
+![[concept-schema-ke-konzultaci2.2.png]]
 ### Komentář: 
 proč šestiúhelníky?
 vlastnost "obsazena"? (to mělo být "obsažena")
@@ -386,7 +386,7 @@ bylo by lepší mít pojmenová konce vztahů více odpovídající realitě
 :
 -  roměnné parametry každé aktivity?
 ## v2.1  %% fold %% 
-![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.1.png]]fcgguu
+![[concept-schema-ke-konzultaci2.1.png]]fcgguu
 ## v2
 ### schema: %% fold %% 
 
@@ -400,7 +400,7 @@ Aktivita může mít různé verze (starší/novější), a je důležité zachy
 Aktivity mohou mít několik lehce odlišných verzí. 
 Verze by se měly drobně lišit, ne však příliš. pak nová aktivita. 
 Každá verze má nějaké vlastní parametry (doba nabíjení, počet stanovišť, počet týmů, běhaná vzdálenost, symbolický rámec, ...)
-[[Podklady/Nápady/todonápady]]
+[[todonápady]]
 
 U hry přidat parametr Cíl činnosti/Cíl činnostie hráčů?
 Nebo vedle mechanik jako entitu obsaženou v pravidlech?
@@ -426,51 +426,51 @@ Chci vážně dělit aktivity na zábavné, naučné a potřebné? > ANO
 ---
 Program =vybrané aktivity s konkrétními parametry. By měly mít ještě připravené otázky jejichž zodpovězení proběhne ve z5v.
 
-![[assets/images/diagrams/conceptuals/concept-schema-ke-konzultaci2.png]]
+![[concept-schema-ke-konzultaci2.png]]
 ## v1 %% fold %% 
 ### schema:
 ![[concept-schema-ke-konzultaci1.png]]
 ### Komentáře-schema:
 
 #### všeobecné
-![[Conceptschemakomentar1#^KD92LVAFaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^KD92LVAFaME3Q98H8p1]]
 
 
 #### pojmenování vztahů (5)
-![[Conceptschemakomentar1#^SQW8CNSYaME3Q98H8p1]]
-![[Conceptschemakomentar1#^29AIIULZaME3Q98H8p1]]
-![[Conceptschemakomentar1#^DQEBPJ73aME3Q98H8p1]]
-![[Conceptschemakomentar1#^9226QHQ5aME3Q98H8p1]]
-![[Conceptschemakomentar1#^NNAEKGATaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^SQW8CNSYaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^29AIIULZaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^DQEBPJ73aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^9226QHQ5aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^NNAEKGATaME3Q98H8p1]]
 
 #### vztahy (2)
-![[Conceptschemakomentar1#^AHZI6TLZaME3Q98H8p1]]
-![[Conceptschemakomentar1#^22E9IMW7aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^AHZI6TLZaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^22E9IMW7aME3Q98H8p1]]
 
 #### pojmenování entit (2)
-![[Conceptschemakomentar1#^5EPBB4R8aME3Q98H8p1]]
-![[Conceptschemakomentar1#^G8NGTBVUaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^5EPBB4R8aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^G8NGTBVUaME3Q98H8p1]]
 
 
 #### entity (3)
-![[Conceptschemakomentar1#^YRKPC5Y6aME3Q98H8p1]]
-![[Conceptschemakomentar1#^ZFXBAICMaME3Q98H8p1]]
-![[Conceptschemakomentar1#^EC9RGPU6aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^YRKPC5Y6aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^ZFXBAICMaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^EC9RGPU6aME3Q98H8p1]]
 
 #### parametry 
 doba stavby >> čas na přípravu
-![[Conceptschemakomentar1#^PQAHBZW4aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^PQAHBZW4aME3Q98H8p1]]
 
 #### gen/spec
 hlavní Cíl činnosti aktivity
-![[Conceptschemakomentar1#^FIPPGZWWaME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^FIPPGZWWaME3Q98H8p1]]
 
 #### barvy
-![[Conceptschemakomentar1#^PPTYFIE6aME3Q98H8p1]]
+![[myDM/archived/Zotero/LiteratureNotes/Conceptschemakomentar1#^PPTYFIE6aME3Q98H8p1]]
 
 
 ### model:
-![[assets/models/datamodeller/odm-Logical230703.png]]
+![[odm-Logical230703.png]]
 ### Komentáře-model:
 
 
@@ -498,7 +498,7 @@ Komentáře k provedení
 
 
 # v0 %% fold %%
-[[Podklady/Nápady/bp.Příprava]]
+[[bp.Příprava]]
 ## Methods:
 1. 
 ## Deliverables

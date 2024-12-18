@@ -79,7 +79,7 @@ where contains(tags,"p/bp/diskuze")
 	
 # _ %% fold %% 
 > [!board]-
-> [[Podklady/dashboard.bp.canvas|dashboard.bp]]
+> [[dashboard.bp.canvas|dashboard.bp]]
 
 
     ```dataview
@@ -115,9 +115,9 @@ where contains(tags,"p/bp/diskuze")
 	```
 # Resources
 ## favs %% fold %%
-[[Podklady/Odloženo/tmp.bp]]
+[[tmp.bp]]
 
-[[Podklady/Pozorování/tábor23-artefakty.bp]]
+[[tábor23-artefakty.bp]]
 [[bp.vedení]]
 [[BP.Zadání
 

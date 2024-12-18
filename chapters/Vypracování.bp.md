@@ -1,7 +1,7 @@
 --- 
 aliases: 
 up: 
-  - "[[../README|README]]"
+  - "[[Prods/120-BP/README|README]]"
 ---
 
 #####  Dotazy %% fold %%
@@ -31,8 +31,8 @@ Konkrétně, vzhledem k tomu, že aktuálně není k dispozici způsob, jak změ
 
 ## Infrastruktura pro navrhovanou bázi
 ### Vizualizace zjištění integrovatelnosti
-![[../assets/diagrams/sw/gWorkspace-SW Mapa.jpg]]
-![[../assets/diagrams/sw/neo4j-SW Mapa.jpg]]
+![[gWorkspace-SW Mapa.jpg]]
+![[neo4j-SW Mapa.jpg]]
 Oba uvedené diagramy jsou založené opět na UML, i když i v tomto případě je učiněna drobná odchylka od standardu. Aby totiž uvedené diagramy odpovídaly normě, musely by obdélníky představující třídy, ještě mít menší čtverečky po stranách, kterými by byly reprezentovány konkrétní porty, které daná třída má a spojení s ostatními by pak měla být realizována pouze přes ony porty.
 Jelikož se jedná jen o vizalizaci výsledků z předchozího kroku, nezahrnují diagramy žádnou informaci, která už by nebyla řečená. Nicméně pro vysvětlení použité notace, následuje stručný popis získané mapy možný integrací (propojení mezi softwary).
 Jednodušší z obou diagramů zobrazuje dvě různé varianty databáze Neo4j, verze Aura je cloudová služba, která nabízí i celkem dostatečný objem možný k využití a bylo proto původním plánem vystačit při návrhu s ní, aby nebylo nutné nasazovat svoje vlastní řešení. Bohužel, jak je patrné z vizualizace a jak bylo rovněž už i řečeno, cloudová verze databáze  podporuje pouze komunikaci skrze knihovny, které si uživatel musí nejdříve nainstalovat (uložit spustitelný soubor do 'cesty' konkrétnímu programu). Což by ani nepředstavovalo problém, pokud tedy zrovna není potřeba s databází komunikovat z prostředí, kde si takové knihovny nainstalovat nelze, jako je například Apps Scripts. [kostyukMasteringNPMModules2023]
@@ -75,13 +75,13 @@ Samotná databáze byla pro tento účel hostována na Oracle Cloud Infrastructu
 
 ### Proces
 #### Vývojový diagram
-![[../assets/diagrams/sw/flowchartAppsScripts Proof Implementace.jpg]]
+![[flowchartAppsScripts Proof Implementace.jpg]]
 
 
 # -! | Model pojmů
 ## Základní definice
 ### model 
- ![[../assets/images/Pasted image 20240425140659.png]]
+ ![[Pasted image 20240425140659.png]]
 ### Program
 Jedná se o nejobecnější z pojmů. Prakticky je programem cokoliv co připravujeme v rámci činnosti oddílu. 
 Kdyby Činnost oddílu byla mezi modelovaným, pojmy, nacházela by se ta, na vršku generalizační struktury. Jejími dalšími specializacemi, kromě programu, by pak ještě pravděpodobně byl například pojem Administrativa.
@@ -105,7 +105,7 @@ Jak se hra liší od aktivity, či jaké může mít hra další vztahy, je pops
 ## Rozšíření základních tříd
 ### Program
 model
- ![[../assets/diagrams/pojmy/Program-SystematickyTvořenýDiagramTříd.jpg]]
+ ![[Program-SystematickyTvořenýDiagramTříd.jpg]]
 Ke třídě Program byly pojmy vybrány, ve všech připadech kromě zpětné vazby, z báze chystam program.
 
 Nalezení první skupinky podobných pojmů nebylo obtížné nalézt, jelikož chystamprogram dělí aktivity podle 'OblastRozvoje' a dále podle podoblastí každé z oblastí. V modelu je proto každá z oblastí modelována jako samostatná třída obsahující její přípustné hodnoty a připojená ke třídě 'OblastRozvoje' jako její specializace. Tato notace vychází z takzvaných číselníků neboli enumerates v UML, pomocí kterých jsou reprezentovány atributy, které mohou nabývat pouze hodnot z předdefinované sady.
@@ -123,7 +123,7 @@ Jako jediné třídy, které jsou asociované se většinou instancí třídy Pr
  
 ### Aktivita
 model
- ![[../assets/diagrams/pojmy/aktivita-SystematickyTvořenýDiagramTříd.jpg]]
+ ![[aktivita-SystematickyTvořenýDiagramTříd.jpg]]
  K základní třídě aktivita byly kromě zbývajících pojmů z báze chystamprogram přidány ještě pojmy 'VěkNejmladšího' a 'VěkNejstaršího', které se původně nacházely v encyklopedii.
 
 Kromě těchto dvou zmiňovala encyklopedie také pomůcky a materiál, velikost skupiny, místo konání, věk skupiny a dobu trvání.
@@ -143,7 +143,7 @@ Ostatní třídy mají jako datový typ (přípustné hodnoty) buď samotné č�
 
 ### hra
 model
- ![[../assets/diagrams/pojmy/hra-SystematickyTvořenýDiagramTříd.jpg]]
+ ![[hra-SystematickyTvořenýDiagramTříd.jpg]]
 Mezi zbylými pojmy z encyklopedie her identifikovány 3 hlavní skupiny podobných termínů.
 
 První skupinou jsou jednoduché pojmy prezentovatelné binární hodnotou (ano, ne), které zároveň přímo charakterizují přiřazené instance her. Tyto pojmy byly proto modelovány jako atributy třídy 'Hra'.
@@ -163,7 +163,7 @@ Co se třídy 'PrvekZahrnutýVeHře' týče, její přípustné hodnoty se sice 
  
 ### událost
 model
- ![[../assets/diagrams/pojmy/udalost-SystematickyTvořenýDiagramTříd.jpg]]
+ ![[udalost-SystematickyTvořenýDiagramTříd.jpg]]
 Událost, jakožto pojem z nejméně obsáhlé a zároveň i nejméně prohledávané báze, k sobě má přiřazeno jen úplné minimum pojmů, poskytujících pouze základní reprezentaci dané třídy a tak možnost jí zohlednit v modelu.
 
 Byla definována základní klasifikace událostí na schůzky, výpravy a tábory. S tím, že instance třídy Událost mívají typicky určený začátek a konec ve formátu dne a hodin a k tomu i konkrétní místo, kde se budou odehrávat (hodnoty reprezentované pojmem místo v kontextu události se liší od hodnot místaKonání u aktivit).
@@ -171,9 +171,9 @@ Byla definována základní klasifikace událostí na schůzky, výpravy a tábo
 ## ~~-! kdyžtak ven| Porovnání s alternativním pohledem na skutečnost~~
 ### -Modely
 Systematický
- ![[../assets/diagrams/celý-full/SystematickyTvořenýDiagramTříd.svg]]
+ ![[SystematickyTvořenýDiagramTříd.svg]]
 NEsystematický
- ![[../assets/diagrams/celý-full/NEsystematickyTvořenýDiagramTříd.jpg]]
+ ![[NEsystematickyTvořenýDiagramTříd.jpg]]
 ### !Porovnání
 Stejný název
 +stejné vlastnosti (properties, relationships)
@@ -182,16 +182,16 @@ Stejný název
 # !!!!! | Schema databáze
 ## !!! | Návrh schématu
 ### Program (transformed)
-![[../assets/diagrams/graph/program-GraphSchema.jpg]]
+![[program-GraphSchema.jpg]]
 
 ### Událost (transformed)
-![[../assets/diagrams/graph/udalost-GraphSchema.jpg]]
+![[udalost-GraphSchema.jpg]]
 
 ### Aktivita (transformed)
-![[../assets/diagrams/graph/aktivita-GraphSchema.jpg]]
+![[aktivita-GraphSchema.jpg]]
 
 ### Hra (transformed)
-![[../assets/diagrams/graph/hra-GraphSchema.jpg]]
+![[hra-GraphSchema.jpg]]
 
 ## !! | Ověření kompetencí navrženého schématu
 ### !Vzorová data = kolik správných výsledků pro jednotlivé kompetenční otázky obsahují

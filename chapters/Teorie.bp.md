@@ -1,7 +1,7 @@
 ---
 aliases: 
 up:
-  - "[[../README|README]]"
+  - "[[Prods/120-BP/README|README]]"
 ---
 
 ##### TODO
@@ -67,7 +67,7 @@ Výsledné pořadí tohoto dílčího kriteria proto je:
 Pro vyhodnocení druhého dílčího kriteria není třaba se uchylovat k odhadům, jelikož kandidáti buď budou nabízet možnost webového GUI v základní instalaci, nebo nebudou. Určení této binární hodnoty pro kandidáty, bude provedeno prohledáním internetových zdrojů s dotazem například "MySQL web GUI". A na základě nalezených výsledků bude určeno zda daný kandidát úspěšně splní toto kriterium.
 Pro gSheets bylo vyhodnoceno, vzhledem k podstatě nástroje jako na cloudu založené služby, že vskutku nabízí ve svých základních možnostech zobrazení grafického rozhraní v prostředí prohlížeče, bez nutnosti lokální instalace čehokoliv jiného než samotného prohlížeče.
 Pro MySQL z hledání vyplynulo, že grafická rozhraní umožňující přístup k této bázi jsou typicky povahy lokální instalace. Rovněž však existují i možnosti jako myPhpAdmin [ ], který je zdarma a nabízí webové GUI. Nicméně všechny z těchto variant jsou dodatečné nástroje, z nichž by bylo potřeba provést patřičný výběr, kdyby byly návrhem uvažovány jako možnosti. Jelikož tedy žadné, v základní instalaci zahrnuté webové GUI není pro MySQL k dispozici, znamená to pro relační databázi podle tohoto kriteria druhé a zároveň poslední místo.
-Pro Neo4j naopak bylo velmi snadné najít nástroj 'Neo4j Browser', jelikož to byl první výsledek po zadání dotazu "Neo4j web gui". Jednalo se o odkaz na oficiální dokumentaci Neo4j, kde bylo řečeno, že se jedná o výchozí rozhraní pro interakci s databází a zároveň je zahrnuto ve výchozí instalaci [[myDM/Zotero/LiteratureNotes/Neo4jBrowserDocsHomepage#^HBZ4U6B9aKFRES7KJ]].
+Pro Neo4j naopak bylo velmi snadné najít nástroj 'Neo4j Browser', jelikož to byl první výsledek po zadání dotazu "Neo4j web gui". Jednalo se o odkaz na oficiální dokumentaci Neo4j, kde bylo řečeno, že se jedná o výchozí rozhraní pro interakci s databází a zároveň je zahrnuto ve výchozí instalaci [[myDM/archived/Zotero/LiteratureNotes/Neo4jBrowserDocsHomepage#^HBZ4U6B9aKFRES7KJ]].
 Výsledné pořadí tohoto dílčího kriteria proto je:
 	1. místo - gSheets, Neo4j
 	2. místo - MySQL
@@ -133,7 +133,7 @@ Možnosti programové interakce s databází Neo4j závisí na tom, která z imp
 asociovaných se skautským programem
 ## Hodnocení zdrojů (obsah existujících bází)
 ### chystamprogram
-Předností této báze je její zaměření na výchovnou a rozvojovou hodnotu programů. Zaměření je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
+Předností této báze je její zaměření na výchovnou a rozvojovou hodnotu programů. Zaměření je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/archived/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
 
 Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. 
 

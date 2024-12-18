@@ -1,9 +1,9 @@
 # Úvod -motivace(problém)
-![[BP/drafts/Zaměření.bp#Problém]]
+![[Zaměření.bp#Problém]]
 # Úvod -cíl
-![[BP/drafts/Zaměření.bp#Cíl]]
+![[Zaměření.bp#Cíl]]
 # Úvod -dílčí cíle
-![[BP/drafts/Zaměření.bp#Dílčí cíle metody]]
+![[Zaměření.bp#Dílčí cíle metody]]
 
 
 # Úvod -struktura
@@ -38,7 +38,7 @@ První dva SW kandidáti byly zahrnuti do výběru také proto, že se jedná o 
 #### Obecný postup
 Pro dosažení prvního dílčího cíle byla zvolena metoda 'analýza literatury' dodržující postup popsaný Bernedtssonem a spol. (berndtssonThesisProjectsGuide2008). Autoři knihy uvádějí, že účelem této metody, mimo získání konkrétních hledaných údajů, je přesvědčení čtenáře práce o tom, že bylo analyzováno dostatečné množství, dostatečně kvalitních a relevantních zdrojů. 
 Aby čtenář mohl udělat názor o tom, zda byly zdroje dostatečně relevantní, potřebuje znát konkrétní zamýšlený účel se kterým je analýza prováděna. Jasně definovaný účel je pak podle autorů klíčovým prvkem rovněž i pro autora analýzy, jelikož pokud si autor nebude konkrétního účelu vědom nebo ho bude přehlížet, jeho šance na přesvědčení čtenářů o validitě a přínosnosti prováděné analýza značně klesá. Zároveň specifický účel k provedení odlišuje 'analýzu literatury' od 'rešerše literatury', kterážto má primární účel seznámit autora i čtenáře s obsahem literatury z dané oblasti. [ ]
-Autoři knihy dále identifikují následující kroky, které by jak v zájmu autora tak i čtenáře měly mít jasně definovanou strategii provedení. [[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^ZIT8YCXSaNT5KVCQVp67]]
+Autoři knihy dále identifikují následující kroky, které by jak v zájmu autora tak i čtenáře měly mít jasně definovanou strategii provedení. [[myDM/archived/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^ZIT8YCXSaNT5KVCQVp67]]
 - **Výběr literatury:** Zahrnuje vyhledávání relevantních zdrojů a literatury související s tématem projektu.
   Jasně definovaná strategie pomůže, aby čtenář nepochyboval že byly provedeno adekvátní hledání zdrojů.
 - **Hodnocení zdrojů:** Kritické posouzení zdrojů na základě jejich relevance a spolehlivosti.
@@ -101,7 +101,7 @@ Pro získání odpovědi na otázku "Co zaznamenávat v bázi skautských progra
 - [ ] MOŽNO doplnit konkrétní specifika standartu UML [chap::Metodika] [sect::obecny postup analyzy bází]
 Navíc bylo v rámci kroku interpretace výsledků využito UML. Nástroj byl vybrán jelikož velmi dobře standartizuje způsoby modelování struktur i skutečnosti obecně. Ve verzi 2.5.1 ze které aktuálně výcházím, má i celou druhou polovinu zaměřenou na stavy, chování, akce interakce, až případy užití. Ač se jedná o velmi užitečnou část, na její využití v této práci pravděpodobně nedojde z důvodu času a rozsahu práce.
 Jediná odchylka od standardu UML bude provedena v případě generalizace, která místo běžné verze:
-[[myDM/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
+[[myDM/archived/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
 bude pro generalizace využívat následující notaci.
 []
 Je tak učiněno z toho důvodu, že v používaném modelovacím nástroji (draw.io) je jednoduší s modelem manipulovat (posouvat jednotlivé části) v případě využití alternativní notace pro modelování generalizací.

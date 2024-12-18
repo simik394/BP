@@ -20,7 +20,7 @@ b) v **motivační části pohovoru** je *zjišťována motivace uchazeče* ke s
 Obě části se na vyhodnocení výsledku pohovoru podílejí stejnou měrou.
 
 Minimální očekávaná úroveň znalostí uchazeče odpovídá základním znalostem v jednotlivých dílčích tématech základů informatiky:
-[[BP/Pokračování/oblasti k přijímačkám.KI.vse|Vypracování]]
+[[oblasti k přijímačkám.KI.vse|Vypracování]]
 
 ---
 ## Literatura: %% fold %% 
@@ -41,7 +41,7 @@ Minimální očekávaná úroveň znalostí uchazeče odpovídá základním zna
 [online](https://fis.vse.cz/magisterske-studium/prijimaci-rizeni/okruhy-a-literatura-k-prijimaci-zkousce/)
 date: "2024-06-05 13:13:17"
 
-[[BP/Pokračování/oblasti k přijímačkám.ZWTech.vse|Vypracování oblastí]]
+[[oblasti k přijímačkám.ZWTech.vse|Vypracování oblastí]]
 
 Originální seznam:
 1.  Reprezentace dat v počítači, problém zaokrouhlovacích chyb. Základní datové struktury (pole, spojový seznam, fronta, zásobník), operace na těchto strukturách.

@@ -199,7 +199,7 @@ from: 2023-12-16 04-57-30 on: 2023-12-16 05:12:51
 
 ## Funkcionalita
 ---
-[[Podklady/Nápady/Požadavky-katalog.bp]]
+[[Požadavky-katalog.bp]]
 
 
 ## Obsah %% fold %%
@@ -222,7 +222,7 @@ from: 2023-12-16 04-57-30 on: 2023-12-16 05:12:51
 - minimalistický přístup k řízení
 
 
-![[jorymackayWhatTaskManagement#^K77X3YANaUC6U85H2p3]]
+![[myDM/archived/Zotero/LiteratureNotes/jorymackayWhatTaskManagement#^K77X3YANaUC6U85H2p3]]
 - [[vytváření úkolů]] 
 Jj. Protože vyřešit systematické zaznamenávání, šikovně využitelných údajů o naší práci by každopádně byl dobrý začátek.
 - [[organizování úkolů]]  
@@ -231,7 +231,7 @@ Nvm, myslím že dokumentace, dělení úkolů na drobnější, by samo o sobě 
 Nn
 
 
-![[jorymackayWhatTaskManagement#^ZU7IFMPEaUC6U85H2p3]]
+![[myDM/archived/Zotero/LiteratureNotes/jorymackayWhatTaskManagement#^ZU7IFMPEaUC6U85H2p3]]
 
 - [[plánování úkolů]]
 Jj. Protože každý si program pro svoji družinu připravuje sám. Maximálně ve dvojici, ikdyž je tato možnost k dispozici, obvykle zůstává nevyužita. Podpora činnosti systémem by proto byla jen na místě.
@@ -240,7 +240,7 @@ Jj. Protože každý si program pro svoji družinu připravuje sám. Maximálně
 Nn
 
 
-![[jorymackayWhatTaskManagement#^KWJS52C3aUC6U85H2p3]]
+![[myDM/archived/Zotero/LiteratureNotes/jorymackayWhatTaskManagement#^KWJS52C3aUC6U85H2p3]]
 - [[plnění úkolů]]
 Jj. Tady částečný překryv s plánováním úkolů.
 Plnění dlouhodobých cílů jako "Vést družinu" bych nejspíše mohl vcelku jednoduše podpořit zefektivněním plánování krátkodobého, které si praktick každý vedoucí dělá sám pro sebe.
@@ -248,7 +248,7 @@ Plnění dlouhodobých cílů jako "Vést družinu" bych nejspíše mohl vcelku 
 - [[kontrola plnění]] 
 Nn
 
-![[jorymackayWhatTaskManagement#^SWWUYA8QaUC6U85H2p3]]
+![[myDM/archived/Zotero/LiteratureNotes/jorymackayWhatTaskManagement#^SWWUYA8QaUC6U85H2p3]]
 -  [[optimalizace hodnototvorných procesů]]
 Jj. Protože umožněním efektivnějšího zlepšování, bych pomohl zároveň i se všemi ostatními próblémy.
 

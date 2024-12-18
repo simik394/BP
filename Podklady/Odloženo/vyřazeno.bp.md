@@ -125,8 +125,8 @@ experiment
 
 #### ==Účel analýzy==
 ==Cílem této části práce je vybrání pojmů, kteréžto budou představovat odpověď na otázku "Co zaznamenávát v navrhované bázi?"==. ==Abych zjistil jaké informace jsou relevantí pro zaznamenávání v bázi skautských programů, provedu analýzu literatury z této oblasti podle doporučení specifikovaných Bernedtsonem a spol. v jejich knize.
-[[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^4VZXLNGCaNT5KVCQVp67]]==
-![[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^TNTKU53KaNT5KVCQVp68]]
+[[myDM/archived/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^4VZXLNGCaNT5KVCQVp67]]==
+![[myDM/archived/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^TNTKU53KaNT5KVCQVp68]]
 Podle autorů je hlavním cílem této metody==, mimo získání konkrétních hledaných údaju, aby čtenář== práce pochopil strategii pro hledání a získání hledaných údajů. Samozřejmě by ==měl také znát a chápat konkrétní důvod proč je analýza prováděna.== 
 
 Duvod k analýze byl již stanoven, proto v následující podkapitole budou nejprve představeny dostupné zdroje, spolu s jejich přednostmi i nevýhodami, ==aby měl čtenář šanci porozumět proč byly, či nybyly vybrány k analýze. A aby čtenář nepochyboval o tom, zda je, vzhledem k cíli práce, analyzováno dostatečné množství zdrojů.== 
@@ -137,7 +137,7 @@ V následující podkapitole pak bude popsán konkrétní způsob výběru pojm�
 
 ==První z existujících bází je webová stránka 'chystamprogram.skaut.cz', jenž byla vytvořena organizací Junák - český skaut, která zároveň za celý obsah zcela zodpovídá. [[../../myDM/Zotero/LiteratureNotes/ChystamProgramOProjektu#^NMC5UM33aSNYTTS96]] ==
 
-==Její předností je zaměření na výchovnou a rozvojovou hodnotu programů. To je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
+==Její předností je zaměření na výchovnou a rozvojovou hodnotu programů. To je především zprostředkováno díky možnosti zapisovat k jednotlivým programům jejich výchovný cíl. Ale také možností zapisovat, na který bod ve Stezce je program napojen. Což je dobré a užitečné proto, že Stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/archived/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]] 
 Drobná nevýhoda však vyplývá z toho, že se jedná o veřejnou bázi za kterou zodpovídá samotná organizace Junák. A to sice, že pro zapsání nového programu, je potřeba být přihlášen skautským účtem ze skautIS a výsledný zápis musí být nejdříve ověřen jejich metodickým týmem. Což sice bude mít pravděpodobně pozitivní vliv na úroveň kvality zaznamenaného obsahu. Nicméně pro sdílení například programu, který je teprve připravován, to tak není vhodné řešení. Jako větší nedostatek však vnímám spíše omezenou možnost poskytování zpětné vazby, a komentářu k zapsaným programům. Jediná možnost hodnocení, je totiž zaslání svého hodnocení pouze soukromě autorovi daného programu. Což opět pro interní využití, které by mělo umožňovat sdílení obsahu a na něm následnou spolupráci, není vyloženě příhodné.==
 
 ==Druhou bázi k analýze pak představuje 'Velká encyklopedie her'. Ta je tvořena čtyřmi samostanými tituly vydanými mezi lety 1987-1988, napsanými panem Milošem Zapletalem. [ ] Jak už název napovídá, jeji zaměření je čistě na hry, které jsou nepochybně také součástí skautských programů, těm se nicméně věnuje velmi podrobně. Slovo "Velká" v názvu totiž nijak zvlášť nepřehání. Každá z knih má v průměru přibližně 600 stran, sice menšího formátu, ale i přesto se často vejdou i dvě hry na stránku.==
@@ -204,7 +204,7 @@ Hlavním cílem této části návrhu je poskytnutí odpovědi na otázku "Jak s
 *Otázkou, na níž by vytvořený model měl poskytnout odpověď je: "Co jsou to skautské programy?". Respektive: "Které pojmy jsou asociovány se skautskými programy a jaké jsou přitom role jednotlivých asociovaných pojmů?"*
 Tato část návrhu bude uskutečněna pomocí ==UML, jakožto velmi dobře standartizovaného nástroje pro modelování struktur i skutečnosti obecně. Ve verzi 2.5.1 ze které aktuálně výcházím, má i celou druhou polovinu zaměřenou na stavy, chování, akce interakce, až případy užití. Ač se jedná o velmi užitečnou část, na její využití v této práci pravděpodobně nedojde z důvodu času a rozsahu práce.
 Jediná odchylka od standardu UML bude provedena v případě generalizace, která místo běžné verze:
-![[myDM/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
+![[myDM/archived/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
 bude pro generalizace využívat následující notaci.
 []
 Je tak učiněno z toho důvodu, že v používaném modelovacím nástroji (draw.io) je jednoduší s modelem manipulovat (posouvat jednotlivé části) v případě využití alternativní notace pro modelování generalizací.==
@@ -403,9 +403,9 @@ Rovněž bude využito oddělené třídy, pokud instance třídy TP vytvořené
 
 # 
 ## Metodika zakončení
-![[../../assets/diagrams/activity/diskuze-metodika-UMLactivity.jpg]]
+![[diskuze-metodika-UMLactivity.jpg]]
 
-![[../../assets/diagrams/activity/zaver-metodika-UMLactivity.jpg]]
+![[zaver-metodika-UMLactivity.jpg]]
 
 
 
@@ -467,7 +467,7 @@ Všechny pojmy získané z těchto i dodatečných kroků analýzy existujícíc
 ==První== představuje stránka chystamprogram.skaut.cz, jedá se o web vytvořený organizací Junák - český skaut, která zároveň za celý obsah zcela zodpovídá. [[../../myDM/Zotero/LiteratureNotes/ChystamProgramOProjektu#^NMC5UM33aSNYTTS96]]
 Znamená to, že pokud *budete chtít* nějakým *vašim* programem bázi obohatit, musíte být přihlášeni účtem ze skautISu a poté váš návrh na přidání musí *projí* kontrolou. *Nevím jaký, jestli nějaký vliv to může mít na různorodost a počet zaznamenaných aktivit.* 
 Avšak díky tomu bývají zaznamenané aktivity napojeny na nějaký bod ze Stezek.
-Což je dobré a užitečné proto, že stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]]
+Což je dobré a užitečné proto, že stezka nepředstavuje jen rámec pro děti, podle kterého by se mohly samy všestranně rozvíjet. Rovně ale jako pomůcka pro vedoucí, když připravují vhodný program pro nadcházející schůzku například. [[myDM/archived/Zotero/LiteratureNotes/StezkyCestickyVlcat#^N5AJVIHJa43Y7SWYU]]
 Přinejmenším *tuto vlastnost* aktivit bych chtěl, s ohledem na cíl práce, každopádně zachytit i v bázi navrhované.
 Ovšem na chystamprogram je *toto* hlavní, nikoliv jediný způsob kategorizace aktivit.
 

@@ -1,12 +1,12 @@
 ---
 up:
-  - "[[../README|README]]"
+  - "[[Prods/120-BP/README|README]]"
 ---
 
 Problém
- ![[BP/drafts/Zaměření.bp#Problém]]
+ ![[Zaměření.bp#Problém]]
 Cíl
-  ![[BP/drafts/Zaměření.bp#Cíl]]
+  ![[Zaměření.bp#Cíl]]
 ##### Doporučený obsah
 Discussion—What does it mean after all and so what?
 

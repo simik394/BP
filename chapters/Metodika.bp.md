@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[../README|README]]"
+  - "[[Prods/120-BP/README|README]]"
 ---
 ##### TODO
 - [ ] 💣 prohledat práci, jestli někde nereferuje na kapitolu ověřování, kterou jsem právě prakticky smazal ||: #p/bp/metodika 
@@ -14,11 +14,11 @@ up:
 - [ ] [Ttyp::VYLEPŠIT]|: #p/bp/metodika/báze/obecnýPostup - MOŽNO doplnit konkrétní specifika standartu UML 
 
 # Úvod -motivace(problém)
-![[BP/drafts/Zaměření.bp#Problém]]
+![[Zaměření.bp#Problém]]
 # Úvod -cíl
-![[BP/drafts/Zaměření.bp#Cíl]]
+![[Zaměření.bp#Cíl]]
 # Úvod -dílčí cíle
-![[BP/drafts/Zaměření.bp#Dílčí cíle metody]]
+![[Zaměření.bp#Dílčí cíle metody]]
 # Úvod -výstupy
 - seznam pojmů asociovaných se skautskými programy v existujících bázích
 - konceptuální model domény skautských programů
@@ -43,13 +43,13 @@ Dalo by se tak také říci, že rozdělení textu dodržuje stejné dva princip
 Jedná se zaprvé 'Locality of behavior', která přeneseně (v původním znění je například použito výrazu zdrojový kód místo text) říká, že 'lokalita' je charakteristika textu, která umožňuje jeho čtenáři pochopení konkrétního obsaženého významu pouze z malé části celého textu [ ]. V praxi to tak má předejít situacím, kdy aby čtenář kódu pochopil co daný kód dělá, je nucen přecházet mezi několika soubory, což snadné a rychlé pochopení téměř určitě neusnadňuje. Ze stejného důvodu IMRaD definuje několik konkrétních částí, které optimalizují rozdělení textu o provedeném výzkumu z hlediska možných "typů chování" při kterých bude čtenář chtít využít daný popsaný výzkum. Jako typy chování je myšleno například vyhledávání zdrojů, pro toto chování jsou strukturou IMRaD následně definovány části titulek, abstrakt i úvod, pro podporu různých hledání.  
 Co se druhého principu týče, je jím tkzvaný princip 'Separation of concerns'[ ]. Ten je realizován v jednotlivých sekcích pomocí podsekcí a dalšího dělení. Například sekce Úvod by měla být rozdělena na části adresující motivaci pro psaní práce, konkrétní řešený problém, hlavní cíl, dílčí cíle atd.. Rozdělení tak odpovídá jednotlivým 'starostem', které by čtenář v rámci čtení dané sekce mohl mít, nebo spíše starostí konkrétní části textu o předání specifické informace čtenáři.
 Pokud je mnou provedené přirovnání chybné, uvítám připomínky.
-![[myDM/Zotero/LiteratureNotes/wuImprovingWritingResearch2011#^ITPMW4Q5aMPNI3JCVp2]]
+![[myDM/archived/Zotero/LiteratureNotes/wuImprovingWritingResearch2011#^ITPMW4Q5aMPNI3JCVp2]]
 
 ### schema full %% fold %% 
 Následující schéma, založené na notaci 'activity' z UML, reprezentuje strukturu této práce. Jsou v něm zobrazeny datové objekty(obdélníky) a aktivity(čtyřúhelníky se zaoblenými rohy). ...
 - [ ] Doplnit podrobnější vysvětlení čtení použité notace 
 
-![[../assets/diagrams/activity/metodika-UMLactivity.svg]]
+![[metodika-UMLactivity.svg]]
 Schéma struktury dosažení stanoveného cíle nezobrazuje část metodiky, jelikož celé schéma je reprezentací metodiky.
 
 
@@ -69,7 +69,7 @@ První dva SW kandidáti byly zahrnuti do výběru také proto, že se jedná o 
 #### Obecný postup
 Pro dosažení prvního dílčího cíle byla zvolena metoda 'analýza literatury' dodržující postup popsaný Bernedtssonem a spol. (berndtssonThesisProjectsGuide2008). Autoři knihy uvádějí, že účelem této metody, mimo získání konkrétních hledaných údajů, je přesvědčení čtenáře práce o tom, že bylo analyzováno dostatečné množství, dostatečně kvalitních a relevantních zdrojů. 
 Aby čtenář mohl udělat názor o tom, zda byly zdroje dostatečně relevantní, potřebuje znát konkrétní zamýšlený účel se kterým je analýza prováděna. Jasně definovaný účel je pak podle autorů klíčovým prvkem rovněž i pro autora analýzy, jelikož pokud si autor nebude konkrétního účelu vědom nebo ho bude přehlížet, jeho šance na přesvědčení čtenářů o validitě a přínosnosti prováděné analýza značně klesá. Zároveň specifický účel k provedení odlišuje 'analýzu literatury' od 'rešerše literatury', kterážto má primární účel seznámit autora i čtenáře s obsahem literatury z dané oblasti. [ ]
-Autoři knihy dále identifikují následující kroky, které by jak v zájmu autora tak i čtenáře měly mít jasně definovanou strategii provedení. [[myDM/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^ZIT8YCXSaNT5KVCQVp67]]
+Autoři knihy dále identifikují následující kroky, které by jak v zájmu autora tak i čtenáře měly mít jasně definovanou strategii provedení. [[myDM/archived/Zotero/LiteratureNotes/berndtssonThesisProjectsGuide2008#^ZIT8YCXSaNT5KVCQVp67]]
 
 - **Výběr literatury:** Zahrnuje vyhledávání relevantních zdrojů a literatury související s tématem projektu.
   Jasně definovaná strategie pomůže, aby čtenář nepochyboval že byly provedeno adekvátní hledání zdrojů.
@@ -144,7 +144,7 @@ Pro získání odpovědi na otázku "Co zaznamenávat v bázi skautských progra
 
 Navíc bylo v rámci kroku interpretace výsledků využito UML. Nástroj byl vybrán jelikož velmi dobře standartizuje způsoby modelování struktur i skutečnosti obecně. Ve verzi 2.5.1 ze které aktuálně výcházím, má i celou druhou polovinu zaměřenou na stavy, chování, akce interakce, až případy užití. Ač se jedná o velmi užitečnou část, na její využití v této práci pravděpodobně nedojde z důvodu času a rozsahu práce.
 Jediná odchylka od standardu UML bude provedena v případě generalizace, která místo běžné verze:
-![[myDM/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
+![[myDM/archived/Zotero/LiteratureNotes/UnifiedModelingLanguage#^N57FEDGRaIAQSHBP8p145]]
 bude pro generalizace využívat následující notaci.
 [ ]
 Je tak učiněno z toho důvodu, že v používaném modelovacím nástroji (draw.io) je jednoduší s modelem manipulovat (posouvat jednotlivé části) v případě využití alternativní notace pro modelování generalizací.
@@ -315,7 +315,7 @@ Postup této práce se mírně liší v tom ohledu, že nejprve v teoretické č
 A tyto doporučení byla aplikována na konceptuální model vytvořený v praktické části. 
 
 #### -Ověření úspěšnosti vytvořeného DB schematu
-[[myDM/Zotero/LiteratureNotes/robinsonGraphDatabases2015]] 
+[[myDM/archived/Zotero/LiteratureNotes/robinsonGraphDatabases2015]] 
 a) just reads well
 
 b) queryabilty
